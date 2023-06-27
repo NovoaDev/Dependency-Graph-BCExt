@@ -1,0 +1,10 @@
+{
+    "name": "ANJRuleset",
+    "rules": [    
+        {
+            "id": "AS0084",
+            "action": "None",
+            "justification": "The ID range assigned to the extension must be within the allowed range"
+        }
+    ]
+}
