@@ -1,0 +1,31 @@
+@TenantId = {{$processEnv DependencyGraphTenantId}}
+@AppId = {{$processEnv DependencyGraphAppId}}
+@Secret = {{$processEnv DependencyGraphSecret}}
+@Environment = {{$processEnv DependencyGraphEnvironment}}
+
+# @name AuthResponse
+POST https://login.microsoftonline.com/{{TenantId}}/oauth2/v2.0/token
+Content-type: application/x-www-form-urlencoded
+
+grant_type=client_credentials
+&client_id={{AppId}}
+&client_secret={{Secret}}
+&scope=https://api.businesscentral.dynamics.com/.default
+
+#### Token
+@AuthHeader = Bearer {{AuthResponse.response.body.$.access_token}}
+
+### Metadata ODataV4 ###
+GET https://api.businesscentral.dynamics.com/v2.0/{{TenantId}}/{{Environment}}/ODataV4/$metadata
+Authorization: {{AuthHeader}}
+###
+
+### Companies ###
+GET https://api.businesscentral.dynamics.com/v2.0/{{TenantId}}/{{Environment}}/api/v2.0/companies
+Authorization: {{AuthHeader}}
+###
+
+### Get All extensiones
+@CompanyID = {{$processEnv DependencyGraphCompanyID}}
+GET https://api.businesscentral.dynamics.com/v2.0/{{Environment}}/api/microsoft/automation/v2.0/companies({{CompanyID}})/extensions
+Authorization: {{AuthHeader}}
