@@ -16,16 +16,18 @@
   "application": "22.0.0.0",
   "idRanges": [
     {
-      "from": 80000,
-      "to": 80050
+      "from": 80800,
+      "to": 80849
     }
   ],
   "features": [
-    "NoImplicitWith"
+    "NoImplicitWith",
+    "TranslationFile"
   ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
     "allowDownloadingSource": false,
     "includeSourceInSymbolFile": false
-  }
+  },
+  "runtime": "11.0"
 }
