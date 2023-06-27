@@ -1,5 +1,19 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "CDX - Development Sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "sandbox",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "7be8f1f7-bc67-46c0-9487-d836aad47bea"
+        }
     ]
 }
