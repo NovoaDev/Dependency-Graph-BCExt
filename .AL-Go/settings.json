@@ -1,12 +1,11 @@
 {
-  "country":  "es",
-  "environments":  [
-    "DEVELOPMENT",
-    "TESTING (FAT)",
+  "country": "es",
+  "environments": [
+    "TESTING",
     "PRODUCTION (Production)"
   ],
-  "PRUEBAS_AuthContextSecretName":  "DEVELOPMENT_AUTHCONTEXT",
-  "PRODUCCION_AuthContextSecretName":  "DEVELOPMENT_AUTHCONTEXT",
+  "TESTING_AuthContextSecretName": "DEVELOPMENT_AUTHCONTEXT",
+  "PRODUCTION_AuthContextSecretName": "DEVELOPMENT_AUTHCONTEXT",
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": []
