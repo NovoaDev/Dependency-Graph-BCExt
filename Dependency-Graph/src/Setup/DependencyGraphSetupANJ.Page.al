@@ -44,7 +44,6 @@ page 80800 DependencyGraphSetup_ANJ
                     ToolTip = 'Specifies the value of the Scope Dev Figure field.', Comment = 'ESP="Especifica el valor del campo Figura Ext. Dev"';
                 }
             }
-
             group(GraphicGeneration)
             {
                 Caption = 'Graphic Generation', comment = 'ESP="Generación de gráfico"';
@@ -86,31 +85,16 @@ page 80800 DependencyGraphSetup_ANJ
     {
         area(processing)
         {
-            action(GenerateTables)
-            {
-                ApplicationArea = All;
-                Caption = 'Generate Tables', comment = 'ESP="Generar tablas"';
-                Image = Table;
-                Promoted = true;
-                PromotedCategory = Process;
-                PromotedOnly = true;
-                ToolTip = 'Executes the Generate Tables action.', Comment = 'ESP="Ejecuta la acción Generar tablas"';
-
-                trigger OnAction()
-                begin
-                    GenerateExtensionTable.Generate();
-                end;
-            }
             action(Extensions)
             {
                 ApplicationArea = All;
-                Caption = 'Extensions', comment = 'ESP="Extensiones"';
+                Caption = 'Show In Graph', comment = 'ESP="Mostrar en gráfico"';
                 Image = Table;
                 Promoted = true;
                 PromotedCategory = Process;
                 PromotedOnly = true;
-                RunObject = page Extensions_ANJ;
-                ToolTip = 'Executes the Extensions action.', Comment = 'ESP="Ejecuta la acción Extensiones"';
+                RunObject = page ShowInGraph_ANJ;
+                ToolTip = 'Executes the Show In Graph action.', Comment = 'ESP="Ejecuta la acción Mostrar en gráfico"';
             }
         }
     }
@@ -119,7 +103,4 @@ page 80800 DependencyGraphSetup_ANJ
     begin
         Rec.GetInstance();
     end;
-
-    var
-        GenerateExtensionTable: Codeunit GenerateExtensionTable_ANJ;
 }

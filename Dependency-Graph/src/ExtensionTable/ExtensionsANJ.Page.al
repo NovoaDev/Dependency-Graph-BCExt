@@ -5,8 +5,9 @@ page 80801 Extensions_ANJ
 {
     ApplicationArea = All;
     Caption = 'Extensions', comment = 'ESP="Extensiones"';
-    Editable = false;
-    PageType = List;
+    DeleteAllowed = false;
+    InsertAllowed = false;
+    PageType = ListPart;
     SourceTable = Extensions_ANJ;
     UsageCategory = None;
 
@@ -16,9 +17,10 @@ page 80801 Extensions_ANJ
         {
             repeater(General)
             {
-                field(AppID; Rec.AppID)
+                field(Name; Rec.Name)
                 {
-                    ToolTip = 'Specifies the value of the App ID field.', Comment = 'ESP="Especifica el valor del campo ID de la aplicación"';
+                    Editable = false;
+                    ToolTip = 'Specifies the value of the Name field.', Comment = 'ESP="Especifica el valor del campo Nombre"';
                 }
                 field(DisplayName; Rec.DisplayName)
                 {
@@ -26,19 +28,22 @@ page 80801 Extensions_ANJ
                 }
                 field(Publisher; Rec.Publisher)
                 {
+                    Editable = false;
                     ToolTip = 'Specifies the value of the Publisher field.', Comment = 'ESP="Especifica el valor del campo Publicado"';
                 }
                 field(PublishedAs; Rec.PublishedAs)
                 {
+                    Editable = false;
                     ToolTip = 'Specifies the value of the Published As field.', Comment = 'ESP="Especifica el valor del campo Publicado como"';
-                }
-                field(IsInstalled; Rec.IsInstalled)
-                {
-                    ToolTip = 'Specifies the value of the Is Installed field.', Comment = 'ESP="Especifica el valor del campo Instalado"';
                 }
                 field(Identity; Rec.Identity)
                 {
+                    Editable = false;
                     ToolTip = 'Specifies the value of the Identity field.', Comment = 'ESP="Especifica el valor del campo Identidad"';
+                }
+                field(ShowInGraph; Rec.ShowInGraph)
+                {
+                    ToolTip = 'Specifies the value of the ShowInGraph field.', Comment = 'ESP="Especifica el valor del campo Mostrar en gráfico"';
                 }
             }
         }

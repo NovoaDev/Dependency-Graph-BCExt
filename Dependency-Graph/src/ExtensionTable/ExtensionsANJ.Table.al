@@ -15,17 +15,17 @@ table 80801 Extensions_ANJ
         {
             Caption = 'App ID', comment = 'ESP="ID de la aplicación"';
         }
-        field(2; DisplayName; Text[2048])
+        field(2; Name; Text[2048])
+        {
+            Caption = 'Name', comment = 'ESP="Nombre"';
+        }
+        field(3; DisplayName; Text[2048])
         {
             Caption = 'Display Name', comment = 'ESP="Nombre para mostrar"';
         }
-        field(3; Publisher; Text[2048])
+        field(4; Publisher; Text[2048])
         {
             Caption = 'Publisher', comment = 'ESP="Publicado"';
-        }
-        field(4; IsInstalled; Boolean)
-        {
-            Caption = 'Is Installed', comment = 'ESP="Instalado"';
         }
         field(5; PublishedAs; Enum ExtensionScope_ANJ)
         {
@@ -34,6 +34,10 @@ table 80801 Extensions_ANJ
         field(6; Identity; Text[2048])
         {
             Caption = 'Identity', comment = 'ESP="Identidad"';
+        }
+        field(7; ShowInGraph; Boolean)
+        {
+            Caption = 'Show In Graph', comment = 'ESP="Mostrar en gráfico"';
         }
     }
     keys
