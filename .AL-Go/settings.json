@@ -8,5 +8,6 @@
   "PRODUCTION_AuthContextSecretName": "DEVELOPMENT_AUTHCONTEXT",
   "appFolders": [],
   "testFolders": [],
-  "bcptTestFolders": []
+  "bcptTestFolders": [],
+  "repoVersion": "1.1"
 }
