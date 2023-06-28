@@ -11,5 +11,6 @@ permissionset 80800 DependencyGraph_ANJ
         page DependencyGraphSetup_ANJ = X,
         tabledata Extensions_ANJ = RIMD,
         table Extensions_ANJ = X,
-        page Extensions_ANJ = X;
+        page Extensions_ANJ = X,
+        codeunit GenerateExtensionTable_ANJ = X;
 }

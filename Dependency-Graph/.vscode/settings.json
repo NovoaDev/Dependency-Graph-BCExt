@@ -1,27 +1,28 @@
 {
-"al.enableCodeAnalysis": true,
-"al.codeAnalyzers": [
-    "${CodeCop}",
-    "${UICop}",
-    "${PerTenantExtensionCop}",
-    "${AppSourceCop}",
-    "${analyzerFolder}BusinessCentral.LinterCop.dll"
-],
-"al.enableCodeActions": true,
-"al.ruleSetPath": "./.vscode/ruleset.json",
-"CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
-"CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
-"CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
-"CRS.OnSaveAlFileAction": "DoNothing",
-"CRS.RenameWithGit": true,
-"editor.formatOnSave": true,
-"CRS.ObjectNameSuffix": "_ANJ",
-"rest-client.rememberCookiesForSubsequentRequests": false,
-"editor.codeActionsOnSave": {
-    "source.fixAll.al": true
-},
-"alOutline.codeActionsOnSave": [
-    "SortProperties",
-    "SortVariables"
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${UICop}",
+        "${PerTenantExtensionCop}",
+        "${AppSourceCop}",
+        "${analyzerFolder}BusinessCentral.LinterCop.dll"
+    ],
+    "al.enableCodeActions": true,
+    "al.ruleSetPath": "./.vscode/ruleset.json",
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.OnSaveAlFileAction": "DoNothing",
+    "CRS.RenameWithGit": true,
+    "editor.formatOnSave": true,
+    "CRS.ObjectNameSuffix": "_ANJ",
+    "rest-client.rememberCookiesForSubsequentRequests": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.al": true
+    },
+    "alOutline.codeActionsOnSave": [
+        "SortProperties",
+        "SortVariables",
+        "FormatDocument"
     ]
-}  
+}

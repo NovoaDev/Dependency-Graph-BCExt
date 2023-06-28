@@ -66,7 +66,7 @@ codeunit 80804 GenerateFigure_ANJ
     var
         DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
     begin
-        DependencyGraphSetup.SetLoadFields();
+        DependencyGraphSetup.SetLoadFields(ScopePTEFigure, ScopeGlobalFigure, ScopeDevFigure);
         case ExtensionScope of
             ExtensionScope::PTE:
                 GeometricFigure := DependencyGraphSetup.ScopePTEFigure;

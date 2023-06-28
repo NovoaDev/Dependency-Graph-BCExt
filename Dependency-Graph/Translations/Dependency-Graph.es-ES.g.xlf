@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="Dependency-Graph">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2186239794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dependency Graph Setup</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Configuración del gráfico de dependencia"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Property Caption</note>
+          <target>Configuración del gráfico de dependencia</target>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - NamedType 3415447349" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DependencyGraph.txt</source>
+          <note from="Developer" annotates="general" priority="2">ESP="DependencyGraph.txt"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - NamedType FileNameLbl</note>
+          <target>DependencyGraph.txt</target>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 3856621992 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client ID</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Id. de cliente"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field ClientID - Property Caption</note>
+          <target>Id. de cliente</target>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 4246117152 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Content Text</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Texto de contenido"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field ContentText - Property Caption</note>
+          <target>Texto de contenido</target>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 3715571876 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Last Generation</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Fecha última generación"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field DateLastGeneration - Property Caption</note>
+          <target>Fecha última generación</target>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 2750913523 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Link text</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Incluir texto de enlace"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field IncludeLinkText - Property Caption</note>
+          <target>Incluir texto de enlace</target>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 1540816694 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Microsoft Apps</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Incluir aplicaciones de Microsoft"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field IncludeMicrosoftApps - Property Caption</note>
+          <target>Incluir aplicaciones de Microsoft</target>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 1594621544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Picture</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Imagen"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field Picture - Property Caption</note>
+          <target>Imagen</target>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 2333076789 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Clave primaria"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field PrimaryKey - Property Caption</note>
+          <target>Clave primaria</target>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 2757662305 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scope Dev Figure</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Figura Dev"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field ScopeDevFigure - Property Caption</note>
+          <target>Figura Dev</target>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 1066899141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scope Global Figure</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Figura Global"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field ScopeGlobalFigure - Property Caption</note>
+          <target>Figura Global</target>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 4232782363 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scope PTE Figure</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Figura PTE"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field ScopePTEFigure - Property Caption</note>
+          <target>Figura PTE</target>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 839089114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Secret</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Secreto"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field Secret - Property Caption</note>
+          <target>Secreto</target>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 891883075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time Last Generation</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Hora última generación"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field TimeLastGeneration - Property Caption</note>
+          <target>Hora última generación</target>
+        </trans-unit>
+        <trans-unit id="Table 3141127244 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Extensions</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Extensiones"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Property Caption</note>
+          <target>Extensiones</target>
+        </trans-unit>
+        <trans-unit id="Table 3141127244 - Field 665602392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App ID</source>
+          <note from="Developer" annotates="general" priority="2">ESP="ID de la aplicación"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field AppID - Property Caption</note>
+          <target>ID de la aplicación</target>
+        </trans-unit>
+        <trans-unit id="Table 3141127244 - Field 2058393039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Display Name</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Nombre para mostrar"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field DisplayName - Property Caption</note>
+          <target>Nombre para mostrar</target>
+        </trans-unit>
+        <trans-unit id="Table 3141127244 - Field 1205006834 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Identity</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Identidad"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field Identity - Property Caption</note>
+          <target>Identidad</target>
+        </trans-unit>
+        <trans-unit id="Table 3141127244 - Field 2240908758 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Is Installed</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Instalado"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field IsInstalled - Property Caption</note>
+          <target>Instalado</target>
+        </trans-unit>
+        <trans-unit id="Table 3141127244 - Field 919630742 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Published As</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Publicado como"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field PublishedAs - Property Caption</note>
+          <target>Publicado como</target>
+        </trans-unit>
+        <trans-unit id="Table 3141127244 - Field 1772640682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Publisher</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Publicado"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field Publisher - Property Caption</note>
+          <target>Publicado</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1718081384 - NamedType 48672636" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1((%2))</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CircleIMP_ANJ - NamedType FigureLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 927581418 - NamedType 3824428447" size-unit="char" translate="yes" xml:space="preserve">
+          <source>access_token</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType AccessTokenLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 927581418 - NamedType 4248989274" size-unit="char" translate="yes" xml:space="preserve">
+          <source>https://login.microsoftonline.com/%1/oauth2/v2.0/token</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType AccessTokenUrlLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 927581418 - NamedType 736812907" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authorization</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType AuthorizationLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 927581418 - NamedType 472661878" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bearer %1</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType AuthorizationValueLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 927581418 - NamedType 366675938" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;client_id=%1</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ClientIdLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 927581418 - NamedType 792247639" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;client_secret=%1</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ClientSecretLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 927581418 - NamedType 2725329485" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Content-Type</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ContentTypeLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 927581418 - NamedType 1549459477" size-unit="char" translate="yes" xml:space="preserve">
+          <source>https://api.businesscentral.dynamics.com/v2.0/%1/api/microsoft/automation/v2.0/companies(%2)/extensions</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ExtensionsUrlLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 927581418 - NamedType 154798154" size-unit="char" translate="yes" xml:space="preserve">
+          <source>?$filter=publisher ne </source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType FilterMSAppsLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 927581418 - NamedType 1092220576" size-unit="char" translate="yes" xml:space="preserve">
+          <source>grant_type=client_credentials</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType GrantTypeLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 927581418 - NamedType 4072018929" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error reading JSON response.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Error al leer la respuesta JSON."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ReadingJsonErr</note>
+          <target>Error al leer la respuesta JSON.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 927581418 - NamedType 1618117332" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;scope=https://api.businesscentral.dynamics.com/.default</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ScopeLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 927581418 - NamedType 752839706" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unable to communicate with the web service.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="No se puede comunicar con el servicio web."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType UnableToCommunicateWSErr</note>
+          <target>No se puede comunicar con el servicio web.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 927581418 - NamedType 243597245" size-unit="char" translate="yes" xml:space="preserve">
+          <source>application/x-www-form-urlencoded</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType UrlencodedLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 927581418 - NamedType 3182686404" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error - Status code: %1  Description: %2</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Error - Código: %1  Descripción: %2"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType WSStatusCodeErr</note>
+          <target>Error - Código: %1  Descripción: %2</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4211792102 - NamedType 48672636" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1{%2}</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit RhombusIMP_ANJ - NamedType FigureLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4116861567 - NamedType 48672636" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1(%2)</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit RoundRectangleIMP_ANJ - NamedType FigureLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3600287482 - NamedType 48672636" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1[%2]</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SquareRectangleIMP_ANJ - NamedType FigureLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dependency Graph Setup</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Configuración del gráfico de dependencia"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Property Caption</note>
+          <target>Configuración del gráfico de dependencia</target>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 1975224516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authentication</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Autenticación"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Auth - Property Caption</note>
+          <target>Autenticación</target>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 3856621992 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Client ID field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Id. de cliente"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control ClientID - Property ToolTip</note>
+          <target>Especifica el valor del campo Id. de cliente</target>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 839089114 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Secret field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Secreto"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Secret - Property ToolTip</note>
+          <target>Especifica el valor del campo Secreto</target>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 1769173142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ext. Figures</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Figuras ext."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Figure - Property Caption</note>
+          <target>Figuras ext.</target>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 2757662305 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Scope Dev Figure field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Figura Ext. Dev"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control ScopeDevFigure - Property ToolTip</note>
+          <target>Especifica el valor del campo Figura Ext. Dev</target>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 1066899141 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Scope Global Figure field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Figura Ext. Global"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control ScopeGlobalFigure - Property ToolTip</note>
+          <target>Especifica el valor del campo Figura Ext. Global</target>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 4232782363 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Scope PTE Figure field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Figura Ext. PTE"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control ScopePTEFigure - Property ToolTip</note>
+          <target>Especifica el valor del campo Figura Ext. PTE</target>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 1619469460 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Graphic Generation</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Generación de gráfico"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control GraphicGeneration - Property Caption</note>
+          <target>Generación de gráfico</target>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 3349558288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Incluir"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Include - Property Caption</note>
+          <target>Incluir</target>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 2750913523 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Include Link text field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Incluir texto de enlace"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control IncludeLinkText - Property ToolTip</note>
+          <target>Especifica el valor del campo Incluir texto de enlace</target>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 2750913523 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Link text</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Texto de enlace"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control IncludeLinkText - Property Caption</note>
+          <target>Texto de enlace</target>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 1540816694 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Include Microsoft Apps field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Incluir aplicaciones de Microsoft"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control IncludeMicrosoftApps - Property ToolTip</note>
+          <target>Especifica el valor del campo Incluir aplicaciones de Microsoft</target>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 1540816694 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Microsoft Apps</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Aplicaciones de Microsoft"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control IncludeMicrosoftApps - Property Caption</note>
+          <target>Aplicaciones de Microsoft</target>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 2902463168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Generation</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Última generación"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control LastGeneration - Property Caption</note>
+          <target>Última generación</target>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 3715571876 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Date Last Generation field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Fecha última generación"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control DateLastGeneration - Property ToolTip</note>
+          <target>Especifica el valor del campo Fecha última generación</target>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 891883075 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Time Last Generation field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Hora última generación"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control TimeLastGeneration - Property ToolTip</note>
+          <target>Especifica el valor del campo Hora última generación</target>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Action 1663039630 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Extensions action.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Ejecuta la acción Extensiones"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Action Extensions - Property ToolTip</note>
+          <target>Ejecuta la acción Extensiones</target>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Action 1663039630 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Extensions</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Extensiones"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Action Extensions - Property Caption</note>
+          <target>Extensiones</target>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Action 1462151234 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Generate Tables action.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Ejecuta la acción Generar tablas"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Action GenerateTables - Property ToolTip</note>
+          <target>Ejecuta la acción Generar tablas</target>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Action 1462151234 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate Tables</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Generar tablas"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Action GenerateTables - Property Caption</note>
+          <target>Generar tablas</target>
+        </trans-unit>
+        <trans-unit id="Page 3141127244 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Extensions</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Extensiones"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Property Caption</note>
+          <target>Extensiones</target>
+        </trans-unit>
+        <trans-unit id="Page 3141127244 - Control 665602392 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the App ID field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo ID de la aplicación"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control AppID - Property ToolTip</note>
+          <target>Especifica el valor del campo ID de la aplicación</target>
+        </trans-unit>
+        <trans-unit id="Page 3141127244 - Control 2058393039 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Display Name field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Nombre para mostrar"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control DisplayName - Property ToolTip</note>
+          <target>Especifica el valor del campo Nombre para mostrar</target>
+        </trans-unit>
+        <trans-unit id="Page 3141127244 - Control 1205006834 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Identity field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Identidad"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control Identity - Property ToolTip</note>
+          <target>Especifica el valor del campo Identidad</target>
+        </trans-unit>
+        <trans-unit id="Page 3141127244 - Control 2240908758 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Is Installed field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Instalado"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control IsInstalled - Property ToolTip</note>
+          <target>Especifica el valor del campo Instalado</target>
+        </trans-unit>
+        <trans-unit id="Page 3141127244 - Control 919630742 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Published As field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Publicado como"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control PublishedAs - Property ToolTip</note>
+          <target>Especifica el valor del campo Publicado como</target>
+        </trans-unit>
+        <trans-unit id="Page 3141127244 - Control 1772640682 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Publisher field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Publicado"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control Publisher - Property ToolTip</note>
+          <target>Especifica el valor del campo Publicado</target>
+        </trans-unit>
+        <trans-unit id="Enum 4022559235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Extension Scope</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Alcance de la extensión"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ExtensionScope_ANJ - Property Caption</note>
+          <target>Alcance de la extensión</target>
+        </trans-unit>
+        <trans-unit id="Enum 4022559235 - EnumValue 2881718953 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dev</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Dev"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ExtensionScope_ANJ - EnumValue Dev - Property Caption</note>
+          <target>Dev</target>
+        </trans-unit>
+        <trans-unit id="Enum 4022559235 - EnumValue 4172416525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Global</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Global"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ExtensionScope_ANJ - EnumValue Global - Property Caption</note>
+          <target>Global</target>
+        </trans-unit>
+        <trans-unit id="Enum 4022559235 - EnumValue 1750906067 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PTE</source>
+          <note from="Developer" annotates="general" priority="2">ESP="PTE"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ExtensionScope_ANJ - EnumValue PTE - Property Caption</note>
+          <target>PTE</target>
+        </trans-unit>
+        <trans-unit id="Enum 2507724467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geometric Figure</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Figura Geométrica"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeometricFigure_ANJ - Property Caption</note>
+          <target>Figura Geométrica</target>
+        </trans-unit>
+        <trans-unit id="Enum 2507724467 - EnumValue 13936446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Circle</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Círculo"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeometricFigure_ANJ - EnumValue Circle - Property Caption</note>
+          <target>Círculo</target>
+        </trans-unit>
+        <trans-unit id="Enum 2507724467 - EnumValue 1105944624 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rhombus</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Rombo"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeometricFigure_ANJ - EnumValue Rhombus - Property Caption</note>
+          <target>Rombo</target>
+        </trans-unit>
+        <trans-unit id="Enum 2507724467 - EnumValue 3932416381 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Round Rectangle</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Rectángulo Redondeado"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeometricFigure_ANJ - EnumValue RoundRectangle - Property Caption</note>
+          <target>Rectángulo Redondeado</target>
+        </trans-unit>
+        <trans-unit id="Enum 2507724467 - EnumValue 3699382460 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Square/Rectangle</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Cuadrado/Rectángulo"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeometricFigure_ANJ - EnumValue SquareRectangle - Property Caption</note>
+          <target>Cuadrado/Rectángulo</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

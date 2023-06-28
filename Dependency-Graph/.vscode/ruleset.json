@@ -1,10 +1,15 @@
 {
-    "name": "ANJRuleset",
+    "name": "Dependency-Graph-Ruleset",
     "rules": [    
         {
             "id": "AS0084",
             "action": "None",
             "justification": "The ID range assigned to the extension must be within the allowed range"
+        },
+        {
+            "id": "AA0470",
+            "action": "None",
+            "justification": "Disabled due to placeholder ext translation problems"
         }
     ]
 }

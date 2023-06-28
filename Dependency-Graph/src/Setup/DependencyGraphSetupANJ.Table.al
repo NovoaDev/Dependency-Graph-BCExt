@@ -67,17 +67,20 @@ table 80800 DependencyGraphSetup_ANJ
     }
     fieldgroups
     {
-        fieldgroup(DropDown; ScopePTEFigure, ScopeGlobalFigure, ScopeDevFigure) { }
-        fieldgroup(Brick; ScopePTEFigure, ScopeGlobalFigure, ScopeDevFigure) { }
+        fieldgroup(DropDown; ScopePTEFigure, ScopeGlobalFigure, ScopeDevFigure)
+        {
+        }
+        fieldgroup(Brick; ScopePTEFigure, ScopeGlobalFigure, ScopeDevFigure)
+        {
+        }
     }
 
     /// <summary>
     /// DownloadContentText.
     /// </summary>
-    internal procedure DownloadContentText()
+    internal procedure DownloadContentText();
     var
         AuxInStream: InStream;
-        FileNameLbl: Label 'DependencyGraph.txt', comment = 'ESP="DependencyGraph.txt"';
         FileName: Text;
     begin
         CalcFields(ContentText);
@@ -94,7 +97,7 @@ table 80800 DependencyGraphSetup_ANJ
     /// SetContentText.
     /// </summary>
     /// <param name="AuxText">Text.</param>
-    internal procedure SetContentText(AuxText: Text)
+    internal procedure SetContentText(AuxText: Text);
     var
         AuxOutStream: OutStream;
     begin
@@ -107,7 +110,7 @@ table 80800 DependencyGraphSetup_ANJ
     /// GetContentText.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    internal procedure GetContentText(): Text
+    internal procedure GetContentText(): Text;
     var
         AuxInStream: InStream;
         AuxText: Text;
@@ -135,4 +138,5 @@ table 80800 DependencyGraphSetup_ANJ
 
     var
         HasBeenRead: Boolean;
+        FileNameLbl: Label 'DependencyGraph.txt', comment = 'ESP="DependencyGraph.txt"';
 }

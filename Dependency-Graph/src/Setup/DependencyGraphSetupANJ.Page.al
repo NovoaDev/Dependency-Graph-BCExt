@@ -86,16 +86,20 @@ page 80800 DependencyGraphSetup_ANJ
     {
         area(processing)
         {
-            action(GenerateTempTables) //TODO: Cambiar a codeunit que genere las tablas temporales
+            action(GenerateTables)
             {
                 ApplicationArea = All;
-                Caption = 'Generate Temp. Tables', comment = 'ESP="Generar tablas temporales"';
+                Caption = 'Generate Tables', comment = 'ESP="Generar tablas"';
                 Image = Table;
                 Promoted = true;
                 PromotedCategory = Process;
                 PromotedOnly = true;
-                RunObject = page Extensions_ANJ;
-                ToolTip = 'Executes the Generate Temp. Tables action.', Comment = 'ESP="Ejecuta la acción Generar tablas temporales"';
+                ToolTip = 'Executes the Generate Tables action.', Comment = 'ESP="Ejecuta la acción Generar tablas"';
+
+                trigger OnAction()
+                begin
+                    GenerateExtensionTable.Generate();
+                end;
             }
             action(Extensions)
             {
@@ -115,4 +119,7 @@ page 80800 DependencyGraphSetup_ANJ
     begin
         Rec.GetInstance();
     end;
+
+    var
+        GenerateExtensionTable: Codeunit GenerateExtensionTable_ANJ;
 }

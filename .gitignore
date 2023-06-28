@@ -1,7 +1,6 @@
 *.app
 *.flf
 *.bclicense
-*.g.xlf
 .DS_Store
 Thumbs.db
 TestResults*.xml

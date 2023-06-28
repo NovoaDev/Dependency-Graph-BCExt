@@ -29,3 +29,7 @@ Authorization: {{AuthHeader}}
 @CompanyID = {{$processEnv DependencyGraphCompanyID}}
 GET https://api.businesscentral.dynamics.com/v2.0/{{Environment}}/api/microsoft/automation/v2.0/companies({{CompanyID}})/extensions
 Authorization: {{AuthHeader}}
+
+### Get All extensiones with filter
+GET https://api.businesscentral.dynamics.com/v2.0/{{Environment}}/api/microsoft/automation/v2.0/companies({{CompanyID}})/extensions?$filter=publisher ne 'Microsoft'
+Authorization: {{AuthHeader}}

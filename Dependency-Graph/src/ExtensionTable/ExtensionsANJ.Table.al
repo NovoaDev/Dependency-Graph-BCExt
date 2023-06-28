@@ -3,9 +3,11 @@
 /// </summary>
 table 80801 Extensions_ANJ
 {
-    Access = Internal;
+    Access = Public;
     Caption = 'Extensions', comment = 'ESP="Extensiones"';
     DataClassification = CustomerContent;
+    DrillDownPageId = Extensions_ANJ;
+    LookupPageId = Extensions_ANJ;
 
     fields
     {
@@ -43,7 +45,11 @@ table 80801 Extensions_ANJ
     }
     fieldgroups
     {
-        fieldgroup(DropDown; DisplayName, Publisher, PublishedAs) { }
-        fieldgroup(Brick; DisplayName, Publisher, PublishedAs) { }
+        fieldgroup(DropDown; DisplayName, Publisher, PublishedAs)
+        {
+        }
+        fieldgroup(Brick; DisplayName, Publisher, PublishedAs)
+        {
+        }
     }
 }
