@@ -45,7 +45,7 @@ table 80800 DependencyGraphSetup_ANJ
         {
             Caption = 'Time Last Generation', Comment = 'ESP="Hora última generación"';
         }
-        field(10; ContentText; Blob)
+        field(10; Markdown; Blob)
         {
             Caption = 'Content Text', Comment = 'ESP="Texto de contenido"';
         }
@@ -56,6 +56,14 @@ table 80800 DependencyGraphSetup_ANJ
         field(12; IncludeLinkText; Boolean)
         {
             Caption = 'Include Link Text', Comment = 'ESP="Incluir texto de enlace"';
+        }
+        field(13; DateLastGenerationMarkdown; Date)
+        {
+            Caption = 'Date Last Generation', Comment = 'ESP="Fecha última generación"';
+        }
+        field(14; TimeLastGenerationMarkdown; Time)
+        {
+            Caption = 'Time Last Generation', Comment = 'ESP="Hora última generación"';
         }
     }
     keys
@@ -76,47 +84,29 @@ table 80800 DependencyGraphSetup_ANJ
     }
 
     /// <summary>
-    /// DownloadContentText.
-    /// </summary>
-    internal procedure DownloadContentText();
-    var
-        AuxInStream: InStream;
-        FileName: Text;
-    begin
-        CalcFields(ContentText);
-        ContentText.CreateInStream(AuxInStream);
-
-        if not ContentText.HasValue() then
-            exit;
-
-        FileName := FileNameLbl;
-        DownloadFromStream(AuxInStream, '', '', '', FileName);
-    end;
-
-    /// <summary>
-    /// SetContentText.
+    /// SetMarkdown.
     /// </summary>
     /// <param name="AuxText">Text.</param>
-    internal procedure SetContentText(AuxText: Text);
+    internal procedure SetMarkdown(AuxText: Text);
     var
         AuxOutStream: OutStream;
     begin
         Clear(HasBeenRead);
-        ContentText.CreateOutStream(AuxOutStream);
+        Markdown.CreateOutStream(AuxOutStream);
         AuxOutStream.Write(AuxText);
     end;
 
     /// <summary>
-    /// GetContentText.
+    /// GetMarkdown.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    internal procedure GetContentText(): Text;
+    internal procedure GetMarkdown(): Text;
     var
         AuxInStream: InStream;
         AuxText: Text;
     begin
-        CalcFields(ContentText);
-        ContentText.CreateInStream(AuxInStream);
+        CalcFields(Markdown);
+        Markdown.CreateInStream(AuxInStream);
         AuxInStream.Read(AuxText);
         exit(AuxText);
     end;
@@ -138,5 +128,4 @@ table 80800 DependencyGraphSetup_ANJ
 
     var
         HasBeenRead: Boolean;
-        FileNameLbl: Label 'DependencyGraph.txt';
 }

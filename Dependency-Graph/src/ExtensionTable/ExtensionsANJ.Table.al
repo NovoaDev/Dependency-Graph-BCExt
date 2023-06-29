@@ -53,6 +53,20 @@ table 80801 Extensions_ANJ
         {
             Caption = 'Figure', comment = 'ESP="Figura"';
         }
+        field(9; HasStartRelationships; Boolean)
+        {
+            CalcFormula = exist(Relations_ANJ where(SourceAppID = field(AppID)));
+            Caption = 'Has Relationships', comment = 'ESP="Tiene relaciones"';
+            Editable = false;
+            FieldClass = FlowField;
+        }
+        field(10; HasRelationships; Boolean)
+        {
+            CalcFormula = exist(Relations_ANJ where(DestinationAppID = field(AppID)));
+            Caption = 'Has Relationships', comment = 'ESP="Tiene relaciones"';
+            Editable = false;
+            FieldClass = FlowField;
+        }
     }
     keys
     {
