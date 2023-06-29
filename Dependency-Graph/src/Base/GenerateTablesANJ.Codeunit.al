@@ -12,10 +12,12 @@ codeunit 80807 GenerateTables_ANJ
     /// <param name="HideDialog">Boolean.</param>
     internal procedure Generate(HideDialog: Boolean);
     var
+        Extensions: Record Extensions_ANJ;
         IsHandled: Boolean;
     begin
-        if not ConfirmGenerateTables(HideDialog) then
-            exit;
+        if not Extensions.IsEmpty() then
+            if not ConfirmGenerateTables(HideDialog) then
+                exit;
 
         OnBeforeGenerateTables(IsHandled);
         DoGenerateTables(IsHandled);

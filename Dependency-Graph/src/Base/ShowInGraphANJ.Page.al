@@ -4,7 +4,7 @@
 page 80802 ShowInGraph_ANJ
 {
     ApplicationArea = All;
-    Caption = 'Show In Graph', comment = 'ESP="Mostrar en gráfico"';
+    Caption = 'Show In Dependency Graph', comment = 'ESP="Mostrar en gráfico de dependencia"';
     PageType = Document;
     UsageCategory = None;
 
@@ -27,12 +27,12 @@ page 80802 ShowInGraph_ANJ
             action(GenTables)
             {
                 ApplicationArea = All;
-                Caption = 'Generate Tables', comment = 'ESP="Generar tablas"';
-                Image = Table;
+                Caption = 'Generate data', comment = 'ESP="Generar datos"';
+                Image = NewSparkle;
                 Promoted = true;
                 PromotedCategory = Process;
                 PromotedOnly = true;
-                ToolTip = 'Executes the Generate Tables action.', Comment = 'ESP="Ejecuta la acción Generar tablas"';
+                ToolTip = 'Executes the Generate data action.', Comment = 'ESP="Ejecuta la acción Generar datos"';
 
                 trigger OnAction()
                 begin
@@ -42,12 +42,12 @@ page 80802 ShowInGraph_ANJ
             action(GenerateMarkdown)
             {
                 ApplicationArea = All;
-                Caption = 'Generate Markdown', comment = 'ESP="Generar Markdown"';
-                Image = MakeOrder;
+                Caption = 'Display dependency graph', comment = 'ESP="Visualizar gráfico de dependencia"';
+                Image = View;
                 Promoted = true;
                 PromotedCategory = Process;
                 PromotedOnly = true;
-                ToolTip = 'Executes the Generate Markdown action.', Comment = 'ESP="Ejecuta la acción Generar Markdown"';
+                ToolTip = 'Executes the Display dependency graph action.', Comment = 'ESP="Ejecuta la acción Visualizar gráfico de dependencia"';
 
                 trigger OnAction()
                 begin
@@ -58,12 +58,12 @@ page 80802 ShowInGraph_ANJ
             action(DownloadMarkdown)
             {
                 ApplicationArea = All;
-                Caption = 'Download Markdown', comment = 'ESP="Descargar Markdown"';
+                Caption = 'Download Markdown as .md', comment = 'ESP="Descargar Markdown como un .md"';
                 Image = Download;
                 Promoted = true;
                 PromotedCategory = Process;
                 PromotedOnly = true;
-                ToolTip = 'Executes the Download Markdown action.', Comment = 'ESP="Ejecuta la acción Descargar Markdown"';
+                ToolTip = 'Executes the Download Markdown as .md action.', Comment = 'ESP="Ejecuta la acción Descargar Markdown como un .md"';
 
                 trigger OnAction()
                 begin

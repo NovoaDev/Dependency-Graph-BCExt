@@ -41,11 +41,6 @@ page 80801 Extensions_ANJ
                     Editable = false;
                     ToolTip = 'Specifies the value of the Identity field.', Comment = 'ESP="Especifica el valor del campo Identidad"';
                 }
-                field(Figure; Rec.Figure)
-                {
-                    Editable = false;
-                    ToolTip = 'Specifies the value of the Figure field.', Comment = 'ESP="Especifica el valor del campo Figura"';
-                }
                 field(ShowInGraph; Rec.ShowInGraph)
                 {
                     ToolTip = 'Specifies the value of the ShowInGraph field.', Comment = 'ESP="Especifica el valor del campo Mostrar en gráfico"';
