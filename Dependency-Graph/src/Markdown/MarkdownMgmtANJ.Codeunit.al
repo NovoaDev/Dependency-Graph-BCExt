@@ -8,12 +8,12 @@ codeunit 80809 MarkdownMgmt_ANJ
     /// <summary>
     /// GenerateGraph.
     /// </summary>
-    internal procedure GenerateGraph();
+    internal procedure GenerateGraph(CompleteForMarkdown: Boolean);
     var
         IsHandled: Boolean;
     begin
         OnBeforeGenerateMarkdown(IsHandled);
-        DoGenerateMarkdown(IsHandled);
+        DoGenerateMarkdown(IsHandled, CompleteForMarkdown);
         OnAfterGenerateMarkdown();
     end;
 
@@ -21,25 +21,25 @@ codeunit 80809 MarkdownMgmt_ANJ
     /// DoGenerateMarkdown.
     /// </summary>
     /// <param name="IsHandled">Boolean.</param>
-    local procedure DoGenerateMarkdown(IsHandled: Boolean);
+    /// <param name="CompleteForMarkdown">Boolean.</param>
+    local procedure DoGenerateMarkdown(IsHandled: Boolean; CompleteForMarkdown: Boolean);
     var
-        myText: Text;
         GrapTextBuilder: TextBuilder;
     begin
         if IsHandled then
             exit;
 
-        GrapTextBuilder.AppendLine(Header1Lbl);
+        if CompleteForMarkdown then
+            GrapTextBuilder.AppendLine(Header1Lbl);
         GrapTextBuilder.AppendLine(Header2Lbl);
 
         InsertRelationships(GrapTextBuilder);
         InsertAppWithoutRelationships(GrapTextBuilder);
 
-        GrapTextBuilder.AppendLine();
-        GrapTextBuilder.AppendLine(FooterLbl);
-        myText := GrapTextBuilder.ToText();
-        if UpdateSetupTable(GrapTextBuilder.ToText()) then
-            Acknowledge();
+        if CompleteForMarkdown then
+            GrapTextBuilder.AppendLine(FooterLbl);
+
+        UpdateSetupTable(GrapTextBuilder.ToText())
     end;
 
     /// <summary>
@@ -97,6 +97,7 @@ codeunit 80809 MarkdownMgmt_ANJ
 
         GrapTextBuilder.Append(StrSubstNo(LinkArrowLbl, LinkText));
     end;
+
     /// <summary>
     /// InsertAppWithoutRelationships.
     /// </summary>
@@ -118,8 +119,7 @@ codeunit 80809 MarkdownMgmt_ANJ
     /// UpdateSetupTable.
     /// </summary>
     /// <param name="MarkDownText">Text.</param>
-    /// <returns>Return value of type Boolean.</returns>
-    local procedure UpdateSetupTable(MarkDownText: Text): Boolean;
+    local procedure UpdateSetupTable(MarkDownText: Text);
     var
         DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
     begin
@@ -130,18 +130,7 @@ codeunit 80809 MarkdownMgmt_ANJ
         DependencyGraphSetup.SetMarkdown(MarkDownText);
         DependencyGraphSetup.Validate(DateLastGenerationMarkdown, Today());
         DependencyGraphSetup.Validate(TimeLastGenerationMarkdown, Time());
-        exit(DependencyGraphSetup.Modify(true));
-    end;
-
-    /// <summary>
-    /// Acknowledge.
-    /// </summary>
-    local procedure Acknowledge();
-    begin
-        if not GuiAllowed() then
-            exit;
-
-        Message(ProcessFinishMsg);
+        DependencyGraphSetup.Modify(true);
     end;
 
     /// <summary>
@@ -165,6 +154,24 @@ codeunit 80809 MarkdownMgmt_ANJ
         DownloadFromStream(AuxInStream, '', '', '', FileName);
     end;
 
+    /// <summary>
+    /// GetMarkdown.
+    /// </summary>
+    /// <returns>Return value of type Text.</returns>
+    internal procedure GetMarkdown(): Text;
+    var
+        DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
+        AuxInStream: InStream;
+        AuxText: Text;
+    begin
+        DependencyGraphSetup.SetLoadFields(Markdown);
+        DependencyGraphSetup.SetAutoCalcFields(Markdown);
+        DependencyGraphSetup.GetInstance();
+        DependencyGraphSetup.Markdown.CreateInStream(AuxInStream);
+        AuxInStream.Read(AuxText);
+        exit(AuxText);
+    end;
+
     [IntegrationEvent(false, false)]
     local procedure OnBeforeGenerateMarkdown(var IsHandled: Boolean);
     begin
@@ -180,7 +187,6 @@ codeunit 80809 MarkdownMgmt_ANJ
         FileNameLbl: Label 'DependencyGraph.md';
         FooterLbl: Label '```';
         Header1Lbl: Label '```mermaid';
-        Header2Lbl: Label 'graph LR';
+        Header2Lbl: Label 'graph TB';
         LinkArrowLbl: Label ' -- %1 --> ';
-        ProcessFinishMsg: Label 'Markdown Created Correctly', comment = 'ESP="Markdown creado correctamente"';
 }

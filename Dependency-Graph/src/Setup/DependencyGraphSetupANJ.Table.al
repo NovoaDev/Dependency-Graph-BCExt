@@ -97,21 +97,6 @@ table 80800 DependencyGraphSetup_ANJ
     end;
 
     /// <summary>
-    /// GetMarkdown.
-    /// </summary>
-    /// <returns>Return value of type Text.</returns>
-    internal procedure GetMarkdown(): Text;
-    var
-        AuxInStream: InStream;
-        AuxText: Text;
-    begin
-        CalcFields(Markdown);
-        Markdown.CreateInStream(AuxInStream);
-        AuxInStream.Read(AuxText);
-        exit(AuxText);
-    end;
-
-    /// <summary>
     /// GetInstance.
     /// </summary>
     internal procedure GetInstance();

@@ -49,8 +49,23 @@ codeunit 80804 GenerateFigure_ANJ
         FigureInGraph: Interface FigureInGraph_ANJ;
     begin
         FigureInGraph := GetGeometricFigure(ExtensionScope);
-
+        RemoveDisallowedCharacters(AppName);
         exit(FigureInGraph.GenerateFigureText(Identity, AppName));
+    end;
+
+    /// <summary>
+    /// RemoveDisallowedCharacters.
+    /// </summary>
+    /// <param name="AppName">VAR Text.</param>
+    local procedure RemoveDisallowedCharacters(var AppName: Text);
+    begin
+        AppName := AppName.Replace('-', '');
+        AppName := AppName.Replace('(', '');
+        AppName := AppName.Replace(')', '');
+        AppName := AppName.Replace('{', '');
+        AppName := AppName.Replace('}', '');
+        AppName := AppName.Replace('[', '');
+        AppName := AppName.Replace(']', '');
     end;
 
     /// <summary>

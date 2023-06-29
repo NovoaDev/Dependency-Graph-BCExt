@@ -51,7 +51,8 @@ page 80802 ShowInGraph_ANJ
 
                 trigger OnAction()
                 begin
-                    MarkdownMgmt.GenerateGraph();
+                    MarkdownMgmt.GenerateGraph(false);
+                    Page.Run(Page::MarkdownViewer_ANJ);
                 end;
             }
             action(DownloadMarkdown)
@@ -66,6 +67,7 @@ page 80802 ShowInGraph_ANJ
 
                 trigger OnAction()
                 begin
+                    MarkdownMgmt.GenerateGraph(true);
                     MarkdownMgmt.DownloadMarkdown();
                 end;
             }
