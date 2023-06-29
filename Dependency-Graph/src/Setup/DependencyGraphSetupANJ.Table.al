@@ -23,15 +23,15 @@ table 80800 DependencyGraphSetup_ANJ
         }
         field(4; ScopePTEFigure; Enum GeometricFigure_ANJ)
         {
-            Caption = 'Scope PTE Figure', Comment = 'ESP="Figura PTE"';
+            Caption = 'PTE Scope', Comment = 'ESP="Scope PTE"';
         }
         field(5; ScopeGlobalFigure; Enum GeometricFigure_ANJ)
         {
-            Caption = 'Scope Global Figure', Comment = 'ESP="Figura Global"';
+            Caption = 'Global Scope', Comment = 'ESP="Scope Global"';
         }
         field(6; ScopeDevFigure; Enum GeometricFigure_ANJ)
         {
-            Caption = 'Scope Dev Figure', Comment = 'ESP="Figura Dev"';
+            Caption = 'Dev Scope', Comment = 'ESP="Scope Dev"';
         }
         field(7; IncludeMicrosoftApps; Boolean)
         {
@@ -39,11 +39,11 @@ table 80800 DependencyGraphSetup_ANJ
         }
         field(8; DateLastGeneration; Date)
         {
-            Caption = 'Date Last Generation', Comment = 'ESP="Fecha última generación"';
+            Caption = 'Date', Comment = 'ESP="Fecha"';
         }
         field(9; TimeLastGeneration; Time)
         {
-            Caption = 'Time Last Generation', Comment = 'ESP="Hora última generación"';
+            Caption = 'Time', Comment = 'ESP="Hora"';
         }
         field(10; Markdown; Blob)
         {
@@ -59,11 +59,11 @@ table 80800 DependencyGraphSetup_ANJ
         }
         field(13; DateLastGenerationMarkdown; Date)
         {
-            Caption = 'Date Last Generation', Comment = 'ESP="Fecha última generación"';
+            Caption = 'Date', Comment = 'ESP="Fecha"';
         }
         field(14; TimeLastGenerationMarkdown; Time)
         {
-            Caption = 'Time Last Generation', Comment = 'ESP="Hora última generación"';
+            Caption = 'Time', Comment = 'ESP="Hora"';
         }
     }
     keys

@@ -15,7 +15,7 @@ page 80800 DependencyGraphSetup_ANJ
         {
             group(Auth)
             {
-                Caption = 'Authentication', comment = 'ESP="Autenticación"';
+                Caption = 'App registrations - Azure', comment = 'ESP="Registros de aplicaciones - Azure"';
 
                 field(ClientID; Rec.ClientID)
                 {
@@ -29,7 +29,7 @@ page 80800 DependencyGraphSetup_ANJ
             }
             group(Figure)
             {
-                Caption = 'Ext. Figures', comment = 'ESP="Figuras ext."';
+                Caption = 'App shapes inside the diagram', comment = 'ESP="Figuras de las app dentro del diagrama"';
 
                 field(ScopePTEFigure; Rec.ScopePTEFigure)
                 {
@@ -46,7 +46,7 @@ page 80800 DependencyGraphSetup_ANJ
             }
             group(Include)
             {
-                Caption = 'Include', comment = 'ESP="Incluir"';
+                Caption = 'Include when generating the graph', comment = 'ESP="Incluir al generar el gráfico"';
 
                 field(IncludeMicrosoftApps; Rec.IncludeMicrosoftApps)
                 {
@@ -55,32 +55,32 @@ page 80800 DependencyGraphSetup_ANJ
                 }
                 field(IncludeLinkText; Rec.IncludeLinkText)
                 {
-                    Caption = 'Link text', Comment = 'ESP="Texto de enlace"';
-                    ToolTip = 'Specifies the value of the Include Link text field.', Comment = 'ESP="Especifica el valor del campo Incluir texto de enlace"';
+                    Caption = 'Link text between dependencies', Comment = 'ESP="Texto de enlace entre dependencias"';
+                    ToolTip = 'Specifies the value of the Include Link text field.', Comment = 'ESP="Especifica el valor del campo Incluir Texto de enlace entre dependencias"';
                 }
             }
             group(LastGeneration)
             {
-                Caption = 'Last Generation', comment = 'ESP="Última generación"';
+                Caption = 'Last time it was generated', comment = 'ESP="Última vez que se generó"';
 
                 group(Tables)
                 {
-                    Caption = 'Tables', comment = 'ESP="Tablas"';
+                    Caption = 'Tables to customize the graph', comment = 'ESP="Tablas para personalizar el gráfico"';
 
                     field(DateLastGeneration; Rec.DateLastGeneration)
                     {
                         Editable = false;
-                        ToolTip = 'Specifies the value of the Date Last Generation field.', Comment = 'ESP="Especifica el valor del campo Fecha última generación"';
+                        ToolTip = 'Specifies the value of the Date Last Generation field.', Comment = 'ESP="Especifica el valor del campo Fecha Última vez que se generó"';
                     }
                     field(TimeLastGeneration; Rec.TimeLastGeneration)
                     {
                         Editable = false;
-                        ToolTip = 'Specifies the value of the Time Last Generation field.', Comment = 'ESP="Especifica el valor del campo Hora última generación"';
+                        ToolTip = 'Specifies the value of the Time Last Generation field.', Comment = 'ESP="Especifica el valor del campo Hora Última vez que se generó"';
                     }
                 }
                 group(Markdown)
                 {
-                    Caption = 'Markdown', comment = 'ESP="Markdown"';
+                    Caption = 'Dependency graph', comment = 'ESP="Gráfico de dependencia"';
 
                     field(DateLastGenerationMarkdown; Rec.DateLastGenerationMarkdown)
                     {
@@ -103,7 +103,7 @@ page 80800 DependencyGraphSetup_ANJ
             action(Extensions)
             {
                 ApplicationArea = All;
-                Caption = 'Show In Graph', comment = 'ESP="Mostrar en gráfico"';
+                Caption = 'Dependency Graph', comment = 'ESP="Gráfico de dependencia"';
                 Image = Table;
                 Promoted = true;
                 PromotedCategory = Process;

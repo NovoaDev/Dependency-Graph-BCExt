@@ -14,13 +14,13 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field ClientID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 3715571876 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Date Last Generation</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Fecha última generación"</note>
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Fecha"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field DateLastGeneration - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 3944497305 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Date Last Generation</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Fecha última generación"</note>
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Fecha"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field DateLastGenerationMarkdown - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 2750913523 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -49,18 +49,18 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field PrimaryKey - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 2757662305 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Scope Dev Figure</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Figura Dev"</note>
+          <source>Dev Scope</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Scope Dev"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field ScopeDevFigure - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 1066899141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Scope Global Figure</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Figura Global"</note>
+          <source>Global Scope</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Scope Global"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field ScopeGlobalFigure - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 4232782363 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Scope PTE Figure</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Figura PTE"</note>
+          <source>PTE Scope</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Scope PTE"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field ScopePTEFigure - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 839089114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -69,13 +69,13 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field Secret - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 891883075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Time Last Generation</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Hora última generación"</note>
+          <source>Time</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Hora"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field TimeLastGeneration - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 1392759738 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Time Last Generation</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Hora última generación"</note>
+          <source>Time</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Hora"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field TimeLastGenerationMarkdown - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -359,8 +359,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 1975224516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Authentication</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Autenticación"</note>
+          <source>App registrations - Azure</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Registros de aplicaciones - Azure"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Auth - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 3856621992 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
@@ -374,8 +374,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Secret - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 1769173142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Ext. Figures</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Figuras ext."</note>
+          <source>App shapes inside the diagram</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Figuras de las app dentro del diagrama"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Figure - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 2757662305 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
@@ -394,18 +394,18 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control ScopePTEFigure - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 3349558288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Include</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Incluir"</note>
+          <source>Include when generating the graph</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Incluir al generar el gráfico"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Include - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 2750913523 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Include Link text field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Incluir texto de enlace"</note>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Incluir Texto de enlace entre dependencias"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control IncludeLinkText - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 2750913523 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Link text</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Texto de enlace"</note>
+          <source>Link text between dependencies</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Texto de enlace entre dependencias"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control IncludeLinkText - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 1540816694 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
@@ -419,13 +419,13 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control IncludeMicrosoftApps - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 2902463168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Last Generation</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Última generación"</note>
+          <source>Last time it was generated</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Última vez que se generó"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control LastGeneration - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 1113875961 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Markdown</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Markdown"</note>
+          <source>Dependency graph</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Gráfico de dependencia"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Markdown - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 3944497305 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
@@ -439,18 +439,18 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control TimeLastGenerationMarkdown - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 1061736343 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Tables</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Tablas"</note>
+          <source>Tables to customize the graph</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Tablas para personalizar el gráfico"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Tables - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 3715571876 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Date Last Generation field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Fecha última generación"</note>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Fecha Última vez que se generó"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control DateLastGeneration - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 891883075 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Time Last Generation field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Hora última generación"</note>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Hora Última vez que se generó"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control TimeLastGeneration - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Action 1663039630 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
@@ -459,8 +459,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Action Extensions - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Action 1663039630 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Show In Graph</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Mostrar en gráfico"</note>
+          <source>Dependency Graph</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Gráfico de dependencia"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Action Extensions - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3141127244 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -472,11 +472,6 @@
           <source>Specifies the value of the Display Name field.</source>
           <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Nombre para mostrar"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control DisplayName - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 3141127244 - Control 1769173142 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Figure field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Figura"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control Figure - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3141127244 - Control 1205006834 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Identity field.</source>
@@ -544,38 +539,38 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Relations_ANJ - Control SourceAppName - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3728201870 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Show In Graph</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Mostrar en gráfico"</note>
+          <source>Show In Dependency Graph</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Mostrar en gráfico de dependencia"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3728201870 - Action 3577779853 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the Download Markdown action.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Ejecuta la acción Descargar Markdown"</note>
+          <source>Executes the Download Markdown as .md action.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Ejecuta la acción Descargar Markdown como un .md"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Action DownloadMarkdown - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3728201870 - Action 3577779853 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Download Markdown</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Descargar Markdown"</note>
+          <source>Download Markdown as .md</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Descargar Markdown como un .md"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Action DownloadMarkdown - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3728201870 - Action 428232880 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the Generate Markdown action.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Ejecuta la acción Generar Markdown"</note>
+          <source>Executes the Display dependency graph action.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Ejecuta la acción Visualizar gráfico de dependencia"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Action GenerateMarkdown - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3728201870 - Action 428232880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Generate Markdown</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Generar Markdown"</note>
+          <source>Display dependency graph</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Visualizar gráfico de dependencia"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Action GenerateMarkdown - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3728201870 - Action 1943359091 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the Generate Tables action.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Ejecuta la acción Generar tablas"</note>
+          <source>Executes the Generate data action.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Ejecuta la acción Generar datos"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Action GenTables - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3728201870 - Action 1943359091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Generate Tables</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Generar tablas"</note>
+          <source>Generate data</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Generar datos"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Action GenTables - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 4022559235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
