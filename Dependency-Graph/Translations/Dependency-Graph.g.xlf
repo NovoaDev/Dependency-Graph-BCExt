@@ -10,7 +10,7 @@
         </trans-unit>
         <trans-unit id="Table 2186239794 - NamedType 3415447349" size-unit="char" translate="yes" xml:space="preserve">
           <source>DependencyGraph.txt</source>
-          <note from="Developer" annotates="general" priority="2">ESP="DependencyGraph.txt"</note>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - NamedType FileNameLbl</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 3856621992 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -29,7 +29,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field DateLastGeneration - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 2750913523 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Include Link text</source>
+          <source>Include Link Text</source>
           <note from="Developer" annotates="general" priority="2">ESP="Incluir texto de enlace"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field IncludeLinkText - Property Caption</note>
         </trans-unit>
@@ -118,6 +118,46 @@
           <note from="Developer" annotates="general" priority="2">ESP="Mostrar en gráfico"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field ShowInGraph - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3437274809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Relations</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Relaciones"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3437274809 - Field 593286124 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Destination App ID</source>
+          <note from="Developer" annotates="general" priority="2">ESP="ID de la aplicación destino"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field DestinationAppID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3437274809 - Field 3759848598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Destination App Name</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Nombre de la aplicación destino"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field DestinationAppName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3437274809 - Field 1839439551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Link Text</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Texto de enlace"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field LinkText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3437274809 - Field 1587026417 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Relation No.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Número de relación"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field RelationNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3437274809 - Field 2309591340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show In Graph</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Mostrar en gráfico"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field ShowInGraph - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3437274809 - Field 1581340811 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source App ID</source>
+          <note from="Developer" annotates="general" priority="2">ESP="ID de la aplicación origen"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field SourceAppID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3437274809 - Field 1283096581 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source App Name</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Nombre de la aplicación origen"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field SourceAppName - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1718081384 - NamedType 48672636" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1((%2))</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -183,20 +223,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType GrantTypeLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 927581418 - NamedType 2272053225" size-unit="char" translate="yes" xml:space="preserve">
+          <source>id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType IdLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 927581418 - NamedType 177224252" size-unit="char" translate="yes" xml:space="preserve">
           <source>isInstalled</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType IsInstalledLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 3329916367" size-unit="char" translate="yes" xml:space="preserve">
-          <source>packageId</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType PackageIdLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 1864506971" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The tables have been updated correctly.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Las tablas se han actualizado correctamente."</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ProcessFinishMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 927581418 - NamedType 2135136892" size-unit="char" translate="yes" xml:space="preserve">
           <source>publishedAs</source>
@@ -237,6 +272,16 @@
           <source>Error - Status code: %1  Description: %2</source>
           <note from="Developer" annotates="general" priority="2">ESP="Error - Código: %1  Descripción: %2"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType WSStatusCodeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2841349168 - NamedType 750120336" size-unit="char" translate="yes" xml:space="preserve">
+          <source>When generating the tables again, custom data will be deleted, do you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Al generar de nuevo las tablas se eliminaran datos personalizados, ¿Desea continuar?"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateTables_ANJ - NamedType ConfirmQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2841349168 - NamedType 1864506971" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The tables have been updated correctly.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Las tablas se han actualizado correctamente."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateTables_ANJ - NamedType ProcessFinishMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 1763311423 - NamedType 4264074168" size-unit="char" translate="yes" xml:space="preserve">
           <source>E%1</source>
@@ -398,20 +443,55 @@
           <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Mostrar en gráfico"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control ShowInGraph - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3141127244 - Action 1943359091 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Update Relations Table action.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Ejecuta la acción Actualizar tabla de relaciones"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Action GenTables - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3141127244 - Action 1943359091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update Relations Table</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Actualizar tabla de relaciones"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Action GenTables - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3437274809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Relations</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Relaciones"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Relations_ANJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3437274809 - Control 3759848598 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Destination App Name field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Nombre de la aplicación destino"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Relations_ANJ - Control DestinationAppName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3437274809 - Control 1839439551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Link Text field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Texto de enlace"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Relations_ANJ - Control LinkText - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3437274809 - Control 2309591340 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Show In Graph field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Mostrar en gráfico"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Relations_ANJ - Control ShowInGraph - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3437274809 - Control 1283096581 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Source App Name field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Nombre de la aplicación origen"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Relations_ANJ - Control SourceAppName - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3728201870 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show In Graph</source>
           <note from="Developer" annotates="general" priority="2">ESP="Mostrar en gráfico"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3728201870 - Action 1462151234 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3728201870 - Action 1943359091 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the Generate Tables action.</source>
           <note from="Developer" annotates="general" priority="2">ESP="Ejecuta la acción Generar tablas"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Action GenerateTables - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Action GenTables - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3728201870 - Action 1462151234 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3728201870 - Action 1943359091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Generate Tables</source>
           <note from="Developer" annotates="general" priority="2">ESP="Generar tablas"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Action GenerateTables - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Action GenTables - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 4022559235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Extension Scope</source>

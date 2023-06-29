@@ -53,4 +53,34 @@ page 80801 Extensions_ANJ
             }
         }
     }
+    actions
+    {
+        area(Processing)
+        {
+            action(GenTables)
+            {
+                ApplicationArea = All;
+                Caption = 'Update Relations Table', comment = 'ESP="Actualizar tabla de relaciones"';
+                Image = Relationship;
+                ToolTip = 'Executes the Update Relations Table action.', Comment = 'ESP="Ejecuta la acción Actualizar tabla de relaciones"';
+
+                trigger OnAction()
+                begin
+                    DoGenerateRelationsTable();
+                end;
+            }
+        }
+    }
+
+    /// <summary>
+    /// DoGenerateRelationsTable.
+    /// </summary>
+    local procedure DoGenerateRelationsTable()
+    begin
+        GenerateRelationsTable.CleanRelationsTable();
+        GenerateRelationsTable.Generate();
+    end;
+
+    var
+        GenerateRelationsTable: Codeunit GenerateRelationsTable_ANJ;
 }

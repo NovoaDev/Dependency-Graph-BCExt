@@ -55,7 +55,7 @@ table 80800 DependencyGraphSetup_ANJ
         }
         field(12; IncludeLinkText; Boolean)
         {
-            Caption = 'Include Link text', Comment = 'ESP="Incluir texto de enlace"';
+            Caption = 'Include Link Text', Comment = 'ESP="Incluir texto de enlace"';
         }
     }
     keys
@@ -138,5 +138,5 @@ table 80800 DependencyGraphSetup_ANJ
 
     var
         HasBeenRead: Boolean;
-        FileNameLbl: Label 'DependencyGraph.txt', comment = 'ESP="DependencyGraph.txt"';
+        FileNameLbl: Label 'DependencyGraph.txt';
 }

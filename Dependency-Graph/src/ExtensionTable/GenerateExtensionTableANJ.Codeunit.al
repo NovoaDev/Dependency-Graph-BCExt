@@ -6,6 +6,17 @@ codeunit 80805 GenerateExtensionTable_ANJ
     Access = Public;
 
     /// <summary>
+    /// CleanExtensionsTable.
+    /// </summary>
+    internal procedure CleanExtensionsTable();
+    var
+        Extensions: Record Extensions_ANJ;
+    begin
+        if not Extensions.IsEmpty() then
+            Extensions.DeleteAll(true);
+    end;
+
+    /// <summary>
     /// Generate.
     /// </summary>
     internal procedure Generate();
@@ -14,39 +25,24 @@ codeunit 80805 GenerateExtensionTable_ANJ
         IsHandled: Boolean;
     begin
         OnBeforeGenerateExtensionTable(Extensions, IsHandled);
-        DoGenerateExtensionTable(Extensions, IsHandled);
+        DoGenerateExtensionTable(IsHandled);
         OnAfterGenerateExtensionTable(Extensions);
     end;
 
     /// <summary>
     /// DoGenerateExtensionTable.
     /// </summary>
-    /// <param name="Extensions">VAR Record Extensions_ANJ.</param>
     /// <param name="IsHandled">Boolean.</param>
-    local procedure DoGenerateExtensionTable(var Extensions: Record Extensions_ANJ; IsHandled: Boolean);
+    local procedure DoGenerateExtensionTable(IsHandled: Boolean);
     var
         ResponseText: Text;
     begin
         if IsHandled then
             exit;
 
-        CleanTable(Extensions);
         ResponseText := GetExtensions();
         if ResponseText <> '' then
             PopulateResponse(ResponseText);
-
-        UpdateSetupTable();
-        ShowMessage();
-    end;
-
-    /// <summary>
-    /// CleanTable.
-    /// </summary>
-    /// <param name="Extensions">VAR Record Extensions_ANJ.</param>
-    local procedure CleanTable(var Extensions: Record Extensions_ANJ);
-    begin
-        if not Extensions.IsEmpty() then
-            Extensions.DeleteAll(true);
     end;
 
     /// <summary>
@@ -257,7 +253,6 @@ codeunit 80805 GenerateExtensionTable_ANJ
     local procedure InsertTableLines(SingleJsonObject: JsonToken);
     var
         Extensions: Record Extensions_ANJ;
-        AppID: Guid;
         AuxiliaryText: Text;
         Name: Text;
     begin
@@ -267,10 +262,8 @@ codeunit 80805 GenerateExtensionTable_ANJ
         if PopulateJsonValue(IsInstalledLbl, AuxiliaryText) = FalseLbl then
             exit;
 
-        AppID := PopulateJsonValue(PackageIdLbl, AuxiliaryText);
-
         Extensions.Init();
-        Extensions.Validate(AppID, AppID);
+        Extensions.Validate(AppID, PopulateJsonValue(IdLbl, AuxiliaryText));
         Extensions.Insert(true);
         Name := PopulateJsonValue(DisplayNameLbl, AuxiliaryText);
         Extensions.Validate(Name, Name);
@@ -286,30 +279,9 @@ codeunit 80805 GenerateExtensionTable_ANJ
                 Extensions.Validate(PublishedAs, Enum::ExtensionScope_ANJ::Dev);
         end;
 
+        Extensions.Validate(ShowInGraph, true);
         Extensions.Validate(Identity, NumberSequenceMgmt.GetNextNo());
         Extensions.Modify(true);
-    end;
-
-    /// <summary>
-    /// UpdateSetupTable.
-    /// </summary>
-    local procedure UpdateSetupTable();
-    var
-        DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
-    begin
-        DependencyGraphSetup.GetInstance();
-        DependencyGraphSetup.Validate(DateLastGeneration, Today());
-        DependencyGraphSetup.Validate(TimeLastGeneration, Time());
-        DependencyGraphSetup.Modify(true);
-    end;
-
-    /// <summary>
-    /// ShowMessage.
-    /// </summary>
-    local procedure ShowMessage();
-    begin
-        if GuiAllowed() then
-            Message(ProcessFinishMsg);
     end;
 
     [IntegrationEvent(false, false)]
@@ -337,9 +309,8 @@ codeunit 80805 GenerateExtensionTable_ANJ
         FalseLbl: Label 'false';
         FilterMSAppsLbl: Label '?$filter=publisher ne ';
         GrantTypeLbl: Label 'grant_type=client_credentials';
+        IdLbl: Label 'id';
         IsInstalledLbl: Label 'isInstalled';
-        PackageIdLbl: Label 'packageId';
-        ProcessFinishMsg: Label 'The tables have been updated correctly.', comment = 'ESP="Las tablas se han actualizado correctamente."';
         PublishedAsLbl: Label 'publishedAs';
         PublisherLbl: Label 'publisher';
         ReadingJsonErr: Label 'Error reading JSON response.', comment = 'ESP="Error al leer la respuesta JSON."';
