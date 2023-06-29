@@ -2,6 +2,251 @@
     "name": "Dependency-Graph-Ruleset",
     "rules": [    
         {
+            "id": "AA0005",
+            "action": "Error",
+            "justification": "Only use BEGIN..END to enclose compound statements"
+        },
+        {
+            "id": "AA0008",
+            "action": "Error",
+            "justification": "Function calls should have parenthesis even if they do not have any parameters"
+        },
+        {
+            "id": "AA0013",
+            "action": "Error",
+            "justification": "When BEGIN follows THEN, ELSE, DO, it should be on the same line, preceded by one space characte."
+        },
+        {
+            "id": "AA0018",
+            "action": "Error",
+            "justification": "The END, IF, REPEAT, UNTIL, FOR, WHILE, and CASE statement should always start a line."
+        },
+        {
+            "id": "AA0022",
+            "action": "Error",
+            "justification": "An IF followed by two or more ELSE IF should be replaced with a CASE."
+        },
+        {
+            "id": "AA0073",
+            "action": "Error",
+            "justification": "The name of temporary variable must be prefixed with Temp."
+        },
+        {
+            "id": "AA0074",
+            "action": "Error",
+            "justification": "TextConst and Label variable names should have an approved suffix."
+        },
+        {
+            "id": "AA0137",
+            "action": "Error",
+            "justification": "Standard only gives notice, better error to avoid leaving garbage behind"
+        },
+        {
+            "id": "AA0150",
+            "action": "Error",
+           "justification": "Do not declare parameters by reference if their values are never changed."
+        },
+        {
+            "id": "AA0175",
+            "action": "Error",
+            "justification": "Only find record if you need to use it."
+        },
+        {
+            "id": "AA0181",
+            "action": "Error",
+            "justification": "The FindSet() or Find() methods must be used only in connection with the Next() method."
+        },
+        {
+            "id": "AA0194",
+            "action": "Error",
+            "justification": "Only write actions that have an effect."
+        },
+        {
+            "id": "AA0198",
+            "action": "Error",
+            "justification": "Do not use identical names for local and global variables."
+        },
+        {
+            "id": "AA0462",
+            "action": "Error",
+            "justification": "The CalcDate should only be used with DataFormula variables. Alternatively the string should be enclosed using the <> symbols."
+        },
+        {
+            "id": "AA0202",
+            "action": "Error",
+            "justification": "To avoid confusion, do not give local variables the same name as fields, methods, or actions in the same scope."
+        },
+        {
+            "id": "AA0203",
+            "action": "Error",
+            "justification": "To avoid confusion, do not give methods the same name as fields or actions in the same scope."
+        },
+        {
+            "id": "AA0204",
+            "action": "Error",
+            "justification": "To avoid confusion, do not give global variables the same name as fields, methods, or actions in the same scope."
+        },
+        {
+            "id": "AA0205",
+            "action": "Error",
+            "justification": "Variables must be initialized before usage."
+        },
+        {
+            "id": "AA0206",
+            "action": "Error",
+            "justification": "The value assigned to a variable must be used."
+        },
+        {
+            "id": "AA0211",
+            "action": "Error",
+            "justification": "Avoids a runtime error from using CalcFields on a field that is not a FlowField or a field of type Blob."
+        },
+        {
+            "id": "AA0225",
+            "action": "Error",
+            "justification": "You must specify a caption in the Caption property for Fields that exist on page objects."
+        },
+        {
+            "id": "AA0226",
+            "action": "Error",
+           "justification": "The value of the Caption property of Fields must be filled in."
+        },
+        {
+            "id": "AA0228",
+            "action": "Error",
+            "justification": "The local method must be used; otherwise removed."
+        },
+        {
+            "id": "AA0231",
+            "action": "Error",
+            "justification": "StrSubstNo or string concatenation must not be used as a parameter in the Error method."
+        },
+        {
+            "id": "AA0233",
+            "action": "Error",
+            "justification": "Use Get(), FindFirst() and FindLast() without Next() method."
+        },
+        {
+            "id": "AA0237",
+            "action": "Error",
+            "justification": "The name of non-temporary variables must not be prefixed with Temp."
+        },
+        {
+            "id": "AA0244",
+            "action": "Error",
+            "justification": "Do not use identical names for parameters and global variables."
+        },
+        {
+            "id": "AA0245",
+            "action": "Error",
+            "justification": "To avoid confusion, do not give parameters the same name as fields, methods, or actions in the same scope."
+        },
+        {
+            "id": "AW0004",
+            "action": "Error",
+            "justification": "A Blob cannot be used as a source expression for a page field."
+        },
+        {
+            "id": "AW0005",
+            "action": "Error",
+            "justification": "Actions should use the Image property."
+        },
+        {
+            "id": "AW0006",
+            "action": "Error",
+            "justification": "Pages and reports should use the UsageCategory and ApplicationArea properties to be searchable."
+        },
+        {
+            "id": "AS0087",
+            "action": "Error",
+            "justification": "Translations of enum value captions must not contain commas"
+        },
+        {
+            "id": "AS0098",
+            "action": "Error",
+            "justification": "An affix is needed."
+        },
+        {
+            "id": "AS0099",
+            "action": "Error",
+            "justification": "The member ID should be within the allowed range"
+        },    
+        {
+            "id": "LC0001",
+            "action": "Error",
+            "justification": "FlowFields should not be editable."
+        },  
+        {
+            "id": "LC0003",
+            "action": "Error",
+            "justification": "Do not use an Object ID for properties or variable declarations"
+        },  
+        {
+            "id": "LC0004",
+            "action": "Error",
+            "justification": "DrillDownPageId and LookupPageId must be filled in table when table is used in list page."
+        },  
+        {
+            "id": "LC0005",
+            "action": "Error",
+            "justification": "The casing of variable/method usage must align with the definition."
+        },  
+        {
+            "id": "LC0008",
+            "action": "Error",
+            "justification": "Filter operators should not be used in SetRange."
+        },  
+        {
+            "id": "LC0011",
+            "action": "Error",
+            "justification": "Every object needs to specify a value for the Access property. Either true or false"
+        },  
+        {
+            "id": "LC0012",
+            "action": "Error",
+            "justification": "Using hardcoded IDs in functions like Codeunit.Run() is not allowed."
+        },  
+        {
+            "id": "LC0013",
+            "action": "Error",
+            "justification": "Any table with a single field in the PK of type code or text, should have set NotBlank on the PK field."
+        },  
+        {
+            "id": "LC0014",
+            "action": "Error",
+            "justification": "The Caption of permissionset objects should not exceed the maximum length."
+        },  
+        {
+            "id": "LC0016",
+            "action": "Error",
+            "justification": "Caption is missing."
+        },  
+        {
+            "id": "LC0017",
+            "action": "Error",
+            "justification": "Write to FlowFields"
+        },  
+        {
+            "id": "LC0018",
+            "action": "Error",
+            "justification": "Events in internal codeunits are not accessible to extensions and should therefore be avoided."
+        },  
+        {
+            "id": "LC0019",
+            "action": "Error",
+            "justification": "If Data Classification is set on the Table. Fields do not need the same classification."
+        },  
+        {
+            "id": "LC0020",
+            "action": "Error",
+            "justification": "If Application Area is set on the TablePage. Controls do not need the same classification."
+        },  
+        {
+            "id": "LC0023",
+            "action": "Error",
+            "justification": "Always provide fieldsgroups DropDown and Brick on tables."
+        },          
+        {
             "id": "AS0084",
             "action": "None",
             "justification": "The ID range assigned to the extension must be within the allowed range"
@@ -10,6 +255,16 @@
             "id": "AA0470",
             "action": "None",
             "justification": "Disabled due to placeholder ext translation problems"
+        },
+        {
+            "id": "AA0232",
+            "action": "None",
+            "justification": "Error rule SIFT https://github.com/MicrosoftDocs/dynamics365smb-devitpro-pb/issues/2549"
+        },
+        {
+            "id": "AS0092",
+            "action": "None",
+            "justification": "At the moment we do not use telemetry"
         }
     ]
 }

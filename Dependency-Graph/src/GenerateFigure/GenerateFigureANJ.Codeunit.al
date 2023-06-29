@@ -11,14 +11,13 @@ codeunit 80804 GenerateFigure_ANJ
     /// <param name="ExtensionScope">Enum ExtensionScope_ANJ.</param>
     /// <param name="Identity">Text.</param>
     /// <param name="AppName">Text.</param>
-    /// <param name="FirstTime">Boolean.</param>
     /// <returns>Return variable ReturnText of type Text.</returns>
-    internal procedure Generate(ExtensionScope: Enum ExtensionScope_ANJ; Identity: Text; AppName: Text; FirstTime: Boolean) ReturnText: Text;
+    internal procedure Generate(ExtensionScope: Enum ExtensionScope_ANJ; Identity: Text; AppName: Text) ReturnText: Text;
     var
         IsHandled: Boolean;
     begin
-        OnBeforeGenerate(ExtensionScope, Identity, AppName, FirstTime, IsHandled);
-        ReturnText := DoGenerate(ExtensionScope, Identity, AppName, FirstTime, IsHandled);
+        OnBeforeGenerate(ExtensionScope, Identity, AppName, IsHandled);
+        ReturnText := DoGenerate(ExtensionScope, Identity, AppName, IsHandled);
         OnAfterGenerate(ReturnText);
     end;
 
@@ -28,18 +27,14 @@ codeunit 80804 GenerateFigure_ANJ
     /// <param name="ExtensionScope">Enum ExtensionScope_ANJ.</param>
     /// <param name="Identity">Text.</param>
     /// <param name="AppName">Text.</param>
-    /// <param name="FirstTime">Boolean.</param>
     /// <param name="IsHandled">Boolean.</param>
     /// <returns>Return value of type Text.</returns>
-    local procedure DoGenerate(ExtensionScope: Enum ExtensionScope_ANJ; Identity: Text; AppName: Text; FirstTime: Boolean; IsHandled: Boolean): Text;
+    local procedure DoGenerate(ExtensionScope: Enum ExtensionScope_ANJ; Identity: Text; AppName: Text; IsHandled: Boolean): Text;
     begin
         if IsHandled then
             exit;
 
-        if FirstTime then
-            exit(GenerateFullFigure(ExtensionScope, Identity, AppName));
-
-        exit(Identity);
+        exit(GenerateFullFigure(ExtensionScope, Identity, AppName));
     end;
 
     /// <summary>
@@ -54,19 +49,20 @@ codeunit 80804 GenerateFigure_ANJ
         FigureInGraph: Interface FigureInGraph_ANJ;
     begin
         FigureInGraph := GetGeometricFigure(ExtensionScope);
+
         exit(FigureInGraph.GenerateFigureText(Identity, AppName));
     end;
 
     /// <summary>
     /// GetGeometricFigure.
     /// </summary>
-    /// <param name="ExtensionScope">Enum ExtensionScope_ANJ.</param>
-    /// <returns>Return variable GeometricFigure of type Enum GeometricFigure_ANJ.</returns>
     local procedure GetGeometricFigure(ExtensionScope: Enum ExtensionScope_ANJ) GeometricFigure: Enum GeometricFigure_ANJ;
     var
         DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
     begin
         DependencyGraphSetup.SetLoadFields(ScopePTEFigure, ScopeGlobalFigure, ScopeDevFigure);
+        DependencyGraphSetup.GetInstance();
+
         case ExtensionScope of
             ExtensionScope::PTE:
                 GeometricFigure := DependencyGraphSetup.ScopePTEFigure;
@@ -78,7 +74,7 @@ codeunit 80804 GenerateFigure_ANJ
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeGenerate(ExtensionScope: Enum ExtensionScope_ANJ; Identity: Text; AppName: Text; FirstTime: Boolean; var IsHandled: Boolean);
+    local procedure OnBeforeGenerate(ExtensionScope: Enum ExtensionScope_ANJ; Identity: Text; AppName: Text; var IsHandled: Boolean);
     begin
     end;
 

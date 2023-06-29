@@ -22,6 +22,11 @@ table 80801 Extensions_ANJ
         field(3; DisplayName; Text[2048])
         {
             Caption = 'Display Name', comment = 'ESP="Nombre para mostrar"';
+
+            trigger OnValidate()
+            begin
+                UpdateFigure();
+            end;
         }
         field(4; Publisher; Text[2048])
         {
@@ -34,10 +39,19 @@ table 80801 Extensions_ANJ
         field(6; Identity; Text[2048])
         {
             Caption = 'Identity', comment = 'ESP="Identidad"';
+
+            trigger OnValidate()
+            begin
+                UpdateFigure();
+            end;
         }
         field(7; ShowInGraph; Boolean)
         {
             Caption = 'Show In Graph', comment = 'ESP="Mostrar en gráfico"';
+        }
+        field(8; Figure; Text[2048])
+        {
+            Caption = 'Figure', comment = 'ESP="Figura"';
         }
     }
     keys
@@ -56,4 +70,15 @@ table 80801 Extensions_ANJ
         {
         }
     }
+
+    /// <summary>
+    /// UpdateFigure
+    /// </summary>
+    internal procedure UpdateFigure()
+    begin
+        Validate(Figure, GenerateFigure.Generate(PublishedAs, Identity, DisplayName));
+    end;
+
+    var
+        GenerateFigure: Codeunit GenerateFigure_ANJ;
 }

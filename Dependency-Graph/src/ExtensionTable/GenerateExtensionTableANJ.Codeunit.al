@@ -120,7 +120,7 @@ codeunit 80805 GenerateExtensionTable_ANJ
     /// GetTenantId.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    local procedure GetTenantId(): Text
+    local procedure GetTenantId(): Text;
     begin
         exit(AzureADTenant.GetAadTenantId());
     end;
@@ -245,6 +245,7 @@ codeunit 80805 GenerateExtensionTable_ANJ
         if not ResponseJsonArray.ReadFrom(JsonValueArry) then
             Error(ReadingJsonErr);
 
+        NumberSequenceMgmt.Initialize();
         foreach SingleJsonObject in ResponseJsonArray do
             InsertTableLines(SingleJsonObject);
     end;
@@ -253,7 +254,7 @@ codeunit 80805 GenerateExtensionTable_ANJ
     /// OnBeforeGenerateExtensionTable.
     /// </summary>
     /// <param name="SingleJsonObject">JsonToken.</param>
-    local procedure InsertTableLines(SingleJsonObject: JsonToken)
+    local procedure InsertTableLines(SingleJsonObject: JsonToken);
     var
         Extensions: Record Extensions_ANJ;
         AppID: Guid;
@@ -285,13 +286,14 @@ codeunit 80805 GenerateExtensionTable_ANJ
                 Extensions.Validate(PublishedAs, Enum::ExtensionScope_ANJ::Dev);
         end;
 
+        Extensions.Validate(Identity, NumberSequenceMgmt.GetNextNo());
         Extensions.Modify(true);
     end;
 
     /// <summary>
     /// UpdateSetupTable.
     /// </summary>
-    local procedure UpdateSetupTable()
+    local procedure UpdateSetupTable();
     var
         DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
     begin
@@ -304,7 +306,7 @@ codeunit 80805 GenerateExtensionTable_ANJ
     /// <summary>
     /// ShowMessage.
     /// </summary>
-    local procedure ShowMessage()
+    local procedure ShowMessage();
     begin
         if GuiAllowed() then
             Message(ProcessFinishMsg);
@@ -322,6 +324,7 @@ codeunit 80805 GenerateExtensionTable_ANJ
 
     var
         AzureADTenant: Codeunit "Azure AD Tenant";
+        NumberSequenceMgmt: Codeunit NumberSequenceMgmt_ANJ;
         AccessTokenLbl: Label 'access_token';
         AccessTokenUrlLbl: Label 'https://login.microsoftonline.com/%1/oauth2/v2.0/token';
         AuthorizationLbl: Label 'Authorization';

@@ -105,6 +105,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field DisplayName - Property Caption</note>
           <target>Nombre para mostrar</target>
         </trans-unit>
+        <trans-unit id="Table 3141127244 - Field 1769173142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Figure</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Figura"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field Figure - Property Caption</note>
+          <target>Figura</target>
+        </trans-unit>
         <trans-unit id="Table 3141127244 - Field 1205006834 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Identity</source>
           <note from="Developer" annotates="general" priority="2">ESP="Identidad"</note>
@@ -259,6 +265,16 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType WSStatusCodeErr</note>
           <target>Error - Código: %1  Descripción: %2</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1763311423 - NamedType 4264074168" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E%1</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NumberSequenceMgmt_ANJ - NamedType IdentityLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1763311423 - NamedType 1061624939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DependencyGraph</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NumberSequenceMgmt_ANJ - NamedType NumberSequenceNameLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 4211792102 - NamedType 48672636" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1{%2}</source>
           <note from="Developer" annotates="general" priority="2"/>
@@ -399,6 +415,12 @@
           <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Nombre para mostrar"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control DisplayName - Property ToolTip</note>
           <target>Especifica el valor del campo Nombre para mostrar</target>
+        </trans-unit>
+        <trans-unit id="Page 3141127244 - Control 1769173142 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Figure field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Figura"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control Figure - Property ToolTip</note>
+          <target>Especifica el valor del campo Figura</target>
         </trans-unit>
         <trans-unit id="Page 3141127244 - Control 1205006834 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Identity field.</source>

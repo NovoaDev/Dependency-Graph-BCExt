@@ -3,6 +3,7 @@
 /// </summary>
 enum 80800 GeometricFigure_ANJ implements FigureInGraph_ANJ
 {
+    Access = Public;
     Caption = 'Geometric Figure', Comment = 'ESP="Figura Geométrica"';
     Extensible = true;
 
