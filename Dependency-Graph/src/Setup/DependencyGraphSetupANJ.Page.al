@@ -44,28 +44,28 @@ page 80800 DependencyGraphSetup_ANJ
                     ToolTip = 'Specifies the value of the Scope Dev Figure field.', Comment = 'ESP="Especifica el valor del campo Figura Ext. Dev"';
                 }
             }
-            group(GraphicGeneration)
+            group(Include)
             {
-                Caption = 'Graphic Generation', comment = 'ESP="Generación de gráfico"';
+                Caption = 'Include', comment = 'ESP="Incluir"';
 
-                group(Include)
+                field(IncludeMicrosoftApps; Rec.IncludeMicrosoftApps)
                 {
-                    Caption = 'Include', comment = 'ESP="Incluir"';
-
-                    field(IncludeMicrosoftApps; Rec.IncludeMicrosoftApps)
-                    {
-                        Caption = 'Microsoft Apps', Comment = 'ESP="Aplicaciones de Microsoft"';
-                        ToolTip = 'Specifies the value of the Include Microsoft Apps field.', Comment = 'ESP="Especifica el valor del campo Incluir aplicaciones de Microsoft"';
-                    }
-                    field(IncludeLinkText; Rec.IncludeLinkText)
-                    {
-                        Caption = 'Link text', Comment = 'ESP="Texto de enlace"';
-                        ToolTip = 'Specifies the value of the Include Link text field.', Comment = 'ESP="Especifica el valor del campo Incluir texto de enlace"';
-                    }
+                    Caption = 'Microsoft Apps', Comment = 'ESP="Aplicaciones de Microsoft"';
+                    ToolTip = 'Specifies the value of the Include Microsoft Apps field.', Comment = 'ESP="Especifica el valor del campo Incluir aplicaciones de Microsoft"';
                 }
-                group(LastGeneration)
+                field(IncludeLinkText; Rec.IncludeLinkText)
                 {
-                    Caption = 'Last Generation', comment = 'ESP="Última generación"';
+                    Caption = 'Link text', Comment = 'ESP="Texto de enlace"';
+                    ToolTip = 'Specifies the value of the Include Link text field.', Comment = 'ESP="Especifica el valor del campo Incluir texto de enlace"';
+                }
+            }
+            group(LastGeneration)
+            {
+                Caption = 'Last Generation', comment = 'ESP="Última generación"';
+
+                group(Tables)
+                {
+                    Caption = 'Tables', comment = 'ESP="Tablas"';
 
                     field(DateLastGeneration; Rec.DateLastGeneration)
                     {
@@ -73,6 +73,21 @@ page 80800 DependencyGraphSetup_ANJ
                         ToolTip = 'Specifies the value of the Date Last Generation field.', Comment = 'ESP="Especifica el valor del campo Fecha última generación"';
                     }
                     field(TimeLastGeneration; Rec.TimeLastGeneration)
+                    {
+                        Editable = false;
+                        ToolTip = 'Specifies the value of the Time Last Generation field.', Comment = 'ESP="Especifica el valor del campo Hora última generación"';
+                    }
+                }
+                group(Markdown)
+                {
+                    Caption = 'Markdown', comment = 'ESP="Markdown"';
+
+                    field(DateLastGenerationMarkdown; Rec.DateLastGenerationMarkdown)
+                    {
+                        Editable = false;
+                        ToolTip = 'Specifies the value of the Date Last Generation field.', Comment = 'ESP="Especifica el valor del campo Fecha última generación"';
+                    }
+                    field(TimeLastGenerationMarkdown; Rec.TimeLastGenerationMarkdown)
                     {
                         Editable = false;
                         ToolTip = 'Specifies the value of the Time Last Generation field.', Comment = 'ESP="Especifica el valor del campo Hora última generación"';
