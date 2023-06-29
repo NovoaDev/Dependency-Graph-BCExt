@@ -2,7 +2,6 @@ permissionset 80800 DependencyGraph_ANJ
 {
     Access = Public;
     Assignable = true;
-
     Permissions = tabledata DependencyGraphSetup_ANJ = RIMD,
         table DependencyGraphSetup_ANJ = X,
         codeunit CircleIMP_ANJ = X,
@@ -16,5 +15,10 @@ permissionset 80800 DependencyGraph_ANJ
         page Extensions_ANJ = X,
         codeunit GenerateExtensionTable_ANJ = X,
         page ShowInGraph_ANJ = X,
-        codeunit NumberSequenceMgmt_ANJ = X;
+        codeunit NumberSequenceMgmt_ANJ = X,
+        tabledata Relations_ANJ = RIMD,
+        table Relations_ANJ = X,
+        page Relations_ANJ = X,
+        codeunit GenerateTables_ANJ = X,
+        codeunit GenerateRelationsTable_ANJ = X;
 }

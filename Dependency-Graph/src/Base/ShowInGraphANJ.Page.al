@@ -15,13 +15,16 @@ page 80802 ShowInGraph_ANJ
             part(Extensions_ANJ; Extensions_ANJ)
             {
             }
+            part(Relations_ANJ; Relations_ANJ)
+            {
+            }
         }
     }
     actions
     {
         area(Processing)
         {
-            action(GenerateTables)
+            action(GenTables)
             {
                 ApplicationArea = All;
                 Caption = 'Generate Tables', comment = 'ESP="Generar tablas"';
@@ -33,12 +36,12 @@ page 80802 ShowInGraph_ANJ
 
                 trigger OnAction()
                 begin
-                    GenerateExtensionTable.Generate();
+                    GenerateTables.Generate(false);
                 end;
             }
         }
     }
 
     var
-        GenerateExtensionTable: Codeunit GenerateExtensionTable_ANJ;
+        GenerateTables: Codeunit GenerateTables_ANJ;
 }
