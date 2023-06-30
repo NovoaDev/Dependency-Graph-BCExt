@@ -1,4 +1,4 @@
-# Dependency Graph BCExt
+# Dependency Graph BCExt 
 [![en](https://img.shields.io/badge/lang-en-pink.svg)](https://github.com/NovoaDev/Dependency-Graph-BCExt/blob/main/README.md)
 [![es](https://img.shields.io/badge/lang-es-black.svg)](https://github.com/NovoaDev/Dependency-Graph-BCExt/blob/main/README.es-ES.md)
 
