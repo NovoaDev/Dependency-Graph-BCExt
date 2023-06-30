@@ -8,6 +8,7 @@ codeunit 80809 MarkdownMgmt_ANJ
     /// <summary>
     /// GenerateGraph.
     /// </summary>
+    /// <param name="CompleteForMarkdown">Boolean.</param>
     internal procedure GenerateGraph(CompleteForMarkdown: Boolean);
     var
         IsHandled: Boolean;

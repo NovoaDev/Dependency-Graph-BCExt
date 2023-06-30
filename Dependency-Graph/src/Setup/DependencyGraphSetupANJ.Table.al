@@ -1,3 +1,6 @@
+/// <summary>
+/// Table DependencyGraphSetup_ANJ (ID 80800).
+/// </summary>
 table 80800 DependencyGraphSetup_ANJ
 {
     Access = Internal;
