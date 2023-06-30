@@ -57,7 +57,7 @@ A new page will open where we can see the graph as a draft. The graph will be ge
 ### Download Markdown as .md
 Download a .md file with the graph content for easy integration into any document.
 
-![5DPDownload](/res/5DPDownload)
+![5DPDownload](/res/5DPDownload.png)
 
 **Note:** <br>
 Both for the action of viewing and downloading the graph, it will be generated using data from the subparts marked with the "show in graph" boolean.

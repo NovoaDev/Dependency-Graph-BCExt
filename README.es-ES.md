@@ -57,7 +57,7 @@ Se abrirá una nueva página donde podremos ver el gráfico como borrador. El gr
 ### Descargar Markdown como un .md
 Descargará un archivo .md con el contenido del gráfico para agregarlo fácilmente a cualquier documento.
 
-![5DPDownload](/res/5DPDownload)
+![5DPDownload](/res/5DPDownload.png)
 
 **Nota:** <br>
 Tanto para la acción de visualizar como para descargar el gráfico, se generará con los datos que se encuentren en las subpartes marcadas con el booleano "mostrar en gráfico".
