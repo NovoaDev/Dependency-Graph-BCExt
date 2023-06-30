@@ -6,8 +6,18 @@
   ],
   "TESTING_AuthContextSecretName": "DEVELOPMENT_AUTHCONTEXT",
   "PRODUCTION_AuthContextSecretName": "DEVELOPMENT_AUTHCONTEXT",
-  "appFolders": [],
-  "testFolders": [],
-  "bcptTestFolders": [],
-  "repoVersion": "3.5"
+  "repoVersion": "3.5",
+  "doNotRunBCPTTests":  true,
+  "doNotSignApps": true,
+  "enableCodeCop": true,
+  "enableUICop": true,
+  "enablePerTenantExtensionCop": true,
+  "enableAppSourceCop":true,
+  "AppSourceCopMandatoryAffixes":  [
+    "_ANJ"
+  ],
+  "customCodeCops":  [
+    ".github/BusinessCentral.LinterCop.current.dll"
+  ],
+  "rulesetFile": "Dependency-Graph/.vscode/ruleset.json"
 }
