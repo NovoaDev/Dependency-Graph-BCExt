@@ -1,6 +1,6 @@
 # Dependency Graph BCExt
 [![en](https://img.shields.io/badge/lang-en-pink.svg)](https://github.com/NovoaDev/Dependency-Graph-BCExt/blob/main/README.md)
-[![es](https://img.shields.io/badge/lang-es-black.svg)](https://github.com/NovoaDev/Dependency-Graph-BCExt/blob/main/README..md)
+[![es](https://img.shields.io/badge/lang-es-black.svg)](https://github.com/NovoaDev/Dependency-Graph-BCExt/blob/main/README.es-ES.md)
 
 Small extension created out of curiosity, for practice and experimentation, while simultaneously solving a "problem" I face every day at work: knowing the dependencies of each client's environment and adding the graph to the markdown, among other things. There may be many better solutions available.
 
@@ -56,6 +56,8 @@ A new page will open where we can see the graph as a draft. The graph will be ge
 
 ### Download Markdown as .md
 Download a .md file with the graph content for easy integration into any document.
+
+![5DPDownload](/res/5DPDownload)
 
 **Note:** <br>
 Both for the action of viewing and downloading the graph, it will be generated using data from the subparts marked with the "show in graph" boolean.
