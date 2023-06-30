@@ -5,6 +5,9 @@
     },
     {
       "path": "Dependency-Graph"
+    },
+    {
+      "path": "Dependency-Graph.Test"
     }
   ],
   "settings": {}
