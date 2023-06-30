@@ -319,7 +319,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType Header1Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 740515698 - NamedType 1609892177" size-unit="char" translate="yes" xml:space="preserve">
-          <source>graph TB</source>
+          <source>graph BT</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType Header2Lbl</note>
         </trans-unit>

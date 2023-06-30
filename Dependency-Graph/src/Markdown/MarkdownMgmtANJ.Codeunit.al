@@ -187,6 +187,6 @@ codeunit 80809 MarkdownMgmt_ANJ
         FileNameLbl: Label 'DependencyGraph.md';
         FooterLbl: Label '```';
         Header1Lbl: Label '```mermaid';
-        Header2Lbl: Label 'graph TB';
+        Header2Lbl: Label 'graph BT';
         LinkArrowLbl: Label ' -- %1 --> ';
 }
