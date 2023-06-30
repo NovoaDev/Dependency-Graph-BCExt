@@ -6,7 +6,7 @@ codeunit 80806 NumberSequenceMgmt_ANJ
     Access = Public;
 
     /// <summary>
-    /// DoBuildIdentity.
+    /// GetNextNo.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
     internal procedure GetNextNo() NewIdentity: Text;

@@ -216,7 +216,7 @@ codeunit 80805 GenerateExtensionTable_ANJ
     end;
 
     /// <summary>
-    /// /// GetResponseMessageText.
+    /// GetResponseMessageText.
     /// </summary>
     /// <param name="ResponseHttpResponseMessage">VAR HttpResponseMessage.</param>
     /// <param name="ResponseText">VAR Text.</param>
@@ -247,7 +247,7 @@ codeunit 80805 GenerateExtensionTable_ANJ
     end;
 
     /// <summary>
-    /// OnBeforeGenerateExtensionTable.
+    /// InsertTableLines.
     /// </summary>
     /// <param name="SingleJsonObject">JsonToken.</param>
     local procedure InsertTableLines(SingleJsonObject: JsonToken);

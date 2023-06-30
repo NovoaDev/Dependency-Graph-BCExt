@@ -27,7 +27,7 @@ codeunit 80807 GenerateTables_ANJ
     end;
 
     /// <summary>
-    /// DoGenerateTables.
+    /// ConfirmGenerateTables.
     /// </summary>
     /// <param name="HideDialog">Boolean.</param>
     /// <returns>Return value of type Boolean.</returns>
@@ -39,7 +39,7 @@ codeunit 80807 GenerateTables_ANJ
     end;
 
     /// <summary>
-    /// AcknowledgeGenerateTables.
+    /// DoGenerateTables.
     /// </summary>
     /// <param name="IsHandled">Boolean.</param>
     local procedure DoGenerateTables(IsHandled: Boolean);

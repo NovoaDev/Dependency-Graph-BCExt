@@ -81,7 +81,7 @@ codeunit 80808 GenerateRelationsTable_ANJ
     end;
 
     /// <summary>
-    /// CheckExtensionShowInGraph.
+    /// CheckDestinationAppIDShowInGraph.
     /// </summary>
     /// <param name="AppID">Guid.</param>
     /// <returns>Return value of type Boolean.</returns>
@@ -95,7 +95,7 @@ codeunit 80808 GenerateRelationsTable_ANJ
     end;
 
     /// <summary>
-    /// GetNewRelationsLineNo.
+    /// InsertNewRelation.
     /// /// </summary>
     /// <returns>Return variable NewRelationsLine of type Integer.</returns>
     local procedure InsertNewRelation(SourceAppID: Guid; DestinationAppID: Guid);

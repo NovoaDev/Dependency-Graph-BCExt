@@ -71,6 +71,8 @@ codeunit 80804 GenerateFigure_ANJ
     /// <summary>
     /// GetGeometricFigure.
     /// </summary>
+    /// <param name="ExtensionScope">Enum ExtensionScope_ANJ.</param>
+    /// <returns>Return variable GeometricFigure of type Enum GeometricFigure_ANJ.</returns>
     local procedure GetGeometricFigure(ExtensionScope: Enum ExtensionScope_ANJ) GeometricFigure: Enum GeometricFigure_ANJ;
     var
         DependencyGraphSetup: Record DependencyGraphSetup_ANJ;

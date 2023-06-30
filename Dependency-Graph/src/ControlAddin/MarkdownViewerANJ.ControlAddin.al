@@ -9,7 +9,7 @@ controladdin MarkdownViewer_ANJ
     VerticalStretch = true;
 
     /// <summary>
-    /// Render.
+    /// Ready.
     /// </summary>
     event Ready();
 
