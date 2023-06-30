@@ -30,7 +30,7 @@ Cambiar estado a **activado** <br>
 **Conceder consentimiento** <br>
 ![1AADBC](/res/1AADBCes-ES.png)
 
-## página configuración del gráfico de dependencia
+## Página configuración del gráfico de dependencia
 ![2DGSetup](/res/2DGSetupes-ES.png)
 - Registros de aplicaciones - **Azure** <br>
 Configuración del ID de Registro en **Azure** necesario para el funcionamiento.
@@ -49,7 +49,7 @@ Histórico.
 - Gráfico de dependencia <br>
 Acción para acceder a la página de generación de datos para el gráfico.
 
-## página mostrar en gráfico de dependencia
+## Página mostrar en gráfico de dependencia
 ![3ShowInDG](/res/3ShowInDGes-ES.png)
 ### Subpágina Extensiones 
 Lista de extensiones instaladas. Podremos modificar el campo **Nombre para mostrar** y **Mostrar en gráfico**. Cada vez que desmarquemos la opción **Mostrar en gráfico** de una extensión con dependencias, tendremos que generar nuevamente los datos de la tabla de relaciones. Esto se realiza mediante la acción de la subpágina llamada **Actualizar la tabla de relaciones**.
