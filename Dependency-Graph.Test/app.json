@@ -3,13 +3,14 @@
   "name": "Dependency-Graph.Test",
   "publisher": "ANJ",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
+  "brief": "App to test Dependency-Graph",
+  "description": "App to test Dependency-Graph",
+  "privacyStatement": "https://github.com/NovoaDev/Dependency-Graph-BCExt",
+  "EULA": "https://github.com/NovoaDev/Dependency-Graph-BCExt",
+  "help": "https://github.com/NovoaDev/Dependency-Graph-BCExt",
+  "url": "https://github.com/NovoaDev/Dependency-Graph-BCExt",
+  "logo": "res/logo.png",
+  "contextSensitiveHelpUrl": "https://github.com/NovoaDev/Dependency-Graph-BCExt",
   "dependencies": [
     {
       "publisher": "Microsoft",
@@ -22,6 +23,12 @@
       "name": "Any",
       "id": "e7320ebb-08b3-4406-b1ec-b4927d3e280b",
       "version": "22.0.0.0"
+    },
+    {
+      "id": "3c9a4c22-42f6-4e8f-8b96-744c7fef331f",
+      "name": "Dependency-Graph",
+      "publisher": "ANJ",
+      "version": "3.6.0.0"
     }
   ],
   "screenshots": [],
@@ -34,11 +41,13 @@
     }
   ],
   "features": [
-    "NoImplicitWith"
+    "NoImplicitWith",
+    "TranslationFile"
   ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
     "allowDownloadingSource": false,
     "includeSourceInSymbolFile": false
-  }
+  },
+  "runtime": "11.0"
 }

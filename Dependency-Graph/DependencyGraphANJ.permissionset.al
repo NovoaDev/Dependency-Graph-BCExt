@@ -22,5 +22,6 @@ permissionset 80800 DependencyGraph_ANJ
         codeunit GenerateTables_ANJ = X,
         codeunit GenerateRelationsTable_ANJ = X,
         codeunit MarkdownMgmt_ANJ = X,
-        page MarkdownViewer_ANJ = X;
+        page MarkdownViewer_ANJ = X,
+        codeunit DependencyGraphFacade_ANJ = X;
 }

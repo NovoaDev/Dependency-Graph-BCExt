@@ -3,9 +3,9 @@
 /// </summary>
 enum 80801 ExtensionScope_ANJ
 {
-    Access = Internal;
+    Access = Public;
     Caption = 'Extension Scope', Comment = 'ESP="Alcance de la extensión"';
-    Extensible = true;
+    Extensible = false;
 
     value(0; PTE)
     {
