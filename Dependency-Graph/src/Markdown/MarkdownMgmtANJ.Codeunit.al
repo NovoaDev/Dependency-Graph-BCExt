@@ -8,13 +8,12 @@ codeunit 80809 MarkdownMgmt_ANJ
     /// <summary>
     /// GenerateGraph.
     /// </summary>
-    /// <param name="CompleteForMarkdown">Boolean.</param>
-    internal procedure GenerateGraph(CompleteForMarkdown: Boolean);
+    internal procedure GenerateGraph();
     var
         IsHandled: Boolean;
     begin
         OnBeforeGenerateMarkdown(IsHandled);
-        DoGenerateMarkdown(IsHandled, CompleteForMarkdown);
+        DoGenerateMarkdown(IsHandled);
         OnAfterGenerateMarkdown();
     end;
 
@@ -22,23 +21,16 @@ codeunit 80809 MarkdownMgmt_ANJ
     /// DoGenerateMarkdown.
     /// </summary>
     /// <param name="IsHandled">Boolean.</param>
-    /// <param name="CompleteForMarkdown">Boolean.</param>
-    local procedure DoGenerateMarkdown(IsHandled: Boolean; CompleteForMarkdown: Boolean);
+    local procedure DoGenerateMarkdown(IsHandled: Boolean);
     var
         GrapTextBuilder: TextBuilder;
     begin
         if IsHandled then
             exit;
 
-        if CompleteForMarkdown then
-            GrapTextBuilder.AppendLine(Header1Lbl);
         GrapTextBuilder.AppendLine(Header2Lbl);
-
         InsertRelationships(GrapTextBuilder);
         InsertAppWithoutRelationships(GrapTextBuilder);
-
-        if CompleteForMarkdown then
-            GrapTextBuilder.AppendLine(FooterLbl);
 
         UpdateSetupTable(GrapTextBuilder.ToText())
     end;
@@ -123,12 +115,18 @@ codeunit 80809 MarkdownMgmt_ANJ
     local procedure UpdateSetupTable(MarkDownText: Text);
     var
         DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
+        GraphTextBuilder: TextBuilder;
     begin
         if MarkDownText = '' then
             exit;
 
+        GraphTextBuilder.AppendLine(Header1Lbl);
+        GraphTextBuilder.AppendLine(MarkDownText);
+        GraphTextBuilder.AppendLine(FooterLbl);
+
         DependencyGraphSetup.GetInstance();
-        DependencyGraphSetup.SetMarkdown(MarkDownText);
+        DependencyGraphSetup.SetMarkdown(GraphTextBuilder.ToText(), DependencyGraphSetup.FieldNo(Markdown));
+        DependencyGraphSetup.SetMarkdown(MarkDownText, DependencyGraphSetup.FieldNo(MarkdownMermaid));
         DependencyGraphSetup.Validate(DateLastGenerationMarkdown, Today());
         DependencyGraphSetup.Validate(TimeLastGenerationMarkdown, Time());
         DependencyGraphSetup.Modify(true);
@@ -158,17 +156,24 @@ codeunit 80809 MarkdownMgmt_ANJ
     /// <summary>
     /// GetMarkdown.
     /// </summary>
+    /// <param name="FieldNo">Integer.</param>
     /// <returns>Return value of type Text.</returns>
-    internal procedure GetMarkdown(): Text;
+    internal procedure GetMarkdown(FieldNo: Integer): Text;
     var
         DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
         AuxInStream: InStream;
         AuxText: Text;
     begin
-        DependencyGraphSetup.SetLoadFields(Markdown);
-        DependencyGraphSetup.SetAutoCalcFields(Markdown);
+        DependencyGraphSetup.SetLoadFields(Markdown, MarkdownMermaid);
+        DependencyGraphSetup.SetAutoCalcFields(Markdown, MarkdownMermaid);
         DependencyGraphSetup.GetInstance();
-        DependencyGraphSetup.Markdown.CreateInStream(AuxInStream);
+        case FieldNo of
+            DependencyGraphSetup.FieldNo(Markdown):
+                DependencyGraphSetup.Markdown.CreateInStream(AuxInStream);
+            DependencyGraphSetup.FieldNo(MarkdownMermaid):
+                DependencyGraphSetup.MarkdownMermaid.CreateInStream(AuxInStream);
+        end;
+
         AuxInStream.Read(AuxText);
         exit(AuxText);
     end;

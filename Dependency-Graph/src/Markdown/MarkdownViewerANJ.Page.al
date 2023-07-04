@@ -5,7 +5,7 @@ page 80804 MarkdownViewer_ANJ
 {
     ApplicationArea = All;
     Caption = 'Markdown Viewer', comment = 'ESP="Markdown Viewer"';
-    PageType = Card;
+    PageType = CardPart;
     UsageCategory = None;
 
     layout
@@ -17,21 +17,38 @@ page 80804 MarkdownViewer_ANJ
             }
         }
     }
+    actions
+    {
+        area(Processing)
+        {
+            action(GenerateMarkdown)
+            {
+                ApplicationArea = All;
+                Caption = 'Display dependency graph', comment = 'ESP="Visualizar gráfico de dependencia"';
+                Image = View;
+                ToolTip = 'Executes the Display dependency graph action.', Comment = 'ESP="Ejecuta la acción Visualizar gráfico de dependencia"';
+
+                trigger OnAction()
+                begin
+                    Page.Run(Page::MarkdownViewerFull_ANJ);
+                end;
+            }
+        }
+    }
 
     trigger OnAfterGetCurrRecord()
     begin
-        CurrPage.MarkdownViewer_ANJ.Draw(MarkdownMgmt.GetMarkdown());
+        CurrPage.MarkdownViewer_ANJ.Draw(Markdown);
     end;
-
     /// <summary>
     /// Draw.
     /// </summary>
-    /// <param name="Markdown">Text.</param>
-    procedure Draw(Markdown: Text)
+    /// <param name="AuxMarkdown">Text.</param>
+    internal procedure SetMarkdown(AuxMarkdown: Text)
     begin
-        CurrPage.MarkdownViewer_ANJ.Draw(Markdown);
+        Markdown := AuxMarkdown;
     end;
 
     var
-        MarkdownMgmt: Codeunit MarkdownMgmt_ANJ;
+        Markdown: Text;
 }

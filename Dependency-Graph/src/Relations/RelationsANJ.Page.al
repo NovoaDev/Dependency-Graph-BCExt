@@ -24,6 +24,11 @@ page 80803 Relations_ANJ
                 field(LinkText; Rec.LinkText)
                 {
                     ToolTip = 'Specifies the value of the Link Text field.', Comment = 'ESP="Especifica el valor del campo Texto de enlace"';
+
+                    trigger OnValidate()
+                    begin
+                        CurrPage.Update(true);
+                    end;
                 }
                 field(DestinationAppName; Rec.DestinationAppName)
                 {
@@ -32,6 +37,11 @@ page 80803 Relations_ANJ
                 field(ShowInGraph; Rec.ShowInGraph)
                 {
                     ToolTip = 'Specifies the value of the Show In Graph field.', Comment = 'ESP="Especifica el valor del campo Mostrar en gráfico"';
+
+                    trigger OnValidate()
+                    begin
+                        CurrPage.Update(true);
+                    end;
                 }
             }
         }
