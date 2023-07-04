@@ -25,6 +25,11 @@ page 80801 Extensions_ANJ
                 field(DisplayName; Rec.DisplayName)
                 {
                     ToolTip = 'Specifies the value of the Display Name field.', Comment = 'ESP="Especifica el valor del campo Nombre para mostrar"';
+
+                    trigger OnValidate()
+                    begin
+                        DoGenerateRelationsTable();
+                    end;
                 }
                 field(Publisher; Rec.Publisher)
                 {
@@ -36,33 +41,15 @@ page 80801 Extensions_ANJ
                     Editable = false;
                     ToolTip = 'Specifies the value of the Published As field.', Comment = 'ESP="Especifica el valor del campo Publicado como"';
                 }
-                field(Identity; Rec.Identity)
-                {
-                    Editable = false;
-                    ToolTip = 'Specifies the value of the Identity field.', Comment = 'ESP="Especifica el valor del campo Identidad"';
-                }
                 field(ShowInGraph; Rec.ShowInGraph)
                 {
                     ToolTip = 'Specifies the value of the ShowInGraph field.', Comment = 'ESP="Especifica el valor del campo Mostrar en gráfico"';
-                }
-            }
-        }
-    }
-    actions
-    {
-        area(Processing)
-        {
-            action(GenTables)
-            {
-                ApplicationArea = All;
-                Caption = 'Update Relations Table', comment = 'ESP="Actualizar tabla de relaciones"';
-                Image = Relationship;
-                ToolTip = 'Executes the Update Relations Table action.', Comment = 'ESP="Ejecuta la acción Actualizar tabla de relaciones"';
 
-                trigger OnAction()
-                begin
-                    DoGenerateRelationsTable();
-                end;
+                    trigger OnValidate()
+                    begin
+                        DoGenerateRelationsTable();
+                    end;
+                }
             }
         }
     }
@@ -72,8 +59,10 @@ page 80801 Extensions_ANJ
     /// </summary>
     local procedure DoGenerateRelationsTable()
     begin
+        CurrPage.SaveRecord();
         GenerateRelationsTable.CleanRelationsTable();
         GenerateRelationsTable.Generate();
+        CurrPage.Update(false);
     end;
 
     var

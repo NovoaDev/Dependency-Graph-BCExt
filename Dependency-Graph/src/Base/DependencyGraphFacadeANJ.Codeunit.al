@@ -71,19 +71,19 @@ codeunit 80810 DependencyGraphFacade_ANJ
     /// <summary>
     /// GenerateGraph.
     /// </summary>
-    /// <param name="CompleteForMarkdown">Boolean.</param>
-    procedure GenerateGraph(CompleteForMarkdown: Boolean);
+    procedure GenerateGraph();
     begin
-        MarkdownMgmt.GenerateGraph(CompleteForMarkdown);
+        MarkdownMgmt.GenerateGraph();
     end;
 
     /// <summary>
     /// GetMarkdownText.
     /// </summary>
+    /// <param name="FieldNo">Integer.</param>
     /// <returns>Return value of type Text.</returns>
-    procedure GetMarkdownText(): Text;
+    procedure GetMarkdownText(FieldNo: Integer): Text;
     begin
-        exit(MarkdownMgmt.GetMarkdown());
+        exit(MarkdownMgmt.GetMarkdown(FieldNo));
     end;
     #endregion
 

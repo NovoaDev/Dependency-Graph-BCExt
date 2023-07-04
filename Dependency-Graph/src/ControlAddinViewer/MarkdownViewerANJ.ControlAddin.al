@@ -4,9 +4,10 @@
 controladdin MarkdownViewer_ANJ
 {
     HorizontalStretch = true;
-    Scripts = 'src\ControlAddin\Scripts.js', 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/9.3.0/mermaid.min.js';
-    StartupScript = 'src\ControlAddin\Start.js';
+    Scripts = 'src\ControlAddinViewer\Scripts.js', 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/9.3.0/mermaid.min.js';
+    StartupScript = 'src\ControlAddinViewer\Start.js';
     VerticalStretch = true;
+
 
     /// <summary>
     /// Ready.

@@ -68,6 +68,10 @@ table 80800 DependencyGraphSetup_ANJ
         {
             Caption = 'Time', Comment = 'ESP="Hora"';
         }
+        field(15; MarkdownMermaid; Blob)
+        {
+            Caption = 'Mermaid Content Text', Comment = 'ESP="Texto de contenido Mermaid"';
+        }
     }
     keys
     {
@@ -90,12 +94,18 @@ table 80800 DependencyGraphSetup_ANJ
     /// SetMarkdown.
     /// </summary>
     /// <param name="AuxText">Text.</param>
-    internal procedure SetMarkdown(AuxText: Text);
+    /// <param name="FieldNo">Integer.</param>
+    internal procedure SetMarkdown(AuxText: Text; FieldNo: Integer);
     var
         AuxOutStream: OutStream;
     begin
         Clear(HasBeenRead);
-        Markdown.CreateOutStream(AuxOutStream);
+        case FieldNo of
+            FieldNo(Markdown):
+                Markdown.CreateOutStream(AuxOutStream);
+            FieldNo(MarkdownMermaid):
+                MarkdownMermaid.CreateOutStream(AuxOutStream);
+        end;
         AuxOutStream.Write(AuxText);
     end;
 

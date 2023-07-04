@@ -6,6 +6,17 @@ codeunit 80806 NumberSequenceMgmt_ANJ
     Access = Public;
 
     /// <summary>
+    /// Initialize
+    /// </summary>
+    internal procedure Initialize();
+    begin
+        if NumberSequence.Exists(NumberSequenceNameLbl, true) then
+            NumberSequence.Delete(NumberSequenceNameLbl, true);
+
+        NumberSequence.Insert(NumberSequenceNameLbl, 0001, 1, true);
+    end;
+
+    /// <summary>
     /// GetNextNo.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
@@ -32,17 +43,6 @@ codeunit 80806 NumberSequenceMgmt_ANJ
 
         NewIdentity := StrSubstNo(IdentityLbl, Format(NumberSequence.Next(NumberSequenceNameLbl, true)));
         exit(NewIdentity);
-    end;
-
-    /// <summary>
-    /// Initialize
-    /// </summary>
-    internal procedure Initialize();
-    begin
-        if NumberSequence.Exists(NumberSequenceNameLbl, true) then
-            NumberSequence.Delete(NumberSequenceNameLbl, true);
-
-        NumberSequence.Insert(NumberSequenceNameLbl, 0001, 1, true);
     end;
 
     [IntegrationEvent(false, false)]

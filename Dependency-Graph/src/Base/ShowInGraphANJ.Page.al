@@ -14,12 +14,24 @@ page 80802 ShowInGraph_ANJ
         {
             part(Extensions_ANJ; Extensions_ANJ)
             {
+                UpdatePropagation = Both;
             }
             part(Relations_ANJ; Relations_ANJ)
+            {
+                UpdatePropagation = Both;
+            }
+        }
+        area(FactBoxes)
+        {
+            part(MarkdownFactbox_ANJ; MarkdownFactbox_ANJ)
+            {
+            }
+            part(MarkdownViewer_ANJ; MarkdownViewer_ANJ)
             {
             }
         }
     }
+
     actions
     {
         area(Processing)
@@ -39,40 +51,17 @@ page 80802 ShowInGraph_ANJ
                     GenerateTables.Generate(false);
                 end;
             }
-            action(GenerateMarkdown)
-            {
-                ApplicationArea = All;
-                Caption = 'Display dependency graph', comment = 'ESP="Visualizar gráfico de dependencia"';
-                Image = View;
-                Promoted = true;
-                PromotedCategory = Process;
-                PromotedOnly = true;
-                ToolTip = 'Executes the Display dependency graph action.', Comment = 'ESP="Ejecuta la acción Visualizar gráfico de dependencia"';
-
-                trigger OnAction()
-                begin
-                    MarkdownMgmt.GenerateGraph(false);
-                    Page.Run(Page::MarkdownViewer_ANJ);
-                end;
-            }
-            action(DownloadMarkdown)
-            {
-                ApplicationArea = All;
-                Caption = 'Download Markdown as .md', comment = 'ESP="Descargar Markdown como un .md"';
-                Image = Download;
-                Promoted = true;
-                PromotedCategory = Process;
-                PromotedOnly = true;
-                ToolTip = 'Executes the Download Markdown as .md action.', Comment = 'ESP="Ejecuta la acción Descargar Markdown como un .md"';
-
-                trigger OnAction()
-                begin
-                    MarkdownMgmt.GenerateGraph(true);
-                    MarkdownMgmt.DownloadMarkdown();
-                end;
-            }
         }
     }
+
+    trigger OnAfterGetCurrRecord()
+    var
+        DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
+    begin
+        MarkdownMgmt.GenerateGraph();
+        CurrPage.MarkdownFactbox_ANJ.Page.SetMarkdownText(MarkdownMgmt.GetMarkdown(DependencyGraphSetup.FieldNo(Markdown)));
+        CurrPage.MarkdownViewer_ANJ.Page.SetMarkdown(MarkdownMgmt.GetMarkdown(DependencyGraphSetup.FieldNo(MarkdownMermaid)));
+    end;
 
     var
         GenerateTables: Codeunit GenerateTables_ANJ;

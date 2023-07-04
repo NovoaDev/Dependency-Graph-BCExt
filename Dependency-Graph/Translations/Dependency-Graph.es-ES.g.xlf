@@ -45,6 +45,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field Markdown - Property Caption</note>
           <target>Texto de contenido</target>
         </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 2129076432 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mermaid Content Text</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Texto de contenido Mermaid"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field MarkdownMermaid - Property Caption</note>
+          <target>Texto de contenido Mermaid</target>
+        </trans-unit>
         <trans-unit id="Table 2186239794 - Field 1594621544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Picture</source>
           <note from="Developer" annotates="general" priority="2">ESP="Imagen"</note>
@@ -536,12 +542,6 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control DisplayName - Property ToolTip</note>
           <target>Especifica el valor del campo Nombre para mostrar</target>
         </trans-unit>
-        <trans-unit id="Page 3141127244 - Control 1205006834 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Identity field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Identidad"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control Identity - Property ToolTip</note>
-          <target>Especifica el valor del campo Identidad</target>
-        </trans-unit>
         <trans-unit id="Page 3141127244 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Name field.</source>
           <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Nombre"</note>
@@ -566,23 +566,47 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control ShowInGraph - Property ToolTip</note>
           <target>Especifica el valor del campo Mostrar en gráfico</target>
         </trans-unit>
-        <trans-unit id="Page 3141127244 - Action 1943359091 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the Update Relations Table action.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Ejecuta la acción Actualizar tabla de relaciones"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Action GenTables - Property ToolTip</note>
-          <target>Ejecuta la acción Actualizar tabla de relaciones</target>
+        <trans-unit id="Page 1994809268 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Markdown Text</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Texto Markdown"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownFactbox_ANJ - Property Caption</note>
+          <target>Texto Markdown</target>
         </trans-unit>
-        <trans-unit id="Page 3141127244 - Action 1943359091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Update Relations Table</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Actualizar tabla de relaciones"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Action GenTables - Property Caption</note>
-          <target>Actualizar tabla de relaciones</target>
+        <trans-unit id="Page 1994809268 - Action 3577779853 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Download Markdown as .md action.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Ejecuta la acción Descargar Markdown como un .md"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownFactbox_ANJ - Action DownloadMarkdown - Property ToolTip</note>
+          <target>Ejecuta la acción Descargar Markdown como un .md</target>
+        </trans-unit>
+        <trans-unit id="Page 1994809268 - Action 3577779853 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download Markdown as .md</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Descargar Markdown como un .md"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownFactbox_ANJ - Action DownloadMarkdown - Property Caption</note>
+          <target>Descargar Markdown como un .md</target>
+        </trans-unit>
+        <trans-unit id="Page 3287834952 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Markdown Viewer</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Markdown Viewer"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewerFull_ANJ - Property Caption</note>
+          <target>Markdown Viewer</target>
         </trans-unit>
         <trans-unit id="Page 1244516609 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Markdown Viewer</source>
           <note from="Developer" annotates="general" priority="2">ESP="Markdown Viewer"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewer_ANJ - Property Caption</note>
           <target>Markdown Viewer</target>
+        </trans-unit>
+        <trans-unit id="Page 1244516609 - Action 428232880 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Display dependency graph action.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Ejecuta la acción Visualizar gráfico de dependencia"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewer_ANJ - Action GenerateMarkdown - Property ToolTip</note>
+          <target>Ejecuta la acción Visualizar gráfico de dependencia</target>
+        </trans-unit>
+        <trans-unit id="Page 1244516609 - Action 428232880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Display dependency graph</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Visualizar gráfico de dependencia"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewer_ANJ - Action GenerateMarkdown - Property Caption</note>
+          <target>Visualizar gráfico de dependencia</target>
         </trans-unit>
         <trans-unit id="Page 3437274809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Relations</source>
@@ -619,30 +643,6 @@
           <note from="Developer" annotates="general" priority="2">ESP="Mostrar en gráfico de dependencia"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Property Caption</note>
           <target>Mostrar en gráfico de dependencia</target>
-        </trans-unit>
-        <trans-unit id="Page 3728201870 - Action 3577779853 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the Download Markdown as .md action.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Ejecuta la acción Descargar Markdown como un .md"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Action DownloadMarkdown - Property ToolTip</note>
-          <target>Ejecuta la acción Descargar Markdown como un .md</target>
-        </trans-unit>
-        <trans-unit id="Page 3728201870 - Action 3577779853 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Download Markdown as .md</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Descargar Markdown como un .md"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Action DownloadMarkdown - Property Caption</note>
-          <target>Descargar Markdown como un .md</target>
-        </trans-unit>
-        <trans-unit id="Page 3728201870 - Action 428232880 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the Display dependency graph action.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Ejecuta la acción Visualizar gráfico de dependencia"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Action GenerateMarkdown - Property ToolTip</note>
-          <target>Ejecuta la acción Visualizar gráfico de dependencia</target>
-        </trans-unit>
-        <trans-unit id="Page 3728201870 - Action 428232880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Display dependency graph</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Visualizar gráfico de dependencia"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Action GenerateMarkdown - Property Caption</note>
-          <target>Visualizar gráfico de dependencia</target>
         </trans-unit>
         <trans-unit id="Page 3728201870 - Action 1943359091 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the Generate data action.</source>
