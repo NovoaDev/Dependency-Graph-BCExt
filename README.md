@@ -4,7 +4,7 @@ Small tool designed to create a graph showing installed extensions and their res
 Although there are numerous more advanced tools available, this one has been created for the simple purpose of practice, but it could prove useful for other users.
 
 ## Usage
-![Usage.gif](/res/Usage.gif.png)
+![Usage.gif](/res/Usage.gif)
 
 ## Previous configuration
 ### Azure
