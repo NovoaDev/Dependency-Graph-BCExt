@@ -9,7 +9,7 @@
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": [],
-  "repoVersion": "4.6",
+  "repoVersion": "4.7",
   "doNotRunBCPTTests": true,
   "doNotSignApps": true,
   "enableCodeCop": true,
