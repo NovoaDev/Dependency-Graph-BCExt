@@ -1,15 +1,13 @@
 /// <summary>
-/// ControlAddIn "MarkdownViewer_ANJ."
+/// ControlAddIn "MarkdownViewer_ANJ._ANJ"
 /// </summary>
-controladdin MarkdownViewer_ANJ
+controladdin MarkdownViewerFS_ANJ
 {
-    HorizontalShrink = true;
-    RequestedHeight = 600;
-    RequestedWidth = 650;
+    HorizontalStretch = true;
     Scripts = 'src\ControlAddinViewer\Scripts.js', 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/9.3.0/mermaid.min.js';
     StartupScript = 'src\ControlAddinViewer\Start.js';
-    StyleSheets = 'src\ControlAddinViewer\Style.css';
-    VerticalShrink = true;
+    VerticalStretch = true;
+
 
     /// <summary>
     /// Ready.

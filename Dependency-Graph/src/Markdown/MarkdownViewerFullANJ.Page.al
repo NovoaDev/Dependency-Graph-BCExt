@@ -12,7 +12,7 @@ page 80806 MarkdownViewerFull_ANJ
     {
         area(Content)
         {
-            usercontrol(MarkdownViewer_ANJ; MarkdownViewer_ANJ)
+            usercontrol(MarkdownViewerFS_ANJ; MarkdownViewerFS_ANJ)
             {
             }
         }
@@ -23,7 +23,7 @@ page 80806 MarkdownViewerFull_ANJ
         MarkdownMermaidFieldID: Integer;
     begin
         MarkdownMermaidFieldID := 15;
-        CurrPage.MarkdownViewer_ANJ.Draw(MarkdownMgmt.GetMarkdown(MarkdownMermaidFieldID));
+        CurrPage.MarkdownViewerFS_ANJ.Draw(MarkdownMgmt.GetMarkdown(MarkdownMermaidFieldID));
     end;
 
     var

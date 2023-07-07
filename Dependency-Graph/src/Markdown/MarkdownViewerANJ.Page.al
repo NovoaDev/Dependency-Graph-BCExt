@@ -40,8 +40,9 @@ page 80804 MarkdownViewer_ANJ
     begin
         CurrPage.MarkdownViewer_ANJ.Draw(Markdown);
     end;
+
     /// <summary>
-    /// Draw.
+    /// SetMarkdown.
     /// </summary>
     /// <param name="AuxMarkdown">Text.</param>
     internal procedure SetMarkdown(AuxMarkdown: Text)

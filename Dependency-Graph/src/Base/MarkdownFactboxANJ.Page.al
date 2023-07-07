@@ -7,7 +7,7 @@ page 80805 MarkdownFactbox_ANJ
     Caption = 'Markdown Text', comment = 'ESP="Texto Markdown"';
     Editable = false;
     PageType = CardPart;
-    UsageCategory = Administration;
+    UsageCategory = None;
 
     layout
     {
@@ -15,6 +15,7 @@ page 80805 MarkdownFactbox_ANJ
         {
             field(MarkdownText; MarkdownText)
             {
+                Editable = false;
                 MultiLine = true;
                 ShowCaption = false;
             }
