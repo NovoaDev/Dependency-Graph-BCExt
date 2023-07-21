@@ -48,7 +48,7 @@ page 80802 ShowInGraph_ANJ
 
                 trigger OnAction()
                 begin
-                    GenerateTables.Generate(false);
+                    DependencyGraphFacade.GenerateAllTables(false);
                 end;
             }
         }
@@ -58,12 +58,11 @@ page 80802 ShowInGraph_ANJ
     var
         DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
     begin
-        MarkdownMgmt.GenerateGraph();
-        CurrPage.MarkdownFactbox_ANJ.Page.SetMarkdownText(MarkdownMgmt.GetMarkdown(DependencyGraphSetup.FieldNo(Markdown)));
-        CurrPage.MarkdownViewer_ANJ.Page.SetMarkdown(MarkdownMgmt.GetMarkdown(DependencyGraphSetup.FieldNo(MarkdownMermaid)));
+        DependencyGraphFacade.GenerateGraph();
+        CurrPage.MarkdownFactbox_ANJ.Page.SetMarkdownText(DependencyGraphFacade.GetMarkdownText(DependencyGraphSetup.FieldNo(Markdown)));
+        CurrPage.MarkdownViewer_ANJ.Page.SetMarkdown(DependencyGraphFacade.GetMarkdownText(DependencyGraphSetup.FieldNo(MarkdownMermaid)));
     end;
 
     var
-        GenerateTables: Codeunit GenerateTables_ANJ;
-        MarkdownMgmt: Codeunit MarkdownMgmt_ANJ;
+        DependencyGraphFacade: Codeunit DependencyGraphFacade_ANJ;
 }

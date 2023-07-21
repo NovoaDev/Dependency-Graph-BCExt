@@ -1,7 +1,6 @@
 /// <summary>
-/// GenerateTables.
+/// Codeunit GenerateTables_ANJ (ID 80807).
 /// </summary>
-/// <param name="HideDialog">Boolean.</param>
 codeunit 80807 GenerateTables_ANJ
 {
     Access = Public;
@@ -47,11 +46,11 @@ codeunit 80807 GenerateTables_ANJ
         if IsHandled then
             exit;
 
-        GenerateExtensionTable.CleanExtensionsTable();
-        GenerateRelationsTable.CleanRelationsTable();
+        DependencyGraphFacade.CleanExtensionsTable();
+        DependencyGraphFacade.CleanRelationsTable();
 
-        GenerateExtensionTable.Generate();
-        GenerateRelationsTable.Generate();
+        DependencyGraphFacade.GenerateExtensionsTable();
+        DependencyGraphFacade.GenerateRelationTable();
     end;
 
     /// <summary>
@@ -91,8 +90,7 @@ codeunit 80807 GenerateTables_ANJ
 
     var
         ConfirmManagement: Codeunit "Confirm Management";
-        GenerateExtensionTable: Codeunit GenerateExtensionTable_ANJ;
-        GenerateRelationsTable: Codeunit GenerateRelationsTable_ANJ;
+        DependencyGraphFacade: Codeunit DependencyGraphFacade_ANJ;
         ConfirmQst: Label 'When generating the tables again, custom data will be deleted, do you want to continue?', comment = 'ESP="Al generar de nuevo las tablas se eliminaran datos personalizados, ¿Desea continuar?"';
         ProcessFinishMsg: Label 'The tables have been updated correctly.', comment = 'ESP="Las tablas se han actualizado correctamente."';
 }

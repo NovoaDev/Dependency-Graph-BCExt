@@ -90,9 +90,9 @@ table 80801 Extensions_ANJ
     /// </summary>
     internal procedure UpdateFigure()
     begin
-        Validate(Figure, GenerateFigure.Generate(PublishedAs, Identity, DisplayName));
+        Validate(Figure, DependencyGraphFacade.GenerateFigures(PublishedAs, Identity, DisplayName));
     end;
 
     var
-        GenerateFigure: Codeunit GenerateFigure_ANJ;
+        DependencyGraphFacade: Codeunit DependencyGraphFacade_ANJ;
 }

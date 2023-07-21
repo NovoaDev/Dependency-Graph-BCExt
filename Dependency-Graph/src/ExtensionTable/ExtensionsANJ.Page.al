@@ -60,11 +60,11 @@ page 80801 Extensions_ANJ
     local procedure DoGenerateRelationsTable()
     begin
         CurrPage.SaveRecord();
-        GenerateRelationsTable.CleanRelationsTable();
-        GenerateRelationsTable.Generate();
+        DependencyGraphFacade.CleanRelationsTable();
+        DependencyGraphFacade.GenerateRelationTable();
         CurrPage.Update(false);
     end;
 
     var
-        GenerateRelationsTable: Codeunit GenerateRelationsTable_ANJ;
+        DependencyGraphFacade: Codeunit DependencyGraphFacade_ANJ;
 }

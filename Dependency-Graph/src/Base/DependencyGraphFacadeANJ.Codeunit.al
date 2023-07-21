@@ -5,35 +5,6 @@ codeunit 80810 DependencyGraphFacade_ANJ
 {
     Access = Public;
 
-    #region codeunit 80807 GenerateTables_ANJ
-    /// <summary>
-    /// GenerateAllTables.
-    /// </summary>
-    /// <param name="HideDialog">Boolean.</param>
-    procedure GenerateAllTables(HideDialog: Boolean);
-    begin
-        GenerateTables.Generate(HideDialog);
-    end;
-    #endregion
-
-    #region codeunit 80805 GenerateExtensionTable_ANJ
-    /// <summary>
-    /// CleanExtensionsTable.
-    /// </summary>
-    procedure CleanExtensionsTable();
-    begin
-        GenerateExtensionTable.CleanExtensionsTable();
-    end;
-
-    /// <summary>
-    /// GenerateExtensionsTable.
-    /// </summary>
-    procedure GenerateExtensionsTable();
-    begin
-        GenerateExtensionTable.Generate();
-    end;
-    #endregion
-
     #region codeunit 80806 NumberSequenceMgmt_ANJ
     /// <summary>
     /// InitializeNumberSequence
@@ -67,6 +38,55 @@ codeunit 80810 DependencyGraphFacade_ANJ
     end;
     #endregion
 
+    #region codeunit 80807 GenerateTables_ANJ
+    /// <summary>
+    /// GenerateAllTables.
+    /// </summary>
+    /// <param name="HideDialog">Boolean.</param>
+    procedure GenerateAllTables(HideDialog: Boolean);
+    begin
+        GenerateTables.Generate(HideDialog);
+    end;
+    #endregion
+
+    #region codeunit 80805 GenerateExtensionTable_ANJ
+    /// <summary>
+    /// GenerateExtensionsTable.
+    /// </summary>
+    procedure GenerateExtensionsTable();
+    begin
+        GenerateExtensionTable.Generate();
+    end;
+    #endregion
+
+    #region codeunit 80808 GenerateRelationsTable_ANJ
+    /// <summary>
+    /// GenerateRelationsTable.
+    /// </summary>
+    procedure GenerateRelationTable();
+    begin
+        GenerateRelationsTable.Generate();
+    end;
+    #endregion
+
+    #region 80811 CleanTemporaryTables_ANJ
+    /// <summary>
+    /// CleanExtensionsTable.
+    /// </summary>
+    procedure CleanExtensionsTable();
+    begin
+        CleanTemporaryTables.Clean(true, false);
+    end;
+
+    /// <summary>
+    /// CleanRelationsTable.
+    /// </summary>
+    procedure CleanRelationsTable();
+    begin
+        CleanTemporaryTables.Clean(false, true);
+    end;
+    #endregion
+
     #region codeunit 80809 MarkdownMgmt_ANJ
     /// <summary>
     /// GenerateGraph.
@@ -87,25 +107,8 @@ codeunit 80810 DependencyGraphFacade_ANJ
     end;
     #endregion
 
-    #region codeunit 80808 GenerateRelationsTable_ANJ
-    /// <summary>
-    /// CleanExtensionTable.
-    /// </summary>
-    internal procedure CleanRelationsTable();
-    begin
-        GenerateRelationsTable.CleanRelationsTable();
-    end;
-
-    /// <summary>
-    /// GenerateRelationsTable.
-    /// </summary>
-    internal procedure GenerateRelationTable();
-    begin
-        GenerateRelationsTable.Generate();
-    end;
-    #endregion
-
     var
+        CleanTemporaryTables: Codeunit CleanTemporaryTables_ANJ;
         GenerateExtensionTable: Codeunit GenerateExtensionTable_ANJ;
         GenerateFigure: Codeunit GenerateFigure_ANJ;
         GenerateRelationsTable: Codeunit GenerateRelationsTable_ANJ;

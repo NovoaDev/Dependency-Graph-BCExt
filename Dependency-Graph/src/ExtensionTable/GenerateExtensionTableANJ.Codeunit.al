@@ -6,17 +6,6 @@ codeunit 80805 GenerateExtensionTable_ANJ
     Access = Public;
 
     /// <summary>
-    /// CleanExtensionsTable.
-    /// </summary>
-    internal procedure CleanExtensionsTable();
-    var
-        Extensions: Record Extensions_ANJ;
-    begin
-        if not Extensions.IsEmpty() then
-            Extensions.DeleteAll(true);
-    end;
-
-    /// <summary>
     /// Generate.
     /// </summary>
     internal procedure Generate();
@@ -241,7 +230,7 @@ codeunit 80805 GenerateExtensionTable_ANJ
         if not ResponseJsonArray.ReadFrom(JsonValueArry) then
             Error(ReadingJsonErr);
 
-        NumberSequenceMgmt.Initialize();
+        DependencyGraphFacade.InitializeNumberSequence();
         foreach SingleJsonObject in ResponseJsonArray do
             InsertTableLines(SingleJsonObject);
     end;
@@ -280,7 +269,7 @@ codeunit 80805 GenerateExtensionTable_ANJ
         end;
 
         Extensions.Validate(ShowInGraph, true);
-        Extensions.Validate(Identity, NumberSequenceMgmt.GetNextNo());
+        Extensions.Validate(Identity, DependencyGraphFacade.GetNextNumberSequence());
         Extensions.Modify(true);
     end;
 
@@ -296,7 +285,7 @@ codeunit 80805 GenerateExtensionTable_ANJ
 
     var
         AzureADTenant: Codeunit "Azure AD Tenant";
-        NumberSequenceMgmt: Codeunit NumberSequenceMgmt_ANJ;
+        DependencyGraphFacade: Codeunit DependencyGraphFacade_ANJ;
         AccessTokenLbl: Label 'access_token';
         AccessTokenUrlLbl: Label 'https://login.microsoftonline.com/%1/oauth2/v2.0/token';
         AuthorizationLbl: Label 'Authorization';

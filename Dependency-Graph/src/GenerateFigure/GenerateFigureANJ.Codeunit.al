@@ -1,5 +1,5 @@
 /// <summary>
-/// Codeunit Name Meth (ID 80804).
+/// Codeunit GenerateFigure_ANJ (ID 80804).
 /// </summary>
 codeunit 80804 GenerateFigure_ANJ
 {
