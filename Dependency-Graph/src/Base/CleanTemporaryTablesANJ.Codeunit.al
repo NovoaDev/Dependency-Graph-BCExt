@@ -6,7 +6,7 @@ codeunit 80811 CleanTemporaryTables_ANJ
     Access = Public;
 
     /// <summary>
-    /// DoClean.
+    /// Clean.
     /// </summary>
     /// <param name="ExtensionsTable">Boolean.</param>
     /// <param name="RelationsTable">Boolean.</param>
@@ -37,7 +37,6 @@ codeunit 80811 CleanTemporaryTables_ANJ
             CleanRelationsTable();
     end;
 
-
     /// <summary>
     /// CleanExtensionsTable.
     /// </summary>
@@ -50,7 +49,7 @@ codeunit 80811 CleanTemporaryTables_ANJ
     end;
 
     /// <summary>
-    /// CleanExtensionTable.
+    /// CleanRelationsTable.
     /// </summary>
     local procedure CleanRelationsTable();
     var

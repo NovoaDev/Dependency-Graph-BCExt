@@ -99,7 +99,7 @@ codeunit 80810 DependencyGraphFacade_ANJ
     end;
 
     /// <summary>
-    /// CleanExtensionTable.
+    /// CleanRelationsTable.
     /// </summary>
     procedure CleanRelationsTable();
     begin

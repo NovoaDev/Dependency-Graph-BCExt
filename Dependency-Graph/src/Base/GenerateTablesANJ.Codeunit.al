@@ -1,7 +1,6 @@
 /// <summary>
-/// GenerateTables.
+/// Codeunit GenerateTables_ANJ (ID 80807).
 /// </summary>
-/// <param name="HideDialog">Boolean.</param>
 codeunit 80807 GenerateTables_ANJ
 {
     Access = Public;
