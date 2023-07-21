@@ -17,6 +17,7 @@ codeunit 99990 NumberSequenceTest_ANJ
         // Verify that it is initialized and a number series is created correctly.
 
         // [Given] Setup: 
+        LibraryLowerPermissions.SetO365BusFull();
 
         // [When] Exercise: 
         CheckInitializeAndCreateSomeNumberSeries(FirstRequest, SecondRequest, ThirdRequest);
@@ -34,8 +35,6 @@ codeunit 99990 NumberSequenceTest_ANJ
     /// <param name="SecondRequest">VAR Text.</param>
     /// <param name="ThirdRequest">VAR Text.</param>
     local procedure CheckInitializeAndCreateSomeNumberSeries(var FirstRequest: Text; var SecondRequest: Text; var ThirdRequest: Text)
-    var
-        DependencyGraphFacadeANJ: Codeunit DependencyGraphFacade_ANJ;
     begin
         DependencyGraphFacadeANJ.InitializeNumberSequence();
         FirstRequest := DependencyGraphFacadeANJ.GetNextNumberSequence();
@@ -44,6 +43,8 @@ codeunit 99990 NumberSequenceTest_ANJ
     end;
 
     var
+        DependencyGraphFacadeANJ: Codeunit DependencyGraphFacade_ANJ;
+        LibraryLowerPermissions: Codeunit "Library - Lower Permissions";
         LibraryAssert: Codeunit "Library Assert";
         FirstRequestLbl: Label 'E1';
         NumberSequenceErr: Label 'The number secuence does not correspond to the expected one';

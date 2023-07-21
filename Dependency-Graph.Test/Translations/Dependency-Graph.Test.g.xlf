@@ -3,6 +3,36 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Dependency-Graph.Test">
     <body>
       <group id="body">
+        <trans-unit id="Codeunit 3159861850 - NamedType 4030770184" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateFiguresTest_ANJ - NamedType AppNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3159861850 - NamedType 1890489750" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1((%2))</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateFiguresTest_ANJ - NamedType CircleFigureLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3159861850 - NamedType 3214227760" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error generating figures.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateFiguresTest_ANJ - NamedType GenerateFigureErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3159861850 - NamedType 4264074168" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateFiguresTest_ANJ - NamedType IdentityLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3159861850 - NamedType 1958646152" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1{%2}</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateFiguresTest_ANJ - NamedType RhombusFigureLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3159861850 - NamedType 1518175748" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1[%2]</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateFiguresTest_ANJ - NamedType SquareRectangleFigureLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1844708212 - NamedType 1644787387" size-unit="char" translate="yes" xml:space="preserve">
           <source>E1</source>
           <note from="Developer" annotates="general" priority="2"></note>

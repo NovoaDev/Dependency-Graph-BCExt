@@ -3,7 +3,7 @@
 /// </summary>
 table 80800 DependencyGraphSetup_ANJ
 {
-    Access = Internal;
+    Access = Public;
     Caption = 'Dependency Graph Setup', comment = 'ESP="Configuración del gráfico de dependencia"';
     DataClassification = CustomerContent;
     DrillDownPageID = DependencyGraphSetup_ANJ;
@@ -112,7 +112,7 @@ table 80800 DependencyGraphSetup_ANJ
     /// <summary>
     /// GetInstance.
     /// </summary>
-    internal procedure GetInstance();
+    procedure GetInstance();
     begin
         if HasBeenRead then
             exit;
