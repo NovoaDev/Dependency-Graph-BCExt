@@ -2,7 +2,28 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Dependency-Graph.Test">
     <body>
-      <group id="body" />
+      <group id="body">
+        <trans-unit id="Codeunit 1844708212 - NamedType 1644787387" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NumberSequenceTest_ANJ - NamedType FirstRequestLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1844708212 - NamedType 2011855819" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The number secuence does not correspond to the expected one</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NumberSequenceTest_ANJ - NamedType NumberSequenceErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1844708212 - NamedType 1024096429" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NumberSequenceTest_ANJ - NamedType SecondRequestLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1844708212 - NamedType 2561704828" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NumberSequenceTest_ANJ - NamedType ThirdRequestLbl</note>
+        </trans-unit>
+      </group>
     </body>
   </file>
 </xliff>

@@ -5,27 +5,6 @@ codeunit 80810 DependencyGraphFacade_ANJ
 {
     Access = Public;
 
-    #region codeunit 80807 GenerateTables_ANJ
-    /// <summary>
-    /// GenerateAllTables.
-    /// </summary>
-    /// <param name="HideDialog">Boolean.</param>
-    procedure GenerateAllTables(HideDialog: Boolean);
-    begin
-        GenerateTables.Generate(HideDialog);
-    end;
-    #endregion
-
-    #region codeunit 80805 GenerateExtensionTable_ANJ
-    /// <summary>
-    /// GenerateExtensionsTable.
-    /// </summary>
-    procedure GenerateExtensionsTable();
-    begin
-        GenerateExtensionTable.Generate();
-    end;
-    #endregion
-
     #region codeunit 80806 NumberSequenceMgmt_ANJ
     /// <summary>
     /// InitializeNumberSequence
@@ -59,23 +38,24 @@ codeunit 80810 DependencyGraphFacade_ANJ
     end;
     #endregion
 
-    #region codeunit 80809 MarkdownMgmt_ANJ
+    #region codeunit 80807 GenerateTables_ANJ
     /// <summary>
-    /// GenerateGraph.
+    /// GenerateAllTables.
     /// </summary>
-    procedure GenerateGraph();
+    /// <param name="HideDialog">Boolean.</param>
+    procedure GenerateAllTables(HideDialog: Boolean);
     begin
-        MarkdownMgmt.GenerateGraph();
+        GenerateTables.Generate(HideDialog);
     end;
+    #endregion
 
+    #region codeunit 80805 GenerateExtensionTable_ANJ
     /// <summary>
-    /// GetMarkdownText.
+    /// GenerateExtensionsTable.
     /// </summary>
-    /// <param name="FieldNo">Integer.</param>
-    /// <returns>Return value of type Text.</returns>
-    procedure GetMarkdownText(FieldNo: Integer): Text;
+    procedure GenerateExtensionsTable();
     begin
-        exit(MarkdownMgmt.GetMarkdown(FieldNo));
+        GenerateExtensionTable.Generate();
     end;
     #endregion
 
@@ -106,6 +86,27 @@ codeunit 80810 DependencyGraphFacade_ANJ
         CleanTemporaryTables.Clean(false, true);
     end;
     #endregion
+
+    #region codeunit 80809 MarkdownMgmt_ANJ
+    /// <summary>
+    /// GenerateGraph.
+    /// </summary>
+    procedure GenerateGraph();
+    begin
+        MarkdownMgmt.GenerateGraph();
+    end;
+
+    /// <summary>
+    /// GetMarkdownText.
+    /// </summary>
+    /// <param name="FieldNo">Integer.</param>
+    /// <returns>Return value of type Text.</returns>
+    procedure GetMarkdownText(FieldNo: Integer): Text;
+    begin
+        exit(MarkdownMgmt.GetMarkdown(FieldNo));
+    end;
+    #endregion
+
     var
         CleanTemporaryTables: Codeunit CleanTemporaryTables_ANJ;
         GenerateExtensionTable: Codeunit GenerateExtensionTable_ANJ;
