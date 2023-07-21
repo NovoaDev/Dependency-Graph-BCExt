@@ -6,17 +6,6 @@ codeunit 80808 GenerateRelationsTable_ANJ
     Access = Public;
 
     /// <summary>
-    /// CleanExtensionTable.
-    /// </summary>
-    internal procedure CleanRelationsTable();
-    var
-        Relations: Record Relations_ANJ;
-    begin
-        if not Relations.IsEmpty() then
-            Relations.DeleteAll(true);
-    end;
-
-    /// <summary>
     /// Generate.
     /// </summary>
     internal procedure Generate();

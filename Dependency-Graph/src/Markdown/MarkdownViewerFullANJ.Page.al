@@ -23,9 +23,9 @@ page 80806 MarkdownViewerFull_ANJ
         MarkdownMermaidFieldID: Integer;
     begin
         MarkdownMermaidFieldID := 15;
-        CurrPage.MarkdownViewerFS_ANJ.Draw(MarkdownMgmt.GetMarkdown(MarkdownMermaidFieldID));
+        CurrPage.MarkdownViewerFS_ANJ.Draw(DependencyGraphFacade.GetMarkdownText(MarkdownMermaidFieldID));
     end;
 
     var
-        MarkdownMgmt: Codeunit MarkdownMgmt_ANJ;
+        DependencyGraphFacade: Codeunit DependencyGraphFacade_ANJ;
 }
