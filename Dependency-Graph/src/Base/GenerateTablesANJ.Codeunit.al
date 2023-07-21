@@ -1,7 +1,7 @@
 /// <summary>
-/// Codeunit GenerateTables_ANJ (ID 80807).
+/// Codeunit GenerateTables_ANJ (ID 80807) implements Interface FillingProcessingTables_ANJ.
 /// </summary>
-codeunit 80807 GenerateTables_ANJ
+codeunit 80807 GenerateTables_ANJ implements FillingProcessingTables_ANJ
 {
     Access = Public;
 
@@ -9,7 +9,7 @@ codeunit 80807 GenerateTables_ANJ
     /// GenerateTables.
     /// </summary>
     /// <param name="HideDialog">Boolean.</param>
-    internal procedure Generate(HideDialog: Boolean);
+    procedure Generate(HideDialog: Boolean);
     var
         Extensions: Record Extensions_ANJ;
         IsHandled: Boolean;

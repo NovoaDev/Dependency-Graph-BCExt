@@ -27,6 +27,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field DateLastGenerationMarkdown - Property Caption</note>
           <target>Fecha</target>
         </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 3511667827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filling Processing Tables</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Rellenar tablas de procesamiento"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field FillingProcessingTables - Property Caption</note>
+          <target>Rellenar tablas de procesamiento</target>
+        </trans-unit>
         <trans-unit id="Table 2186239794 - Field 2750913523 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Include Link Text</source>
           <note from="Developer" annotates="general" priority="2">ESP="Incluir texto de enlace"</note>
@@ -446,6 +452,18 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control ScopePTEFigure - Property ToolTip</note>
           <target>Especifica el valor del campo Figura Ext. PTE</target>
         </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 770743294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fill tables</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Rellenar tablas"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control FillTables - Property Caption</note>
+          <target>Rellenar tablas</target>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 3511667827 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Filling Processing Tables field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Rellenar tablas de procesamiento"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control FillingProcessingTables - Property ToolTip</note>
+          <target>Especifica el valor del campo Rellenar tablas de procesamiento</target>
+        </trans-unit>
         <trans-unit id="Page 2186239794 - Control 3349558288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Include when generating the graph</source>
           <note from="Developer" annotates="general" priority="2">ESP="Incluir al generar el gráfico"</note>
@@ -679,6 +697,18 @@
           <note from="Developer" annotates="general" priority="2">ESP="PTE"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum ExtensionScope_ANJ - EnumValue PTE - Property Caption</note>
           <target>PTE</target>
+        </trans-unit>
+        <trans-unit id="Enum 1956450053 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filling Processing Tables</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Rellenar tablas de procesamiento"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum FillingProcessingTables_ANJ - Property Caption</note>
+          <target>Rellenar tablas de procesamiento</target>
+        </trans-unit>
+        <trans-unit id="Enum 1956450053 - EnumValue 2912439360 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WS And ModuleDependencyInfo</source>
+          <note from="Developer" annotates="general" priority="2">ESP="WS y ModuleDependencyInfo"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum FillingProcessingTables_ANJ - EnumValue WSAndModuleDependencyInfo - Property Caption</note>
+          <target>WS y ModuleDependencyInfo</target>
         </trans-unit>
         <trans-unit id="Enum 2507724467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Geometric Figure</source>
