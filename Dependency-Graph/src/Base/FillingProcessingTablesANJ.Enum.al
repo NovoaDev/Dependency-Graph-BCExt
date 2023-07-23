@@ -10,6 +10,6 @@ enum 80802 FillingProcessingTables_ANJ implements FillingProcessingTables_ANJ
     value(0; WSAndModuleDependencyInfo)
     {
         Caption = 'WS And ModuleDependencyInfo', comment = 'ESP="WS y ModuleDependencyInfo"';
-        Implementation = FillingProcessingTables_ANJ = GenerateTables_ANJ;
+        Implementation = FillingProcessingTables_ANJ = WSAndMDInfoImp_ANJ;
     }
 }

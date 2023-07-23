@@ -93,6 +93,15 @@ table 80801 Extensions_ANJ
         Validate(Figure, DependencyGraphFacade.GenerateFigures(PublishedAs, Identity, DisplayName));
     end;
 
+    /// <summary>
+    /// UpdateRelationTable.
+    /// </summary>
+    internal procedure UpdateRelationTable()
+    begin
+        DependencyGraphFacade.CleanRelationsTable();
+        DependencyGraphFacade.GenerateRelationTable();
+    end;
+
     var
         DependencyGraphFacade: Codeunit DependencyGraphFacade_ANJ;
 }

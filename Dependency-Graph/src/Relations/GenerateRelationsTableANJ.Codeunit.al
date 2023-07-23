@@ -63,7 +63,7 @@ codeunit 80808 GenerateRelationsTable_ANJ
         ModuleDependencyInfoList := AuxModuleInfo.Dependencies;
 
         foreach SingleModuleDependencyInfo in ModuleDependencyInfoList do begin
-            DestinationAppID := SingleModuleDependencyInfo.Id;
+            DestinationAppID := SingleModuleDependencyInfo.Id; //TODO: Armar un JSON Para despues parsearlo.
             if CheckDestinationAppIDShowInGraph(DestinationAppID) then
                 InsertNewRelation(AppId, DestinationAppID);
         end;

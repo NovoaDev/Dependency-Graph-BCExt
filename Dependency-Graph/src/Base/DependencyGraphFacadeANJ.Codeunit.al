@@ -44,16 +44,8 @@ codeunit 80810 DependencyGraphFacade_ANJ
     /// </summary>
     /// <param name="HideDialog">Boolean.</param>
     procedure GenerateAllTables(HideDialog: Boolean);
-    var
-        DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
-        FillingProcessingTables: Interface FillingProcessingTables_ANJ;
     begin
-        DependencyGraphSetup.SetLoadFields(FillingProcessingTables);
-        DependencyGraphSetup.GetInstance();
-        FillingProcessingTables := DependencyGraphSetup.FillingProcessingTables;
-
-        OnBeforeFillingProcessingTables(FillingProcessingTables, HideDialog);
-        FillingProcessingTables.Generate(HideDialog);
+        GenerateTables.Generate(HideDialog);
     end;
     #endregion
 
@@ -115,16 +107,12 @@ codeunit 80810 DependencyGraphFacade_ANJ
     end;
     #endregion
 
-    [IntegrationEvent(false, false)]
-    local procedure OnBeforeFillingProcessingTables(var FillingProcessingTables: Interface FillingProcessingTables_ANJ; var HideDialog: Boolean)
-    begin
-    end;
-
     var
         CleanTemporaryTables: Codeunit CleanTemporaryTables_ANJ;
         GenerateExtensionTable: Codeunit GenerateExtensionTable_ANJ;
         GenerateFigure: Codeunit GenerateFigure_ANJ;
         GenerateRelationsTable: Codeunit GenerateRelationsTable_ANJ;
+        GenerateTables: Codeunit GenerateTables_ANJ;
         MarkdownMgmt: Codeunit MarkdownMgmt_ANJ;
         NumberSequenceMgmt: Codeunit NumberSequenceMgmt_ANJ;
 }

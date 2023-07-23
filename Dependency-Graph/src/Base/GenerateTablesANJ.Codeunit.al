@@ -1,7 +1,7 @@
 /// <summary>
-/// Codeunit GenerateTables_ANJ (ID 80807) implements Interface FillingProcessingTables_ANJ.
+/// Codeunit GenerateTables_ANJ (ID 80807)
 /// </summary>
-codeunit 80807 GenerateTables_ANJ implements FillingProcessingTables_ANJ
+codeunit 80807 GenerateTables_ANJ
 {
     Access = Public;
 

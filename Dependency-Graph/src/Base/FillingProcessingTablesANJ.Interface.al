@@ -6,8 +6,8 @@ interface FillingProcessingTables_ANJ
     Access = Public;
 
     /// <summary>
-    /// Generate.
+    /// GetExtensions.
     /// </summary>
-    /// <param name="HideDialog">Boolean.</param>
-    procedure Generate(HideDialog: Boolean);
+    /// <returns>Return value of type Text.</returns>
+    procedure GetExtensions(): Text;
 }

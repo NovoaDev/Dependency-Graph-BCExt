@@ -188,65 +188,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit CircleIMP_ANJ - NamedType FigureLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 3824428447" size-unit="char" translate="yes" xml:space="preserve">
-          <source>access_token</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType AccessTokenLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 4248989274" size-unit="char" translate="yes" xml:space="preserve">
-          <source>https://login.microsoftonline.com/%1/oauth2/v2.0/token</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType AccessTokenUrlLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 736812907" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Authorization</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType AuthorizationLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 472661878" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bearer %1</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType AuthorizationValueLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 366675938" size-unit="char" translate="yes" xml:space="preserve">
-          <source>&amp;client_id=%1</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ClientIdLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 792247639" size-unit="char" translate="yes" xml:space="preserve">
-          <source>&amp;client_secret=%1</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ClientSecretLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 2725329485" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Content-Type</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ContentTypeLbl</note>
-        </trans-unit>
         <trans-unit id="Codeunit 927581418 - NamedType 4198159985" size-unit="char" translate="yes" xml:space="preserve">
           <source>displayName</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType DisplayNameLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 1549459477" size-unit="char" translate="yes" xml:space="preserve">
-          <source>https://api.businesscentral.dynamics.com/v2.0/%1/api/microsoft/automation/v2.0/companies(%2)/extensions</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ExtensionsUrlLbl</note>
-        </trans-unit>
         <trans-unit id="Codeunit 927581418 - NamedType 3346049993" size-unit="char" translate="yes" xml:space="preserve">
           <source>false</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType FalseLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 154798154" size-unit="char" translate="yes" xml:space="preserve">
-          <source>?$filter=publisher ne </source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType FilterMSAppsLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 1092220576" size-unit="char" translate="yes" xml:space="preserve">
-          <source>grant_type=client_credentials</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType GrantTypeLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 927581418 - NamedType 2272053225" size-unit="char" translate="yes" xml:space="preserve">
           <source>id</source>
@@ -273,30 +223,10 @@
           <note from="Developer" annotates="general" priority="2">ESP="Error al leer la respuesta JSON."</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ReadingJsonErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 1618117332" size-unit="char" translate="yes" xml:space="preserve">
-          <source>&amp;scope=https://api.businesscentral.dynamics.com/.default</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ScopeLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 752839706" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Unable to communicate with the web service.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="No se puede comunicar con el servicio web."</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType UnableToCommunicateWSErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 243597245" size-unit="char" translate="yes" xml:space="preserve">
-          <source>application/x-www-form-urlencoded</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType UrlencodedLbl</note>
-        </trans-unit>
         <trans-unit id="Codeunit 927581418 - NamedType 2124516411" size-unit="char" translate="yes" xml:space="preserve">
           <source>value</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ValueJsonArryLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 3182686404" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Error - Status code: %1  Description: %2</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Error - Código: %1  Descripción: %2"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType WSStatusCodeErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2841349168 - NamedType 750120336" size-unit="char" translate="yes" xml:space="preserve">
           <source>When generating the tables again, custom data will be deleted, do you want to continue?</source>
@@ -307,6 +237,11 @@
           <source>The tables have been updated correctly.</source>
           <note from="Developer" annotates="general" priority="2">ESP="Las tablas se han actualizado correctamente."</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateTables_ANJ - NamedType ProcessFinishMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 872690394 - NamedType 4072018929" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error reading JSON response.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Error al leer la respuesta JSON."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit JSONMethods_ANJ - NamedType ReadingJsonErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 740515698 - NamedType 2810835173" size-unit="char" translate="yes" xml:space="preserve">
           <source> --&gt; </source>
@@ -362,6 +297,76 @@
           <source>%1[%2]</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SquareRectangleIMP_ANJ - NamedType FigureLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3451087242 - NamedType 3824428447" size-unit="char" translate="yes" xml:space="preserve">
+          <source>access_token</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType AccessTokenLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3451087242 - NamedType 4248989274" size-unit="char" translate="yes" xml:space="preserve">
+          <source>https://login.microsoftonline.com/%1/oauth2/v2.0/token</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType AccessTokenUrlLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3451087242 - NamedType 736812907" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authorization</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType AuthorizationLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3451087242 - NamedType 472661878" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bearer %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType AuthorizationValueLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3451087242 - NamedType 366675938" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;client_id=%1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType ClientIdLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3451087242 - NamedType 792247639" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;client_secret=%1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType ClientSecretLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3451087242 - NamedType 2725329485" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Content-Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType ContentTypeLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3451087242 - NamedType 1549459477" size-unit="char" translate="yes" xml:space="preserve">
+          <source>https://api.businesscentral.dynamics.com/v2.0/%1/api/microsoft/automation/v2.0/companies(%2)/extensions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType ExtensionsUrlLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3451087242 - NamedType 154798154" size-unit="char" translate="yes" xml:space="preserve">
+          <source>?$filter=publisher ne </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType FilterMSAppsLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3451087242 - NamedType 1092220576" size-unit="char" translate="yes" xml:space="preserve">
+          <source>grant_type=client_credentials</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType GrantTypeLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3451087242 - NamedType 1618117332" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;scope=https://api.businesscentral.dynamics.com/.default</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType ScopeLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3451087242 - NamedType 752839706" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unable to communicate with the web service.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="No se puede comunicar con el servicio web."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType UnableToCommunicateWSErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3451087242 - NamedType 243597245" size-unit="char" translate="yes" xml:space="preserve">
+          <source>application/x-www-form-urlencoded</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType UrlencodedLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3451087242 - NamedType 3182686404" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error - Status code: %1  Description: %2</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Error - Código: %1  Descripción: %2"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType WSStatusCodeErr</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dependency Graph Setup</source>
