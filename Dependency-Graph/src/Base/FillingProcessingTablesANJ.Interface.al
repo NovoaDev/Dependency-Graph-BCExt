@@ -10,4 +10,10 @@ interface FillingProcessingTables_ANJ
     /// </summary>
     /// <returns>Return value of type Text.</returns>
     procedure GetExtensions(): Text;
+
+    /// <summary>
+    /// GetRelations.
+    /// </summary>
+    /// <returns>Return value of type Text.</returns>
+    procedure GetRelations() JsonText: Text;
 }

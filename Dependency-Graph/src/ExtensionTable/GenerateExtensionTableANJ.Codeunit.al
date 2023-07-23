@@ -30,24 +30,10 @@ codeunit 80805 GenerateExtensionTable_ANJ
         if IsHandled then
             exit;
 
-        GetInterfaceFillProcessingTables(FillingProcessingTables);
+        DependencyGraphFacade.GetInterfaceFillProcessingTables(FillingProcessingTables);
         ResponseText := FillingProcessingTables.GetExtensions();
         if ResponseText <> '' then
             PopulateResponse(ResponseText);
-    end;
-
-    /// <summary>
-    /// GetInterfaceFillProcessingTables.
-    /// </summary>
-    /// <param name="FillingProcessingTables">VAR Interface FillingProcessingTables_ANJ.</param>
-    local procedure GetInterfaceFillProcessingTables(var FillingProcessingTables: Interface FillingProcessingTables_ANJ)
-    var
-        DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
-    begin
-        DependencyGraphSetup.SetLoadFields(FillingProcessingTables);
-        DependencyGraphSetup.GetInstance();
-        FillingProcessingTables := DependencyGraphSetup.FillingProcessingTables;
-        OnAfterGetFillingProcessingTables(FillingProcessingTables);
     end;
 
     /// <summary>
@@ -105,11 +91,6 @@ codeunit 80805 GenerateExtensionTable_ANJ
         Extensions.Validate(ShowInGraph, true);
         Extensions.Validate(Identity, DependencyGraphFacade.GetNextNumberSequence());
         Extensions.Modify(true);
-    end;
-
-    [IntegrationEvent(false, false)]
-    local procedure OnAfterGetFillingProcessingTables(var FillingProcessingTables: Interface FillingProcessingTables_ANJ)
-    begin
     end;
 
     [IntegrationEvent(false, false)]

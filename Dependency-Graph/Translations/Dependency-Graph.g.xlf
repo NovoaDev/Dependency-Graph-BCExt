@@ -228,6 +228,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ValueJsonArryLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 708421718 - NamedType 3993970854" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DestinationAppID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateRelationsTable_ANJ - NamedType DestinationAppIDLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 708421718 - NamedType 1408304205" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SourceAppID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateRelationsTable_ANJ - NamedType SourceAppIDLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2841349168 - NamedType 750120336" size-unit="char" translate="yes" xml:space="preserve">
           <source>When generating the tables again, custom data will be deleted, do you want to continue?</source>
           <note from="Developer" annotates="general" priority="2">ESP="Al generar de nuevo las tablas se eliminaran datos personalizados, ¿Desea continuar?"</note>
@@ -333,6 +343,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType ContentTypeLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3451087242 - NamedType 3993970854" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DestinationAppID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType DestinationAppIDLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3451087242 - NamedType 1549459477" size-unit="char" translate="yes" xml:space="preserve">
           <source>https://api.businesscentral.dynamics.com/v2.0/%1/api/microsoft/automation/v2.0/companies(%2)/extensions</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -352,6 +367,11 @@
           <source>&amp;scope=https://api.businesscentral.dynamics.com/.default</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType ScopeLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3451087242 - NamedType 1408304205" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SourceAppID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType SourceAppIDLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 3451087242 - NamedType 752839706" size-unit="char" translate="yes" xml:space="preserve">
           <source>Unable to communicate with the web service.</source>

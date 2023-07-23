@@ -8,7 +8,6 @@ controladdin MarkdownViewerFS_ANJ
     StartupScript = 'src\ControlAddinViewer\Start.js';
     VerticalStretch = true;
 
-
     /// <summary>
     /// Ready.
     /// </summary>

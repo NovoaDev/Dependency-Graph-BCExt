@@ -158,6 +158,78 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
             Error(WSStatusCodeErr, ResponseHttpResponseMessage.HttpStatusCode(), ResponseText);
     end;
 
+    /// <summary>
+    /// GetRelations.
+    /// </summary>
+    /// <returns>Return value of type Text.</returns>
+    procedure GetRelations() JsonText: Text;
+    var
+        Extensions: Record Extensions_ANJ;
+        RelationsArry: JsonArray;
+    begin
+        Extensions.SetLoadFields(AppID);
+        Extensions.SetRange(ShowInGraph, true);
+        if Extensions.FindSet(false) then
+            repeat
+                CheckDependencies(Extensions.AppID, RelationsArry);
+            until Extensions.Next() = 0;
+        RelationsArry.WriteTo(JsonText);
+    end;
+
+    /// <summary>
+    /// CheckDependencies.
+    /// </summary>
+    /// <param name="AppId">Guid.</param>
+    /// <param name="RelationsArry">VAR JsonArray.</param>
+    local procedure CheckDependencies(AppId: Guid; var RelationsArry: JsonArray);
+    var
+        DestinationAppID: Guid;
+        ModuleDependencyInfoList: List of [ModuleDependencyInfo];
+        SingleModuleDependencyInfo: ModuleDependencyInfo;
+        AuxModuleInfo: ModuleInfo;
+    begin
+        if not NavApp.GetModuleInfo(AppId, AuxModuleInfo) then
+            exit;
+
+        ModuleDependencyInfoList := AuxModuleInfo.Dependencies;
+
+        foreach SingleModuleDependencyInfo in ModuleDependencyInfoList do begin
+            DestinationAppID := SingleModuleDependencyInfo.Id;
+            if CheckDestinationAppIDShowInGraph(DestinationAppID) then
+                AddNewRelationToJsonArry(RelationsArry, AppId, DestinationAppID);
+        end;
+    end;
+
+    /// <summary>
+    /// AddNewRelationToJsonArry.
+    /// </summary>
+    /// <param name="RelationsArry">VAR JsonArray.</param>
+    /// <param name="SourceAppID">Guid.</param>
+    /// <param name="DestinationAppID">Guid.</param>
+    local procedure AddNewRelationToJsonArry(var RelationsArry: JsonArray; SourceAppID: Guid; DestinationAppID: Guid)
+    var
+        RelationJsonObject: JsonObject;
+    begin
+        RelationJsonObject.Add(SourceAppIDLbl, SourceAppID);
+        RelationJsonObject.Add(DestinationAppIDLbl, DestinationAppID);
+
+        RelationsArry.Add(RelationJsonObject);
+    end;
+
+    /// <summary>
+    /// CheckDestinationAppIDShowInGraph.
+    /// </summary>
+    /// <param name="AppID">Guid.</param>
+    /// <returns>Return value of type Boolean.</returns>
+    local procedure CheckDestinationAppIDShowInGraph(AppID: Guid): Boolean;
+    var
+        Extensions: Record Extensions_ANJ;
+    begin
+        Extensions.SetRange(AppID, AppID);
+        Extensions.SetRange(ShowInGraph, true);
+        exit(not Extensions.IsEmpty());
+    end;
+
     var
         AzureADTenant: Codeunit "Azure AD Tenant";
         JSONMethods: Codeunit JSONMethods_ANJ;
@@ -168,10 +240,12 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
         ClientIdLbl: Label '&client_id=%1';
         ClientSecretLbl: Label '&client_secret=%1';
         ContentTypeLbl: Label 'Content-Type';
+        DestinationAppIDLbl: Label 'DestinationAppID';
         ExtensionsUrlLbl: Label 'https://api.businesscentral.dynamics.com/v2.0/%1/api/microsoft/automation/v2.0/companies(%2)/extensions';
         FilterMSAppsLbl: Label '?$filter=publisher ne ';
         GrantTypeLbl: Label 'grant_type=client_credentials';
         ScopeLbl: Label '&scope=https://api.businesscentral.dynamics.com/.default';
+        SourceAppIDLbl: Label 'SourceAppID';
         UnableToCommunicateWSErr: Label 'Unable to communicate with the web service.', comment = 'ESP="No se puede comunicar con el servicio web."';
         UrlencodedLbl: Label 'application/x-www-form-urlencoded';
         WSStatusCodeErr: Label 'Error - Status code: %1  Description: %2', comment = 'ESP="Error - Código: %1  Descripción: %2"';

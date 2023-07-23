@@ -107,6 +107,25 @@ codeunit 80810 DependencyGraphFacade_ANJ
     end;
     #endregion
 
+    /// <summary>
+    /// GetInterfaceFillProcessingTables.
+    /// </summary>
+    /// <param name="FillingProcessingTables">VAR Interface FillingProcessingTables_ANJ.</param>
+    procedure GetInterfaceFillProcessingTables(var FillingProcessingTables: Interface FillingProcessingTables_ANJ)
+    var
+        DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
+    begin
+        DependencyGraphSetup.SetLoadFields(FillingProcessingTables);
+        DependencyGraphSetup.GetInstance();
+        FillingProcessingTables := DependencyGraphSetup.FillingProcessingTables;
+        OnAfterGetFillingProcessingTables(FillingProcessingTables);
+    end;
+
+    [IntegrationEvent(false, false)]
+    local procedure OnAfterGetFillingProcessingTables(var FillingProcessingTables: Interface FillingProcessingTables_ANJ)
+    begin
+    end;
+
     var
         CleanTemporaryTables: Codeunit CleanTemporaryTables_ANJ;
         GenerateExtensionTable: Codeunit GenerateExtensionTable_ANJ;

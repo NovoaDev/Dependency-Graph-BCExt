@@ -24,63 +24,37 @@ codeunit 80808 GenerateRelationsTable_ANJ
     /// <param name="IsHandled">Boolean.</param>
     local procedure DoGenerateRelationsTable(IsHandled: Boolean);
     var
+        FillingProcessingTables: Interface FillingProcessingTables_ANJ;
+        ResponseText: Text;
     begin
         if IsHandled then
             exit;
 
-        InsertTableLines();
+        DependencyGraphFacade.GetInterfaceFillProcessingTables(FillingProcessingTables);
+        ResponseText := FillingProcessingTables.GetRelations();
+        ProcessRelationsAndInsertLines(ResponseText);
     end;
 
     /// <summary>
-    /// InsertTableLines.
+    /// ProcessRelationsAndInsertLines.
     /// </summary>
-    local procedure InsertTableLines();
+    /// <param name="ResponseText">Text.</param>
+    local procedure ProcessRelationsAndInsertLines(ResponseText: Text)
     var
-        Extensions: Record Extensions_ANJ;
+        RelationsArry: JsonArray;
+        RelationJsonToken: JsonToken;
+        JsonText: Text;
     begin
-        Extensions.SetLoadFields(AppID);
-        Extensions.SetRange(ShowInGraph, true);
-        if Extensions.FindSet(false) then
-            repeat
-                CheckDependencies(Extensions.AppID);
-            until Extensions.Next() = 0;
-    end;
-
-    /// <summary>
-    /// CheckDependencies.
-    /// </summary>
-    /// <param name="AppId">Guid.</param>
-    local procedure CheckDependencies(AppId: Guid);
-    var
-        DestinationAppID: Guid;
-        ModuleDependencyInfoList: List of [ModuleDependencyInfo];
-        SingleModuleDependencyInfo: ModuleDependencyInfo;
-        AuxModuleInfo: ModuleInfo;
-    begin
-        if not NavApp.GetModuleInfo(AppId, AuxModuleInfo) then
+        if ResponseText = '' then
             exit;
 
-        ModuleDependencyInfoList := AuxModuleInfo.Dependencies;
+        if not RelationsArry.ReadFrom(ResponseText) then
+            exit;
 
-        foreach SingleModuleDependencyInfo in ModuleDependencyInfoList do begin
-            DestinationAppID := SingleModuleDependencyInfo.Id; //TODO: Armar un JSON Para despues parsearlo.
-            if CheckDestinationAppIDShowInGraph(DestinationAppID) then
-                InsertNewRelation(AppId, DestinationAppID);
+        foreach RelationJsonToken in RelationsArry do begin
+            RelationJsonToken.WriteTo(JsonText);
+            InsertNewRelation(JSONMethods.GetJsonValue(SourceAppIDLbl, JsonText), JSONMethods.GetJsonValue(DestinationAppIDLbl, JsonText));
         end;
-    end;
-
-    /// <summary>
-    /// CheckDestinationAppIDShowInGraph.
-    /// </summary>
-    /// <param name="AppID">Guid.</param>
-    /// <returns>Return value of type Boolean.</returns>
-    local procedure CheckDestinationAppIDShowInGraph(AppID: Guid): Boolean;
-    var
-        Extensions: Record Extensions_ANJ;
-    begin
-        Extensions.SetRange(AppID, AppID);
-        Extensions.SetRange(ShowInGraph, true);
-        exit(not Extensions.IsEmpty());
     end;
 
     /// <summary>
@@ -123,4 +97,10 @@ codeunit 80808 GenerateRelationsTable_ANJ
     local procedure OnAfterGenerateRelationsTable(var Relations: Record Relations_ANJ);
     begin
     end;
+
+    var
+        DependencyGraphFacade: Codeunit DependencyGraphFacade_ANJ;
+        JSONMethods: Codeunit JSONMethods_ANJ;
+        DestinationAppIDLbl: Label 'DestinationAppID';
+        SourceAppIDLbl: Label 'SourceAppID';
 }
