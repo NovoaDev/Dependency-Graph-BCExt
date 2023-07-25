@@ -3,6 +3,106 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Dependency-Graph.Test">
     <body>
       <group id="body">
+        <trans-unit id="Codeunit 1107496048 - NamedType 283617910" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E1[Take Order Sample] --&gt; E2[DependencyGraph]</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ExpectedValues_ANJ - NamedType ExpectedRelationLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1107496048 - NamedType 1699462585" size-unit="char" translate="yes" xml:space="preserve">
+          <source>```</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ExpectedValues_ANJ - NamedType FooterLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1107496048 - NamedType 2619639984" size-unit="char" translate="yes" xml:space="preserve">
+          <source>```mermaid</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ExpectedValues_ANJ - NamedType Header1Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1107496048 - NamedType 1609892177" size-unit="char" translate="yes" xml:space="preserve">
+          <source>graph BT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ExpectedValues_ANJ - NamedType Header2Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1642682097 - NamedType 3993970854" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DestinationAppID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FillingProTablesMock_ANJ - NamedType DestinationAppIDLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1642682097 - NamedType 4198159985" size-unit="char" translate="yes" xml:space="preserve">
+          <source>displayName</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FillingProTablesMock_ANJ - NamedType DisplayNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1642682097 - NamedType 2393608217" size-unit="char" translate="yes" xml:space="preserve">
+          <source>a1f81352-6244-48a4-96a0-a81c5aaaa581</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FillingProTablesMock_ANJ - NamedType Ext01IDLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1642682097 - NamedType 1039689151" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Take Order Sample</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FillingProTablesMock_ANJ - NamedType Ext01NameLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1642682097 - NamedType 2471922624" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BusinessCentralDemos</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FillingProTablesMock_ANJ - NamedType Ext01PublisherLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1642682097 - NamedType 3053848200" size-unit="char" translate="yes" xml:space="preserve">
+          <source>3c9a4c22-42f6-4e8f-8b96-744c7fef331f</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FillingProTablesMock_ANJ - NamedType Ext02IDLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1642682097 - NamedType 3747003922" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dependency-Graph</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FillingProTablesMock_ANJ - NamedType Ext02NameLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1642682097 - NamedType 1333445049" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ANJ</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FillingProTablesMock_ANJ - NamedType Ext02PublisherLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1642682097 - NamedType 2272053225" size-unit="char" translate="yes" xml:space="preserve">
+          <source>id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FillingProTablesMock_ANJ - NamedType IdLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1642682097 - NamedType 177224252" size-unit="char" translate="yes" xml:space="preserve">
+          <source>isInstalled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FillingProTablesMock_ANJ - NamedType IsInstalledLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1642682097 - NamedType 3329916367" size-unit="char" translate="yes" xml:space="preserve">
+          <source>packageId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FillingProTablesMock_ANJ - NamedType PackageIdLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1642682097 - NamedType 2135136892" size-unit="char" translate="yes" xml:space="preserve">
+          <source>publishedAs</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FillingProTablesMock_ANJ - NamedType PublishedAsLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1642682097 - NamedType 783871344" size-unit="char" translate="yes" xml:space="preserve">
+          <source>publisher</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FillingProTablesMock_ANJ - NamedType PublisherLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1642682097 - NamedType 1618117332" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PTE</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FillingProTablesMock_ANJ - NamedType ScopeLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1642682097 - NamedType 1408304205" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SourceAppID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FillingProTablesMock_ANJ - NamedType SourceAppIDLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1642682097 - NamedType 2442600875" size-unit="char" translate="yes" xml:space="preserve">
+          <source>value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FillingProTablesMock_ANJ - NamedType ValueLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3159861850 - NamedType 4030770184" size-unit="char" translate="yes" xml:space="preserve">
           <source>App</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -52,6 +152,21 @@
           <source>E3</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit NumberSequenceTest_ANJ - NamedType ThirdRequestLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1511997686 - NamedType 3734207983" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Diferent number of records in table %1 than expected</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TemporaryTablesTest_ANJ - NamedType DiferentNumberErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1511997686 - NamedType 3232656297" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Markdown text is different than expected</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TemporaryTablesTest_ANJ - NamedType MarkdownTextErr</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2370418707 - EnumValue 983320492 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1956450053">
+          <source>Mock</source>
+          <note from="Developer" annotates="general" priority="2">ESP="WS y Mock"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension FillingProcessTablesMock_ANJ - EnumValue Mock_ANJ - Property Caption</note>
         </trans-unit>
       </group>
     </body>

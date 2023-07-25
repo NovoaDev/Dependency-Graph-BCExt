@@ -3,7 +3,7 @@
 /// </summary>
 table 80802 Relations_ANJ
 {
-    Access = Internal;
+    Access = Public;
     Caption = 'Relations', comment = 'ESP="Relaciones"';
     DataClassification = CustomerContent;
     DrillDownPageId = Relations_ANJ;
