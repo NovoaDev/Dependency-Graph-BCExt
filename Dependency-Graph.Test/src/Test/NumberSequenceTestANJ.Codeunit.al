@@ -6,6 +6,9 @@ codeunit 99990 NumberSequenceTest_ANJ
     Access = Public;
     Subtype = Test;
 
+    /// <summary>
+    /// TestNumberSequence.
+    /// </summary>
     [Test]
     procedure TestNumberSequence();
     var

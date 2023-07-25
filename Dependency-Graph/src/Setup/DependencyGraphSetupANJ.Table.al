@@ -72,6 +72,10 @@ table 80800 DependencyGraphSetup_ANJ
         {
             Caption = 'Mermaid Content Text', Comment = 'ESP="Texto de contenido Mermaid"';
         }
+        field(16; FillingProcessingTables; Enum FillingProcessingTables_ANJ)
+        {
+            Caption = 'Filling Processing Tables', Comment = 'ESP="Rellenar tablas de procesamiento"';
+        }
     }
     keys
     {

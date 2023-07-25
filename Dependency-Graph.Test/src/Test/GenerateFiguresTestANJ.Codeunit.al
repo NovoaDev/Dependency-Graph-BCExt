@@ -7,6 +7,9 @@ codeunit 99991 GenerateFiguresTest_ANJ
     Subtype = Test;
     TestPermissions = Disabled;
 
+    /// <summary>
+    /// GenerateFigures.
+    /// </summary>
     [Test]
     procedure GenerateFigures();
     var
@@ -24,9 +27,9 @@ codeunit 99991 GenerateFiguresTest_ANJ
         GetFigureText(ScopeDevFigure, ScopeGlobalFigure, ScopePTEFigure);
 
         // [Then] Verify: 
-        LibraryAssert.AreEqual(ScopePTEFigure, StrSubstNo(SquareRectangleFigureLbl, IdentityLbl, AppNameLbl), StrSubstNo(GenerateFigureErr));
-        LibraryAssert.AreEqual(ScopeGlobalFigure, StrSubstNo(CircleFigureLbl, IdentityLbl, AppNameLbl), StrSubstNo(GenerateFigureErr));
-        LibraryAssert.AreEqual(ScopeDevFigure, StrSubstNo(RhombusFigureLbl, IdentityLbl, AppNameLbl), StrSubstNo(GenerateFigureErr));
+        LibraryAssert.AreEqual(ScopePTEFigure, StrSubstNo(SquareRectangleFigureLbl, IdentityLbl, AppNameLbl), GenerateFigureErr);
+        LibraryAssert.AreEqual(ScopeGlobalFigure, StrSubstNo(CircleFigureLbl, IdentityLbl, AppNameLbl), GenerateFigureErr);
+        LibraryAssert.AreEqual(ScopeDevFigure, StrSubstNo(RhombusFigureLbl, IdentityLbl, AppNameLbl), GenerateFigureErr);
     end;
 
     /// <summary>

@@ -59,6 +59,16 @@ page 80800 DependencyGraphSetup_ANJ
                     ToolTip = 'Specifies the value of the Include Link text field.', Comment = 'ESP="Especifica el valor del campo Incluir Texto de enlace entre dependencias"';
                 }
             }
+            group(FillTables)
+            {
+                Caption = 'Fill tables', comment = 'ESP="Rellenar tablas"';
+
+                field(FillingProcessingTables; Rec.FillingProcessingTables)
+                {
+                    Editable = false;
+                    ToolTip = 'Specifies the value of the Filling Processing Tables field.', Comment = 'ESP="Especifica el valor del campo Rellenar tablas de procesamiento"';
+                }
+            }
             group(LastGeneration)
             {
                 Caption = 'Last time it was generated', comment = 'ESP="Última vez que se generó"';
