@@ -49,3 +49,6 @@ Historical.
 
 - Dependency graph <br>
 Action to access the data generation page for the graph.
+
+Very proud to be on Stefan Maron's Open Source Business Central Applications list: <br>
+https://stefanmaron.com/opensourcealprojects/
