@@ -1,5 +1,7 @@
 # Dependency Graph 
 Small tool designed to create a graph showing installed extensions and their respective dependencies, all from the **Business Central** environment in which the extension is running. In addition, it allows you to preview and download the generated text to easily add it to the client's documentation in Markdown format. <br> <br>
+**Usage video:** <br> 
+https://youtu.be/PsgThQVQAw4 <br> <br>
 Very proud to be on Stefan Maron's Open Source Business Central Applications list: <br>
 https://stefanmaron.com/opensourcealprojects/ <br><br>
 **PS:** <br>
