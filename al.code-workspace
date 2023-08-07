@@ -8,9 +8,6 @@
     },
     {
       "path": "Dependency-Graph.Test"
-    },
-    {
-      "path": "Referential-Integrity-Doctor"
     }
   ],
   "settings": {}
