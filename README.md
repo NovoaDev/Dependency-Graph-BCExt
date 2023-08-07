@@ -49,7 +49,7 @@ Features to include for chart generation: <br>
     - Link text between dependencies.
 
 - Last time it was generated <br>
-Historical.
+Historical data.
 
 - Dependency graph <br>
 Action to access the data generation page for the graph.
