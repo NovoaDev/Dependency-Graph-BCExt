@@ -4,7 +4,7 @@
 table 80800 DependencyGraphSetup_ANJ
 {
     Access = Public;
-    Caption = 'Dependency Graph Setup', comment = 'ESP="Configuración del gráfico de dependencia"';
+    Caption = 'Dependency Graph Setup';
     DataClassification = CustomerContent;
     DrillDownPageID = DependencyGraphSetup_ANJ;
     LookupPageID = DependencyGraphSetup_ANJ;
@@ -13,68 +13,68 @@ table 80800 DependencyGraphSetup_ANJ
     {
         field(1; PrimaryKey; Code[10])
         {
-            Caption = 'Primary Key', Comment = 'ESP="Clave primaria"';
+            Caption = 'Primary Key';
             NotBlank = false;
         }
         field(2; ClientID; Text[2048])
         {
-            Caption = 'Client ID', Comment = 'ESP="Id. de cliente"';
+            Caption = 'Client ID';
         }
         field(3; Secret; Text[2048])
         {
-            Caption = 'Secret', Comment = 'ESP="Secreto"';
+            Caption = 'Secret';
         }
         field(4; ScopePTEFigure; Enum GeometricFigure_ANJ)
         {
-            Caption = 'PTE Scope', Comment = 'ESP="Scope PTE"';
+            Caption = 'PTE Scope';
         }
         field(5; ScopeGlobalFigure; Enum GeometricFigure_ANJ)
         {
-            Caption = 'Global Scope', Comment = 'ESP="Scope Global"';
+            Caption = 'Global Scope';
         }
         field(6; ScopeDevFigure; Enum GeometricFigure_ANJ)
         {
-            Caption = 'Dev Scope', Comment = 'ESP="Scope Dev"';
+            Caption = 'Dev Scope';
         }
         field(7; IncludeMicrosoftApps; Boolean)
         {
-            Caption = 'Include Microsoft Apps', Comment = 'ESP="Incluir aplicaciones de Microsoft"';
+            Caption = 'Include Microsoft Apps';
         }
         field(8; DateLastGeneration; Date)
         {
-            Caption = 'Date', Comment = 'ESP="Fecha"';
+            Caption = 'Date';
         }
         field(9; TimeLastGeneration; Time)
         {
-            Caption = 'Time', Comment = 'ESP="Hora"';
+            Caption = 'Time';
         }
         field(10; Markdown; Blob)
         {
-            Caption = 'Content Text', Comment = 'ESP="Texto de contenido"';
+            Caption = 'Content Text';
         }
         field(11; Picture; Media)
         {
-            Caption = 'Picture', Comment = 'ESP="Imagen"';
+            Caption = 'Picture';
         }
         field(12; IncludeLinkText; Boolean)
         {
-            Caption = 'Include Link Text', Comment = 'ESP="Incluir texto de enlace"';
+            Caption = 'Include Link Text';
         }
         field(13; DateLastGenerationMarkdown; Date)
         {
-            Caption = 'Date', Comment = 'ESP="Fecha"';
+            Caption = 'Date';
         }
         field(14; TimeLastGenerationMarkdown; Time)
         {
-            Caption = 'Time', Comment = 'ESP="Hora"';
+            Caption = 'Time';
         }
         field(15; MarkdownMermaid; Blob)
         {
-            Caption = 'Mermaid Content Text', Comment = 'ESP="Texto de contenido Mermaid"';
+            Caption = 'Mermaid Content Text';
         }
         field(16; FillingProcessingTables; Enum FillingProcessingTables_ANJ)
         {
-            Caption = 'Filling Processing Tables', Comment = 'ESP="Rellenar tablas de procesamiento"';
+            Caption = 'Filling Processing Tables';
         }
     }
     keys

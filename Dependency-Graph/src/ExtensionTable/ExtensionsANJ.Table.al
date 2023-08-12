@@ -4,7 +4,7 @@
 table 80801 Extensions_ANJ
 {
     Access = Public;
-    Caption = 'Extensions', comment = 'ESP="Extensiones"';
+    Caption = 'Extensions';
     DataClassification = CustomerContent;
     DrillDownPageId = Extensions_ANJ;
     LookupPageId = Extensions_ANJ;
@@ -13,15 +13,15 @@ table 80801 Extensions_ANJ
     {
         field(1; AppID; Guid)
         {
-            Caption = 'App ID', comment = 'ESP="ID de la aplicación"';
+            Caption = 'App ID';
         }
         field(2; Name; Text[2048])
         {
-            Caption = 'Name', comment = 'ESP="Nombre"';
+            Caption = 'Name';
         }
         field(3; DisplayName; Text[2048])
         {
-            Caption = 'Display Name', comment = 'ESP="Nombre para mostrar"';
+            Caption = 'Display Name';
 
             trigger OnValidate()
             begin
@@ -30,15 +30,15 @@ table 80801 Extensions_ANJ
         }
         field(4; Publisher; Text[2048])
         {
-            Caption = 'Publisher', comment = 'ESP="Publicado"';
+            Caption = 'Publisher';
         }
         field(5; PublishedAs; Enum ExtensionScope_ANJ)
         {
-            Caption = 'Published As', comment = 'ESP="Publicado como"';
+            Caption = 'Published As';
         }
         field(6; Identity; Text[2048])
         {
-            Caption = 'Identity', comment = 'ESP="Identidad"';
+            Caption = 'Identity';
 
             trigger OnValidate()
             begin
@@ -47,23 +47,23 @@ table 80801 Extensions_ANJ
         }
         field(7; ShowInGraph; Boolean)
         {
-            Caption = 'Show In Graph', comment = 'ESP="Mostrar en gráfico"';
+            Caption = 'Show In Graph';
         }
         field(8; Figure; Text[2048])
         {
-            Caption = 'Figure', comment = 'ESP="Figura"';
+            Caption = 'Figure';
         }
         field(9; HasStartRelationships; Boolean)
         {
             CalcFormula = exist(Relations_ANJ where(SourceAppID = field(AppID)));
-            Caption = 'Has Relationships', comment = 'ESP="Tiene relaciones"';
+            Caption = 'Has Relationships';
             Editable = false;
             FieldClass = FlowField;
         }
         field(10; HasRelationships; Boolean)
         {
             CalcFormula = exist(Relations_ANJ where(DestinationAppID = field(AppID)));
-            Caption = 'Has Relationships', comment = 'ESP="Tiene relaciones"';
+            Caption = 'Has Relationships';
             Editable = false;
             FieldClass = FlowField;
         }

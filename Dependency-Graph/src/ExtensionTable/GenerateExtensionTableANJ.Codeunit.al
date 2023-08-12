@@ -112,6 +112,6 @@ codeunit 80805 GenerateExtensionTable_ANJ
         IsInstalledLbl: Label 'isInstalled';
         PublishedAsLbl: Label 'publishedAs';
         PublisherLbl: Label 'publisher';
-        ReadingJsonErr: Label 'Error reading JSON response.', comment = 'ESP="Error al leer la respuesta JSON."';
+        ReadingJsonErr: Label 'Error reading JSON response.';
         ValueJsonArryLbl: Label 'value';
 }

@@ -35,5 +35,5 @@ codeunit 80813 JSONMethods_ANJ
     end;
 
     var
-        ReadingJsonErr: Label 'Error reading JSON response.', comment = 'ESP="Error al leer la respuesta JSON."';
+        ReadingJsonErr: Label 'Error reading JSON response.';
 }

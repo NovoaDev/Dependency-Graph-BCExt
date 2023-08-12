@@ -4,7 +4,7 @@
 page 80802 ShowInGraph_ANJ
 {
     ApplicationArea = All;
-    Caption = 'Show In Dependency Graph', comment = 'ESP="Mostrar en gráfico de dependencia"';
+    Caption = 'Show In Dependency Graph';
     PageType = Document;
     UsageCategory = None;
 
@@ -39,12 +39,12 @@ page 80802 ShowInGraph_ANJ
             action(GenTables)
             {
                 ApplicationArea = All;
-                Caption = 'Generate data', comment = 'ESP="Generar datos"';
+                Caption = 'Generate data';
                 Image = NewSparkle;
                 Promoted = true;
                 PromotedCategory = Process;
                 PromotedOnly = true;
-                ToolTip = 'Executes the Generate data action.', Comment = 'ESP="Ejecuta la acción Generar datos"';
+                ToolTip = 'Executes the Generate data action.';
 
                 trigger OnAction()
                 begin

@@ -4,7 +4,7 @@
 table 80802 Relations_ANJ
 {
     Access = Public;
-    Caption = 'Relations', comment = 'ESP="Relaciones"';
+    Caption = 'Relations';
     DataClassification = CustomerContent;
     DrillDownPageId = Relations_ANJ;
     LookupPageId = Relations_ANJ;
@@ -13,37 +13,37 @@ table 80802 Relations_ANJ
     {
         field(1; RelationNo; Integer)
         {
-            Caption = 'Relation No.', comment = 'ESP="Número de relación"';
+            Caption = 'Relation No.';
         }
         field(2; SourceAppID; Guid)
         {
-            Caption = 'Source App ID', comment = 'ESP="ID de la aplicación origen"';
+            Caption = 'Source App ID';
         }
         field(3; SourceAppName; Text[2048])
         {
             CalcFormula = lookup(Extensions_ANJ.DisplayName where(AppID = field(SourceAppID)));
-            Caption = 'Source App Name', comment = 'ESP="Nombre de la aplicación origen"';
+            Caption = 'Source App Name';
             Editable = false;
             FieldClass = FlowField;
         }
         field(4; DestinationAppID; Guid)
         {
-            Caption = 'Destination App ID', comment = 'ESP="ID de la aplicación destino"';
+            Caption = 'Destination App ID';
         }
         field(5; DestinationAppName; Text[2048])
         {
             CalcFormula = lookup(Extensions_ANJ.DisplayName where(AppID = field(DestinationAppID)));
-            Caption = 'Destination App Name', comment = 'ESP="Nombre de la aplicación destino"';
+            Caption = 'Destination App Name';
             Editable = false;
             FieldClass = FlowField;
         }
         field(6; LinkText; Text[2048])
         {
-            Caption = 'Link Text', Comment = 'ESP="Texto de enlace"';
+            Caption = 'Link Text';
         }
         field(7; ShowInGraph; Boolean)
         {
-            Caption = 'Show In Graph', comment = 'ESP="Mostrar en gráfico"';
+            Caption = 'Show In Graph';
         }
     }
     keys
