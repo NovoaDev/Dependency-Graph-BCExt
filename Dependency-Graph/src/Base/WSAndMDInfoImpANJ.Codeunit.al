@@ -246,7 +246,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
         GrantTypeLbl: Label 'grant_type=client_credentials';
         ScopeLbl: Label '&scope=https://api.businesscentral.dynamics.com/.default';
         SourceAppIDLbl: Label 'SourceAppID';
-        UnableToCommunicateWSErr: Label 'Unable to communicate with the web service.', comment = 'ESP="No se puede comunicar con el servicio web."';
+        UnableToCommunicateWSErr: Label 'Unable to communicate with the web service.';
         UrlencodedLbl: Label 'application/x-www-form-urlencoded';
-        WSStatusCodeErr: Label 'Error - Status code: %1  Description: %2', comment = 'ESP="Error - Código: %1  Descripción: %2"';
+        WSStatusCodeErr: Label 'Error - Status code: %1  Description: %2';
 }

@@ -4,19 +4,19 @@
 enum 80801 ExtensionScope_ANJ
 {
     Access = Public;
-    Caption = 'Extension Scope', Comment = 'ESP="Alcance de la extensión"';
+    Caption = 'Extension Scope';
     Extensible = false;
 
     value(0; PTE)
     {
-        Caption = 'PTE', Comment = 'ESP="PTE"';
+        Caption = 'PTE';
     }
     value(1; Global)
     {
-        Caption = 'Global', Comment = 'ESP="Global"';
+        Caption = 'Global';
     }
     value(2; Dev)
     {
-        Caption = 'Dev', Comment = 'ESP="Dev"';
+        Caption = 'Dev';
     }
 }

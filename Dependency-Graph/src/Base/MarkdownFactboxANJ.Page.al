@@ -4,7 +4,7 @@
 page 80805 MarkdownFactbox_ANJ
 {
     ApplicationArea = All;
-    Caption = 'Markdown Text', comment = 'ESP="Texto Markdown"';
+    Caption = 'Markdown Text';
     Editable = false;
     PageType = CardPart;
     UsageCategory = None;
@@ -28,9 +28,9 @@ page 80805 MarkdownFactbox_ANJ
             action(DownloadMarkdown)
             {
                 ApplicationArea = All;
-                Caption = 'Download Markdown as .md', comment = 'ESP="Descargar Markdown como un .md"';
+                Caption = 'Download Markdown as .md';
                 Image = Download;
-                ToolTip = 'Executes the Download Markdown as .md action.', Comment = 'ESP="Ejecuta la acción Descargar Markdown como un .md"';
+                ToolTip = 'Executes the Download Markdown as .md action.';
 
                 trigger OnAction()
                 begin

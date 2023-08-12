@@ -4,27 +4,27 @@
 enum 80800 GeometricFigure_ANJ implements FigureInGraph_ANJ
 {
     Access = Public;
-    Caption = 'Geometric Figure', Comment = 'ESP="Figura Geométrica"';
+    Caption = 'Geometric Figure';
     Extensible = true;
 
     value(0; SquareRectangle)
     {
-        Caption = 'Square/Rectangle', Comment = 'ESP="Cuadrado/Rectángulo"';
+        Caption = 'Square/Rectangle';
         Implementation = FigureInGraph_ANJ = SquareRectangleIMP_ANJ;
     }
     value(1; Circle)
     {
-        Caption = 'Circle', Comment = 'ESP="Círculo"';
+        Caption = 'Circle';
         Implementation = FigureInGraph_ANJ = CircleIMP_ANJ;
     }
     value(2; RoundRectangle)
     {
-        Caption = 'Round Rectangle', Comment = 'ESP="Rectángulo Redondeado"';
+        Caption = 'Round Rectangle';
         Implementation = FigureInGraph_ANJ = RoundRectangleIMP_ANJ;
     }
     value(3; Rhombus)
     {
-        Caption = 'Rhombus', Comment = 'ESP="Rombo"';
+        Caption = 'Rhombus';
         Implementation = FigureInGraph_ANJ = RhombusIMP_ANJ;
     }
 }

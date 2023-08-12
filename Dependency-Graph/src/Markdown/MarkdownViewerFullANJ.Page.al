@@ -4,7 +4,7 @@
 page 80806 MarkdownViewerFull_ANJ
 {
     ApplicationArea = All;
-    Caption = 'Markdown Viewer', comment = 'ESP="Markdown Viewer"';
+    Caption = 'Markdown Viewer';
     PageType = Card;
     UsageCategory = None;
 

@@ -4,7 +4,7 @@
 page 80804 MarkdownViewer_ANJ
 {
     ApplicationArea = All;
-    Caption = 'Markdown Viewer', comment = 'ESP="Markdown Viewer"';
+    Caption = 'Markdown Viewer';
     PageType = CardPart;
     UsageCategory = None;
 
@@ -24,9 +24,9 @@ page 80804 MarkdownViewer_ANJ
             action(GenerateMarkdown)
             {
                 ApplicationArea = All;
-                Caption = 'Display dependency graph', comment = 'ESP="Visualizar gráfico de dependencia"';
+                Caption = 'Display dependency graph';
                 Image = View;
-                ToolTip = 'Executes the Display dependency graph action.', Comment = 'ESP="Ejecuta la acción Visualizar gráfico de dependencia"';
+                ToolTip = 'Executes the Display dependency graph action.';
 
                 trigger OnAction()
                 begin
