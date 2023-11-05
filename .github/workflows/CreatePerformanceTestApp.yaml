@@ -12,14 +12,14 @@ on:
       name:
         description: Name
         required: true
-        default: '<YourAppName>.PerformanceTest'         
+        default: '<YourAppName>.PerformanceTest'
       publisher:
         description: Publisher
         required: true
       idrange:
         description: ID range
         required: true
-        default: '50000..99999'  
+        default: '50000..99999'
       sampleCode:
         description: Include Sample code (Y/N)
         required: false
@@ -32,6 +32,9 @@ on:
         description: Direct COMMIT (Y/N)
         required: false
         default: 'N'
+      useGhTokenWorkflow:
+        description: Use GhTokenWorkflow for Pull Request/COMMIT
+        type: boolean
 
 permissions:
   contents: write
@@ -54,15 +57,30 @@ jobs:
 
       - name: Initialize the workflow
         id: init
-        uses: microsoft/AL-Go-Actions/WorkflowInitialize@v3.1
+        uses: microsoft/AL-Go-Actions/WorkflowInitialize@v4.0
         with:
           shell: powershell
           eventId: "DO0102"
 
-      - name: Creating a new test app
-        uses: microsoft/AL-Go-Actions/CreateApp@v3.1
+      - name: Read settings
+        uses: microsoft/AL-Go-Actions/ReadSettings@v4.0
         with:
           shell: powershell
+
+      - name: Read secrets
+        id: ReadSecrets
+        uses: microsoft/AL-Go-Actions/ReadSecrets@v4.0
+        with:
+          shell: powershell
+          gitHubSecrets: ${{ toJson(secrets) }}
+          getSecrets: 'TokenForPush'
+          useGhTokenWorkflowForPush: '${{ github.event.inputs.useGhTokenWorkflow }}'
+
+      - name: Creating a new test app
+        uses: microsoft/AL-Go-Actions/CreateApp@v4.0
+        with:
+          shell: powershell
+          token: ${{ steps.ReadSecrets.outputs.TokenForPush }}
           parentTelemetryScopeJson: ${{ steps.init.outputs.telemetryScopeJson }}
           project: ${{ github.event.inputs.project }}
           type: 'Performance Test App'
@@ -75,7 +93,7 @@ jobs:
 
       - name: Finalize the workflow
         if: always()
-        uses: microsoft/AL-Go-Actions/WorkflowPostProcess@v3.1
+        uses: microsoft/AL-Go-Actions/WorkflowPostProcess@v4.0
         with:
           shell: powershell
           eventId: "DO0102"
