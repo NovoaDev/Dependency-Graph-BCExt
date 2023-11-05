@@ -2,7 +2,7 @@
   "id": "d7bcd883-c9cb-4e98-a771-a3b2ba51444e",
   "name": "Dependency-Graph.Test",
   "publisher": "ANJ",
-  "version": "2.5.0.0",
+  "version": "2.6.0.0",
   "brief": "App to test Dependency-Graph",
   "description": "App to test Dependency-Graph",
   "privacyStatement": "https://github.com/NovoaDev/Dependency-Graph-BCExt",
