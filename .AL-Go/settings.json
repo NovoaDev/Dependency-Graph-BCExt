@@ -4,8 +4,16 @@
     "TESTING",
     "PRODUCTION (Production)"
   ],
-  "TESTING_AuthContextSecretName": "DEVELOPMENT_AUTHCONTEXT",
-  "PRODUCTION_AuthContextSecretName": "DEVELOPMENT_AUTHCONTEXT",
+   "DeployToTESTING": {
+    "EnvironmentName": "TESTING",
+    "Projects": "*",
+    "SyncMode": "ForceSync"
+  },
+  "DeployToPRODUCTION": {
+    "EnvironmentName": "PRODUCTION",
+    "Projects": "*",
+    "ContinuousDeployment": false
+  },
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": [],
