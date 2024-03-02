@@ -1,5 +1,6 @@
 {
     "al.enableCodeAnalysis": true,
+    "al.backgroundCodeAnalysis": "Project",
     "al.codeAnalyzers": [
         "${CodeCop}",
         "${UICop}",
@@ -18,7 +19,7 @@
     "CRS.ObjectNameSuffix": "_ANJ",
     "rest-client.rememberCookiesForSubsequentRequests": false,
     "editor.codeActionsOnSave": {
-        "source.fixAll.al": true
+        "source.fixAll.al": "explicit"
     },
     "alOutline.codeActionsOnSave": [
         "SortProperties",
