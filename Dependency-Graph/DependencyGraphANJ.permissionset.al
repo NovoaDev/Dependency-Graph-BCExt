@@ -1,7 +1,11 @@
+/// <summary>
+/// permissionset DependencyGraph_ANJ (ID 80800).
+/// </summary>
 permissionset 80800 DependencyGraph_ANJ
 {
     Access = Public;
     Assignable = true;
+    Caption = 'DependencyGraph', Locked = true;
     Permissions = tabledata DependencyGraphSetup_ANJ = RIMD,
         table DependencyGraphSetup_ANJ = X,
         codeunit CircleIMP_ANJ = X,

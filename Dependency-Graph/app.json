@@ -2,7 +2,7 @@
   "id": "3c9a4c22-42f6-4e8f-8b96-744c7fef331f",
   "name": "Dependency-Graph",
   "publisher": "ANJ",
-  "version": "4.14.0.0",
+  "version": "4.14.0.1",
   "brief": "App to generate the dependency tree",
   "description": "App to generate the dependency tree of the extensions we have installed.",
   "privacyStatement": "https://github.com/NovoaDev/Dependency-Graph-BCExt",
@@ -14,7 +14,7 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "application": "23.0.0.0",
   "idRanges": [
     {
       "from": 80800,
@@ -30,12 +30,5 @@
     "allowDownloadingSource": false,
     "includeSourceInSymbolFile": false
   },
-  "runtime": "11.0",
-  "internalsVisibleTo": [
-    {
-      "id": "d7bcd883-c9cb-4e98-a771-a3b2ba51444e",
-      "name": "Dependency-Graph.Test",
-      "publisher": "ANJ"
-    }
-  ]
+  "runtime": "12.0"
 }
