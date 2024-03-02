@@ -25,5 +25,19 @@
         "SortProperties",
         "SortVariables",
         "FormatDocument"
+    ],
+    "al-xml-doc.CheckObjectDocumentationInformationLevel": "Error",
+    "al-xml-doc.CheckProcedureDocumentationInformationLevel": "Error",
+    "al-xml-doc.CheckProcedureDocumentationForType": [
+        "Global Procedures",
+        "Local Procedures",
+        "Internal Procedures",
+        "Protected Procedures",
+        "Event Publisher"
+    ],
+    "al-xml-doc.CheckProcedureDocumentationForAccessLevel": [    
+        "Public",
+        "Internal",
+        "Local"
     ]
 }
