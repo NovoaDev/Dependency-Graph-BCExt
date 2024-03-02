@@ -30,5 +30,12 @@
     "allowDownloadingSource": false,
     "includeSourceInSymbolFile": false
   },
-  "runtime": "11.0"
+  "runtime": "11.0",
+  "internalsVisibleTo": [
+    {
+      "id": "d7bcd883-c9cb-4e98-a771-a3b2ba51444e",
+      "name": "Dependency-Graph.Test",
+      "publisher": "ANJ"
+    }
+  ]
 }
