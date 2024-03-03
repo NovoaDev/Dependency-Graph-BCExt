@@ -1,6 +1,7 @@
 /// <summary>
 /// permissionset DependencyGraph_ANJ (ID 80800).
 /// </summary>
+namespace ANJ.Tools.Graph;
 permissionset 80800 DependencyGraph_ANJ
 {
     Access = Public;

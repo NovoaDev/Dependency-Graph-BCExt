@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit MarkdownMgmt_ANJ (ID 80809).
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 80809 MarkdownMgmt_ANJ
 {
     Access = Public;

@@ -1,6 +1,7 @@
 /// <summary>
 /// Page "MarkdownViewerFull_ANJ" (ID 80804).
 /// </summary>
+namespace ANJ.Tools.Graph;
 page 80806 MarkdownViewerFull_ANJ
 {
     ApplicationArea = All;
