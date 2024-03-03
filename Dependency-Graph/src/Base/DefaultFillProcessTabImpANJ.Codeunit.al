@@ -6,11 +6,19 @@ codeunit 80815 DefaultFillProcessTabImp_ANJ implements FillingProcessingTables_A
 {
     Access = Internal;
 
+    /// <summary>
+    /// GetExtensions.
+    /// </summary>
+    /// <returns>Return value of type Text.</returns>
     procedure GetExtensions(): Text
     begin
         Error(ImpErr);
     end;
 
+    /// <summary>
+    /// GetRelations.
+    /// </summary>
+    /// <returns>Return variable JsonText of type Text.</returns>
     procedure GetRelations() JsonText: Text
     begin
         Error(ImpErr);

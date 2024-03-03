@@ -179,11 +179,18 @@ codeunit 80809 MarkdownMgmt_ANJ
         exit(AuxText);
     end;
 
+    /// <summary>
+    /// OnBeforeGenerateMarkdown.
+    /// </summary>
+    /// <param name="IsHandled"></param>
     [IntegrationEvent(false, false)]
     local procedure OnBeforeGenerateMarkdown(var IsHandled: Boolean)
     begin
     end;
 
+    /// <summary>
+    /// OnAfterGenerateMarkdown.
+    /// </summary>
     [IntegrationEvent(false, false)]
     local procedure OnAfterGenerateMarkdown()
     begin

@@ -45,7 +45,7 @@ page 80805 MarkdownFactbox_ANJ
     /// <summary>
     /// SetMarkdownText.
     /// </summary>
-    /// <param name="AuxMarkdownText">Text.</param>
+    /// <param name="AuxMarkdownText">Text.</param>    
     internal procedure SetMarkdownText(AuxMarkdownText: Text)
     begin
         MarkdownText := AuxMarkdownText;

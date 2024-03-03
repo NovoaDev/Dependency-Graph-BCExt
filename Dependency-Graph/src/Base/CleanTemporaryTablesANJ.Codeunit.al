@@ -6,6 +6,11 @@ codeunit 80811 CleanTemporaryTables_ANJ
 {
     Access = Public;
 
+    /// <summary>
+    /// Clean.
+    /// </summary>
+    /// <param name="ExtensionsTable">Boolean.</param>
+    /// <param name="RelationsTable">Boolean.</param>
     internal procedure Clean(ExtensionsTable: Boolean; RelationsTable: Boolean)
     var
         IsHandled: Boolean;
@@ -15,6 +20,12 @@ codeunit 80811 CleanTemporaryTables_ANJ
         OnAfterClean(ExtensionsTable, RelationsTable);
     end;
 
+    /// <summary>
+    /// DoClean.
+    /// </summary>
+    /// <param name="ExtensionsTable">Boolean.</param>
+    /// <param name="RelationsTable">Boolean.</param>
+    /// <param name="IsHandled">Boolean.</param>
     local procedure DoClean(ExtensionsTable: Boolean; RelationsTable: Boolean; IsHandled: Boolean)
     begin
         if IsHandled then
@@ -27,6 +38,9 @@ codeunit 80811 CleanTemporaryTables_ANJ
             CleanRelationsTable();
     end;
 
+    /// <summary>
+    /// CleanRelationsTable.
+    /// </summary>
     local procedure CleanExtensionsTable()
     var
         Extensions: Record Extensions_ANJ;
@@ -35,6 +49,9 @@ codeunit 80811 CleanTemporaryTables_ANJ
             Extensions.DeleteAll(true);
     end;
 
+    /// <summary>
+    /// CleanRelationsTable.
+    /// </summary>
     local procedure CleanRelationsTable()
     var
         Relations: Record Relations_ANJ;

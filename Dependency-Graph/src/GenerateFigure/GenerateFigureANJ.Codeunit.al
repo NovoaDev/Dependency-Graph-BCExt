@@ -91,11 +91,22 @@ codeunit 80804 GenerateFigure_ANJ
         end;
     end;
 
+    /// <summary>
+    /// OnBeforeGenerate
+    /// </summary>
+    /// <param name="ExtensionScope"></param>
+    /// <param name="Identity"></param>
+    /// <param name="AppName"></param>
+    /// <param name="IsHandled"></param>
     [IntegrationEvent(false, false)]
     local procedure OnBeforeGenerate(ExtensionScope: Enum ExtensionScope_ANJ; Identity: Text; AppName: Text; var IsHandled: Boolean)
     begin
     end;
 
+    /// <summary>
+    /// OnAfterGenerate.
+    /// </summary>
+    /// <param name="ReturnText">VAR Text.</param>
     [IntegrationEvent(false, false)]
     local procedure OnAfterGenerate(var ReturnText: Text)
     begin

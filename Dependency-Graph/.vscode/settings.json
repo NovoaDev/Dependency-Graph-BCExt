@@ -30,10 +30,17 @@
     "al-xml-doc.CheckProcedureDocumentationInformationLevel": "Error",
     "al-xml-doc.CheckProcedureDocumentationForType": [
         "Global Procedures",
+        "Internal Procedures",
         "Protected Procedures",
+        "Local Procedures",
+        "Control Add-In Events",
+        "Control Add-In Procedures",
         "Event Publisher"
     ],
     "al-xml-doc.CheckProcedureDocumentationForAccessLevel": [
-        "Public"
+        "Public",
+        "Internal",
+        "Protected",
+        "Local"
     ]
 }

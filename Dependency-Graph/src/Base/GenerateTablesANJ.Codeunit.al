@@ -25,12 +25,11 @@ codeunit 80807 GenerateTables_ANJ
         UpdateSetupTable();
         AcknowledgeGenerateTables(HideDialog);
     end;
-
     /// <summary>
     /// ConfirmGenerateTables.
     /// </summary>
     /// <param name="HideDialog">Boolean.</param>
-    /// <returns>Return value of type Boolean.</returns>
+    /// <returns>Return variable Answer of type Boolean.</returns>
     local procedure ConfirmGenerateTables(HideDialog: Boolean) Answer: Boolean
     begin
         Answer := true;
@@ -79,11 +78,18 @@ codeunit 80807 GenerateTables_ANJ
         Message(ProcessFinishMsg);
     end;
 
+    /// <summary>
+    /// OnBeforeGenerateTables.
+    /// </summary>
+    /// <param name="IsHandled">VAR Boolean.</param>
     [IntegrationEvent(false, false)]
     local procedure OnBeforeGenerateTables(var IsHandled: Boolean)
     begin
     end;
 
+    /// <summary>
+    /// OnAfterGenerateTables.
+    /// </summary>
     [IntegrationEvent(false, false)]
     local procedure OnAfterGenerateTables()
     begin

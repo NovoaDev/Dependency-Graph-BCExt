@@ -7,7 +7,7 @@ codeunit 80813 JSONMethods_ANJ
     Access = Internal;
 
     /// <summary>
-    /// PopulateJsonValue.
+    /// GetJsonValue.
     /// </summary>
     /// <param name="JsonKey">Text.</param>
     /// <param name="ResponseText">Text.</param>

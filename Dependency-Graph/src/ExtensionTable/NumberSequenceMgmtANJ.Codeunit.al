@@ -46,11 +46,19 @@ codeunit 80806 NumberSequenceMgmt_ANJ
         exit(NewIdentity);
     end;
 
+    /// <summary>
+    /// OnBeforeBuildIdentity.
+    /// </summary>
+    /// <param name="IsHandled">VAR Boolean.</param>
     [IntegrationEvent(false, false)]
     local procedure OnBeforeBuildIdentity(var IsHandled: Boolean)
     begin
     end;
 
+    /// <summary>
+    /// OnAfterBuildIdentity.
+    /// </summary>
+    /// <param name="NewIdentity">VAR Text.</param>
     [IntegrationEvent(false, false)]
     local procedure OnAfterBuildIdentity(var NewIdentity: Text)
     begin

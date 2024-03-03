@@ -90,10 +90,20 @@ codeunit 80808 GenerateRelationsTable_ANJ
             NewRelationsLine += Relations.RelationNo;
     end;
 
+    /// <summary>
+    /// OnBeforeGenerateRelationsTable.
+    /// </summary>
+    /// <param name="Relations">VAR Record Relations_ANJ.</param>
+    /// <param name="IsHandled">VAR Boolean.</param>
     [IntegrationEvent(false, false)]
     local procedure OnBeforeGenerateRelationsTable(var Relations: Record Relations_ANJ; var IsHandled: Boolean)
     begin
     end;
+
+    /// <summary>
+    /// OnAfterGenerateRelationsTable.
+    /// </summary>
+    /// <param name="Relations">VAR Record Relations_ANJ.</param>
 
     [IntegrationEvent(false, false)]
     local procedure OnAfterGenerateRelationsTable(var Relations: Record Relations_ANJ)
