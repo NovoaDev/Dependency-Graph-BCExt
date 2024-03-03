@@ -8,7 +8,7 @@ codeunit 80805 GenerateExtensionTable_ANJ
     /// <summary>
     /// Generate.
     /// </summary>
-    internal procedure Generate();
+    internal procedure Generate()
     var
         Extensions: Record Extensions_ANJ;
         IsHandled: Boolean;
@@ -22,7 +22,7 @@ codeunit 80805 GenerateExtensionTable_ANJ
     /// DoGenerateExtensionTable.
     /// </summary>
     /// <param name="IsHandled">Boolean.</param>
-    local procedure DoGenerateExtensionTable(IsHandled: Boolean);
+    local procedure DoGenerateExtensionTable(IsHandled: Boolean)
     var
         FillingProcessingTables: Interface FillingProcessingTables_ANJ;
         ResponseText: Text;
@@ -40,7 +40,7 @@ codeunit 80805 GenerateExtensionTable_ANJ
     /// PopulateResponse.
     /// </summary>
     /// <param name="ResponseText">Text.</param>
-    local procedure PopulateResponse(ResponseText: Text);
+    local procedure PopulateResponse(ResponseText: Text)
     var
         ResponseJsonArray: JsonArray;
         SingleJsonObject: JsonToken;
@@ -59,7 +59,7 @@ codeunit 80805 GenerateExtensionTable_ANJ
     /// InsertTableLines.
     /// </summary>
     /// <param name="SingleJsonObject">JsonToken.</param>
-    local procedure InsertTableLines(SingleJsonObject: JsonToken);
+    local procedure InsertTableLines(SingleJsonObject: JsonToken)
     var
         Extensions: Record Extensions_ANJ;
         AuxiliaryText: Text;
@@ -94,12 +94,12 @@ codeunit 80805 GenerateExtensionTable_ANJ
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeGenerateExtensionTable(Extensions: Record Extensions_ANJ; var IsHandled: Boolean);
+    local procedure OnBeforeGenerateExtensionTable(Extensions: Record Extensions_ANJ; var IsHandled: Boolean)
     begin
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnAfterGenerateExtensionTable(Extensions: Record Extensions_ANJ);
+    local procedure OnAfterGenerateExtensionTable(Extensions: Record Extensions_ANJ)
     begin
     end;
 

@@ -9,7 +9,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// GetExtensions.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    procedure GetExtensions(): Text;
+    procedure GetExtensions(): Text
     var
         AccessToken: Text;
     begin
@@ -24,7 +24,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// GetAccessToken.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    local procedure GetAccessToken(): Text;
+    local procedure GetAccessToken(): Text
     var
         AuxHttpClient: HttpClient;
         RequestHttpContent: HttpContent;
@@ -48,7 +48,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// GetRequestAccessTokenContent.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    local procedure GetRequestAccessTokenContent(): Text;
+    local procedure GetRequestAccessTokenContent(): Text
     var
         DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
         ContentTextBuilder: TextBuilder;
@@ -67,7 +67,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// GetAccessTokenAPIUrl.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    local procedure GetAccessTokenAPIUrl(): Text;
+    local procedure GetAccessTokenAPIUrl(): Text
     begin
         exit(StrSubstNo(AccessTokenUrlLbl, GetTenantId()));
     end;
@@ -76,7 +76,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// GetTenantId.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    local procedure GetTenantId(): Text;
+    local procedure GetTenantId(): Text
     begin
         exit(AzureADTenant.GetAadTenantId());
     end;
@@ -86,7 +86,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// </summary>
     /// <param name="AccessToken">Text.</param>
     /// <returns>Return value of type Text.</returns>
-    local procedure DoGetExtensions(AccessToken: Text): Text;
+    local procedure DoGetExtensions(AccessToken: Text): Text
     var
         AuxHttpClient: HttpClient;
         ResponseHttpResponseMessage: HttpResponseMessage;
@@ -105,7 +105,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// GetExtensionsAPIUrl.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    local procedure GetExtensionsAPIUrl(): Text;
+    local procedure GetExtensionsAPIUrl(): Text
     var
         DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
         ExtensionsUrl: Text;
@@ -125,7 +125,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// GetEnvironmentName.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    local procedure GetEnvironmentName(): Text;
+    local procedure GetEnvironmentName(): Text
     var
         EnvironmentInformation: Codeunit "Environment Information";
     begin
@@ -136,7 +136,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// GetCompanyId.
     /// </summary>
     /// <returns>Return value of type Boolean.</returns>
-    local procedure GetCompanyId(): Text;
+    local procedure GetCompanyId(): Text
     var
         Company: Record Company;
     begin
@@ -151,7 +151,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// </summary>
     /// <param name="ResponseHttpResponseMessage">VAR HttpResponseMessage.</param>
     /// <param name="ResponseText">VAR Text.</param>
-    local procedure GetResponseMessageText(var ResponseHttpResponseMessage: HttpResponseMessage; var ResponseText: Text);
+    local procedure GetResponseMessageText(var ResponseHttpResponseMessage: HttpResponseMessage; var ResponseText: Text)
     begin
         ResponseHttpResponseMessage.Content().ReadAs(ResponseText);
         if not ResponseHttpResponseMessage.IsSuccessStatusCode() then
@@ -162,7 +162,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// GetRelations.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    procedure GetRelations() JsonText: Text;
+    procedure GetRelations() JsonText: Text
     var
         Extensions: Record Extensions_ANJ;
         RelationsArry: JsonArray;
@@ -181,7 +181,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// </summary>
     /// <param name="AppId">Guid.</param>
     /// <param name="RelationsArry">VAR JsonArray.</param>
-    local procedure CheckDependencies(AppId: Guid; var RelationsArry: JsonArray);
+    local procedure CheckDependencies(AppId: Guid; var RelationsArry: JsonArray)
     var
         DestinationAppID: Guid;
         ModuleDependencyInfoList: List of [ModuleDependencyInfo];
@@ -221,7 +221,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// </summary>
     /// <param name="AppID">Guid.</param>
     /// <returns>Return value of type Boolean.</returns>
-    local procedure CheckDestinationAppIDShowInGraph(AppID: Guid): Boolean;
+    local procedure CheckDestinationAppIDShowInGraph(AppID: Guid): Boolean
     var
         Extensions: Record Extensions_ANJ;
     begin

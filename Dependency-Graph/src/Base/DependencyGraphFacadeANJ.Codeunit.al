@@ -9,7 +9,7 @@ codeunit 80810 DependencyGraphFacade_ANJ
     /// <summary>
     /// InitializeNumberSequence
     /// </summary>
-    procedure InitializeNumberSequence();
+    procedure InitializeNumberSequence()
     begin
         NumberSequenceMgmt.Initialize();
     end;
@@ -18,7 +18,7 @@ codeunit 80810 DependencyGraphFacade_ANJ
     /// GetNextNumberSequence.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    procedure GetNextNumberSequence(): Text;
+    procedure GetNextNumberSequence(): Text
     begin
         exit(NumberSequenceMgmt.GetNextNo());
     end;
@@ -32,7 +32,7 @@ codeunit 80810 DependencyGraphFacade_ANJ
     /// <param name="Identity">Text.</param>
     /// <param name="AppName">Text.</param>
     /// <returns>Return value of type Text.</returns>
-    procedure GenerateFigures(ExtensionScope: Enum ExtensionScope_ANJ; Identity: Text; AppName: Text): Text;
+    procedure GenerateFigures(ExtensionScope: Enum ExtensionScope_ANJ; Identity: Text; AppName: Text): Text
     begin
         exit(GenerateFigure.Generate(ExtensionScope, Identity, AppName));
     end;
@@ -43,7 +43,7 @@ codeunit 80810 DependencyGraphFacade_ANJ
     /// GenerateAllTables.
     /// </summary>
     /// <param name="HideDialog">Boolean.</param>
-    procedure GenerateAllTables(HideDialog: Boolean);
+    procedure GenerateAllTables(HideDialog: Boolean)
     begin
         GenerateTables.Generate(HideDialog);
     end;
@@ -53,7 +53,7 @@ codeunit 80810 DependencyGraphFacade_ANJ
     /// <summary>
     /// GenerateExtensionsTable.
     /// </summary>
-    procedure GenerateExtensionsTable();
+    procedure GenerateExtensionsTable()
     begin
         GenerateExtensionTable.Generate();
     end;
@@ -63,7 +63,7 @@ codeunit 80810 DependencyGraphFacade_ANJ
     /// <summary>
     /// GenerateRelationsTable.
     /// </summary>
-    procedure GenerateRelationTable();
+    procedure GenerateRelationTable()
     begin
         GenerateRelationsTable.Generate();
     end;
@@ -73,7 +73,7 @@ codeunit 80810 DependencyGraphFacade_ANJ
     /// <summary>
     /// CleanExtensionsTable.
     /// </summary>
-    procedure CleanExtensionsTable();
+    procedure CleanExtensionsTable()
     begin
         CleanTemporaryTables.Clean(true, false);
     end;
@@ -81,7 +81,7 @@ codeunit 80810 DependencyGraphFacade_ANJ
     /// <summary>
     /// CleanRelationsTable.
     /// </summary>
-    procedure CleanRelationsTable();
+    procedure CleanRelationsTable()
     begin
         CleanTemporaryTables.Clean(false, true);
     end;
@@ -91,7 +91,7 @@ codeunit 80810 DependencyGraphFacade_ANJ
     /// <summary>
     /// GenerateGraph.
     /// </summary>
-    procedure GenerateGraph();
+    procedure GenerateGraph()
     begin
         MarkdownMgmt.GenerateGraph();
     end;
@@ -101,7 +101,7 @@ codeunit 80810 DependencyGraphFacade_ANJ
     /// </summary>
     /// <param name="FieldNo">Integer.</param>
     /// <returns>Return value of type Text.</returns>
-    procedure GetMarkdownText(FieldNo: Integer): Text;
+    procedure GetMarkdownText(FieldNo: Integer): Text
     begin
         exit(MarkdownMgmt.GetMarkdown(FieldNo));
     end;

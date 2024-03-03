@@ -20,5 +20,5 @@ controladdin MarkdownViewer_ANJ
     /// Draw.
     /// </summary>
     /// <param name="Markdown">Text.</param>
-    procedure Draw(Markdown: Text);
+    procedure Draw(Markdown: Text)
 }

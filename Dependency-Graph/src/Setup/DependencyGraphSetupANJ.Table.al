@@ -99,7 +99,7 @@ table 80800 DependencyGraphSetup_ANJ
     /// </summary>
     /// <param name="AuxText">Text.</param>
     /// <param name="FieldNo">Integer.</param>
-    internal procedure SetMarkdown(AuxText: Text; FieldNo: Integer);
+    internal procedure SetMarkdown(AuxText: Text; FieldNo: Integer)
     var
         AuxOutStream: OutStream;
     begin
@@ -116,7 +116,7 @@ table 80800 DependencyGraphSetup_ANJ
     /// <summary>
     /// GetInstance.
     /// </summary>
-    procedure GetInstance();
+    procedure GetInstance()
     begin
         if HasBeenRead then
             exit;

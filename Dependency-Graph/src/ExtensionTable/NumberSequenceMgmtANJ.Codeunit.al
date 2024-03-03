@@ -8,7 +8,7 @@ codeunit 80806 NumberSequenceMgmt_ANJ
     /// <summary>
     /// Initialize
     /// </summary>
-    internal procedure Initialize();
+    internal procedure Initialize()
     begin
         if NumberSequence.Exists(NumberSequenceNameLbl, true) then
             NumberSequence.Delete(NumberSequenceNameLbl, true);
@@ -20,7 +20,7 @@ codeunit 80806 NumberSequenceMgmt_ANJ
     /// GetNextNo.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    internal procedure GetNextNo() NewIdentity: Text;
+    internal procedure GetNextNo() NewIdentity: Text
     var
         IsHandled: Boolean;
     begin
@@ -34,7 +34,7 @@ codeunit 80806 NumberSequenceMgmt_ANJ
     /// </summary>
     /// <param name="IsHandled">Boolean.</param>
     /// <returns>Return value of type Text.</returns>
-    local procedure DoBuildIdentity(IsHandled: Boolean): Text;
+    local procedure DoBuildIdentity(IsHandled: Boolean): Text
     var
         NewIdentity: Text;
     begin
@@ -46,12 +46,12 @@ codeunit 80806 NumberSequenceMgmt_ANJ
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeBuildIdentity(var IsHandled: Boolean);
+    local procedure OnBeforeBuildIdentity(var IsHandled: Boolean)
     begin
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnAfterBuildIdentity(var NewIdentity: Text);
+    local procedure OnAfterBuildIdentity(var NewIdentity: Text)
     begin
     end;
 

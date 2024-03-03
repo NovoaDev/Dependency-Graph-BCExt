@@ -11,5 +11,5 @@ interface FigureInGraph_ANJ
     /// <param name="Identity">Text.</param>
     /// <param name="Content">Text.</param>
     /// <returns>Return value of type Text.</returns>
-    procedure GenerateFigureText(Identity: Text; Content: Text): Text;
+    procedure GenerateFigureText(Identity: Text; Content: Text): Text
 }

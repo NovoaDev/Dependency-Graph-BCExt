@@ -8,7 +8,7 @@ codeunit 80808 GenerateRelationsTable_ANJ
     /// <summary>
     /// Generate.
     /// </summary>
-    internal procedure Generate();
+    internal procedure Generate()
     var
         Relations: Record Relations_ANJ;
         IsHandled: Boolean;
@@ -22,7 +22,7 @@ codeunit 80808 GenerateRelationsTable_ANJ
     /// DoGenerateRelationsTable.
     /// </summary>
     /// <param name="IsHandled">Boolean.</param>
-    local procedure DoGenerateRelationsTable(IsHandled: Boolean);
+    local procedure DoGenerateRelationsTable(IsHandled: Boolean)
     var
         FillingProcessingTables: Interface FillingProcessingTables_ANJ;
         ResponseText: Text;
@@ -61,7 +61,7 @@ codeunit 80808 GenerateRelationsTable_ANJ
     /// InsertNewRelation.
     /// /// </summary>
     /// <returns>Return variable NewRelationsLine of type Integer.</returns>
-    local procedure InsertNewRelation(SourceAppID: Guid; DestinationAppID: Guid);
+    local procedure InsertNewRelation(SourceAppID: Guid; DestinationAppID: Guid)
     var
         Relations: Record Relations_ANJ;
     begin
@@ -79,7 +79,7 @@ codeunit 80808 GenerateRelationsTable_ANJ
     /// GetNewRelationsLineNo.
     /// /// </summary>
     /// <returns>Return variable NewRelationsLine of type Integer.</returns>
-    local procedure GetNewRelationsLineNo() NewRelationsLine: Integer;
+    local procedure GetNewRelationsLineNo() NewRelationsLine: Integer
     var
         Relations: Record Relations_ANJ;
     begin
@@ -89,12 +89,12 @@ codeunit 80808 GenerateRelationsTable_ANJ
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeGenerateRelationsTable(var Relations: Record Relations_ANJ; var IsHandled: Boolean);
+    local procedure OnBeforeGenerateRelationsTable(var Relations: Record Relations_ANJ; var IsHandled: Boolean)
     begin
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnAfterGenerateRelationsTable(var Relations: Record Relations_ANJ);
+    local procedure OnAfterGenerateRelationsTable(var Relations: Record Relations_ANJ)
     begin
     end;
 

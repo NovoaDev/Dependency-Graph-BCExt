@@ -11,7 +11,7 @@ codeunit 80813 JSONMethods_ANJ
     /// <param name="JsonKey">Text.</param>
     /// <param name="ResponseText">Text.</param>
     /// <returns>Return value of type Boolean.</returns>
-    internal procedure GetJsonValue(JsonKey: Text; ResponseText: Text): Text;
+    internal procedure GetJsonValue(JsonKey: Text; ResponseText: Text): Text
     var
         AuxJsonObject: JsonObject;
         AuxJsonToken: JsonToken;

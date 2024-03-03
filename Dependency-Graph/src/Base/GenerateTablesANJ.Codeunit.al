@@ -9,7 +9,7 @@ codeunit 80807 GenerateTables_ANJ
     /// GenerateTables.
     /// </summary>
     /// <param name="HideDialog">Boolean.</param>
-    procedure Generate(HideDialog: Boolean);
+    procedure Generate(HideDialog: Boolean)
     var
         Extensions: Record Extensions_ANJ;
         IsHandled: Boolean;
@@ -41,7 +41,7 @@ codeunit 80807 GenerateTables_ANJ
     /// DoGenerateTables.
     /// </summary>
     /// <param name="IsHandled">Boolean.</param>
-    local procedure DoGenerateTables(IsHandled: Boolean);
+    local procedure DoGenerateTables(IsHandled: Boolean)
     begin
         if IsHandled then
             exit;
@@ -56,7 +56,7 @@ codeunit 80807 GenerateTables_ANJ
     /// <summary>
     /// UpdateSetupTable.
     /// </summary>
-    local procedure UpdateSetupTable();
+    local procedure UpdateSetupTable()
     var
         DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
     begin
@@ -70,7 +70,7 @@ codeunit 80807 GenerateTables_ANJ
     /// AcknowledgeGenerateTables.
     /// </summary>
     /// <param name="HideDialog">Boolean.</param>
-    local procedure AcknowledgeGenerateTables(HideDialog: Boolean);
+    local procedure AcknowledgeGenerateTables(HideDialog: Boolean)
     begin
         if (not GuiAllowed()) or (HideDialog) then
             exit;
@@ -79,12 +79,12 @@ codeunit 80807 GenerateTables_ANJ
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeGenerateTables(var IsHandled: Boolean);
+    local procedure OnBeforeGenerateTables(var IsHandled: Boolean)
     begin
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnAfterGenerateTables();
+    local procedure OnAfterGenerateTables()
     begin
     end;
 
