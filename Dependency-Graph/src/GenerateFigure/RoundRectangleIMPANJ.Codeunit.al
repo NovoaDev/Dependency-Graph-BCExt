@@ -12,7 +12,7 @@ codeunit 80802 RoundRectangleIMP_ANJ implements FigureInGraph_ANJ
     /// <param name="Identity">Text.</param>
     /// <param name="Content">Text.</param>
     /// <returns>Return value of type Text.</returns>
-    internal procedure GenerateFigureText(Identity: Text; Content: Text): Text
+    procedure GenerateFigureText(Identity: Text; Content: Text): Text
     begin
         exit(StrSubstNo(FigureLbl, Identity, Content));
     end;

@@ -1,8 +1,8 @@
 /// <summary>
-/// Codeunit "SquareRectangleIMP_ANJ" (ID 80800) implements Interface FigureInGraph_ANJ.
+/// Codeunit "DefaultFigureIMP_ANJ" (ID 80814) implements Interface FigureInGraph_ANJ.
 /// </summary>
 namespace ANJ.Tools.Graph;
-codeunit 80800 SquareRectangleIMP_ANJ implements FigureInGraph_ANJ
+codeunit 80814 DefaultFigureIMP_ANJ implements FigureInGraph_ANJ
 {
     Access = Internal;
 
@@ -14,9 +14,9 @@ codeunit 80800 SquareRectangleIMP_ANJ implements FigureInGraph_ANJ
     /// <returns>Return value of type Text.</returns>
     procedure GenerateFigureText(Identity: Text; Content: Text): Text
     begin
-        exit(StrSubstNo(FigureLbl, Identity, Content));
+        Error(ImpErr);
     end;
 
     var
-        FigureLbl: Label '%1[%2]', Comment = 'Placeholder %1 represents the Identity, and Placeholder %2 represents the Content.';
+        ImpErr: Label 'An implementation should be specified to the related figure.';
 }

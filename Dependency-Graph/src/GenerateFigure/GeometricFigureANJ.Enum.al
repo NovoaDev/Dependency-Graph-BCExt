@@ -6,13 +6,10 @@ enum 80800 GeometricFigure_ANJ implements FigureInGraph_ANJ
 {
     Access = Public;
     Caption = 'Geometric Figure';
+    DefaultImplementation = FigureInGraph_ANJ = DefaultFigureIMP_ANJ;
     Extensible = true;
+    UnknownValueImplementation = FigureInGraph_ANJ = DefaultFigureIMP_ANJ;
 
-    value(0; SquareRectangle)
-    {
-        Caption = 'Square/Rectangle';
-        Implementation = FigureInGraph_ANJ = SquareRectangleIMP_ANJ;
-    }
     value(1; Circle)
     {
         Caption = 'Circle';
@@ -27,5 +24,10 @@ enum 80800 GeometricFigure_ANJ implements FigureInGraph_ANJ
     {
         Caption = 'Rhombus';
         Implementation = FigureInGraph_ANJ = RhombusIMP_ANJ;
+    }
+    value(4; SquareRectangle)
+    {
+        Caption = 'Square/Rectangle';
+        Implementation = FigureInGraph_ANJ = SquareRectangleIMP_ANJ;
     }
 }

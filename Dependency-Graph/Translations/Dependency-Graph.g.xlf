@@ -188,6 +188,16 @@
           <note from="Developer" annotates="general" priority="2">Placeholder %1 represents the Identity, and Placeholder %2 represents the Content.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit CircleIMP_ANJ - NamedType FigureLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3334283665 - NamedType 4106791379" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An implementation should be specified to the related figure.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DefaultFigureIMP_ANJ - NamedType ImpErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1067248498 - NamedType 4106791379" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An implementation for the generation of related relationship tables must be specified.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DefaultFillProcessTabImp_ANJ - NamedType ImpErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 927581418 - NamedType 4072018929" size-unit="char" translate="yes" xml:space="preserve">
           <source>Error reading JSON response.</source>
           <note from="Developer" annotates="general" priority="2"></note>

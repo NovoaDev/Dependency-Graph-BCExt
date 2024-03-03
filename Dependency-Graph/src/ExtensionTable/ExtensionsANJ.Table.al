@@ -95,7 +95,7 @@ table 80801 Extensions_ANJ
     /// <summary>
     /// UpdateFigure
     /// </summary>
-    internal procedure UpdateFigure()
+    local procedure UpdateFigure()
     begin
         Validate(Figure, DependencyGraphFacade.GenerateFigures(PublishedAs, Identity, DisplayName));
     end;

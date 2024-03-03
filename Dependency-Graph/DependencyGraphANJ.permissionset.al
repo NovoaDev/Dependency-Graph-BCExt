@@ -33,5 +33,7 @@ permissionset 80800 DependencyGraph_ANJ
         page MarkdownViewerFull_ANJ = X,
         codeunit CleanTemporaryTables_ANJ = X,
         codeunit JSONMethods_ANJ = X,
-        codeunit WSAndMDInfoImp_ANJ = X;
+        codeunit WSAndMDInfoImp_ANJ = X,
+        codeunit DefaultFigureIMP_ANJ = X,
+        codeunit DefaultFillProcessTabImp_ANJ = X;
 }
