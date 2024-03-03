@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="es-ES" original="Dependency-Graph" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+  <file datatype="xml" source-language="en-US" target-language="cs-CZ" original="Dependency-Graph" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
     <header>
       <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.0.0.0" tool-company="Microsoft" />
     </header>
@@ -8,182 +8,182 @@
       <group id="body" datatype="resx">
         <trans-unit id="Table 2186239794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dependency Graph Setup</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Configuración del gráfico de dependencias</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nastavení grafu závislostí</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 3856621992 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Client ID</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">ID de cliente</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ID klienta</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field ClientID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 3715571876 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Date</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fecha</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rande</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field DateLastGeneration - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 3944497305 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Date</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fecha</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rande</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field DateLastGenerationMarkdown - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 3511667827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Filling Processing Tables</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Llenado de tablas de procesamiento</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vyplňování tabulek zpracování</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field FillingProcessingTables - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 2750913523 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Include Link Text</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Incluir texto de enlace</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zahrnout text odkazu</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field IncludeLinkText - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 1540816694 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Include Microsoft Apps</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Incluir aplicaciones de Microsoft</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zahrnout aplikace Microsoftu</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field IncludeMicrosoftApps - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 1113875961 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Content Text</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Texto de contenido</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Text obsahu</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field Markdown - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 2129076432 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Mermaid Content Text</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Texto de contenido de sirena</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Text obsahu mořské panny</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field MarkdownMermaid - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 1594621544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Picture</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Imagen</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Obraz</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field Picture - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 2333076789 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Primary Key</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Clave principal</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Primární klíč</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field PrimaryKey - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 2757662305 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dev Scope</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ámbito de desarrollo</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Obor vývoje</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field ScopeDevFigure - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 1066899141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Global Scope</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Alcance global</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Globální rozsah</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field ScopeGlobalFigure - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 4232782363 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>PTE Scope</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Alcance del PTE</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Obor PTE</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field ScopePTEFigure - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 839089114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Secret</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Secreto</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tajný</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field Secret - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 891883075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Time</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hora</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Čas</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field TimeLastGeneration - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 1392759738 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Time</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hora</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Čas</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field TimeLastGenerationMarkdown - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Extensions</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Extensiones</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rozšíření</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Field 665602392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>App ID</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">ID de la aplicación</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ID aplikace</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field AppID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Field 2058393039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Display Name</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nombre para mostrar</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zobrazovaný název</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field DisplayName - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Field 1769173142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Figure</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Figura</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Obrázek</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field Figure - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Field 3093040191 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Has Relationships</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tiene relaciones</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Má vztahy</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field HasRelationships - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Field 1256703127 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Has Relationships</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tiene relaciones</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Má vztahy</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field HasStartRelationships - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Field 1205006834 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Identity</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Identidad</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Identita</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field Identity - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nombre</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jméno</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Field 919630742 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Published As</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Publicado como</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zveřejněno jako</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field PublishedAs - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Field 1772640682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Publisher</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Editor</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vydavatel</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field Publisher - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Field 2309591340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show In Graph</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mostrar en gráfico</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zobrazit v grafu</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field ShowInGraph - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3437274809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Relations</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Relaciones</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vztahy</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3437274809 - Field 593286124 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Destination App ID</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Id. de aplicación de destino</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ID cílové aplikace</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field DestinationAppID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3437274809 - Field 3759848598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Destination App Name</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nombre de la aplicación de destino</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Název cílové aplikace</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field DestinationAppName - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3437274809 - Field 1839439551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Link Text</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Texto del enlace</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Text odkazu</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field LinkText - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3437274809 - Field 1587026417 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Relation No.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Relación No.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vztah č.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field RelationNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3437274809 - Field 2309591340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show In Graph</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mostrar en gráfico</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zobrazit v grafu</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field ShowInGraph - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3437274809 - Field 1581340811 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Source App ID</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Id. de aplicación de origen</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ID zdrojové aplikace</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field SourceAppID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3437274809 - Field 1283096581 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Source App Name</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nombre de la aplicación de origen</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Název zdrojové aplikace</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field SourceAppName - Property Caption</note>
         </trans-unit>
         <trans-unit id="Codeunit 1718081384 - NamedType 48672636" size-unit="char" translate="yes" xml:space="preserve">
@@ -194,22 +194,22 @@
         </trans-unit>
         <trans-unit id="Codeunit 3334283665 - NamedType 4106791379" size-unit="char" translate="yes" xml:space="preserve">
           <source>An implementation should be specified to the related figure.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Se debe especificar una implementación en la figura relacionada.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Implementace by měla být specifikována k souvisejícímu obrázku.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit DefaultFigureIMP_ANJ - NamedType ImpErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1067248498 - NamedType 4106791379" size-unit="char" translate="yes" xml:space="preserve">
           <source>An implementation for the generation of related relationship tables must be specified.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Se debe especificar una implementación para la generación de tablas de relaciones relacionadas.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Musí být zadána implementace pro generování souvisejících tabulek relací.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit DefaultFillProcessTabImp_ANJ - NamedType ImpErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 927581418 - NamedType 4072018929" size-unit="char" translate="yes" xml:space="preserve">
           <source>Error reading JSON response.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Error al leer la respuesta JSON.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chyba při čtení odpovědi JSON.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ReadingJsonErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 708421718 - NamedType 3993970854" size-unit="char" translate="yes" xml:space="preserve">
           <source>DestinationAppID</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">DestinationAppID</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">DestinationAppID (ID cílové aplikace)</target>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateRelationsTable_ANJ - NamedType DestinationAppIDLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 708421718 - NamedType 1408304205" size-unit="char" translate="yes" xml:space="preserve">
@@ -219,17 +219,17 @@
         </trans-unit>
         <trans-unit id="Codeunit 2841349168 - NamedType 750120336" size-unit="char" translate="yes" xml:space="preserve">
           <source>When generating the tables again, custom data will be deleted, do you want to continue?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Al volver a generar las tablas, se eliminarán los datos personalizados, ¿quieres continuar?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Při opětovném generování tabulek dojde ke smazání vlastních dat, chcete pokračovat?</target>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateTables_ANJ - NamedType ConfirmQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 2841349168 - NamedType 1864506971" size-unit="char" translate="yes" xml:space="preserve">
           <source>The tables have been updated correctly.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Las tablas se han actualizado correctamente.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tabulky byly aktualizovány správně.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateTables_ANJ - NamedType ProcessFinishMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 872690394 - NamedType 4072018929" size-unit="char" translate="yes" xml:space="preserve">
           <source>Error reading JSON response.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Error al leer la respuesta JSON.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chyba při čtení odpovědi JSON.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit JSONMethods_ANJ - NamedType ReadingJsonErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 740515698 - NamedType 2810835173" size-unit="char" translate="yes" xml:space="preserve">
@@ -274,243 +274,243 @@
         </trans-unit>
         <trans-unit id="Codeunit 3451087242 - NamedType 752839706" size-unit="char" translate="yes" xml:space="preserve">
           <source>Unable to communicate with the web service.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">No se puede comunicar con el servicio web.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nelze komunikovat s webovou službou.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType UnableToCommunicateWSErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3451087242 - NamedType 3182686404" size-unit="char" translate="yes" xml:space="preserve">
           <source>Error - Status code: %1  Description: %2.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Error - Código de estado: %1 Descripción: %2.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chyba – stavový kód: %1 Popis: %2.</target>
           <note from="Developer" annotates="general" priority="2">Placeholder %1: Status code, Placeholder %2: Description.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType WSStatusCodeErr</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dependency Graph Setup</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Configuración del gráfico de dependencias</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nastavení grafu závislostí</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 1975224516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>App registrations - Azure</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Registros de aplicaciones: Azure</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Registrace aplikací – Azure</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Auth - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 3856621992 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Client ID field.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Id. de cliente.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Určuje hodnotu pole ID klienta.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control ClientID - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 839089114 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Secret field.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Secreto.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Určuje hodnotu Secret pole.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Secret - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 1769173142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>App shapes inside the diagram</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Formas de aplicación dentro del diagrama</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Obrazce aplikací uvnitř diagramu</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Figure - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 2757662305 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Scope Dev Figure field.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Figura de desarrollo de ámbito.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Určuje hodnotu pole Scope Dev Figure (Obrázek vývoje oboru).</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control ScopeDevFigure - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 1066899141 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Scope Global Figure field.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Figura global de ámbito.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Určuje hodnotu pole Globální polygon oboru.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control ScopeGlobalFigure - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 4232782363 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Scope PTE Figure field.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Figura PTE de ámbito.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Určuje hodnotu pole Obor Obrázek stránkovací tabulky.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control ScopePTEFigure - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 770743294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Fill tables</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rellenar tablas</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vyplnit tabulky</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control FillTables - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 3511667827 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Filling Processing Tables field.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Relleno de tablas de procesamiento.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Určuje hodnotu pole Vyplňování tabulek zpracování.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control FillingProcessingTables - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 3349558288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Include when generating the graph</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Incluir al generar el gráfico</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zahrnout při generování grafu</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Include - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 2750913523 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Include Link text field.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo de texto Incluir vínculo.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Určuje hodnotu textového pole Zahrnout odkaz.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control IncludeLinkText - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 2750913523 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Link text between dependencies</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vincular texto entre dependencias</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Propojení textu mezi závislostmi</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control IncludeLinkText - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 1540816694 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Include Microsoft Apps field.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Incluir aplicaciones de Microsoft.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Určuje hodnotu pole Zahrnout aplikace Microsoftu.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control IncludeMicrosoftApps - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 1540816694 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Microsoft Apps</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aplicaciones de Microsoft</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aplikace od Microsoftu</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control IncludeMicrosoftApps - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 2902463168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Last time it was generated</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">La última vez que se generó</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kdy byl naposledy vygenerován</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control LastGeneration - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 1113875961 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dependency graph</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gráfico de dependencias</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Graf závislostí</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Markdown - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 3944497305 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Date Last Generation field.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Fecha de última generación.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Určuje hodnotu pole Datum posledního generování.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control DateLastGenerationMarkdown - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 1392759738 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Time Last Generation field.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Hora de última generación.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Určuje hodnotu pole Čas posledního generování.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control TimeLastGenerationMarkdown - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 1061736343 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tables to customize the graph</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tablas para personalizar el gráfico</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tabulky pro přizpůsobení grafu</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Tables - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 3715571876 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Date Last Generation field.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Fecha de última generación.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Určuje hodnotu pole Datum posledního generování.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control DateLastGeneration - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 891883075 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Time Last Generation field.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Hora de última generación.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Určuje hodnotu pole Čas posledního generování.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control TimeLastGeneration - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Action 1663039630 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the Show In Graph action.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ejecuta la acción Mostrar en gráfico.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Provede akci Zobrazit v grafu.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Action Extensions - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Action 1663039630 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dependency Graph</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gráfico de dependencias</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Graf závislostí</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Action Extensions - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3141127244 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Extensions</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Extensiones</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rozšíření</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3141127244 - Control 2058393039 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Display Name field.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Nombre para mostrar.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Určuje hodnotu pole Zobrazovaný název.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control DisplayName - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3141127244 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Name field.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Nombre.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Určuje hodnotu pole Název.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control Name - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3141127244 - Control 919630742 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Published As field.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Publicado como.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Určuje hodnotu pole Publikováno jako.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control PublishedAs - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3141127244 - Control 1772640682 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Publisher field.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Publicador.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Určuje hodnotu pole Vydavatel.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control Publisher - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3141127244 - Control 2309591340 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the ShowInGraph field.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo ShowInGraph.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Určuje hodnotu pole ShowInGraph.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control ShowInGraph - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1994809268 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Markdown Text</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Texto Markdown</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Text Markdownu</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownFactbox_ANJ - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1994809268 - Action 3577779853 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the Download Markdown as .md action.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ejecuta la acción Descargar Markdown como .md.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spustí akci Stáhnout Markdown jako .md.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownFactbox_ANJ - Action DownloadMarkdown - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1994809268 - Action 3577779853 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Download Markdown as .md</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Descargar Markdown como .md</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stáhnout Markdown jako .md</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownFactbox_ANJ - Action DownloadMarkdown - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3287834952 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Markdown Viewer</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Visor de Markdown</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prohlížeč Markdownu</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewerFull_ANJ - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1244516609 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Markdown Viewer</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Visor de Markdown</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prohlížeč Markdownu</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewer_ANJ - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1244516609 - Action 428232880 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the Display dependency graph action.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ejecuta la acción Mostrar gráfico de dependencias.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Provede akci Zobrazit graf závislostí.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewer_ANJ - Action GenerateMarkdown - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1244516609 - Action 428232880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Display dependency graph</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mostrar gráfico de dependencias</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zobrazit graf závislostí</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewer_ANJ - Action GenerateMarkdown - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3437274809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Relations</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Relaciones</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vztahy</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Relations_ANJ - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3437274809 - Control 3759848598 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Destination App Name field.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Nombre de la aplicación de destino.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Určuje hodnotu pole Název cílové aplikace.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Relations_ANJ - Control DestinationAppName - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3437274809 - Control 1839439551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Link Text field.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Texto del vínculo.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Určuje hodnotu pole Text odkazu.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Relations_ANJ - Control LinkText - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3437274809 - Control 2309591340 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Show In Graph field.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Mostrar en gráfico.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Určuje hodnotu pole Zobrazit v grafu.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Relations_ANJ - Control ShowInGraph - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3437274809 - Control 1283096581 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Source App Name field.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Nombre de la aplicación de origen.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Určuje hodnotu pole Název zdrojové aplikace.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Relations_ANJ - Control SourceAppName - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3728201870 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show In Dependency Graph</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mostrar en gráfico de dependencias</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zobrazit v grafu závislostí</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3728201870 - Action 1943359091 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the Generate data action.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ejecuta la acción Generar datos.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Provede akci Generovat data.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Action GenTables - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3728201870 - Action 1943359091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Generate data</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Generar datos</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Generování dat</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Action GenTables - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 4022559235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Extension Scope</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Alcance de la extensión</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rozsah rozšíření</target>
           <note from="Xliff Generator" annotates="general" priority="3">Enum ExtensionScope_ANJ - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 4022559235 - EnumValue 2881718953 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -520,7 +520,7 @@
         </trans-unit>
         <trans-unit id="Enum 4022559235 - EnumValue 4172416525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Global</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Global</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Globální</target>
           <note from="Xliff Generator" annotates="general" priority="3">Enum ExtensionScope_ANJ - EnumValue Global - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 4022559235 - EnumValue 1750906067 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -530,37 +530,37 @@
         </trans-unit>
         <trans-unit id="Enum 1956450053 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Filling Processing Tables</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Llenado de tablas de procesamiento</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vyplňování tabulek zpracování</target>
           <note from="Xliff Generator" annotates="general" priority="3">Enum FillingProcessingTables_ANJ - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1956450053 - EnumValue 2912439360 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>WS And ModuleDependencyInfo</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">WS y ModuleDependencyInfo</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">WS a ModuleDependencyInfo</target>
           <note from="Xliff Generator" annotates="general" priority="3">Enum FillingProcessingTables_ANJ - EnumValue WSAndModuleDependencyInfo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2507724467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Geometric Figure</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Figura geométrica</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geometrický obrazec</target>
           <note from="Xliff Generator" annotates="general" priority="3">Enum GeometricFigure_ANJ - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2507724467 - EnumValue 13936446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Circle</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Circunferencia</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kruh</target>
           <note from="Xliff Generator" annotates="general" priority="3">Enum GeometricFigure_ANJ - EnumValue Circle - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2507724467 - EnumValue 1105944624 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Rhombus</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rombo</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kosočtverec</target>
           <note from="Xliff Generator" annotates="general" priority="3">Enum GeometricFigure_ANJ - EnumValue Rhombus - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2507724467 - EnumValue 3932416381 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Round Rectangle</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rectángulo redondo</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kulatý obdélník</target>
           <note from="Xliff Generator" annotates="general" priority="3">Enum GeometricFigure_ANJ - EnumValue RoundRectangle - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2507724467 - EnumValue 3699382460 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Square/Rectangle</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cuadrado/Rectángulo</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Čtverec/obdélník</target>
           <note from="Xliff Generator" annotates="general" priority="3">Enum GeometricFigure_ANJ - EnumValue SquareRectangle - Property Caption</note>
         </trans-unit>
       </group>

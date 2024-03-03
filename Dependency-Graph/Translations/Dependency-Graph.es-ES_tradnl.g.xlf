@@ -1,770 +1,564 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" source-language="en-US" target-language="es-ES_tradnl" original="Dependency-Graph">
-    <body>
-      <group id="body">
+ <body>
+      <group id="body" datatype="resx">
         <trans-unit id="Table 2186239794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dependency Graph Setup</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Configuración del gráfico de dependencia"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Configuración del gráfico de dependencias</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Property Caption</note>
-          <target>Configuración del gráfico de dependencia</target>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 3856621992 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Client ID</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Id. de cliente"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ID de cliente</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field ClientID - Property Caption</note>
-          <target>Id. de cliente</target>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 3715571876 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Date</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Fecha"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fecha</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field DateLastGeneration - Property Caption</note>
-          <target>Fecha</target>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 3944497305 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Date</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Fecha"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fecha</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field DateLastGenerationMarkdown - Property Caption</note>
-          <target>Fecha</target>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 3511667827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Filling Processing Tables</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Rellenar tablas de procesamiento"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Llenado de tablas de procesamiento</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field FillingProcessingTables - Property Caption</note>
-          <target>Rellenar tablas de procesamiento</target>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 2750913523 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Include Link Text</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Incluir texto de enlace"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Incluir texto de enlace</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field IncludeLinkText - Property Caption</note>
-          <target>Incluir texto de enlace</target>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 1540816694 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Include Microsoft Apps</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Incluir aplicaciones de Microsoft"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Incluir aplicaciones de Microsoft</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field IncludeMicrosoftApps - Property Caption</note>
-          <target>Incluir aplicaciones de Microsoft</target>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 1113875961 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Content Text</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Texto de contenido"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Texto de contenido</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field Markdown - Property Caption</note>
-          <target>Texto de contenido</target>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 2129076432 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Mermaid Content Text</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Texto de contenido Mermaid"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Texto de contenido de sirena</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field MarkdownMermaid - Property Caption</note>
-          <target>Texto de contenido Mermaid</target>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 1594621544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Picture</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Imagen"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Imagen</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field Picture - Property Caption</note>
-          <target>Imagen</target>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 2333076789 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Primary Key</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Clave primaria"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Clave principal</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field PrimaryKey - Property Caption</note>
-          <target>Clave primaria</target>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 2757662305 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dev Scope</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Scope Dev"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ámbito de desarrollo</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field ScopeDevFigure - Property Caption</note>
-          <target>Scope Dev</target>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 1066899141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Global Scope</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Scope Global"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Alcance global</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field ScopeGlobalFigure - Property Caption</note>
-          <target>Scope Global</target>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 4232782363 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>PTE Scope</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Scope PTE"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Alcance del PTE</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field ScopePTEFigure - Property Caption</note>
-          <target>Scope PTE</target>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 839089114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Secret</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Secreto"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Secreto</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field Secret - Property Caption</note>
-          <target>Secreto</target>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 891883075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Time</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Hora"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hora</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field TimeLastGeneration - Property Caption</note>
-          <target>Hora</target>
         </trans-unit>
         <trans-unit id="Table 2186239794 - Field 1392759738 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Time</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Hora"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hora</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field TimeLastGenerationMarkdown - Property Caption</note>
-          <target>Hora</target>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Extensions</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Extensiones"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Extensiones</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Property Caption</note>
-          <target>Extensiones</target>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Field 665602392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>App ID</source>
-          <note from="Developer" annotates="general" priority="2">ESP="ID de la aplicación"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ID de la aplicación</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field AppID - Property Caption</note>
-          <target>ID de la aplicación</target>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Field 2058393039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Display Name</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Nombre para mostrar"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nombre para mostrar</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field DisplayName - Property Caption</note>
-          <target>Nombre para mostrar</target>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Field 1769173142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Figure</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Figura"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Figura</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field Figure - Property Caption</note>
-          <target>Figura</target>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Field 3093040191 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Has Relationships</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Tiene relaciones"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tiene relaciones</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field HasRelationships - Property Caption</note>
-          <target>Tiene relaciones</target>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Field 1256703127 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Has Relationships</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Tiene relaciones"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tiene relaciones</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field HasStartRelationships - Property Caption</note>
-          <target>Tiene relaciones</target>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Field 1205006834 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Identity</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Identidad"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Identidad</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field Identity - Property Caption</note>
-          <target>Identidad</target>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Nombre"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nombre</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field Name - Property Caption</note>
-          <target>Nombre</target>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Field 919630742 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Published As</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Publicado como"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Publicado como</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field PublishedAs - Property Caption</note>
-          <target>Publicado como</target>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Field 1772640682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Publisher</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Publicado"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Editor</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field Publisher - Property Caption</note>
-          <target>Publicado</target>
         </trans-unit>
         <trans-unit id="Table 3141127244 - Field 2309591340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show In Graph</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Mostrar en gráfico"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mostrar en gráfico</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field ShowInGraph - Property Caption</note>
-          <target>Mostrar en gráfico</target>
         </trans-unit>
         <trans-unit id="Table 3437274809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Relations</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Relaciones"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Relaciones</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Property Caption</note>
-          <target>Relaciones</target>
         </trans-unit>
         <trans-unit id="Table 3437274809 - Field 593286124 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Destination App ID</source>
-          <note from="Developer" annotates="general" priority="2">ESP="ID de la aplicación destino"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Id. de aplicación de destino</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field DestinationAppID - Property Caption</note>
-          <target>ID de la aplicación destino</target>
         </trans-unit>
         <trans-unit id="Table 3437274809 - Field 3759848598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Destination App Name</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Nombre de la aplicación destino"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nombre de la aplicación de destino</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field DestinationAppName - Property Caption</note>
-          <target>Nombre de la aplicación destino</target>
         </trans-unit>
         <trans-unit id="Table 3437274809 - Field 1839439551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Link Text</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Texto de enlace"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Texto del enlace</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field LinkText - Property Caption</note>
-          <target>Texto de enlace</target>
         </trans-unit>
         <trans-unit id="Table 3437274809 - Field 1587026417 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Relation No.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Número de relación"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Relación No.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field RelationNo - Property Caption</note>
-          <target>Número de relación</target>
         </trans-unit>
         <trans-unit id="Table 3437274809 - Field 2309591340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show In Graph</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Mostrar en gráfico"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mostrar en gráfico</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field ShowInGraph - Property Caption</note>
-          <target>Mostrar en gráfico</target>
         </trans-unit>
         <trans-unit id="Table 3437274809 - Field 1581340811 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Source App ID</source>
-          <note from="Developer" annotates="general" priority="2">ESP="ID de la aplicación origen"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Id. de aplicación de origen</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field SourceAppID - Property Caption</note>
-          <target>ID de la aplicación origen</target>
         </trans-unit>
         <trans-unit id="Table 3437274809 - Field 1283096581 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Source App Name</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Nombre de la aplicación origen"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nombre de la aplicación de origen</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field SourceAppName - Property Caption</note>
-          <target>Nombre de la aplicación origen</target>
         </trans-unit>
         <trans-unit id="Codeunit 1718081384 - NamedType 48672636" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1((%2))</source>
-          <note from="Developer" annotates="general" priority="2"/>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">%1((%2))</target>
+          <note from="Developer" annotates="general" priority="2">Placeholder %1 represents the Identity, and Placeholder %2 represents the Content.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit CircleIMP_ANJ - NamedType FigureLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 4198159985" size-unit="char" translate="yes" xml:space="preserve">
-          <source>displayName</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType DisplayNameLbl</note>
+        <trans-unit id="Codeunit 3334283665 - NamedType 4106791379" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An implementation should be specified to the related figure.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Se debe especificar una implementación en la figura relacionada.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DefaultFigureIMP_ANJ - NamedType ImpErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 3346049993" size-unit="char" translate="yes" xml:space="preserve">
-          <source>false</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType FalseLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 2272053225" size-unit="char" translate="yes" xml:space="preserve">
-          <source>id</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType IdLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 177224252" size-unit="char" translate="yes" xml:space="preserve">
-          <source>isInstalled</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType IsInstalledLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 2135136892" size-unit="char" translate="yes" xml:space="preserve">
-          <source>publishedAs</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType PublishedAsLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 783871344" size-unit="char" translate="yes" xml:space="preserve">
-          <source>publisher</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType PublisherLbl</note>
+        <trans-unit id="Codeunit 1067248498 - NamedType 4106791379" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An implementation for the generation of related relationship tables must be specified.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Se debe especificar una implementación para la generación de tablas de relaciones relacionadas.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DefaultFillProcessTabImp_ANJ - NamedType ImpErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 927581418 - NamedType 4072018929" size-unit="char" translate="yes" xml:space="preserve">
           <source>Error reading JSON response.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Error al leer la respuesta JSON."</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Error al leer la respuesta JSON.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ReadingJsonErr</note>
-          <target>Error al leer la respuesta JSON.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 927581418 - NamedType 2124516411" size-unit="char" translate="yes" xml:space="preserve">
-          <source>value</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ValueJsonArryLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 708421718 - NamedType 3993970854" size-unit="char" translate="yes" xml:space="preserve">
           <source>DestinationAppID</source>
-          <note from="Developer" annotates="general" priority="2"/>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">DestinationAppID</target>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateRelationsTable_ANJ - NamedType DestinationAppIDLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 708421718 - NamedType 1408304205" size-unit="char" translate="yes" xml:space="preserve">
           <source>SourceAppID</source>
-          <note from="Developer" annotates="general" priority="2"/>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">SourceAppID</target>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateRelationsTable_ANJ - NamedType SourceAppIDLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 2841349168 - NamedType 750120336" size-unit="char" translate="yes" xml:space="preserve">
           <source>When generating the tables again, custom data will be deleted, do you want to continue?</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Al generar de nuevo las tablas se eliminaran datos personalizados, ¿Desea continuar?"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Al volver a generar las tablas, se eliminarán los datos personalizados, ¿quieres continuar?</target>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateTables_ANJ - NamedType ConfirmQst</note>
-          <target>Al generar de nuevo las tablas se eliminaran datos personalizados, ¿Desea continuar?</target>
         </trans-unit>
         <trans-unit id="Codeunit 2841349168 - NamedType 1864506971" size-unit="char" translate="yes" xml:space="preserve">
           <source>The tables have been updated correctly.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Las tablas se han actualizado correctamente."</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Las tablas se han actualizado correctamente.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateTables_ANJ - NamedType ProcessFinishMsg</note>
-          <target>Las tablas se han actualizado correctamente.</target>
         </trans-unit>
         <trans-unit id="Codeunit 872690394 - NamedType 4072018929" size-unit="char" translate="yes" xml:space="preserve">
           <source>Error reading JSON response.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Error al leer la respuesta JSON."</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Error al leer la respuesta JSON.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit JSONMethods_ANJ - NamedType ReadingJsonErr</note>
-          <target>Error al leer la respuesta JSON.</target>
         </trans-unit>
         <trans-unit id="Codeunit 740515698 - NamedType 2810835173" size-unit="char" translate="yes" xml:space="preserve">
           <source> --&gt; </source>
-          <note from="Developer" annotates="general" priority="2"/>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> --&gt; </target>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType ArrowLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 740515698 - NamedType 3415447349" size-unit="char" translate="yes" xml:space="preserve">
           <source>DependencyGraph.md</source>
-          <note from="Developer" annotates="general" priority="2"/>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">DependencyGraph.md</target>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType FileNameLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 740515698 - NamedType 1699462585" size-unit="char" translate="yes" xml:space="preserve">
-          <source>```</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType FooterLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 740515698 - NamedType 2619639984" size-unit="char" translate="yes" xml:space="preserve">
-          <source>```mermaid</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType Header1Lbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 740515698 - NamedType 1609892177" size-unit="char" translate="yes" xml:space="preserve">
-          <source>graph BT</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType Header2Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 740515698 - NamedType 1922872277" size-unit="char" translate="yes" xml:space="preserve">
           <source> -- %1 --&gt; </source>
-          <note from="Developer" annotates="general" priority="2"/>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> -- %1 --&gt; </target>
+          <note from="Developer" annotates="general" priority="2">Placeholder %1 for the link text</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType LinkArrowLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 1763311423 - NamedType 4264074168" size-unit="char" translate="yes" xml:space="preserve">
           <source>E%1</source>
-          <note from="Developer" annotates="general" priority="2"/>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">E%1</target>
+          <note from="Developer" annotates="general" priority="2">Placeholder %1 for the identity label</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit NumberSequenceMgmt_ANJ - NamedType IdentityLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1763311423 - NamedType 1061624939" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DependencyGraph</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NumberSequenceMgmt_ANJ - NamedType NumberSequenceNameLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 4211792102 - NamedType 48672636" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1{%2}</source>
-          <note from="Developer" annotates="general" priority="2"/>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">%1{%2}</target>
+          <note from="Developer" annotates="general" priority="2">Placeholder %1 represents the Identity, and Placeholder %2 represents the Content.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit RhombusIMP_ANJ - NamedType FigureLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 4116861567 - NamedType 48672636" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1(%2)</source>
-          <note from="Developer" annotates="general" priority="2"/>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">%1(%2)</target>
+          <note from="Developer" annotates="general" priority="2">Placeholder %1 represents the Identity, and Placeholder %2 represents the Content.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit RoundRectangleIMP_ANJ - NamedType FigureLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 3600287482 - NamedType 48672636" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1[%2]</source>
-          <note from="Developer" annotates="general" priority="2"/>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">%1[%2]</target>
+          <note from="Developer" annotates="general" priority="2">Placeholder %1 represents the Identity, and Placeholder %2 represents the Content.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SquareRectangleIMP_ANJ - NamedType FigureLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3451087242 - NamedType 3824428447" size-unit="char" translate="yes" xml:space="preserve">
-          <source>access_token</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType AccessTokenLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3451087242 - NamedType 4248989274" size-unit="char" translate="yes" xml:space="preserve">
-          <source>https://login.microsoftonline.com/%1/oauth2/v2.0/token</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType AccessTokenUrlLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3451087242 - NamedType 736812907" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Authorization</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType AuthorizationLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3451087242 - NamedType 472661878" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bearer %1</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType AuthorizationValueLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3451087242 - NamedType 366675938" size-unit="char" translate="yes" xml:space="preserve">
-          <source>&amp;client_id=%1</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType ClientIdLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3451087242 - NamedType 792247639" size-unit="char" translate="yes" xml:space="preserve">
-          <source>&amp;client_secret=%1</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType ClientSecretLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3451087242 - NamedType 2725329485" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Content-Type</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType ContentTypeLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3451087242 - NamedType 3993970854" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DestinationAppID</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType DestinationAppIDLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3451087242 - NamedType 1549459477" size-unit="char" translate="yes" xml:space="preserve">
-          <source>https://api.businesscentral.dynamics.com/v2.0/%1/api/microsoft/automation/v2.0/companies(%2)/extensions</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType ExtensionsUrlLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3451087242 - NamedType 154798154" size-unit="char" translate="yes" xml:space="preserve">
-          <source>?$filter=publisher ne </source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType FilterMSAppsLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3451087242 - NamedType 1092220576" size-unit="char" translate="yes" xml:space="preserve">
-          <source>grant_type=client_credentials</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType GrantTypeLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3451087242 - NamedType 1618117332" size-unit="char" translate="yes" xml:space="preserve">
-          <source>&amp;scope=https://api.businesscentral.dynamics.com/.default</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType ScopeLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3451087242 - NamedType 1408304205" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SourceAppID</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType SourceAppIDLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 3451087242 - NamedType 752839706" size-unit="char" translate="yes" xml:space="preserve">
           <source>Unable to communicate with the web service.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="No se puede comunicar con el servicio web."</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">No se puede comunicar con el servicio web.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType UnableToCommunicateWSErr</note>
-          <target>No se puede comunicar con el servicio web.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3451087242 - NamedType 243597245" size-unit="char" translate="yes" xml:space="preserve">
-          <source>application/x-www-form-urlencoded</source>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType UrlencodedLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 3451087242 - NamedType 3182686404" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Error - Status code: %1  Description: %2</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Error - Código: %1  Descripción: %2"</note>
+          <source>Error - Status code: %1  Description: %2.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Error - Código de estado: %1 Descripción: %2.</target>
+          <note from="Developer" annotates="general" priority="2">Placeholder %1: Status code, Placeholder %2: Description.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType WSStatusCodeErr</note>
-          <target>Error - Código: %1  Descripción: %2</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dependency Graph Setup</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Configuración del gráfico de dependencia"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Configuración del gráfico de dependencias</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Property Caption</note>
-          <target>Configuración del gráfico de dependencia</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 1975224516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>App registrations - Azure</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Registros de aplicaciones - Azure"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Registros de aplicaciones: Azure</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Auth - Property Caption</note>
-          <target>Registros de aplicaciones - Azure</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 3856621992 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Client ID field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Id. de cliente"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Id. de cliente.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control ClientID - Property ToolTip</note>
-          <target>Especifica el valor del campo Id. de cliente</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 839089114 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Secret field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Secreto"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Secreto.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Secret - Property ToolTip</note>
-          <target>Especifica el valor del campo Secreto</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 1769173142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>App shapes inside the diagram</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Figuras de las app dentro del diagrama"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Formas de aplicación dentro del diagrama</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Figure - Property Caption</note>
-          <target>Figuras de las app dentro del diagrama</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 2757662305 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Scope Dev Figure field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Figura Ext. Dev"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Figura de desarrollo de ámbito.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control ScopeDevFigure - Property ToolTip</note>
-          <target>Especifica el valor del campo Figura Ext. Dev</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 1066899141 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Scope Global Figure field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Figura Ext. Global"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Figura global de ámbito.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control ScopeGlobalFigure - Property ToolTip</note>
-          <target>Especifica el valor del campo Figura Ext. Global</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 4232782363 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Scope PTE Figure field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Figura Ext. PTE"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Figura PTE de ámbito.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control ScopePTEFigure - Property ToolTip</note>
-          <target>Especifica el valor del campo Figura Ext. PTE</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 770743294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Fill tables</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Rellenar tablas"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rellenar tablas</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control FillTables - Property Caption</note>
-          <target>Rellenar tablas</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 3511667827 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Filling Processing Tables field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Rellenar tablas de procesamiento"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Relleno de tablas de procesamiento.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control FillingProcessingTables - Property ToolTip</note>
-          <target>Especifica el valor del campo Rellenar tablas de procesamiento</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 3349558288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Include when generating the graph</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Incluir al generar el gráfico"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Incluir al generar el gráfico</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Include - Property Caption</note>
-          <target>Incluir al generar el gráfico</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 2750913523 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Include Link text field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Incluir Texto de enlace entre dependencias"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo de texto Incluir vínculo.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control IncludeLinkText - Property ToolTip</note>
-          <target>Especifica el valor del campo Incluir Texto de enlace entre dependencias</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 2750913523 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Link text between dependencies</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Texto de enlace entre dependencias"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vincular texto entre dependencias</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control IncludeLinkText - Property Caption</note>
-          <target>Texto de enlace entre dependencias</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 1540816694 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Include Microsoft Apps field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Incluir aplicaciones de Microsoft"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Incluir aplicaciones de Microsoft.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control IncludeMicrosoftApps - Property ToolTip</note>
-          <target>Especifica el valor del campo Incluir aplicaciones de Microsoft</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 1540816694 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Microsoft Apps</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Aplicaciones de Microsoft"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aplicaciones de Microsoft</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control IncludeMicrosoftApps - Property Caption</note>
-          <target>Aplicaciones de Microsoft</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 2902463168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Last time it was generated</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Última vez que se generó"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">La última vez que se generó</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control LastGeneration - Property Caption</note>
-          <target>Última vez que se generó</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 1113875961 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dependency graph</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Gráfico de dependencia"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gráfico de dependencias</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Markdown - Property Caption</note>
-          <target>Gráfico de dependencia</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 3944497305 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Date Last Generation field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Fecha última generación"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Fecha de última generación.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control DateLastGenerationMarkdown - Property ToolTip</note>
-          <target>Especifica el valor del campo Fecha última generación</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 1392759738 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Time Last Generation field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Hora última generación"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Hora de última generación.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control TimeLastGenerationMarkdown - Property ToolTip</note>
-          <target>Especifica el valor del campo Hora última generación</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 1061736343 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tables to customize the graph</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Tablas para personalizar el gráfico"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tablas para personalizar el gráfico</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Tables - Property Caption</note>
-          <target>Tablas para personalizar el gráfico</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 3715571876 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Date Last Generation field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Fecha Última vez que se generó"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Fecha de última generación.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control DateLastGeneration - Property ToolTip</note>
-          <target>Especifica el valor del campo Fecha Última vez que se generó</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Control 891883075 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Time Last Generation field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Hora Última vez que se generó"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Hora de última generación.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control TimeLastGeneration - Property ToolTip</note>
-          <target>Especifica el valor del campo Hora Última vez que se generó</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Action 1663039630 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the Show In Graph action.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Ejecuta la acción Mostrar en gráfico"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ejecuta la acción Mostrar en gráfico.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Action Extensions - Property ToolTip</note>
-          <target>Ejecuta la acción Mostrar en gráfico</target>
         </trans-unit>
         <trans-unit id="Page 2186239794 - Action 1663039630 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dependency Graph</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Gráfico de dependencia"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gráfico de dependencias</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Action Extensions - Property Caption</note>
-          <target>Gráfico de dependencia</target>
         </trans-unit>
         <trans-unit id="Page 3141127244 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Extensions</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Extensiones"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Extensiones</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Property Caption</note>
-          <target>Extensiones</target>
         </trans-unit>
         <trans-unit id="Page 3141127244 - Control 2058393039 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Display Name field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Nombre para mostrar"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Nombre para mostrar.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control DisplayName - Property ToolTip</note>
-          <target>Especifica el valor del campo Nombre para mostrar</target>
         </trans-unit>
         <trans-unit id="Page 3141127244 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Name field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Nombre"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Nombre.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control Name - Property ToolTip</note>
-          <target>Especifica el valor del campo Nombre</target>
         </trans-unit>
         <trans-unit id="Page 3141127244 - Control 919630742 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Published As field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Publicado como"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Publicado como.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control PublishedAs - Property ToolTip</note>
-          <target>Especifica el valor del campo Publicado como</target>
         </trans-unit>
         <trans-unit id="Page 3141127244 - Control 1772640682 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Publisher field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Publicado"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Publicador.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control Publisher - Property ToolTip</note>
-          <target>Especifica el valor del campo Publicado</target>
         </trans-unit>
         <trans-unit id="Page 3141127244 - Control 2309591340 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the ShowInGraph field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Mostrar en gráfico"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo ShowInGraph.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control ShowInGraph - Property ToolTip</note>
-          <target>Especifica el valor del campo Mostrar en gráfico</target>
         </trans-unit>
         <trans-unit id="Page 1994809268 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Markdown Text</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Texto Markdown"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Texto Markdown</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownFactbox_ANJ - Property Caption</note>
-          <target>Texto Markdown</target>
         </trans-unit>
         <trans-unit id="Page 1994809268 - Action 3577779853 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the Download Markdown as .md action.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Ejecuta la acción Descargar Markdown como un .md"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ejecuta la acción Descargar Markdown como .md.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownFactbox_ANJ - Action DownloadMarkdown - Property ToolTip</note>
-          <target>Ejecuta la acción Descargar Markdown como un .md</target>
         </trans-unit>
         <trans-unit id="Page 1994809268 - Action 3577779853 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Download Markdown as .md</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Descargar Markdown como un .md"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Descargar Markdown como .md</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownFactbox_ANJ - Action DownloadMarkdown - Property Caption</note>
-          <target>Descargar Markdown como un .md</target>
         </trans-unit>
         <trans-unit id="Page 3287834952 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Markdown Viewer</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Markdown Viewer"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Visor de Markdown</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewerFull_ANJ - Property Caption</note>
-          <target>Markdown Viewer</target>
         </trans-unit>
         <trans-unit id="Page 1244516609 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Markdown Viewer</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Markdown Viewer"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Visor de Markdown</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewer_ANJ - Property Caption</note>
-          <target>Markdown Viewer</target>
         </trans-unit>
         <trans-unit id="Page 1244516609 - Action 428232880 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the Display dependency graph action.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Ejecuta la acción Visualizar gráfico de dependencia"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ejecuta la acción Mostrar gráfico de dependencias.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewer_ANJ - Action GenerateMarkdown - Property ToolTip</note>
-          <target>Ejecuta la acción Visualizar gráfico de dependencia</target>
         </trans-unit>
         <trans-unit id="Page 1244516609 - Action 428232880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Display dependency graph</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Visualizar gráfico de dependencia"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mostrar gráfico de dependencias</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewer_ANJ - Action GenerateMarkdown - Property Caption</note>
-          <target>Visualizar gráfico de dependencia</target>
         </trans-unit>
         <trans-unit id="Page 3437274809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Relations</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Relaciones"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Relaciones</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Relations_ANJ - Property Caption</note>
-          <target>Relaciones</target>
         </trans-unit>
         <trans-unit id="Page 3437274809 - Control 3759848598 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Destination App Name field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Nombre de la aplicación destino"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Nombre de la aplicación de destino.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Relations_ANJ - Control DestinationAppName - Property ToolTip</note>
-          <target>Especifica el valor del campo Nombre de la aplicación destino</target>
         </trans-unit>
         <trans-unit id="Page 3437274809 - Control 1839439551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Link Text field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Texto de enlace"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Texto del vínculo.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Relations_ANJ - Control LinkText - Property ToolTip</note>
-          <target>Especifica el valor del campo Texto de enlace</target>
         </trans-unit>
         <trans-unit id="Page 3437274809 - Control 2309591340 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Show In Graph field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Mostrar en gráfico"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Mostrar en gráfico.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Relations_ANJ - Control ShowInGraph - Property ToolTip</note>
-          <target>Especifica el valor del campo Mostrar en gráfico</target>
         </trans-unit>
         <trans-unit id="Page 3437274809 - Control 1283096581 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Source App Name field.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo Nombre de la aplicación origen"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Especifica el valor del campo Nombre de la aplicación de origen.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Relations_ANJ - Control SourceAppName - Property ToolTip</note>
-          <target>Especifica el valor del campo Nombre de la aplicación origen</target>
         </trans-unit>
         <trans-unit id="Page 3728201870 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show In Dependency Graph</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Mostrar en gráfico de dependencia"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mostrar en gráfico de dependencias</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Property Caption</note>
-          <target>Mostrar en gráfico de dependencia</target>
         </trans-unit>
         <trans-unit id="Page 3728201870 - Action 1943359091 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the Generate data action.</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Ejecuta la acción Generar datos"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ejecuta la acción Generar datos.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Action GenTables - Property ToolTip</note>
-          <target>Ejecuta la acción Generar datos</target>
         </trans-unit>
         <trans-unit id="Page 3728201870 - Action 1943359091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Generate data</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Generar datos"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Generar datos</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Action GenTables - Property Caption</note>
-          <target>Generar datos</target>
         </trans-unit>
         <trans-unit id="Enum 4022559235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Extension Scope</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Alcance de la extensión"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Alcance de la extensión</target>
           <note from="Xliff Generator" annotates="general" priority="3">Enum ExtensionScope_ANJ - Property Caption</note>
-          <target>Alcance de la extensión</target>
         </trans-unit>
         <trans-unit id="Enum 4022559235 - EnumValue 2881718953 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dev</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Dev"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dev</target>
           <note from="Xliff Generator" annotates="general" priority="3">Enum ExtensionScope_ANJ - EnumValue Dev - Property Caption</note>
-          <target>Dev</target>
         </trans-unit>
         <trans-unit id="Enum 4022559235 - EnumValue 4172416525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Global</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Global"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Global</target>
           <note from="Xliff Generator" annotates="general" priority="3">Enum ExtensionScope_ANJ - EnumValue Global - Property Caption</note>
-          <target>Global</target>
         </trans-unit>
         <trans-unit id="Enum 4022559235 - EnumValue 1750906067 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>PTE</source>
-          <note from="Developer" annotates="general" priority="2">ESP="PTE"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">PTE</target>
           <note from="Xliff Generator" annotates="general" priority="3">Enum ExtensionScope_ANJ - EnumValue PTE - Property Caption</note>
-          <target>PTE</target>
         </trans-unit>
         <trans-unit id="Enum 1956450053 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Filling Processing Tables</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Rellenar tablas de procesamiento"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Llenado de tablas de procesamiento</target>
           <note from="Xliff Generator" annotates="general" priority="3">Enum FillingProcessingTables_ANJ - Property Caption</note>
-          <target>Rellenar tablas de procesamiento</target>
         </trans-unit>
         <trans-unit id="Enum 1956450053 - EnumValue 2912439360 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>WS And ModuleDependencyInfo</source>
-          <note from="Developer" annotates="general" priority="2">ESP="WS y ModuleDependencyInfo"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">WS y ModuleDependencyInfo</target>
           <note from="Xliff Generator" annotates="general" priority="3">Enum FillingProcessingTables_ANJ - EnumValue WSAndModuleDependencyInfo - Property Caption</note>
-          <target>WS y ModuleDependencyInfo</target>
         </trans-unit>
         <trans-unit id="Enum 2507724467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Geometric Figure</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Figura Geométrica"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Figura geométrica</target>
           <note from="Xliff Generator" annotates="general" priority="3">Enum GeometricFigure_ANJ - Property Caption</note>
-          <target>Figura Geométrica</target>
         </trans-unit>
         <trans-unit id="Enum 2507724467 - EnumValue 13936446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Circle</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Círculo"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Circunferencia</target>
           <note from="Xliff Generator" annotates="general" priority="3">Enum GeometricFigure_ANJ - EnumValue Circle - Property Caption</note>
-          <target>Círculo</target>
         </trans-unit>
         <trans-unit id="Enum 2507724467 - EnumValue 1105944624 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Rhombus</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Rombo"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rombo</target>
           <note from="Xliff Generator" annotates="general" priority="3">Enum GeometricFigure_ANJ - EnumValue Rhombus - Property Caption</note>
-          <target>Rombo</target>
         </trans-unit>
         <trans-unit id="Enum 2507724467 - EnumValue 3932416381 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Round Rectangle</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Rectángulo Redondeado"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rectángulo redondo</target>
           <note from="Xliff Generator" annotates="general" priority="3">Enum GeometricFigure_ANJ - EnumValue RoundRectangle - Property Caption</note>
-          <target>Rectángulo Redondeado</target>
         </trans-unit>
         <trans-unit id="Enum 2507724467 - EnumValue 3699382460 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Square/Rectangle</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Cuadrado/Rectángulo"</note>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cuadrado/Rectángulo</target>
           <note from="Xliff Generator" annotates="general" priority="3">Enum GeometricFigure_ANJ - EnumValue SquareRectangle - Property Caption</note>
-          <target>Cuadrado/Rectángulo</target>
         </trans-unit>
       </group>
     </body>

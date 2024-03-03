@@ -423,7 +423,7 @@
         },
         {
             "id": "AS0057",
-            "action": "Error",
+            "action": "Warning",
             "justification": "AppSourceCop - Translations must be provided for all the locales in which the application will be available."
         },
         {

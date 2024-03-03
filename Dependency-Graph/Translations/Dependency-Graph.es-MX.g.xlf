@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="es-ES" original="Dependency-Graph" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
-    <header>
-      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.0.0.0" tool-company="Microsoft" />
-    </header>
-    <body>
+  <file datatype="xml" source-language="en-US" target-language="es-MX" original="Dependency-Graph">
+   <body>
       <group id="body" datatype="resx">
         <trans-unit id="Table 2186239794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dependency Graph Setup</source>
