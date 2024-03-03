@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit GenerateTables_ANJ (ID 80807)
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 80807 GenerateTables_ANJ
 {
     Access = Public;

@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit "WSAndMDInfoImp_ANJ" (ID 80812) implements Interface FillingProcessingTables_ANJ.
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
 {
     Access = Internal;

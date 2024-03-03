@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit GenerateFigure_ANJ (ID 80804).
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 80804 GenerateFigure_ANJ
 {
     Access = Public;

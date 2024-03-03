@@ -1,6 +1,7 @@
 /// <summary>
 /// Page "ShowInGraph_ANJ" (ID 80802).
 /// </summary>
+namespace ANJ.Tools.Graph;
 page 80802 ShowInGraph_ANJ
 {
     ApplicationArea = All;

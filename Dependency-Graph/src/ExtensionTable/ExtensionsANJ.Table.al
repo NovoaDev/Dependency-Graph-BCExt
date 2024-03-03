@@ -1,6 +1,7 @@
 /// <summary>
 /// Table "Extensions_ANJ" (ID 80801).
 /// </summary>
+namespace ANJ.Tools.Graph;
 table 80801 Extensions_ANJ
 {
     Access = Public;

@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit "CleanTemporaryTables_ANJ" (ID 80811).
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 80811 CleanTemporaryTables_ANJ
 {
     Access = Public;

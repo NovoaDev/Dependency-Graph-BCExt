@@ -1,6 +1,7 @@
 /// <summary>
 /// Page DependencyGraphSetup_ANJ (ID 80800).
 /// </summary>
+namespace ANJ.Tools.Graph;
 page 80800 DependencyGraphSetup_ANJ
 {
     ApplicationArea = All;

@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit "RhombusIMP_ANJ" (ID 80803) implements Interface FigureInGraph_ANJ.
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 80803 RhombusIMP_ANJ implements FigureInGraph_ANJ
 {
     Access = Internal;

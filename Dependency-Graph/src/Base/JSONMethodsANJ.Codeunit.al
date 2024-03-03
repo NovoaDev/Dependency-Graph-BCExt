@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit "JSONMethods_ANJ" (ID 80813).
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 80813 JSONMethods_ANJ
 {
     Access = Internal;

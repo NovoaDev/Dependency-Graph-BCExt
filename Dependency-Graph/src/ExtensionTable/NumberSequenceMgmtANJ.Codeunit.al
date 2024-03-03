@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit "NumberSequenceMgmt_ANJ" (ID 80806).
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 80806 NumberSequenceMgmt_ANJ
 {
     Access = Public;

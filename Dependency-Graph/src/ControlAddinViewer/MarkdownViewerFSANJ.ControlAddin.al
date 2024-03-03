@@ -1,6 +1,7 @@
 /// <summary>
 /// ControlAddIn "MarkdownViewer_ANJ._ANJ"
 /// </summary>
+namespace ANJ.Tools.Graph;
 controladdin MarkdownViewerFS_ANJ
 {
     HorizontalStretch = true;

@@ -1,6 +1,7 @@
 /// <summary>
 /// ControlAddIn "MarkdownViewer_ANJ."
 /// </summary>
+namespace ANJ.Tools.Graph;
 controladdin MarkdownViewer_ANJ
 {
     HorizontalShrink = true;

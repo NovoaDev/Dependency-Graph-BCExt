@@ -1,6 +1,7 @@
 /// <summary>
 /// Table DependencyGraphSetup_ANJ (ID 80800).
 /// </summary>
+namespace ANJ.Tools.Graph;
 table 80800 DependencyGraphSetup_ANJ
 {
     Access = Public;

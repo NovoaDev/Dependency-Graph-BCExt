@@ -1,6 +1,7 @@
 /// <summary>
 /// Interface FillingProcessingTables_ANJ.
 /// </summary>
+namespace ANJ.Tools.Graph;
 interface FillingProcessingTables_ANJ
 {
     Access = Public;

@@ -1,6 +1,7 @@
 /// <summary>
 /// Table Relations_ANJ (ID 80802).
 /// </summary>
+namespace ANJ.Tools.Graph;
 table 80802 Relations_ANJ
 {
     Access = Public;

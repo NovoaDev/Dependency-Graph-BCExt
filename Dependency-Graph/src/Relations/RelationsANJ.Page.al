@@ -1,6 +1,7 @@
 /// <summary>
 /// Page Relations_ANJ (ID 80803).
 /// </summary>
+namespace ANJ.Tools.Graph;
 page 80803 Relations_ANJ
 {
     ApplicationArea = All;

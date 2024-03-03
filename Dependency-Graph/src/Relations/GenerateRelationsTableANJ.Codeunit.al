@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit "GenerateRelationsTable_ANJ" (ID 80808).
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 80808 GenerateRelationsTable_ANJ
 {
     Access = Public;

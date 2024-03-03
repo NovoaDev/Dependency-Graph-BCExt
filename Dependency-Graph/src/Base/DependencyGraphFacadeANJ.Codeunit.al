@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit "DependencyGraphFacade_ANJ" (ID 80810).
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 80810 DependencyGraphFacade_ANJ
 {
     Access = Public;

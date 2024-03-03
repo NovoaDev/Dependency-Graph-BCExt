@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit "RoundRectangleIMP_ANJ" (ID 80802) implements Interface FigureInGraph_ANJ.
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 80802 RoundRectangleIMP_ANJ implements FigureInGraph_ANJ
 {
     Access = Internal;

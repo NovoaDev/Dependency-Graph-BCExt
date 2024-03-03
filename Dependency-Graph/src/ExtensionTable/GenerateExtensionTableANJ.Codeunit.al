@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit "GenerateExtensionTable_ANJ" (ID 80805).
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 80805 GenerateExtensionTable_ANJ
 {
     Access = Public;

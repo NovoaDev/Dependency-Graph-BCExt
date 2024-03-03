@@ -1,6 +1,7 @@
 /// <summary>
 /// Enum ExtensionScope_ANJ (ID 80801)
 /// </summary>
+namespace ANJ.Tools.Graph;
 enum 80801 ExtensionScope_ANJ
 {
     Access = Public;

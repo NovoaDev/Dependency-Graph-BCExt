@@ -1,6 +1,7 @@
 /// <summary>
 /// Page MarkdownFactbox_ANJ (ID 80805).
 /// </summary>
+namespace ANJ.Tools.Graph;
 page 80805 MarkdownFactbox_ANJ
 {
     ApplicationArea = All;

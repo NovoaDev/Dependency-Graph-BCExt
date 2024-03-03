@@ -1,6 +1,7 @@
 /// <summary>
 /// Enum GeometricFigure_ANJ (ID 80800) implements Interface FigureInGraph_ANJ.
 /// </summary>
+namespace ANJ.Tools.Graph;
 enum 80800 GeometricFigure_ANJ implements FigureInGraph_ANJ
 {
     Access = Public;
