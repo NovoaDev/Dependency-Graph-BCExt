@@ -1,14 +1,18 @@
 /// <summary>
 /// Codeunit "TemporaryTablesTest_ANJ" (ID 99992).
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 99992 TemporaryTablesTest_ANJ
 {
     Access = Public;
     Subtype = Test;
     TestPermissions = Disabled;
 
+    /// <summary>
+    /// GenerateFigures.
+    /// </summary>
     [Test]
-    procedure GenerateFigures();
+    procedure GenerateFigures()
     var
         ExtensionRecords: Integer;
         RelationsRecords: Integer;
@@ -90,7 +94,7 @@ codeunit 99992 TemporaryTablesTest_ANJ
     var
         DependencyGraphFacade: Codeunit DependencyGraphFacade_ANJ;
         ExpectedValues: Codeunit ExpectedValues_ANJ;
-        LibraryAssert: Codeunit "Library Assert";
-        DiferentNumberErr: Label 'Diferent number of records in table %1 than expected';
+        LibraryAssert: Codeunit System.TestLibraries.Utilities."Library Assert";
+        DiferentNumberErr: Label 'Diferent number of records in table %1 than expected', Comment = 'Error message for different number of records in a table %1.';
         MarkdownTextErr: Label 'Markdown text is different than expected';
 }

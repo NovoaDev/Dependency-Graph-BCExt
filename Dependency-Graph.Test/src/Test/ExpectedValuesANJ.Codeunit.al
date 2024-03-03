@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit ExpectedValues_ANJ (ID 99994).
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 99994 ExpectedValues_ANJ
 {
     Access = Internal;
@@ -9,7 +10,7 @@ codeunit 99994 ExpectedValues_ANJ
     /// GetExpectedMarkdownText.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    procedure GetExpectedMarkdownText(): Text;
+    procedure GetExpectedMarkdownText(): Text
     var
         ExpectedValueTextBuilder: TextBuilder;
     begin
@@ -26,7 +27,7 @@ codeunit 99994 ExpectedValues_ANJ
     /// GetExpectedMarkdownMermaidText.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    procedure GetExpectedMarkdownMermaidText(): Text;
+    procedure GetExpectedMarkdownMermaidText(): Text
     var
         ExpectedValueTextBuilder: TextBuilder;
     begin

@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit NumberSequenceTest_ANJ (ID 99990).
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 99990 NumberSequenceTest_ANJ
 {
     Access = Public;
@@ -10,7 +11,7 @@ codeunit 99990 NumberSequenceTest_ANJ
     /// TestNumberSequence.
     /// </summary>
     [Test]
-    procedure TestNumberSequence();
+    procedure TestNumberSequence()
     var
         FirstRequest: Text;
         SecondRequest: Text;
@@ -48,7 +49,7 @@ codeunit 99990 NumberSequenceTest_ANJ
     var
         DependencyGraphFacadeANJ: Codeunit DependencyGraphFacade_ANJ;
         LibraryLowerPermissions: Codeunit "Library - Lower Permissions";
-        LibraryAssert: Codeunit "Library Assert";
+        LibraryAssert: Codeunit System.TestLibraries.Utilities."Library Assert";
         FirstRequestLbl: Label 'E1';
         NumberSequenceErr: Label 'The number secuence does not correspond to the expected one';
         SecondRequestLbl: Label 'E2';

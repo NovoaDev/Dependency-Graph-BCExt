@@ -1,3 +1,4 @@
 {
-    "mandatorySuffix": "_ANJ"
+    "mandatorySuffix": "_ANJ",
+    "supportedCountries": ["US"]
 }

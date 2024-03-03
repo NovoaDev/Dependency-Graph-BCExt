@@ -110,7 +110,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3159861850 - NamedType 1890489750" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1((%2))</source>
-          <note from="Developer" annotates="general" priority="2">Placeholder %1 represents the Identity, and Placeholder %2 represents the Content.</note>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateFiguresTest_ANJ - NamedType CircleFigureLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 3159861850 - NamedType 3214227760" size-unit="char" translate="yes" xml:space="preserve">
@@ -125,12 +125,12 @@
         </trans-unit>
         <trans-unit id="Codeunit 3159861850 - NamedType 1958646152" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1{%2}</source>
-          <note from="Developer" annotates="general" priority="2">Placeholder %1 represents the Identity, and Placeholder %2 represents the Content.</note>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateFiguresTest_ANJ - NamedType RhombusFigureLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 3159861850 - NamedType 1518175748" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1[%2]</source>
-          <note from="Developer" annotates="general" priority="2">Placeholder %1 represents the Identity, and Placeholder %2 represents the Content.</note>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateFiguresTest_ANJ - NamedType SquareRectangleFigureLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 1844708212 - NamedType 1644787387" size-unit="char" translate="yes" xml:space="preserve">
@@ -155,7 +155,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1511997686 - NamedType 3734207983" size-unit="char" translate="yes" xml:space="preserve">
           <source>Diferent number of records in table %1 than expected</source>
-          <note from="Developer" annotates="general" priority="2">Error message for different number of records in a table %1.</note>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TemporaryTablesTest_ANJ - NamedType DiferentNumberErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1511997686 - NamedType 3232656297" size-unit="char" translate="yes" xml:space="preserve">

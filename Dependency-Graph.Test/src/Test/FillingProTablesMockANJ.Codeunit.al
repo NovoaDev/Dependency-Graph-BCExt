@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit "FillingProTablesMock_ANJ" (ID 99993).
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 99993 FillingProTablesMock_ANJ implements FillingProcessingTables_ANJ
 {
     Access = Internal;
@@ -9,7 +10,7 @@ codeunit 99993 FillingProTablesMock_ANJ implements FillingProcessingTables_ANJ
     /// GetExtensions.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    procedure GetExtensions(): Text;
+    procedure GetExtensions(): Text
     var
         ExtensionArry: JsonArray;
         AuxJsonObject: JsonObject;
@@ -39,7 +40,7 @@ codeunit 99993 FillingProTablesMock_ANJ implements FillingProcessingTables_ANJ
     /// GetRelations.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    procedure GetRelations(): Text;
+    procedure GetRelations(): Text
     var
         RelationsArry: JsonArray;
         Relations: Text;
@@ -60,12 +61,12 @@ codeunit 99993 FillingProTablesMock_ANJ implements FillingProcessingTables_ANJ
     /// <param name="DisplayName">Text.</param>
     /// <param name="Publisher">Text.</param>
     /// <param name="PublishedAs">Text.</param>
-    internal procedure AddNewExtensionToJsonArry(
+    local procedure AddNewExtensionToJsonArry(
         var ExtensionArry: JsonArray;
         PackageId: Text;
         DisplayName: Text;
         Publisher: Text;
-        PublishedAs: Text);
+        PublishedAs: Text)
     var
         ExtensionJsonObject: JsonObject;
     begin
@@ -81,12 +82,14 @@ codeunit 99993 FillingProTablesMock_ANJ implements FillingProcessingTables_ANJ
 
     /// <summary>
     /// AddNewRelationToJsonArry.
-    /// /// </summary>
-    /// <returns>Return variable NewRelationsLine of type Integer.</returns>
+    /// </summary>
+    /// <param name="RelationsArry">VAR JsonArray.</param>
+    /// <param name="SourceAppID">Guid.</param>
+    /// <param name="DestinationAppID">Guid.</param>
     local procedure AddNewRelationToJsonArry(
           var RelationsArry: JsonArray;
           SourceAppID: Guid;
-          DestinationAppID: Guid);
+          DestinationAppID: Guid)
     var
         RelationJsonObject: JsonObject;
     begin

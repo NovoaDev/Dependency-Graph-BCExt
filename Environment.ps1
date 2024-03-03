@@ -3,7 +3,7 @@ $ContainerName = 'DependencyGraph'
 $licenseFile = 'C:\License\Dev.bclicense'
 
 # Image
-$artifactUrl = Get-BCArtifactUrl -country "es" -version 22  
+$artifactUrl = Get-BCArtifactUrl -country "es" -version 23  
 
 # User
 $UserName = 'User'
