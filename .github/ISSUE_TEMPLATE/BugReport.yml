@@ -1,0 +1,38 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug"]
+projects: ["Dependency-Graph"]
+assignees:
+  - novoadev
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+
+        With your help we will try to annihilate all those :bug: bastards.
+  - type: textarea
+    id: What-bug-did-you-find
+    attributes:
+      label: What bug did you find?
+      description:  A clear and concise description of what the problem encountered is.
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: textarea
+    id: Steps-To-Reproduce
+    attributes:
+      label: What are the steps to reproduce it?
+      description: Please indicate which are the steps so that we can reproduce this bug.
+      placeholder: What do we have to do?
+    validations:
+      required: true
+  - type: textarea
+    id: Positive-Result
+    attributes:
+      label: Satisfactory solution result?
+      description: Do you know what the expected behavior would be if the bug is fixed?.
+      placeholder: Tell us what you expect!
+    validations:
+      required: false

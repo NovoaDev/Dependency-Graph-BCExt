@@ -1,11 +1,13 @@
 /// <summary>
 /// Page MarkdownFactbox_ANJ (ID 80805).
 /// </summary>
+namespace ANJ.Tools.Graph;
 page 80805 MarkdownFactbox_ANJ
 {
     ApplicationArea = All;
     Caption = 'Markdown Text';
     Editable = false;
+    Extensible = true;
     PageType = CardPart;
     UsageCategory = None;
 
@@ -43,7 +45,7 @@ page 80805 MarkdownFactbox_ANJ
     /// <summary>
     /// SetMarkdownText.
     /// </summary>
-    /// <param name="AuxMarkdownText">Text.</param>
+    /// <param name="AuxMarkdownText">Text.</param>    
     internal procedure SetMarkdownText(AuxMarkdownText: Text)
     begin
         MarkdownText := AuxMarkdownText;

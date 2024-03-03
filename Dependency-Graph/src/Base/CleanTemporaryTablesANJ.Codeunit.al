@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit "CleanTemporaryTables_ANJ" (ID 80811).
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 80811 CleanTemporaryTables_ANJ
 {
     Access = Public;
@@ -10,7 +11,7 @@ codeunit 80811 CleanTemporaryTables_ANJ
     /// </summary>
     /// <param name="ExtensionsTable">Boolean.</param>
     /// <param name="RelationsTable">Boolean.</param>
-    internal procedure Clean(ExtensionsTable: Boolean; RelationsTable: Boolean);
+    internal procedure Clean(ExtensionsTable: Boolean; RelationsTable: Boolean)
     var
         IsHandled: Boolean;
     begin
@@ -25,7 +26,7 @@ codeunit 80811 CleanTemporaryTables_ANJ
     /// <param name="ExtensionsTable">Boolean.</param>
     /// <param name="RelationsTable">Boolean.</param>
     /// <param name="IsHandled">Boolean.</param>
-    local procedure DoClean(ExtensionsTable: Boolean; RelationsTable: Boolean; IsHandled: Boolean);
+    local procedure DoClean(ExtensionsTable: Boolean; RelationsTable: Boolean; IsHandled: Boolean)
     begin
         if IsHandled then
             exit;
@@ -38,9 +39,9 @@ codeunit 80811 CleanTemporaryTables_ANJ
     end;
 
     /// <summary>
-    /// CleanExtensionsTable.
+    /// CleanRelationsTable.
     /// </summary>
-    local procedure CleanExtensionsTable();
+    local procedure CleanExtensionsTable()
     var
         Extensions: Record Extensions_ANJ;
     begin
@@ -51,7 +52,7 @@ codeunit 80811 CleanTemporaryTables_ANJ
     /// <summary>
     /// CleanRelationsTable.
     /// </summary>
-    local procedure CleanRelationsTable();
+    local procedure CleanRelationsTable()
     var
         Relations: Record Relations_ANJ;
     begin
@@ -59,13 +60,24 @@ codeunit 80811 CleanTemporaryTables_ANJ
             Relations.DeleteAll(true);
     end;
 
+    /// <summary>
+    /// OnBeforeClean.
+    /// </summary>
+    /// <param name="ExtensionsTable">VAR Boolean.</param>
+    /// <param name="RelationsTable">VAR Boolean.</param>
+    /// <param name="IsHandled">VAR Boolean.</param>
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeClean(var ExtensionsTable: Boolean; var RelationsTable: Boolean; var IsHandled: Boolean);
+    local procedure OnBeforeClean(var ExtensionsTable: Boolean; var RelationsTable: Boolean; var IsHandled: Boolean)
     begin
     end;
 
+    /// <summary>
+    /// OnAfterClean.
+    /// </summary>
+    /// <param name="ExtensionsTable">Boolean.</param>
+    /// <param name="RelationsTable">Boolean.</param>
     [IntegrationEvent(false, false)]
-    local procedure OnAfterClean(ExtensionsTable: Boolean; RelationsTable: Boolean);
+    local procedure OnAfterClean(ExtensionsTable: Boolean; RelationsTable: Boolean)
     begin
     end;
 }

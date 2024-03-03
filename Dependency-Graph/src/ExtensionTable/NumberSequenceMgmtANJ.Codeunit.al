@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit "NumberSequenceMgmt_ANJ" (ID 80806).
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 80806 NumberSequenceMgmt_ANJ
 {
     Access = Public;
@@ -8,19 +9,19 @@ codeunit 80806 NumberSequenceMgmt_ANJ
     /// <summary>
     /// Initialize
     /// </summary>
-    internal procedure Initialize();
+    internal procedure Initialize()
     begin
-        if NumberSequence.Exists(NumberSequenceNameLbl, true) then
-            NumberSequence.Delete(NumberSequenceNameLbl, true);
+        if NumberSequence.Exists(NumberSequenceNameTok, true) then
+            NumberSequence.Delete(NumberSequenceNameTok, true);
 
-        NumberSequence.Insert(NumberSequenceNameLbl, 0001, 1, true);
+        NumberSequence.Insert(NumberSequenceNameTok, 0001, 1, true);
     end;
 
     /// <summary>
     /// GetNextNo.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    internal procedure GetNextNo() NewIdentity: Text;
+    internal procedure GetNextNo() NewIdentity: Text
     var
         IsHandled: Boolean;
     begin
@@ -34,28 +35,36 @@ codeunit 80806 NumberSequenceMgmt_ANJ
     /// </summary>
     /// <param name="IsHandled">Boolean.</param>
     /// <returns>Return value of type Text.</returns>
-    local procedure DoBuildIdentity(IsHandled: Boolean): Text;
+    local procedure DoBuildIdentity(IsHandled: Boolean): Text
     var
         NewIdentity: Text;
     begin
         if IsHandled then
             exit;
 
-        NewIdentity := StrSubstNo(IdentityLbl, Format(NumberSequence.Next(NumberSequenceNameLbl, true)));
+        NewIdentity := StrSubstNo(IdentityLbl, Format(NumberSequence.Next(NumberSequenceNameTok, true)));
         exit(NewIdentity);
     end;
 
+    /// <summary>
+    /// OnBeforeBuildIdentity.
+    /// </summary>
+    /// <param name="IsHandled">VAR Boolean.</param>
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeBuildIdentity(var IsHandled: Boolean);
+    local procedure OnBeforeBuildIdentity(var IsHandled: Boolean)
     begin
     end;
 
+    /// <summary>
+    /// OnAfterBuildIdentity.
+    /// </summary>
+    /// <param name="NewIdentity">VAR Text.</param>
     [IntegrationEvent(false, false)]
-    local procedure OnAfterBuildIdentity(var NewIdentity: Text);
+    local procedure OnAfterBuildIdentity(var NewIdentity: Text)
     begin
     end;
 
     var
-        IdentityLbl: Label 'E%1';
-        NumberSequenceNameLbl: Label 'DependencyGraph';
+        IdentityLbl: Label 'E%1', Comment = 'Placeholder %1 for the identity label';
+        NumberSequenceNameTok: Label 'DependencyGraph', Locked = true;
 }

@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit MarkdownMgmt_ANJ (ID 80809).
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 80809 MarkdownMgmt_ANJ
 {
     Access = Public;
@@ -8,7 +9,7 @@ codeunit 80809 MarkdownMgmt_ANJ
     /// <summary>
     /// GenerateGraph.
     /// </summary>
-    internal procedure GenerateGraph();
+    internal procedure GenerateGraph()
     var
         IsHandled: Boolean;
     begin
@@ -21,14 +22,14 @@ codeunit 80809 MarkdownMgmt_ANJ
     /// DoGenerateMarkdown.
     /// </summary>
     /// <param name="IsHandled">Boolean.</param>
-    local procedure DoGenerateMarkdown(IsHandled: Boolean);
+    local procedure DoGenerateMarkdown(IsHandled: Boolean)
     var
         GrapTextBuilder: TextBuilder;
     begin
         if IsHandled then
             exit;
 
-        GrapTextBuilder.AppendLine(Header2Lbl);
+        GrapTextBuilder.AppendLine(Header2Tok);
         InsertRelationships(GrapTextBuilder);
         InsertAppWithoutRelationships(GrapTextBuilder);
 
@@ -39,13 +40,16 @@ codeunit 80809 MarkdownMgmt_ANJ
     /// InsertRelationships.
     /// </summary>
     /// <param name="GrapTextBuilder">VAR TextBuilder.</param>
-    local procedure InsertRelationships(var GrapTextBuilder: TextBuilder);
+    local procedure InsertRelationships(var GrapTextBuilder: TextBuilder)
     var
         Relations: Record Relations_ANJ;
         AppIdList: List of [Guid];
     begin
         Relations.SetLoadFields(SourceAppID, DestinationAppID, LinkText);
         Relations.SetRange(ShowInGraph, true);
+        if Relations.IsEmpty() then
+            exit;
+
         if Relations.FindSet(false) then
             repeat
                 GrapTextBuilder.Append(GetExtensionText(Relations.SourceAppID, AppIdList));
@@ -60,7 +64,7 @@ codeunit 80809 MarkdownMgmt_ANJ
     /// <param name="AppGuid">Guid.</param>
     /// <param name="AppIdList">VAR List of [Guid].</param>
     /// <returns>Return value of type Text.</returns>
-    local procedure GetExtensionText(AppGuid: Guid; var AppIdList: List of [Guid]): Text;
+    local procedure GetExtensionText(AppGuid: Guid; var AppIdList: List of [Guid]): Text
     var
         Extensions: Record Extensions_ANJ;
     begin
@@ -81,7 +85,7 @@ codeunit 80809 MarkdownMgmt_ANJ
     /// </summary>
     /// <param name="GrapTextBuilder">VAR TextBuilder.</param>
     /// <param name="LinkText">Text.</param>
-    local procedure InsertLinkText(var GrapTextBuilder: TextBuilder; LinkText: Text);
+    local procedure InsertLinkText(var GrapTextBuilder: TextBuilder; LinkText: Text)
     begin
         if LinkText = '' then begin
             GrapTextBuilder.Append(ArrowLbl);
@@ -95,13 +99,16 @@ codeunit 80809 MarkdownMgmt_ANJ
     /// InsertAppWithoutRelationships.
     /// </summary>
     /// <param name="GrapTextBuilder">VAR TextBuilder.</param>
-    local procedure InsertAppWithoutRelationships(var GrapTextBuilder: TextBuilder);
+    local procedure InsertAppWithoutRelationships(var GrapTextBuilder: TextBuilder)
     var
         Extensions: Record Extensions_ANJ;
     begin
         Extensions.SetRange(ShowInGraph, true);
         Extensions.SetRange(HasStartRelationships, false);
         Extensions.SetRange(HasRelationships, false);
+        if Extensions.IsEmpty() then
+            exit;
+
         if Extensions.FindSet(false) then
             repeat
                 GrapTextBuilder.AppendLine(Extensions.Figure);
@@ -112,7 +119,7 @@ codeunit 80809 MarkdownMgmt_ANJ
     /// UpdateSetupTable.
     /// </summary>
     /// <param name="MarkDownText">Text.</param>
-    local procedure UpdateSetupTable(MarkDownText: Text);
+    local procedure UpdateSetupTable(MarkDownText: Text)
     var
         DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
         GraphTextBuilder: TextBuilder;
@@ -120,9 +127,9 @@ codeunit 80809 MarkdownMgmt_ANJ
         if MarkDownText = '' then
             exit;
 
-        GraphTextBuilder.AppendLine(Header1Lbl);
+        GraphTextBuilder.AppendLine(Header1Tok);
         GraphTextBuilder.AppendLine(MarkDownText);
-        GraphTextBuilder.AppendLine(FooterLbl);
+        GraphTextBuilder.AppendLine(FooterTok);
 
         DependencyGraphSetup.GetInstance();
         DependencyGraphSetup.SetMarkdown(GraphTextBuilder.ToText(), DependencyGraphSetup.FieldNo(Markdown));
@@ -135,7 +142,7 @@ codeunit 80809 MarkdownMgmt_ANJ
     /// <summary>
     /// DownloadMarkdown.
     /// </summary>
-    internal procedure DownloadMarkdown();
+    internal procedure DownloadMarkdown()
     var
         DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
         AuxInStream: InStream;
@@ -158,7 +165,7 @@ codeunit 80809 MarkdownMgmt_ANJ
     /// </summary>
     /// <param name="FieldNo">Integer.</param>
     /// <returns>Return value of type Text.</returns>
-    internal procedure GetMarkdown(FieldNo: Integer): Text;
+    internal procedure GetMarkdown(FieldNo: Integer): Text
     var
         DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
         AuxInStream: InStream;
@@ -178,21 +185,28 @@ codeunit 80809 MarkdownMgmt_ANJ
         exit(AuxText);
     end;
 
+    /// <summary>
+    /// OnBeforeGenerateMarkdown.
+    /// </summary>
+    /// <param name="IsHandled"></param>
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeGenerateMarkdown(var IsHandled: Boolean);
+    local procedure OnBeforeGenerateMarkdown(var IsHandled: Boolean)
     begin
     end;
 
+    /// <summary>
+    /// OnAfterGenerateMarkdown.
+    /// </summary>
     [IntegrationEvent(false, false)]
-    local procedure OnAfterGenerateMarkdown();
+    local procedure OnAfterGenerateMarkdown()
     begin
     end;
 
     var
         ArrowLbl: Label ' --> ';
         FileNameLbl: Label 'DependencyGraph.md';
-        FooterLbl: Label '```';
-        Header1Lbl: Label '```mermaid';
-        Header2Lbl: Label 'graph BT';
-        LinkArrowLbl: Label ' -- %1 --> ';
+        FooterTok: Label '```', Locked = true;
+        Header1Tok: Label '```mermaid', Locked = true;
+        Header2Tok: Label 'graph BT', Locked = true;
+        LinkArrowLbl: Label ' -- %1 --> ', Comment = 'Placeholder %1 for the link text';
 }

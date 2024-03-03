@@ -1,18 +1,21 @@
 /// <summary>
 /// Table "Extensions_ANJ" (ID 80801).
 /// </summary>
+namespace ANJ.Tools.Graph;
 table 80801 Extensions_ANJ
 {
     Access = Public;
     Caption = 'Extensions';
     DataClassification = CustomerContent;
     DrillDownPageId = Extensions_ANJ;
+    Extensible = true;
     LookupPageId = Extensions_ANJ;
 
     fields
     {
         field(1; AppID; Guid)
         {
+            AllowInCustomizations = Never;
             Caption = 'App ID';
         }
         field(2; Name; Text[2048])
@@ -35,9 +38,11 @@ table 80801 Extensions_ANJ
         field(5; PublishedAs; Enum ExtensionScope_ANJ)
         {
             Caption = 'Published As';
+            InitValue = PTE;
         }
         field(6; Identity; Text[2048])
         {
+            AllowInCustomizations = Never;
             Caption = 'Identity';
 
             trigger OnValidate()
@@ -51,10 +56,12 @@ table 80801 Extensions_ANJ
         }
         field(8; Figure; Text[2048])
         {
+            AllowInCustomizations = Never;
             Caption = 'Figure';
         }
         field(9; HasStartRelationships; Boolean)
         {
+            AllowInCustomizations = Never;
             CalcFormula = exist(Relations_ANJ where(SourceAppID = field(AppID)));
             Caption = 'Has Relationships';
             Editable = false;
@@ -62,6 +69,7 @@ table 80801 Extensions_ANJ
         }
         field(10; HasRelationships; Boolean)
         {
+            AllowInCustomizations = Never;
             CalcFormula = exist(Relations_ANJ where(DestinationAppID = field(AppID)));
             Caption = 'Has Relationships';
             Editable = false;
@@ -88,7 +96,7 @@ table 80801 Extensions_ANJ
     /// <summary>
     /// UpdateFigure
     /// </summary>
-    internal procedure UpdateFigure()
+    local procedure UpdateFigure()
     begin
         Validate(Figure, DependencyGraphFacade.GenerateFigures(PublishedAs, Identity, DisplayName));
     end;

@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="bg-BG" original="Dependency-Graph" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.0.0.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="body" datatype="resx">
+        <trans-unit id="Table 2186239794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dependency Graph Setup</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Настройка на графика на зависимостите</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 3856621992 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client ID</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ИД на клиент</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field ClientID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 3715571876 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Дата</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field DateLastGeneration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 3944497305 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Дата</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field DateLastGenerationMarkdown - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 3511667827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filling Processing Tables</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Попълване на таблици за обработка</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field FillingProcessingTables - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 2750913523 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Link Text</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Включване на текст на връзка</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field IncludeLinkText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 1540816694 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Microsoft Apps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Включване на приложения на Microsoft</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field IncludeMicrosoftApps - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 1113875961 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Content Text</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Текст на съдържанието</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field Markdown - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 2129076432 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mermaid Content Text</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Текст на съдържанието на русалка</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field MarkdownMermaid - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 1594621544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Picture</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Картина</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field Picture - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 2333076789 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Първичен ключ</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field PrimaryKey - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 2757662305 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dev Scope</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Обхват на разработката</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field ScopeDevFigure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 1066899141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Global Scope</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Глобален обхват</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field ScopeGlobalFigure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 4232782363 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PTE Scope</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Обхват на PTE</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field ScopePTEFigure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 839089114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Secret</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Таен</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field Secret - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 891883075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Час</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field TimeLastGeneration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2186239794 - Field 1392759738 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Час</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DependencyGraphSetup_ANJ - Field TimeLastGenerationMarkdown - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3141127244 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Extensions</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Разширения</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3141127244 - Field 665602392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App ID</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ИД на приложение</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field AppID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3141127244 - Field 2058393039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Display Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Показвано име</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field DisplayName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3141127244 - Field 1769173142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Figure</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Фигура</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field Figure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3141127244 - Field 3093040191 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Has Relationships</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Има връзки</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field HasRelationships - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3141127244 - Field 1256703127 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Has Relationships</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Има връзки</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field HasStartRelationships - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3141127244 - Field 1205006834 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Identity</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Самоличност</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field Identity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3141127244 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Име</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3141127244 - Field 919630742 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Published As</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Публикувано като</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field PublishedAs - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3141127244 - Field 1772640682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Publisher</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Издателство</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field Publisher - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3141127244 - Field 2309591340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show In Graph</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Покажи в графиката</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Extensions_ANJ - Field ShowInGraph - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3437274809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Relations</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Отношения</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3437274809 - Field 593286124 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Destination App ID</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ИД на целево приложение</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field DestinationAppID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3437274809 - Field 3759848598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Destination App Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Име на целево приложение</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field DestinationAppName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3437274809 - Field 1839439551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Link Text</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Текст на връзка</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field LinkText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3437274809 - Field 1587026417 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Relation No.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Връзка No.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field RelationNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3437274809 - Field 2309591340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show In Graph</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Покажи в графиката</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field ShowInGraph - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3437274809 - Field 1581340811 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source App ID</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ИД на приложение източник</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field SourceAppID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3437274809 - Field 1283096581 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source App Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Име на приложение източник</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Relations_ANJ - Field SourceAppName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1718081384 - NamedType 48672636" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1((%2))</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">%1((%2))</target>
+          <note from="Developer" annotates="general" priority="2">Placeholder %1 represents the Identity, and Placeholder %2 represents the Content.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CircleIMP_ANJ - NamedType FigureLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3334283665 - NamedType 4106791379" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An implementation should be specified to the related figure.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Изпълнението трябва да бъде уточнено към съответната цифра.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DefaultFigureIMP_ANJ - NamedType ImpErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1067248498 - NamedType 4106791379" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An implementation for the generation of related relationship tables must be specified.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Трябва да се зададе реализация за генериране на свързани таблици на релации.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DefaultFillProcessTabImp_ANJ - NamedType ImpErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 927581418 - NamedType 4072018929" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error reading JSON response.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Грешка при четене на JSON отговор.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ReadingJsonErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 708421718 - NamedType 1408304205" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SourceAppID</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ИзточникAppID</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateRelationsTable_ANJ - NamedType SourceAppIDLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2841349168 - NamedType 750120336" size-unit="char" translate="yes" xml:space="preserve">
+          <source>When generating the tables again, custom data will be deleted, do you want to continue?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Когато генерирате таблиците отново, потребителските данни ще бъдат изтрити, искате ли да продължите?</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateTables_ANJ - NamedType ConfirmQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2841349168 - NamedType 1864506971" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The tables have been updated correctly.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Таблиците са актуализирани правилно.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateTables_ANJ - NamedType ProcessFinishMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 872690394 - NamedType 4072018929" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error reading JSON response.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Грешка при четене на JSON отговор.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit JSONMethods_ANJ - NamedType ReadingJsonErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 740515698 - NamedType 2810835173" size-unit="char" translate="yes" xml:space="preserve">
+          <source> --&gt; </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> --&gt; </target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType ArrowLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 740515698 - NamedType 3415447349" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DependencyGraph.md</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">DependencyGraph.md</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType FileNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 740515698 - NamedType 1922872277" size-unit="char" translate="yes" xml:space="preserve">
+          <source> -- %1 --&gt; </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> -- %1 --&gt; </target>
+          <note from="Developer" annotates="general" priority="2">Placeholder %1 for the link text</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType LinkArrowLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1763311423 - NamedType 4264074168" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E%1</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Е%1</target>
+          <note from="Developer" annotates="general" priority="2">Placeholder %1 for the identity label</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NumberSequenceMgmt_ANJ - NamedType IdentityLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4211792102 - NamedType 48672636" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1{%2}</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">%1{%2}</target>
+          <note from="Developer" annotates="general" priority="2">Placeholder %1 represents the Identity, and Placeholder %2 represents the Content.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit RhombusIMP_ANJ - NamedType FigureLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4116861567 - NamedType 48672636" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1(%2)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">%1(%2)</target>
+          <note from="Developer" annotates="general" priority="2">Placeholder %1 represents the Identity, and Placeholder %2 represents the Content.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit RoundRectangleIMP_ANJ - NamedType FigureLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3600287482 - NamedType 48672636" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1[%2]</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">%1[%2]</target>
+          <note from="Developer" annotates="general" priority="2">Placeholder %1 represents the Identity, and Placeholder %2 represents the Content.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SquareRectangleIMP_ANJ - NamedType FigureLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3451087242 - NamedType 752839706" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unable to communicate with the web service.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Не може да се комуникира с уеб услугата.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType UnableToCommunicateWSErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3451087242 - NamedType 3182686404" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error - Status code: %1  Description: %2.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Грешка - Код на състояние: %1 Описание: %2.</target>
+          <note from="Developer" annotates="general" priority="2">Placeholder %1: Status code, Placeholder %2: Description.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WSAndMDInfoImp_ANJ - NamedType WSStatusCodeErr</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dependency Graph Setup</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Настройка на графика на зависимостите</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 1975224516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App registrations - Azure</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Регистрации на приложения - Azure</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Auth - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 3856621992 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Client ID field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Задава стойността на полето "ИД на клиент".</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control ClientID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 839089114 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Secret field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Задава стойността на полето Secret.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Secret - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 1769173142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App shapes inside the diagram</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Фигури на приложения вътре в диаграмата</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Figure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 2757662305 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Scope Dev Figure field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Задава стойността на полето "Фигура на разчет на обхват".</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control ScopeDevFigure - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 1066899141 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Scope Global Figure field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Задава стойността на полето Глобална фигура на обхвата.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control ScopeGlobalFigure - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 4232782363 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Scope PTE Figure field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Задава стойността на полето Обхват PTE фигура.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control ScopePTEFigure - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 770743294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fill tables</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Запълване на таблици</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control FillTables - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 3511667827 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Filling Processing Tables field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Задава стойността на полето Таблици за обработка на пълнене.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control FillingProcessingTables - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 3349558288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include when generating the graph</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Включи при генериране на графиката</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Include - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 2750913523 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Include Link text field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Задава стойността на текстовото поле Включи връзка.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control IncludeLinkText - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 2750913523 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Link text between dependencies</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Свързване на текст между зависимости</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control IncludeLinkText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 1540816694 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Include Microsoft Apps field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Задава стойността на полето Включване на приложения на Microsoft.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control IncludeMicrosoftApps - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 1540816694 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Microsoft Apps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Приложения на Microsoft</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control IncludeMicrosoftApps - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 2902463168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last time it was generated</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Последният път, когато е генериран</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control LastGeneration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 1113875961 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dependency graph</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Графика на зависимостите</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Markdown - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 3944497305 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Date Last Generation field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Задава стойността на полето "Дата последно поколение".</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control DateLastGenerationMarkdown - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 1392759738 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Time Last Generation field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Задава стойността на полето Време последно поколение.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control TimeLastGenerationMarkdown - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 1061736343 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tables to customize the graph</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Таблици за персонализиране на графиката</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control Tables - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 3715571876 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Date Last Generation field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Задава стойността на полето "Дата последно поколение".</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control DateLastGeneration - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Control 891883075 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Time Last Generation field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Задава стойността на полето Време последно поколение.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Control TimeLastGeneration - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Action 1663039630 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Show In Graph action.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Изпълнява действието "Покажи в графика".</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Action Extensions - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2186239794 - Action 1663039630 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dependency Graph</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Графика на зависимостите</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DependencyGraphSetup_ANJ - Action Extensions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3141127244 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Extensions</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Разширения</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3141127244 - Control 2058393039 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Display Name field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Задава стойността на полето "Показвано име".</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control DisplayName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3141127244 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Name field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Задава стойността на полето "Име".</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3141127244 - Control 919630742 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Published As field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Задава стойността на полето Публикувано като.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control PublishedAs - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3141127244 - Control 1772640682 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Publisher field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Задава стойността на полето "Издател".</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control Publisher - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3141127244 - Control 2309591340 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ShowInGraph field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Задава стойността на полето ShowInGraph.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Extensions_ANJ - Control ShowInGraph - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1994809268 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Markdown Text</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Текст за маркиране</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownFactbox_ANJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1994809268 - Action 3577779853 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Download Markdown as .md action.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Изпълнява действието Download Markdown като .md.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownFactbox_ANJ - Action DownloadMarkdown - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1994809268 - Action 3577779853 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download Markdown as .md</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Изтегляне на Markdown като .md</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownFactbox_ANJ - Action DownloadMarkdown - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3287834952 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Markdown Viewer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Преглед на маркирането</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewerFull_ANJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1244516609 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Markdown Viewer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Преглед на маркирането</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewer_ANJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1244516609 - Action 428232880 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Display dependency graph action.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Изпълнява действието Графика на зависимостите на дисплея.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewer_ANJ - Action GenerateMarkdown - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1244516609 - Action 428232880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Display dependency graph</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Показване на графиката на зависимостите</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewer_ANJ - Action GenerateMarkdown - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3437274809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Relations</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Отношения</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Relations_ANJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3437274809 - Control 3759848598 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Destination App Name field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Задава стойността на полето "Име на целево приложение".</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Relations_ANJ - Control DestinationAppName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3437274809 - Control 1839439551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Link Text field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Задава стойността на полето "Текст на връзка".</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Relations_ANJ - Control LinkText - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3437274809 - Control 2309591340 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Show In Graph field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Задава стойността на полето Покажи в графика.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Relations_ANJ - Control ShowInGraph - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3437274809 - Control 1283096581 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Source App Name field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Задава стойността на полето "Име на приложение източник".</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Relations_ANJ - Control SourceAppName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3728201870 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show In Dependency Graph</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Покажи графиката на зависимостите</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3728201870 - Action 1943359091 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Generate data action.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Изпълнява действието Генериране на данни.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Action GenTables - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3728201870 - Action 1943359091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate data</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Генериране на данни</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ShowInGraph_ANJ - Action GenTables - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4022559235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Extension Scope</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Обхват на разширение</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ExtensionScope_ANJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4022559235 - EnumValue 2881718953 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dev</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Дев</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ExtensionScope_ANJ - EnumValue Dev - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4022559235 - EnumValue 4172416525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Global</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Глобален</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ExtensionScope_ANJ - EnumValue Global - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4022559235 - EnumValue 1750906067 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PTE</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ПТЕ</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ExtensionScope_ANJ - EnumValue PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1956450053 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filling Processing Tables</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Попълване на таблици за обработка</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum FillingProcessingTables_ANJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1956450053 - EnumValue 2912439360 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WS And ModuleDependencyInfo</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">WS и модулDependencyInfo</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum FillingProcessingTables_ANJ - EnumValue WSAndModuleDependencyInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2507724467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geometric Figure</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Геометрична фигура</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeometricFigure_ANJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2507724467 - EnumValue 13936446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Circle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Кръг</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeometricFigure_ANJ - EnumValue Circle - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2507724467 - EnumValue 1105944624 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rhombus</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ромб</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeometricFigure_ANJ - EnumValue Rhombus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2507724467 - EnumValue 3932416381 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Round Rectangle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Кръгъл правоъгълник</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeometricFigure_ANJ - EnumValue RoundRectangle - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2507724467 - EnumValue 3699382460 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Square/Rectangle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Квадрат/правоъгълник</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeometricFigure_ANJ - EnumValue SquareRectangle - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

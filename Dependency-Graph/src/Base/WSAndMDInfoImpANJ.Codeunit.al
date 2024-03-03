@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit "WSAndMDInfoImp_ANJ" (ID 80812) implements Interface FillingProcessingTables_ANJ.
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
 {
     Access = Internal;
@@ -9,7 +10,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// GetExtensions.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    procedure GetExtensions(): Text;
+    procedure GetExtensions(): Text
     var
         AccessToken: Text;
     begin
@@ -24,7 +25,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// GetAccessToken.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    local procedure GetAccessToken(): Text;
+    local procedure GetAccessToken(): Text
     var
         AuxHttpClient: HttpClient;
         RequestHttpContent: HttpContent;
@@ -34,21 +35,21 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     begin
         RequestHttpContent.WriteFrom(GetRequestAccessTokenContent());
         RequestHttpContent.GetHeaders(Headers);
-        Headers.Remove(ContentTypeLbl);
-        Headers.Add(ContentTypeLbl, UrlencodedLbl);
+        Headers.Remove(ContentTypeTok);
+        Headers.Add(ContentTypeTok, UrlencodedTok);
 
         if not AuxHttpClient.Post(GetAccessTokenAPIUrl(), RequestHttpContent, ResponseHttpResponseMessage) then
             Error(UnableToCommunicateWSErr);
 
         GetResponseMessageText(ResponseHttpResponseMessage, ResponseText);
-        exit(JSONMethods.GetJsonValue(AccessTokenLbl, ResponseText));
+        exit(JSONMethods.GetJsonValue(AccessTokenTok, ResponseText));
     end;
 
     /// <summary>
     /// GetRequestAccessTokenContent.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    local procedure GetRequestAccessTokenContent(): Text;
+    local procedure GetRequestAccessTokenContent(): Text
     var
         DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
         ContentTextBuilder: TextBuilder;
@@ -56,10 +57,10 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
         DependencyGraphSetup.SetLoadFields(ClientID, Secret);
         DependencyGraphSetup.GetInstance();
 
-        ContentTextBuilder.AppendLine(GrantTypeLbl);
-        ContentTextBuilder.AppendLine(StrSubstNo(ClientIdLbl, DependencyGraphSetup.ClientID));
-        ContentTextBuilder.AppendLine(StrSubstNo(ClientSecretLbl, DependencyGraphSetup.Secret));
-        ContentTextBuilder.AppendLine(ScopeLbl);
+        ContentTextBuilder.AppendLine(GrantTypeTok);
+        ContentTextBuilder.AppendLine(StrSubstNo(ClientIdTok, DependencyGraphSetup.ClientID));
+        ContentTextBuilder.AppendLine(StrSubstNo(ClientSecretTok, DependencyGraphSetup.Secret));
+        ContentTextBuilder.AppendLine(ScopeTok);
         exit(ContentTextBuilder.ToText());
     end;
 
@@ -67,16 +68,16 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// GetAccessTokenAPIUrl.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    local procedure GetAccessTokenAPIUrl(): Text;
+    local procedure GetAccessTokenAPIUrl(): Text
     begin
-        exit(StrSubstNo(AccessTokenUrlLbl, GetTenantId()));
+        exit(StrSubstNo(AccessTokenUrlTok, GetTenantId()));
     end;
 
     /// <summary>
     /// GetTenantId.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    local procedure GetTenantId(): Text;
+    local procedure GetTenantId(): Text
     begin
         exit(AzureADTenant.GetAadTenantId());
     end;
@@ -86,13 +87,13 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// </summary>
     /// <param name="AccessToken">Text.</param>
     /// <returns>Return value of type Text.</returns>
-    local procedure DoGetExtensions(AccessToken: Text): Text;
+    local procedure DoGetExtensions(AccessToken: Text): Text
     var
         AuxHttpClient: HttpClient;
         ResponseHttpResponseMessage: HttpResponseMessage;
         ResponseText: Text;
     begin
-        AuxHttpClient.DefaultRequestHeaders().Add(AuthorizationLbl, StrSubstNo(AuthorizationValueLbl, AccessToken));
+        AuxHttpClient.DefaultRequestHeaders().Add(AuthorizationTok, StrSubstNo(AuthorizationValueTok, AccessToken));
 
         if not AuxHttpClient.Get(GetExtensionsAPIUrl(), ResponseHttpResponseMessage) then
             Error(UnableToCommunicateWSErr);
@@ -105,7 +106,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// GetExtensionsAPIUrl.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    local procedure GetExtensionsAPIUrl(): Text;
+    local procedure GetExtensionsAPIUrl(): Text
     var
         DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
         ExtensionsUrl: Text;
@@ -113,9 +114,9 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
         DependencyGraphSetup.SetLoadFields(IncludeMicrosoftApps);
         DependencyGraphSetup.GetInstance();
 
-        ExtensionsUrl := StrSubstNo(ExtensionsUrlLbl, GetEnvironmentName(), GetCompanyId());
+        ExtensionsUrl := StrSubstNo(ExtensionsUrlTok, GetEnvironmentName(), GetCompanyId());
         if not DependencyGraphSetup.IncludeMicrosoftApps then
-            ExtensionsUrl += FilterMSAppsLbl + '''Microsoft''';
+            ExtensionsUrl += FilterMSAppsTok + '''Microsoft''';
         // Hardcode of value 'Microsoft' because the single-quote escaping gives error when generating translations with the third-party extension.
 
         exit(ExtensionsUrl);
@@ -125,9 +126,9 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// GetEnvironmentName.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    local procedure GetEnvironmentName(): Text;
+    local procedure GetEnvironmentName(): Text
     var
-        EnvironmentInformation: Codeunit "Environment Information";
+        EnvironmentInformation: Codeunit System.Environment."Environment Information";
     begin
         exit(EnvironmentInformation.GetEnvironmentName());
     end;
@@ -136,9 +137,9 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// GetCompanyId.
     /// </summary>
     /// <returns>Return value of type Boolean.</returns>
-    local procedure GetCompanyId(): Text;
+    local procedure GetCompanyId(): Text
     var
-        Company: Record Company;
+        Company: Record System.Environment.Company;
     begin
         Company.SetLoadFields(Id);
         Company.Get(CompanyName());
@@ -151,7 +152,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// </summary>
     /// <param name="ResponseHttpResponseMessage">VAR HttpResponseMessage.</param>
     /// <param name="ResponseText">VAR Text.</param>
-    local procedure GetResponseMessageText(var ResponseHttpResponseMessage: HttpResponseMessage; var ResponseText: Text);
+    local procedure GetResponseMessageText(var ResponseHttpResponseMessage: HttpResponseMessage; var ResponseText: Text)
     begin
         ResponseHttpResponseMessage.Content().ReadAs(ResponseText);
         if not ResponseHttpResponseMessage.IsSuccessStatusCode() then
@@ -162,13 +163,16 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// GetRelations.
     /// </summary>
     /// <returns>Return value of type Text.</returns>
-    procedure GetRelations() JsonText: Text;
+    procedure GetRelations() JsonText: Text
     var
         Extensions: Record Extensions_ANJ;
         RelationsArry: JsonArray;
     begin
         Extensions.SetLoadFields(AppID);
         Extensions.SetRange(ShowInGraph, true);
+        if Extensions.IsEmpty() then
+            exit;
+
         if Extensions.FindSet(false) then
             repeat
                 CheckDependencies(Extensions.AppID, RelationsArry);
@@ -181,7 +185,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// </summary>
     /// <param name="AppId">Guid.</param>
     /// <param name="RelationsArry">VAR JsonArray.</param>
-    local procedure CheckDependencies(AppId: Guid; var RelationsArry: JsonArray);
+    local procedure CheckDependencies(AppId: Guid; var RelationsArry: JsonArray)
     var
         DestinationAppID: Guid;
         ModuleDependencyInfoList: List of [ModuleDependencyInfo];
@@ -210,8 +214,8 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     var
         RelationJsonObject: JsonObject;
     begin
-        RelationJsonObject.Add(SourceAppIDLbl, SourceAppID);
-        RelationJsonObject.Add(DestinationAppIDLbl, DestinationAppID);
+        RelationJsonObject.Add(SourceAppIDTok, SourceAppID);
+        RelationJsonObject.Add(DestinationAppIDTok, DestinationAppID);
 
         RelationsArry.Add(RelationJsonObject);
     end;
@@ -221,7 +225,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// </summary>
     /// <param name="AppID">Guid.</param>
     /// <returns>Return value of type Boolean.</returns>
-    local procedure CheckDestinationAppIDShowInGraph(AppID: Guid): Boolean;
+    local procedure CheckDestinationAppIDShowInGraph(AppID: Guid): Boolean
     var
         Extensions: Record Extensions_ANJ;
     begin
@@ -231,22 +235,22 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     end;
 
     var
-        AzureADTenant: Codeunit "Azure AD Tenant";
         JSONMethods: Codeunit JSONMethods_ANJ;
-        AccessTokenLbl: Label 'access_token';
-        AccessTokenUrlLbl: Label 'https://login.microsoftonline.com/%1/oauth2/v2.0/token';
-        AuthorizationLbl: Label 'Authorization';
-        AuthorizationValueLbl: Label 'Bearer %1';
-        ClientIdLbl: Label '&client_id=%1';
-        ClientSecretLbl: Label '&client_secret=%1';
-        ContentTypeLbl: Label 'Content-Type';
-        DestinationAppIDLbl: Label 'DestinationAppID';
-        ExtensionsUrlLbl: Label 'https://api.businesscentral.dynamics.com/v2.0/%1/api/microsoft/automation/v2.0/companies(%2)/extensions';
-        FilterMSAppsLbl: Label '?$filter=publisher ne ';
-        GrantTypeLbl: Label 'grant_type=client_credentials';
-        ScopeLbl: Label '&scope=https://api.businesscentral.dynamics.com/.default';
-        SourceAppIDLbl: Label 'SourceAppID';
+        AzureADTenant: Codeunit System.Azure.Identity."Azure AD Tenant";
+        AccessTokenTok: Label 'access_token', Locked = true;
+        AccessTokenUrlTok: Label 'https://login.microsoftonline.com/%1/oauth2/v2.0/token', Locked = true;
+        AuthorizationTok: Label 'Authorization', Locked = true;
+        AuthorizationValueTok: Label 'Bearer %1', Locked = true;
+        ClientIdTok: Label '&client_id=%1', Locked = true;
+        ClientSecretTok: Label '&client_secret=%1', Locked = true;
+        ContentTypeTok: Label 'Content-Type', Locked = true;
+        DestinationAppIDTok: Label 'DestinationAppID', Locked = true;
+        ExtensionsUrlTok: Label 'https://api.businesscentral.dynamics.com/v2.0/%1/api/microsoft/automation/v2.0/companies(%2)/extensions', Locked = true;
+        FilterMSAppsTok: Label '?$filter=publisher ne ', Locked = true;
+        GrantTypeTok: Label 'grant_type=client_credentials', Locked = true;
+        ScopeTok: Label '&scope=https://api.businesscentral.dynamics.com/.default', Locked = true;
+        SourceAppIDTok: Label 'SourceAppID', Locked = true;
         UnableToCommunicateWSErr: Label 'Unable to communicate with the web service.';
-        UrlencodedLbl: Label 'application/x-www-form-urlencoded';
-        WSStatusCodeErr: Label 'Error - Status code: %1  Description: %2';
+        UrlencodedTok: Label 'application/x-www-form-urlencoded', Locked = true;
+        WSStatusCodeErr: Label 'Error - Status code: %1  Description: %2.', Comment = 'Placeholder %1: Status code, Placeholder %2: Description.';
 }

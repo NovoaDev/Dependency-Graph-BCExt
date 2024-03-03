@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit "GenerateRelationsTable_ANJ" (ID 80808).
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 80808 GenerateRelationsTable_ANJ
 {
     Access = Public;
@@ -8,7 +9,7 @@ codeunit 80808 GenerateRelationsTable_ANJ
     /// <summary>
     /// Generate.
     /// </summary>
-    internal procedure Generate();
+    internal procedure Generate()
     var
         Relations: Record Relations_ANJ;
         IsHandled: Boolean;
@@ -22,7 +23,7 @@ codeunit 80808 GenerateRelationsTable_ANJ
     /// DoGenerateRelationsTable.
     /// </summary>
     /// <param name="IsHandled">Boolean.</param>
-    local procedure DoGenerateRelationsTable(IsHandled: Boolean);
+    local procedure DoGenerateRelationsTable(IsHandled: Boolean)
     var
         FillingProcessingTables: Interface FillingProcessingTables_ANJ;
         ResponseText: Text;
@@ -53,15 +54,16 @@ codeunit 80808 GenerateRelationsTable_ANJ
 
         foreach RelationJsonToken in RelationsArry do begin
             RelationJsonToken.WriteTo(JsonText);
-            InsertNewRelation(JSONMethods.GetJsonValue(SourceAppIDLbl, JsonText), JSONMethods.GetJsonValue(DestinationAppIDLbl, JsonText));
+            InsertNewRelation(JSONMethods.GetJsonValue(SourceAppIDTok, JsonText), JSONMethods.GetJsonValue(DestinationAppIDTok, JsonText));
         end;
     end;
 
     /// <summary>
-    /// InsertNewRelation.
-    /// /// </summary>
-    /// <returns>Return variable NewRelationsLine of type Integer.</returns>
-    local procedure InsertNewRelation(SourceAppID: Guid; DestinationAppID: Guid);
+    /// InsertNewRelation
+    /// </summary>
+    /// <param name="SourceAppID"></param>
+    /// <param name="DestinationAppID"></param>
+    local procedure InsertNewRelation(SourceAppID: Guid; DestinationAppID: Guid)
     var
         Relations: Record Relations_ANJ;
     begin
@@ -79,7 +81,7 @@ codeunit 80808 GenerateRelationsTable_ANJ
     /// GetNewRelationsLineNo.
     /// /// </summary>
     /// <returns>Return variable NewRelationsLine of type Integer.</returns>
-    local procedure GetNewRelationsLineNo() NewRelationsLine: Integer;
+    local procedure GetNewRelationsLineNo() NewRelationsLine: Integer
     var
         Relations: Record Relations_ANJ;
     begin
@@ -88,19 +90,29 @@ codeunit 80808 GenerateRelationsTable_ANJ
             NewRelationsLine += Relations.RelationNo;
     end;
 
+    /// <summary>
+    /// OnBeforeGenerateRelationsTable.
+    /// </summary>
+    /// <param name="Relations">VAR Record Relations_ANJ.</param>
+    /// <param name="IsHandled">VAR Boolean.</param>
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeGenerateRelationsTable(var Relations: Record Relations_ANJ; var IsHandled: Boolean);
+    local procedure OnBeforeGenerateRelationsTable(var Relations: Record Relations_ANJ; var IsHandled: Boolean)
     begin
     end;
 
+    /// <summary>
+    /// OnAfterGenerateRelationsTable.
+    /// </summary>
+    /// <param name="Relations">VAR Record Relations_ANJ.</param>
+
     [IntegrationEvent(false, false)]
-    local procedure OnAfterGenerateRelationsTable(var Relations: Record Relations_ANJ);
+    local procedure OnAfterGenerateRelationsTable(var Relations: Record Relations_ANJ)
     begin
     end;
 
     var
         DependencyGraphFacade: Codeunit DependencyGraphFacade_ANJ;
         JSONMethods: Codeunit JSONMethods_ANJ;
-        DestinationAppIDLbl: Label 'DestinationAppID';
-        SourceAppIDLbl: Label 'SourceAppID';
+        DestinationAppIDTok: Label 'DestinationAppID', Locked = true;
+        SourceAppIDTok: Label 'SourceAppID', Locked = true;
 }

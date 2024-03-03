@@ -1,5 +1,6 @@
 {
     "al.enableCodeAnalysis": true,
+    "al.backgroundCodeAnalysis": "Project",
     "al.codeAnalyzers": [
         "${CodeCop}",
         "${UICop}",
@@ -18,11 +19,25 @@
     "CRS.ObjectNameSuffix": "_ANJ",
     "rest-client.rememberCookiesForSubsequentRequests": false,
     "editor.codeActionsOnSave": {
-        "source.fixAll.al": true
+        "source.fixAll.al": "explicit"
     },
     "alOutline.codeActionsOnSave": [
         "SortProperties",
         "SortVariables",
         "FormatDocument"
+    ],
+    "al-xml-doc.CheckObjectDocumentationInformationLevel": "Error",
+    "al-xml-doc.CheckProcedureDocumentationInformationLevel": "Error",
+    "al-xml-doc.CheckProcedureDocumentationForType": [
+        "Global Procedures",
+        "Local Procedures",
+        "Internal Procedures",
+        "Protected Procedures",
+        "Event Publisher"
+    ],
+    "al-xml-doc.CheckProcedureDocumentationForAccessLevel": [    
+        "Public",
+        "Internal",
+        "Local"
     ]
 }

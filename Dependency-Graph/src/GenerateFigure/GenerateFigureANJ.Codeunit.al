@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit GenerateFigure_ANJ (ID 80804).
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 80804 GenerateFigure_ANJ
 {
     Access = Public;
@@ -12,7 +13,7 @@ codeunit 80804 GenerateFigure_ANJ
     /// <param name="Identity">Text.</param>
     /// <param name="AppName">Text.</param>
     /// <returns>Return variable ReturnText of type Text.</returns>
-    internal procedure Generate(ExtensionScope: Enum ExtensionScope_ANJ; Identity: Text; AppName: Text) ReturnText: Text;
+    internal procedure Generate(ExtensionScope: Enum ExtensionScope_ANJ; Identity: Text; AppName: Text) ReturnText: Text
     var
         IsHandled: Boolean;
     begin
@@ -29,7 +30,7 @@ codeunit 80804 GenerateFigure_ANJ
     /// <param name="AppName">Text.</param>
     /// <param name="IsHandled">Boolean.</param>
     /// <returns>Return value of type Text.</returns>
-    local procedure DoGenerate(ExtensionScope: Enum ExtensionScope_ANJ; Identity: Text; AppName: Text; IsHandled: Boolean): Text;
+    local procedure DoGenerate(ExtensionScope: Enum ExtensionScope_ANJ; Identity: Text; AppName: Text; IsHandled: Boolean): Text
     begin
         if IsHandled then
             exit;
@@ -44,7 +45,7 @@ codeunit 80804 GenerateFigure_ANJ
     /// <param name="Identity">Text.</param>
     /// <param name="AppName">Text.</param>
     /// <returns>Return value of type Text.</returns>
-    local procedure GenerateFullFigure(ExtensionScope: Enum ExtensionScope_ANJ; Identity: Text; AppName: Text): Text;
+    local procedure GenerateFullFigure(ExtensionScope: Enum ExtensionScope_ANJ; Identity: Text; AppName: Text): Text
     var
         FigureInGraph: Interface FigureInGraph_ANJ;
     begin
@@ -57,7 +58,7 @@ codeunit 80804 GenerateFigure_ANJ
     /// RemoveDisallowedCharacters.
     /// </summary>
     /// <param name="AppName">VAR Text.</param>
-    local procedure RemoveDisallowedCharacters(var AppName: Text);
+    local procedure RemoveDisallowedCharacters(var AppName: Text)
     begin
         AppName := AppName.Replace('-', '');
         AppName := AppName.Replace('(', '');
@@ -73,7 +74,7 @@ codeunit 80804 GenerateFigure_ANJ
     /// </summary>
     /// <param name="ExtensionScope">Enum ExtensionScope_ANJ.</param>
     /// <returns>Return variable GeometricFigure of type Enum GeometricFigure_ANJ.</returns>
-    local procedure GetGeometricFigure(ExtensionScope: Enum ExtensionScope_ANJ) GeometricFigure: Enum GeometricFigure_ANJ;
+    local procedure GetGeometricFigure(ExtensionScope: Enum ExtensionScope_ANJ) GeometricFigure: Enum GeometricFigure_ANJ
     var
         DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
     begin
@@ -90,13 +91,24 @@ codeunit 80804 GenerateFigure_ANJ
         end;
     end;
 
+    /// <summary>
+    /// OnBeforeGenerate
+    /// </summary>
+    /// <param name="ExtensionScope"></param>
+    /// <param name="Identity"></param>
+    /// <param name="AppName"></param>
+    /// <param name="IsHandled"></param>
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeGenerate(ExtensionScope: Enum ExtensionScope_ANJ; Identity: Text; AppName: Text; var IsHandled: Boolean);
+    local procedure OnBeforeGenerate(ExtensionScope: Enum ExtensionScope_ANJ; Identity: Text; AppName: Text; var IsHandled: Boolean)
     begin
     end;
 
+    /// <summary>
+    /// OnAfterGenerate.
+    /// </summary>
+    /// <param name="ReturnText">VAR Text.</param>
     [IntegrationEvent(false, false)]
-    local procedure OnAfterGenerate(var ReturnText: Text);
+    local procedure OnAfterGenerate(var ReturnText: Text)
     begin
     end;
 }

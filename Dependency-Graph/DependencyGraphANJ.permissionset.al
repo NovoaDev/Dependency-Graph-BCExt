@@ -1,7 +1,12 @@
+/// <summary>
+/// permissionset DependencyGraph_ANJ (ID 80800).
+/// </summary>
+namespace ANJ.Tools.Graph;
 permissionset 80800 DependencyGraph_ANJ
 {
     Access = Public;
     Assignable = true;
+    Caption = 'DependencyGraph', Locked = true;
     Permissions = tabledata DependencyGraphSetup_ANJ = RIMD,
         table DependencyGraphSetup_ANJ = X,
         codeunit CircleIMP_ANJ = X,
@@ -28,5 +33,9 @@ permissionset 80800 DependencyGraph_ANJ
         page MarkdownViewerFull_ANJ = X,
         codeunit CleanTemporaryTables_ANJ = X,
         codeunit JSONMethods_ANJ = X,
-        codeunit WSAndMDInfoImp_ANJ = X;
+        codeunit WSAndMDInfoImp_ANJ = X,
+        codeunit DefaultFigureIMP_ANJ = X,
+        codeunit DefaultFillProcessTabImp_ANJ = X,
+        codeunit DataUpgrades_ANJ = X,
+        codeunit UpgradeCodeunit_ANJ = X;
 }

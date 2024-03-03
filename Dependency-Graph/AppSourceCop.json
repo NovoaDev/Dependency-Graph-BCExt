@@ -1,3 +1,9 @@
 {
+    "supportedCountries": 
+    ["AL", "DZ", "AD", "AO", "AR", "AM", "AU", "AT", "AZ", "BS", "BH", "BD", "BE", "BM", "BA", "BW", "VG", "BR", "BG", "KH", "CM", "CA", "KY", "CL", "CO", "CR", 
+    "HR", "CY", "CZ", "DK", "DO", "EC", "SV", "EG", "EE", "ET", "DK", "FJ", "FI", "FR", "GE", "DE", "GH", "HN", "HK", "HU", "IS", "IN", "ID", "IE", "IM", "IL", 
+    "IT", "JM", "JP", "JE", "JO", "KZ", "KE", "KW", "LB", "LV", "LT", "LU", "MO", "MK", "MG", "MW", "MY", "MV", "MT", "MU", "MX", "ME", "MA", "MZ", "MM", "NA", 
+    "NP", "NL", "NZ", "NI", "NG", "OM", "PK", "PA", "PE", "PH", "PL", "PT", "PR", "QA", "RO", "RU", "SA", "SN", "SG", "SK", "ZA", "KR", "ES", "LK", "SE", "CH", 
+    "TW", "TZ", "TH", "TT", "TN", "TR", "UG", "UA", "AE", "GB", "US", "UY", "VN", "VG", "GB", "US", "UY", "ZM", "ZW"],
     "mandatorySuffix": "_ANJ"
 }

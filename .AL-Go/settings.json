@@ -28,7 +28,7 @@
     "_ANJ"
   ],
   "customCodeCops": [
-    ".github/BusinessCentral.LinterCop.current.dll"
+    "https://github.com/StefanMaron/BusinessCentral.LinterCop/releases/latest/download/BusinessCentral.LinterCop.current.dll"
   ],
   "rulesetFile": "Dependency-Graph/.vscode/ruleset.json"
 }

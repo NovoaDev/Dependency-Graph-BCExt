@@ -1,11 +1,13 @@
 /// <summary>
 /// Page Extensions_ANJ (ID 80801).
 /// </summary>
+namespace ANJ.Tools.Graph;
 page 80801 Extensions_ANJ
 {
     ApplicationArea = All;
     Caption = 'Extensions';
     DeleteAllowed = false;
+    Extensible = true;
     InsertAllowed = false;
     PageType = ListPart;
     SourceTable = Extensions_ANJ;

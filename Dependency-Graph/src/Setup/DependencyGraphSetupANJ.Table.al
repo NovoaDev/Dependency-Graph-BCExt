@@ -1,18 +1,21 @@
 /// <summary>
 /// Table DependencyGraphSetup_ANJ (ID 80800).
 /// </summary>
+namespace ANJ.Tools.Graph;
 table 80800 DependencyGraphSetup_ANJ
 {
     Access = Public;
     Caption = 'Dependency Graph Setup';
     DataClassification = CustomerContent;
     DrillDownPageID = DependencyGraphSetup_ANJ;
+    Extensible = true;
     LookupPageID = DependencyGraphSetup_ANJ;
 
     fields
     {
         field(1; PrimaryKey; Code[10])
         {
+            AllowInCustomizations = Never;
             Caption = 'Primary Key';
             NotBlank = false;
         }
@@ -27,14 +30,17 @@ table 80800 DependencyGraphSetup_ANJ
         field(4; ScopePTEFigure; Enum GeometricFigure_ANJ)
         {
             Caption = 'PTE Scope';
+            InitValue = SquareRectangle;
         }
         field(5; ScopeGlobalFigure; Enum GeometricFigure_ANJ)
         {
             Caption = 'Global Scope';
+            InitValue = SquareRectangle;
         }
         field(6; ScopeDevFigure; Enum GeometricFigure_ANJ)
         {
             Caption = 'Dev Scope';
+            InitValue = SquareRectangle;
         }
         field(7; IncludeMicrosoftApps; Boolean)
         {
@@ -75,6 +81,7 @@ table 80800 DependencyGraphSetup_ANJ
         field(16; FillingProcessingTables; Enum FillingProcessingTables_ANJ)
         {
             Caption = 'Filling Processing Tables';
+            InitValue = WSAndModuleDependencyInfo;
         }
     }
     keys
@@ -99,7 +106,7 @@ table 80800 DependencyGraphSetup_ANJ
     /// </summary>
     /// <param name="AuxText">Text.</param>
     /// <param name="FieldNo">Integer.</param>
-    internal procedure SetMarkdown(AuxText: Text; FieldNo: Integer);
+    internal procedure SetMarkdown(AuxText: Text; FieldNo: Integer)
     var
         AuxOutStream: OutStream;
     begin
@@ -116,7 +123,7 @@ table 80800 DependencyGraphSetup_ANJ
     /// <summary>
     /// GetInstance.
     /// </summary>
-    procedure GetInstance();
+    procedure GetInstance()
     begin
         if HasBeenRead then
             exit;

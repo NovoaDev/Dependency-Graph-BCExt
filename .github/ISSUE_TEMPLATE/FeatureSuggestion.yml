@@ -1,0 +1,30 @@
+name: Suggestion Feature
+description: Request a suggestion feature
+title: "[Suggestion]: "
+labels: ["enhancement"]
+projects: ["Dependency-Graph"]
+assignees:
+  - novoadev
+body:
+ - type: markdown
+   attributes:
+      value: |
+        Thanks for taking the time to fill out this Suggestion report!
+
+        I promise to read it and take it into considerations :two_hearts:
+ - type: textarea
+   id: New-Feature
+   attributes:
+     label: Describe the new feature and what need it meets
+     description: Describe a small use case.
+     placeholder: ...
+   validations:
+      required: true
+ - type: textarea
+   id: alternatives
+   attributes:
+     label: Describe alternatives you've considered
+     description: A clear and concise description of any alternative solutions or features you've considered.
+     placeholder: ...
+   validations:
+      required: false

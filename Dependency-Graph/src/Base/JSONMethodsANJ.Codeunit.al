@@ -1,17 +1,18 @@
 /// <summary>
 /// Codeunit "JSONMethods_ANJ" (ID 80813).
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 80813 JSONMethods_ANJ
 {
     Access = Internal;
 
     /// <summary>
-    /// PopulateJsonValue.
+    /// GetJsonValue.
     /// </summary>
     /// <param name="JsonKey">Text.</param>
     /// <param name="ResponseText">Text.</param>
     /// <returns>Return value of type Boolean.</returns>
-    internal procedure GetJsonValue(JsonKey: Text; ResponseText: Text): Text;
+    internal procedure GetJsonValue(JsonKey: Text; ResponseText: Text): Text
     var
         AuxJsonObject: JsonObject;
         AuxJsonToken: JsonToken;

@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit GenerateTables_ANJ (ID 80807)
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 80807 GenerateTables_ANJ
 {
     Access = Public;
@@ -9,7 +10,7 @@ codeunit 80807 GenerateTables_ANJ
     /// GenerateTables.
     /// </summary>
     /// <param name="HideDialog">Boolean.</param>
-    procedure Generate(HideDialog: Boolean);
+    procedure Generate(HideDialog: Boolean)
     var
         Extensions: Record Extensions_ANJ;
         IsHandled: Boolean;
@@ -24,12 +25,11 @@ codeunit 80807 GenerateTables_ANJ
         UpdateSetupTable();
         AcknowledgeGenerateTables(HideDialog);
     end;
-
     /// <summary>
     /// ConfirmGenerateTables.
     /// </summary>
     /// <param name="HideDialog">Boolean.</param>
-    /// <returns>Return value of type Boolean.</returns>
+    /// <returns>Return variable Answer of type Boolean.</returns>
     local procedure ConfirmGenerateTables(HideDialog: Boolean) Answer: Boolean
     begin
         Answer := true;
@@ -41,7 +41,7 @@ codeunit 80807 GenerateTables_ANJ
     /// DoGenerateTables.
     /// </summary>
     /// <param name="IsHandled">Boolean.</param>
-    local procedure DoGenerateTables(IsHandled: Boolean);
+    local procedure DoGenerateTables(IsHandled: Boolean)
     begin
         if IsHandled then
             exit;
@@ -56,7 +56,7 @@ codeunit 80807 GenerateTables_ANJ
     /// <summary>
     /// UpdateSetupTable.
     /// </summary>
-    local procedure UpdateSetupTable();
+    local procedure UpdateSetupTable()
     var
         DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
     begin
@@ -70,7 +70,7 @@ codeunit 80807 GenerateTables_ANJ
     /// AcknowledgeGenerateTables.
     /// </summary>
     /// <param name="HideDialog">Boolean.</param>
-    local procedure AcknowledgeGenerateTables(HideDialog: Boolean);
+    local procedure AcknowledgeGenerateTables(HideDialog: Boolean)
     begin
         if (not GuiAllowed()) or (HideDialog) then
             exit;
@@ -78,19 +78,26 @@ codeunit 80807 GenerateTables_ANJ
         Message(ProcessFinishMsg);
     end;
 
+    /// <summary>
+    /// OnBeforeGenerateTables.
+    /// </summary>
+    /// <param name="IsHandled">VAR Boolean.</param>
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeGenerateTables(var IsHandled: Boolean);
+    local procedure OnBeforeGenerateTables(var IsHandled: Boolean)
     begin
     end;
 
+    /// <summary>
+    /// OnAfterGenerateTables.
+    /// </summary>
     [IntegrationEvent(false, false)]
-    local procedure OnAfterGenerateTables();
+    local procedure OnAfterGenerateTables()
     begin
     end;
 
     var
-        ConfirmManagement: Codeunit "Confirm Management";
         DependencyGraphFacade: Codeunit DependencyGraphFacade_ANJ;
+        ConfirmManagement: Codeunit System.Utilities."Confirm Management";
         ConfirmQst: Label 'When generating the tables again, custom data will be deleted, do you want to continue?';
         ProcessFinishMsg: Label 'The tables have been updated correctly.';
 }

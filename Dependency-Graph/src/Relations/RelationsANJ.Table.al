@@ -1,22 +1,26 @@
 /// <summary>
 /// Table Relations_ANJ (ID 80802).
 /// </summary>
+namespace ANJ.Tools.Graph;
 table 80802 Relations_ANJ
 {
     Access = Public;
     Caption = 'Relations';
     DataClassification = CustomerContent;
     DrillDownPageId = Relations_ANJ;
+    Extensible = true;
     LookupPageId = Relations_ANJ;
 
     fields
     {
         field(1; RelationNo; Integer)
         {
+            AllowInCustomizations = Never;
             Caption = 'Relation No.';
         }
         field(2; SourceAppID; Guid)
         {
+            AllowInCustomizations = Never;
             Caption = 'Source App ID';
         }
         field(3; SourceAppName; Text[2048])
@@ -28,6 +32,7 @@ table 80802 Relations_ANJ
         }
         field(4; DestinationAppID; Guid)
         {
+            AllowInCustomizations = Never;
             Caption = 'Destination App ID';
         }
         field(5; DestinationAppName; Text[2048])
