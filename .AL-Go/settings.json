@@ -30,5 +30,13 @@
   "customCodeCops": [
     "https://github.com/StefanMaron/BusinessCentral.LinterCop/releases/latest/download/BusinessCentral.LinterCop.current.dll"
   ],
-  "rulesetFile": "Dependency-Graph/.vscode/ruleset.json"
+  "rulesetFile": "Dependency-Graph/.vscode/ruleset.json",
+  "unusedALGoSystemFiles": [
+    "AddExistingAppOrTestApp.yaml",
+    "CreateApp.yaml",
+    "CreateTestApp.yaml",
+    "CreatePerformanceTestApp.yaml",
+    "_BuildALGoProject.yaml",
+    "CreateOnlineDevelopmentEnvironment.yaml"
+    ]
 }
