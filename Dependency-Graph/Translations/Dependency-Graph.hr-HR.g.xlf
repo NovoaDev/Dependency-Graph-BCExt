@@ -207,11 +207,6 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Pogreška pri čitanju JSON odgovora.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ReadingJsonErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 708421718 - NamedType 3993970854" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DestinationAppID</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">OdredišnaAppID</target>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateRelationsTable_ANJ - NamedType DestinationAppIDLbl</note>
-        </trans-unit>
         <trans-unit id="Codeunit 708421718 - NamedType 1408304205" size-unit="char" translate="yes" xml:space="preserve">
           <source>SourceAppID</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">ID-a SourceAppa</target>

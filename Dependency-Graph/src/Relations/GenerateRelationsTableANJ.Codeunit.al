@@ -54,7 +54,7 @@ codeunit 80808 GenerateRelationsTable_ANJ
 
         foreach RelationJsonToken in RelationsArry do begin
             RelationJsonToken.WriteTo(JsonText);
-            InsertNewRelation(JSONMethods.GetJsonValue(SourceAppIDLbl, JsonText), JSONMethods.GetJsonValue(DestinationAppIDLbl, JsonText));
+            InsertNewRelation(JSONMethods.GetJsonValue(SourceAppIDTok, JsonText), JSONMethods.GetJsonValue(DestinationAppIDTok, JsonText));
         end;
     end;
 
@@ -113,6 +113,6 @@ codeunit 80808 GenerateRelationsTable_ANJ
     var
         DependencyGraphFacade: Codeunit DependencyGraphFacade_ANJ;
         JSONMethods: Codeunit JSONMethods_ANJ;
-        DestinationAppIDLbl: Label 'DestinationAppID';
-        SourceAppIDLbl: Label 'SourceAppID';
+        DestinationAppIDTok: Label 'DestinationAppID', Locked = true;
+        SourceAppIDTok: Label 'SourceAppID', Locked = true;
 }

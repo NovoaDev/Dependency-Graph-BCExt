@@ -203,16 +203,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ReadingJsonErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 708421718 - NamedType 3993970854" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DestinationAppID</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateRelationsTable_ANJ - NamedType DestinationAppIDLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 708421718 - NamedType 1408304205" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SourceAppID</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateRelationsTable_ANJ - NamedType SourceAppIDLbl</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2841349168 - NamedType 750120336" size-unit="char" translate="yes" xml:space="preserve">
           <source>When generating the tables again, custom data will be deleted, do you want to continue?</source>
           <note from="Developer" annotates="general" priority="2"></note>
