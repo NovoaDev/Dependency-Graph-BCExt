@@ -697,11 +697,6 @@
             "justification": "LinterCop - Filter operators should not be used in SetRange."
         },  
         {
-            "id": "LC0009",
-            "action": "Info",
-            "justification": "LinterCop - Cyclomatic Complexity."
-        },  
-        {
             "id": "LC0010",
             "action": "Info",
             "justification": "LinterCop - Cyclomatic Complexity."

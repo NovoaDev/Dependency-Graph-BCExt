@@ -13,6 +13,7 @@ table 80801 Extensions_ANJ
     {
         field(1; AppID; Guid)
         {
+            AllowInCustomizations = Never;
             Caption = 'App ID';
         }
         field(2; Name; Text[2048])
@@ -38,6 +39,7 @@ table 80801 Extensions_ANJ
         }
         field(6; Identity; Text[2048])
         {
+            AllowInCustomizations = Never;
             Caption = 'Identity';
 
             trigger OnValidate()
@@ -51,10 +53,12 @@ table 80801 Extensions_ANJ
         }
         field(8; Figure; Text[2048])
         {
+            AllowInCustomizations = Never;
             Caption = 'Figure';
         }
         field(9; HasStartRelationships; Boolean)
         {
+            AllowInCustomizations = Never;
             CalcFormula = exist(Relations_ANJ where(SourceAppID = field(AppID)));
             Caption = 'Has Relationships';
             Editable = false;
@@ -62,6 +66,7 @@ table 80801 Extensions_ANJ
         }
         field(10; HasRelationships; Boolean)
         {
+            AllowInCustomizations = Never;
             CalcFormula = exist(Relations_ANJ where(DestinationAppID = field(AppID)));
             Caption = 'Has Relationships';
             Editable = false;

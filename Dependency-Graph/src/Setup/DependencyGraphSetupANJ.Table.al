@@ -13,6 +13,7 @@ table 80800 DependencyGraphSetup_ANJ
     {
         field(1; PrimaryKey; Code[10])
         {
+            AllowInCustomizations = Never;
             Caption = 'Primary Key';
             NotBlank = false;
         }
