@@ -47,6 +47,9 @@ codeunit 80809 MarkdownMgmt_ANJ
     begin
         Relations.SetLoadFields(SourceAppID, DestinationAppID, LinkText);
         Relations.SetRange(ShowInGraph, true);
+        if Relations.IsEmpty() then
+            exit;
+
         if Relations.FindSet(false) then
             repeat
                 GrapTextBuilder.Append(GetExtensionText(Relations.SourceAppID, AppIdList));
@@ -103,6 +106,9 @@ codeunit 80809 MarkdownMgmt_ANJ
         Extensions.SetRange(ShowInGraph, true);
         Extensions.SetRange(HasStartRelationships, false);
         Extensions.SetRange(HasRelationships, false);
+        if Extensions.IsEmpty() then
+            exit;
+
         if Extensions.FindSet(false) then
             repeat
                 GrapTextBuilder.AppendLine(Extensions.Figure);

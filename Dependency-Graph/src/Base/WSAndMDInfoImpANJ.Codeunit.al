@@ -170,6 +170,9 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     begin
         Extensions.SetLoadFields(AppID);
         Extensions.SetRange(ShowInGraph, true);
+        if Extensions.IsEmpty() then
+            exit;
+
         if Extensions.FindSet(false) then
             repeat
                 CheckDependencies(Extensions.AppID, RelationsArry);

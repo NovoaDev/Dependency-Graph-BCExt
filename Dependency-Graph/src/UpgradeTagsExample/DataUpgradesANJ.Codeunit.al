@@ -58,6 +58,9 @@ codeunit 80816 DataUpgrades_ANJ
     var
         Extensions: Record Extensions_ANJ;
     begin
+        if Extensions.IsEmpty() then
+            exit;
+
         if Extensions.FindSet(true) then
             repeat
                 if Extensions.PublishedAs.AsInteger() = 0 then begin
