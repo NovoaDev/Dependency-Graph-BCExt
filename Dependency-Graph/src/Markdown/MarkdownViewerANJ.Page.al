@@ -14,7 +14,7 @@ page 80804 MarkdownViewer_ANJ
     {
         area(Content)
         {
-            usercontrol(MarkdownViewer_ANJ; MarkdownViewer_ANJ)
+            usercontrol(MarkdownViewer; MarkdownViewer_ANJ)
             {
             }
         }
@@ -40,7 +40,7 @@ page 80804 MarkdownViewer_ANJ
 
     trigger OnAfterGetCurrRecord()
     begin
-        CurrPage.MarkdownViewer_ANJ.Draw(Markdown);
+        CurrPage.MarkdownViewer.Draw(Markdown);
     end;
 
     /// <summary>
