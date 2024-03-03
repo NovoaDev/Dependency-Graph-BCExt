@@ -35,5 +35,7 @@ permissionset 80800 DependencyGraph_ANJ
         codeunit JSONMethods_ANJ = X,
         codeunit WSAndMDInfoImp_ANJ = X,
         codeunit DefaultFigureIMP_ANJ = X,
-        codeunit DefaultFillProcessTabImp_ANJ = X;
+        codeunit DefaultFillProcessTabImp_ANJ = X,
+        codeunit DataUpgrades_ANJ = X,
+        codeunit UpgradeCodeunit_ANJ = X;
 }
