@@ -128,7 +128,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// <returns>Return value of type Text.</returns>
     local procedure GetEnvironmentName(): Text
     var
-        EnvironmentInformation: Codeunit "Environment Information";
+        EnvironmentInformation: Codeunit System.Environment."Environment Information";
     begin
         exit(EnvironmentInformation.GetEnvironmentName());
     end;
@@ -139,7 +139,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// <returns>Return value of type Boolean.</returns>
     local procedure GetCompanyId(): Text
     var
-        Company: Record Company;
+        Company: Record System.Environment.Company;
     begin
         Company.SetLoadFields(Id);
         Company.Get(CompanyName());
@@ -232,8 +232,8 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     end;
 
     var
-        AzureADTenant: Codeunit "Azure AD Tenant";
         JSONMethods: Codeunit JSONMethods_ANJ;
+        AzureADTenant: Codeunit System.Azure.Identity."Azure AD Tenant";
         AccessTokenLbl: Label 'access_token';
         AccessTokenUrlLbl: Label 'https://login.microsoftonline.com/%1/oauth2/v2.0/token';
         AuthorizationLbl: Label 'Authorization';

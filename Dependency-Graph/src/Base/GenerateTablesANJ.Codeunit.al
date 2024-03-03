@@ -90,8 +90,8 @@ codeunit 80807 GenerateTables_ANJ
     end;
 
     var
-        ConfirmManagement: Codeunit "Confirm Management";
         DependencyGraphFacade: Codeunit DependencyGraphFacade_ANJ;
+        ConfirmManagement: Codeunit System.Utilities."Confirm Management";
         ConfirmQst: Label 'When generating the tables again, custom data will be deleted, do you want to continue?';
         ProcessFinishMsg: Label 'The tables have been updated correctly.';
 }
