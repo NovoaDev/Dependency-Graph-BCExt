@@ -7,6 +7,7 @@ page 80803 Relations_ANJ
     ApplicationArea = All;
     Caption = 'Relations';
     DeleteAllowed = false;
+    Extensible = true;
     InsertAllowed = false;
     PageType = ListPart;
     SourceTable = Relations_ANJ;

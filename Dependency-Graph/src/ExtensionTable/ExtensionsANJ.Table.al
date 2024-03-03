@@ -8,6 +8,7 @@ table 80801 Extensions_ANJ
     Caption = 'Extensions';
     DataClassification = CustomerContent;
     DrillDownPageId = Extensions_ANJ;
+    Extensible = true;
     LookupPageId = Extensions_ANJ;
 
     fields

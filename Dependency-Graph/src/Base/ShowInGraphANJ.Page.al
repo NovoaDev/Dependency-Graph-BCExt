@@ -6,6 +6,7 @@ page 80802 ShowInGraph_ANJ
 {
     ApplicationArea = All;
     Caption = 'Show In Dependency Graph';
+    Extensible = true;
     PageType = Document;
     UsageCategory = None;
 

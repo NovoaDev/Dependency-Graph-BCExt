@@ -6,6 +6,7 @@ page 80804 MarkdownViewer_ANJ
 {
     ApplicationArea = All;
     Caption = 'Markdown Viewer';
+    Extensible = false;
     PageType = CardPart;
     UsageCategory = None;
 

@@ -6,6 +6,7 @@ page 80800 DependencyGraphSetup_ANJ
 {
     ApplicationArea = All;
     Caption = 'Dependency Graph Setup';
+    Extensible = true;
     PageType = Card;
     SourceTable = DependencyGraphSetup_ANJ;
     UsageCategory = Administration;

@@ -8,6 +8,7 @@ table 80802 Relations_ANJ
     Caption = 'Relations';
     DataClassification = CustomerContent;
     DrillDownPageId = Relations_ANJ;
+    Extensible = true;
     LookupPageId = Relations_ANJ;
 
     fields

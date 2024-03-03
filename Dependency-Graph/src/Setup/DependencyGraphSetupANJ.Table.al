@@ -8,6 +8,7 @@ table 80800 DependencyGraphSetup_ANJ
     Caption = 'Dependency Graph Setup';
     DataClassification = CustomerContent;
     DrillDownPageID = DependencyGraphSetup_ANJ;
+    Extensible = true;
     LookupPageID = DependencyGraphSetup_ANJ;
 
     fields

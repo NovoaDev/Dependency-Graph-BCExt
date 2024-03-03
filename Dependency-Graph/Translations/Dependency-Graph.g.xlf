@@ -253,6 +253,36 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit JSONMethods_ANJ - NamedType ReadingJsonErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 740515698 - NamedType 2810835173" size-unit="char" translate="yes" xml:space="preserve">
+          <source> --&gt; </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType ArrowLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 740515698 - NamedType 3415447349" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DependencyGraph.md</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType FileNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 740515698 - NamedType 1699462585" size-unit="char" translate="yes" xml:space="preserve">
+          <source>```</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType FooterLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 740515698 - NamedType 2619639984" size-unit="char" translate="yes" xml:space="preserve">
+          <source>```mermaid</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType Header1Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 740515698 - NamedType 1609892177" size-unit="char" translate="yes" xml:space="preserve">
+          <source>graph BT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType Header2Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 740515698 - NamedType 1922872277" size-unit="char" translate="yes" xml:space="preserve">
+          <source> -- %1 --&gt; </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType LinkArrowLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1763311423 - NamedType 4264074168" size-unit="char" translate="yes" xml:space="preserve">
           <source>E%1</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -523,6 +553,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownFactbox_ANJ - Action DownloadMarkdown - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3287834952 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Markdown Viewer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewerFull_ANJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1244516609 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Markdown Viewer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewer_ANJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1244516609 - Action 428232880 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Display dependency graph action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewer_ANJ - Action GenerateMarkdown - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1244516609 - Action 428232880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Display dependency graph</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewer_ANJ - Action GenerateMarkdown - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3437274809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Relations</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -617,56 +667,6 @@
           <source>Square/Rectangle</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum GeometricFigure_ANJ - EnumValue SquareRectangle - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 740515698 - NamedType 2810835173" size-unit="char" translate="yes" xml:space="preserve">
-          <source> --&gt; </source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType ArrowLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 740515698 - NamedType 3415447349" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DependencyGraph.md</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType FileNameLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 740515698 - NamedType 1699462585" size-unit="char" translate="yes" xml:space="preserve">
-          <source>```</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType FooterLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 740515698 - NamedType 2619639984" size-unit="char" translate="yes" xml:space="preserve">
-          <source>```mermaid</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType Header1Lbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 740515698 - NamedType 1609892177" size-unit="char" translate="yes" xml:space="preserve">
-          <source>graph BT</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType Header2Lbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 740515698 - NamedType 1922872277" size-unit="char" translate="yes" xml:space="preserve">
-          <source> -- %1 --&gt; </source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MarkdownMgmt_ANJ - NamedType LinkArrowLbl</note>
-        </trans-unit>
-        <trans-unit id="Page 3287834952 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Markdown Viewer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewerFull_ANJ - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1244516609 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Markdown Viewer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewer_ANJ - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1244516609 - Action 428232880 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the Display dependency graph action.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewer_ANJ - Action GenerateMarkdown - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1244516609 - Action 428232880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Display dependency graph</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page MarkdownViewer_ANJ - Action GenerateMarkdown - Property Caption</note>
         </trans-unit>
       </group>
     </body>

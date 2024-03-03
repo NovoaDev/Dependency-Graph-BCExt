@@ -7,6 +7,7 @@ page 80805 MarkdownFactbox_ANJ
     ApplicationArea = All;
     Caption = 'Markdown Text';
     Editable = false;
+    Extensible = true;
     PageType = CardPart;
     UsageCategory = None;
 

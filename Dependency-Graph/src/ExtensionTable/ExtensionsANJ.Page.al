@@ -7,6 +7,7 @@ page 80801 Extensions_ANJ
     ApplicationArea = All;
     Caption = 'Extensions';
     DeleteAllowed = false;
+    Extensible = true;
     InsertAllowed = false;
     PageType = ListPart;
     SourceTable = Extensions_ANJ;
