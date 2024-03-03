@@ -207,11 +207,6 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">JSON 응답을 읽는 동안 오류가 발생했습니다.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateExtensionTable_ANJ - NamedType ReadingJsonErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 708421718 - NamedType 1408304205" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SourceAppID</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">소스AppID</target>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GenerateRelationsTable_ANJ - NamedType SourceAppIDLbl</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2841349168 - NamedType 750120336" size-unit="char" translate="yes" xml:space="preserve">
           <source>When generating the tables again, custom data will be deleted, do you want to continue?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">테이블을 다시 생성하면 사용자 지정 데이터가 삭제되는데 계속하시겠습니까?</target>
