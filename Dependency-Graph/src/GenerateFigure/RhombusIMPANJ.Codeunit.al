@@ -18,5 +18,5 @@ codeunit 80803 RhombusIMP_ANJ implements FigureInGraph_ANJ
     end;
 
     var
-        FigureLbl: Label '%1{%2}';
+        FigureLbl: Label '%1{%2}', Comment = 'Placeholder %1 represents the Identity, and Placeholder %2 represents the Content.';
 }

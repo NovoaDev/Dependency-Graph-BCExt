@@ -29,7 +29,7 @@ codeunit 80809 MarkdownMgmt_ANJ
         if IsHandled then
             exit;
 
-        GrapTextBuilder.AppendLine(Header2Lbl);
+        GrapTextBuilder.AppendLine(Header2Tok);
         InsertRelationships(GrapTextBuilder);
         InsertAppWithoutRelationships(GrapTextBuilder);
 
@@ -121,9 +121,9 @@ codeunit 80809 MarkdownMgmt_ANJ
         if MarkDownText = '' then
             exit;
 
-        GraphTextBuilder.AppendLine(Header1Lbl);
+        GraphTextBuilder.AppendLine(Header1Tok);
         GraphTextBuilder.AppendLine(MarkDownText);
-        GraphTextBuilder.AppendLine(FooterLbl);
+        GraphTextBuilder.AppendLine(FooterTok);
 
         DependencyGraphSetup.GetInstance();
         DependencyGraphSetup.SetMarkdown(GraphTextBuilder.ToText(), DependencyGraphSetup.FieldNo(Markdown));
@@ -192,8 +192,8 @@ codeunit 80809 MarkdownMgmt_ANJ
     var
         ArrowLbl: Label ' --> ';
         FileNameLbl: Label 'DependencyGraph.md';
-        FooterLbl: Label '```';
-        Header1Lbl: Label '```mermaid';
-        Header2Lbl: Label 'graph BT';
-        LinkArrowLbl: Label ' -- %1 --> ';
+        FooterTok: Label '```', Locked = true;
+        Header1Tok: Label '```mermaid', Locked = true;
+        Header2Tok: Label 'graph BT', Locked = true;
+        LinkArrowLbl: Label ' -- %1 --> ', Comment = 'Placeholder %1 for the link text';
 }

@@ -11,10 +11,10 @@ codeunit 80806 NumberSequenceMgmt_ANJ
     /// </summary>
     internal procedure Initialize()
     begin
-        if NumberSequence.Exists(NumberSequenceNameLbl, true) then
-            NumberSequence.Delete(NumberSequenceNameLbl, true);
+        if NumberSequence.Exists(NumberSequenceNameTok, true) then
+            NumberSequence.Delete(NumberSequenceNameTok, true);
 
-        NumberSequence.Insert(NumberSequenceNameLbl, 0001, 1, true);
+        NumberSequence.Insert(NumberSequenceNameTok, 0001, 1, true);
     end;
 
     /// <summary>
@@ -42,7 +42,7 @@ codeunit 80806 NumberSequenceMgmt_ANJ
         if IsHandled then
             exit;
 
-        NewIdentity := StrSubstNo(IdentityLbl, Format(NumberSequence.Next(NumberSequenceNameLbl, true)));
+        NewIdentity := StrSubstNo(IdentityLbl, Format(NumberSequence.Next(NumberSequenceNameTok, true)));
         exit(NewIdentity);
     end;
 
@@ -57,6 +57,6 @@ codeunit 80806 NumberSequenceMgmt_ANJ
     end;
 
     var
-        IdentityLbl: Label 'E%1';
-        NumberSequenceNameLbl: Label 'DependencyGraph';
+        IdentityLbl: Label 'E%1', Comment = 'Placeholder %1 for the identity label';
+        NumberSequenceNameTok: Label 'DependencyGraph', Locked = true;
 }

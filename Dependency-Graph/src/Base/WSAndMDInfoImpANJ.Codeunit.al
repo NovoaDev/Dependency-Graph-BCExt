@@ -35,14 +35,14 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     begin
         RequestHttpContent.WriteFrom(GetRequestAccessTokenContent());
         RequestHttpContent.GetHeaders(Headers);
-        Headers.Remove(ContentTypeLbl);
-        Headers.Add(ContentTypeLbl, UrlencodedLbl);
+        Headers.Remove(ContentTypeTok);
+        Headers.Add(ContentTypeTok, UrlencodedTok);
 
         if not AuxHttpClient.Post(GetAccessTokenAPIUrl(), RequestHttpContent, ResponseHttpResponseMessage) then
             Error(UnableToCommunicateWSErr);
 
         GetResponseMessageText(ResponseHttpResponseMessage, ResponseText);
-        exit(JSONMethods.GetJsonValue(AccessTokenLbl, ResponseText));
+        exit(JSONMethods.GetJsonValue(AccessTokenTok, ResponseText));
     end;
 
     /// <summary>
@@ -57,10 +57,10 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
         DependencyGraphSetup.SetLoadFields(ClientID, Secret);
         DependencyGraphSetup.GetInstance();
 
-        ContentTextBuilder.AppendLine(GrantTypeLbl);
-        ContentTextBuilder.AppendLine(StrSubstNo(ClientIdLbl, DependencyGraphSetup.ClientID));
-        ContentTextBuilder.AppendLine(StrSubstNo(ClientSecretLbl, DependencyGraphSetup.Secret));
-        ContentTextBuilder.AppendLine(ScopeLbl);
+        ContentTextBuilder.AppendLine(GrantTypeTok);
+        ContentTextBuilder.AppendLine(StrSubstNo(ClientIdTok, DependencyGraphSetup.ClientID));
+        ContentTextBuilder.AppendLine(StrSubstNo(ClientSecretTok, DependencyGraphSetup.Secret));
+        ContentTextBuilder.AppendLine(ScopeTok);
         exit(ContentTextBuilder.ToText());
     end;
 
@@ -70,7 +70,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     /// <returns>Return value of type Text.</returns>
     local procedure GetAccessTokenAPIUrl(): Text
     begin
-        exit(StrSubstNo(AccessTokenUrlLbl, GetTenantId()));
+        exit(StrSubstNo(AccessTokenUrlTok, GetTenantId()));
     end;
 
     /// <summary>
@@ -93,7 +93,7 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
         ResponseHttpResponseMessage: HttpResponseMessage;
         ResponseText: Text;
     begin
-        AuxHttpClient.DefaultRequestHeaders().Add(AuthorizationLbl, StrSubstNo(AuthorizationValueLbl, AccessToken));
+        AuxHttpClient.DefaultRequestHeaders().Add(AuthorizationTok, StrSubstNo(AuthorizationValueTok, AccessToken));
 
         if not AuxHttpClient.Get(GetExtensionsAPIUrl(), ResponseHttpResponseMessage) then
             Error(UnableToCommunicateWSErr);
@@ -114,9 +114,9 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
         DependencyGraphSetup.SetLoadFields(IncludeMicrosoftApps);
         DependencyGraphSetup.GetInstance();
 
-        ExtensionsUrl := StrSubstNo(ExtensionsUrlLbl, GetEnvironmentName(), GetCompanyId());
+        ExtensionsUrl := StrSubstNo(ExtensionsUrlTok, GetEnvironmentName(), GetCompanyId());
         if not DependencyGraphSetup.IncludeMicrosoftApps then
-            ExtensionsUrl += FilterMSAppsLbl + '''Microsoft''';
+            ExtensionsUrl += FilterMSAppsTok + '''Microsoft''';
         // Hardcode of value 'Microsoft' because the single-quote escaping gives error when generating translations with the third-party extension.
 
         exit(ExtensionsUrl);
@@ -211,8 +211,8 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     var
         RelationJsonObject: JsonObject;
     begin
-        RelationJsonObject.Add(SourceAppIDLbl, SourceAppID);
-        RelationJsonObject.Add(DestinationAppIDLbl, DestinationAppID);
+        RelationJsonObject.Add(SourceAppIDTok, SourceAppID);
+        RelationJsonObject.Add(DestinationAppIDTok, DestinationAppID);
 
         RelationsArry.Add(RelationJsonObject);
     end;
@@ -234,20 +234,20 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
     var
         JSONMethods: Codeunit JSONMethods_ANJ;
         AzureADTenant: Codeunit System.Azure.Identity."Azure AD Tenant";
-        AccessTokenLbl: Label 'access_token';
-        AccessTokenUrlLbl: Label 'https://login.microsoftonline.com/%1/oauth2/v2.0/token';
-        AuthorizationLbl: Label 'Authorization';
-        AuthorizationValueLbl: Label 'Bearer %1';
-        ClientIdLbl: Label '&client_id=%1';
-        ClientSecretLbl: Label '&client_secret=%1';
-        ContentTypeLbl: Label 'Content-Type';
-        DestinationAppIDLbl: Label 'DestinationAppID';
-        ExtensionsUrlLbl: Label 'https://api.businesscentral.dynamics.com/v2.0/%1/api/microsoft/automation/v2.0/companies(%2)/extensions';
-        FilterMSAppsLbl: Label '?$filter=publisher ne ';
-        GrantTypeLbl: Label 'grant_type=client_credentials';
-        ScopeLbl: Label '&scope=https://api.businesscentral.dynamics.com/.default';
-        SourceAppIDLbl: Label 'SourceAppID';
+        AccessTokenTok: Label 'access_token', Locked = true;
+        AccessTokenUrlTok: Label 'https://login.microsoftonline.com/%1/oauth2/v2.0/token', Locked = true;
+        AuthorizationTok: Label 'Authorization', Locked = true;
+        AuthorizationValueTok: Label 'Bearer %1', Locked = true;
+        ClientIdTok: Label '&client_id=%1', Locked = true;
+        ClientSecretTok: Label '&client_secret=%1', Locked = true;
+        ContentTypeTok: Label 'Content-Type', Locked = true;
+        DestinationAppIDTok: Label 'DestinationAppID', Locked = true;
+        ExtensionsUrlTok: Label 'https://api.businesscentral.dynamics.com/v2.0/%1/api/microsoft/automation/v2.0/companies(%2)/extensions', Locked = true;
+        FilterMSAppsTok: Label '?$filter=publisher ne ', Locked = true;
+        GrantTypeTok: Label 'grant_type=client_credentials', Locked = true;
+        ScopeTok: Label '&scope=https://api.businesscentral.dynamics.com/.default', Locked = true;
+        SourceAppIDTok: Label 'SourceAppID', Locked = true;
         UnableToCommunicateWSErr: Label 'Unable to communicate with the web service.';
-        UrlencodedLbl: Label 'application/x-www-form-urlencoded';
-        WSStatusCodeErr: Label 'Error - Status code: %1  Description: %2';
+        UrlencodedTok: Label 'application/x-www-form-urlencoded', Locked = true;
+        WSStatusCodeErr: Label 'Error - Status code: %1  Description: %2.', Comment = 'Placeholder %1: Status code, Placeholder %2: Description.';
 }
