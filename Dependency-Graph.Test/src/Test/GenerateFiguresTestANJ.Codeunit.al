@@ -1,6 +1,7 @@
 /// <summary>
 /// Codeunit "GenerateFiguresTest_ANJ" (ID 99991).
 /// </summary>
+namespace ANJ.Tools.Graph;
 codeunit 99991 GenerateFiguresTest_ANJ
 {
     Access = Public;
@@ -11,7 +12,7 @@ codeunit 99991 GenerateFiguresTest_ANJ
     /// GenerateFigures.
     /// </summary>
     [Test]
-    procedure GenerateFigures();
+    procedure GenerateFigures()
     var
         ScopeDevFigure: Text;
         ScopeGlobalFigure: Text;
@@ -61,11 +62,11 @@ codeunit 99991 GenerateFiguresTest_ANJ
 
     var
         DependencyGraphFacadeANJ: Codeunit DependencyGraphFacade_ANJ;
-        LibraryAssert: Codeunit "Library Assert";
+        LibraryAssert: Codeunit System.TestLibraries.Utilities."Library Assert";
         AppNameLbl: Label 'App';
-        CircleFigureLbl: Label '%1((%2))';
+        CircleFigureLbl: Label '%1((%2))', Comment = 'Placeholder %1 represents the Identity, and Placeholder %2 represents the Content.';
         GenerateFigureErr: Label 'Error generating figures.';
         IdentityLbl: Label 'E1';
-        RhombusFigureLbl: Label '%1{%2}';
-        SquareRectangleFigureLbl: Label '%1[%2]';
+        RhombusFigureLbl: Label '%1{%2}', Comment = 'Placeholder %1 represents the Identity, and Placeholder %2 represents the Content.';
+        SquareRectangleFigureLbl: Label '%1[%2]', Comment = 'Placeholder %1 represents the Identity, and Placeholder %2 represents the Content.';
 }
