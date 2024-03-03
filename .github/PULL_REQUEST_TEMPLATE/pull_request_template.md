@@ -1,0 +1,6 @@
+- [ ] The PR was created from a branch associated to an Issue.
+- [ ] The pull request is complete and the project can be compiled.
+- [ ] The ticket acceptance criteria have been met.
+- [ ] There has been some kind of fedback from another contributor.
+- [ ] Documentation is up to date.
+- [ ] The automated tests are written (Optional).
