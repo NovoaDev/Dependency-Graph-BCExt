@@ -30,14 +30,17 @@ table 80800 DependencyGraphSetup_ANJ
         field(4; ScopePTEFigure; Enum GeometricFigure_ANJ)
         {
             Caption = 'PTE Scope';
+            InitValue = SquareRectangle;
         }
         field(5; ScopeGlobalFigure; Enum GeometricFigure_ANJ)
         {
             Caption = 'Global Scope';
+            InitValue = SquareRectangle;
         }
         field(6; ScopeDevFigure; Enum GeometricFigure_ANJ)
         {
             Caption = 'Dev Scope';
+            InitValue = SquareRectangle;
         }
         field(7; IncludeMicrosoftApps; Boolean)
         {
@@ -78,6 +81,7 @@ table 80800 DependencyGraphSetup_ANJ
         field(16; FillingProcessingTables; Enum FillingProcessingTables_ANJ)
         {
             Caption = 'Filling Processing Tables';
+            InitValue = WSAndModuleDependencyInfo;
         }
     }
     keys

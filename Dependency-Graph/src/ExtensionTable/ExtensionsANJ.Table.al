@@ -38,6 +38,7 @@ table 80801 Extensions_ANJ
         field(5; PublishedAs; Enum ExtensionScope_ANJ)
         {
             Caption = 'Published As';
+            InitValue = PTE;
         }
         field(6; Identity; Text[2048])
         {
