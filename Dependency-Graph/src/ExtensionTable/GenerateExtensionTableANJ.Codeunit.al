@@ -94,11 +94,20 @@ codeunit 80805 GenerateExtensionTable_ANJ
         Extensions.Modify(true);
     end;
 
+    /// <summary>
+    /// OnBeforeGenerateExtensionTable.
+    /// </summary>
+    /// <param name="Extensions">Record Extensions_ANJ.</param>
+    /// <param name="IsHandled">VAR Boolean.</param>
     [IntegrationEvent(false, false)]
     local procedure OnBeforeGenerateExtensionTable(Extensions: Record Extensions_ANJ; var IsHandled: Boolean)
     begin
     end;
 
+    /// <summary>
+    /// OnAfterGenerateExtensionTable.
+    /// </summary>
+    /// <param name="Extensions">Record Extensions_ANJ.</param>
     [IntegrationEvent(false, false)]
     local procedure OnAfterGenerateExtensionTable(Extensions: Record Extensions_ANJ)
     begin

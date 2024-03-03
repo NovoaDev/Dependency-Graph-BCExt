@@ -122,6 +122,10 @@ codeunit 80810 DependencyGraphFacade_ANJ
         OnAfterGetFillingProcessingTables(FillingProcessingTables);
     end;
 
+    /// <summary>
+    /// OnAfterGetFillingProcessingTables
+    /// </summary>
+    /// <param name="FillingProcessingTables"></param>
     [IntegrationEvent(false, false)]
     local procedure OnAfterGetFillingProcessingTables(var FillingProcessingTables: Interface FillingProcessingTables_ANJ)
     begin

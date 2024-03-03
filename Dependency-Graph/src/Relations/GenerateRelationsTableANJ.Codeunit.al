@@ -59,9 +59,10 @@ codeunit 80808 GenerateRelationsTable_ANJ
     end;
 
     /// <summary>
-    /// InsertNewRelation.
-    /// /// </summary>
-    /// <returns>Return variable NewRelationsLine of type Integer.</returns>
+    /// InsertNewRelation
+    /// </summary>
+    /// <param name="SourceAppID"></param>
+    /// <param name="DestinationAppID"></param>
     local procedure InsertNewRelation(SourceAppID: Guid; DestinationAppID: Guid)
     var
         Relations: Record Relations_ANJ;
