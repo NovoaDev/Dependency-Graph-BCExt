@@ -40,5 +40,5 @@
     "CreateOnlineDevelopmentEnvironment.yaml"
   ],
   "alwaysBuildAllProjects": true,
-  "storageContextSecretName": StorageContext
+  "storageContextSecretName": "StorageContext"
 }
