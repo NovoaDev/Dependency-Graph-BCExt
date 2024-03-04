@@ -39,6 +39,5 @@
     "_BuildALGoProject.yaml",
     "CreateOnlineDevelopmentEnvironment.yaml"
   ],
-  "alwaysBuildAllProjects": true,
-  "skipUpgrade": true
+  "alwaysBuildAllProjects": true
 }
