@@ -38,5 +38,6 @@
     "CreatePerformanceTestApp.yaml",
     "_BuildALGoProject.yaml",
     "CreateOnlineDevelopmentEnvironment.yaml"
-    ]
+    ],
+   "alwaysBuildAllProjects": true
 }
