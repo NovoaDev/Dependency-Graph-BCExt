@@ -413,7 +413,7 @@
         },
         {
             "id": "AS0055",
-            "action": "Error",
+            "action": "Info",
             "justification": "AppSourceCop - The AppSourceCop configuration must specify the list of countries regions targeted by the application."
         },
         {
