@@ -42,6 +42,6 @@
   "alwaysBuildAllProjects": true,
   "storageContextSecretName": "StorageContext",
   "ALDoc": {
-    "continuousDeployment": false,
+    "continuousDeployment": false
   }
 }
