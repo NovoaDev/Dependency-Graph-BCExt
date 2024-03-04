@@ -39,5 +39,6 @@
     "_BuildALGoProject.yaml",
     "CreateOnlineDevelopmentEnvironment.yaml"
   ],
-  "alwaysBuildAllProjects": true
+  "alwaysBuildAllProjects": true,
+  "storageContextSecretName": StorageContext
 }
