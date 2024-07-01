@@ -15,7 +15,7 @@ page 80801 Extensions_ANJ
 
     layout
     {
-        area(content)
+        area(Content)
         {
             repeater(General)
             {

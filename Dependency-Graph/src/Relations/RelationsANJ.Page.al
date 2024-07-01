@@ -15,7 +15,7 @@ page 80803 Relations_ANJ
 
     layout
     {
-        area(content)
+        area(Content)
         {
             repeater(General)
             {

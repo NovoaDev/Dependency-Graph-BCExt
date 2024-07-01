@@ -13,7 +13,7 @@ page 80800 DependencyGraphSetup_ANJ
 
     layout
     {
-        area(content)
+        area(Content)
         {
             group(Auth)
             {
@@ -110,7 +110,7 @@ page 80800 DependencyGraphSetup_ANJ
     }
     actions
     {
-        area(processing)
+        area(Processing)
         {
             action(Extensions)
             {

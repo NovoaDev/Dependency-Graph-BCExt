@@ -7,9 +7,9 @@ table 80800 DependencyGraphSetup_ANJ
     Access = Public;
     Caption = 'Dependency Graph Setup';
     DataClassification = CustomerContent;
-    DrillDownPageID = DependencyGraphSetup_ANJ;
+    DrillDownPageId = DependencyGraphSetup_ANJ;
     Extensible = true;
-    LookupPageID = DependencyGraphSetup_ANJ;
+    LookupPageId = DependencyGraphSetup_ANJ;
 
     fields
     {
