@@ -165,7 +165,7 @@
         </trans-unit>
         <trans-unit id="EnumExtension 2370418707 - EnumValue 983320492 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1956450053">
           <source>Mock</source>
-          <note from="Developer" annotates="general" priority="2">ESP="WS y Mock"</note>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">EnumExtension FillingProcessTablesMock_ANJ - EnumValue Mock_ANJ - Property Caption</note>
         </trans-unit>
       </group>
