@@ -17,7 +17,6 @@
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": [],
-  "repoVersion": "4.14",
   "doNotRunBCPTTests": true,
   "doNotSignApps": true,
   "enableCodeCop": true,
