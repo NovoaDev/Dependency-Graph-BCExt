@@ -9,3 +9,17 @@ iframe {
     padding-left: 1%;
     padding-right: 1;
 }
+
+.MermaidDiv svg {
+    cursor: move;
+    background-color: #f0f0f0;
+}
+
+.MermaidDiv svg:active {
+    cursor: grabbing;
+    background-color: #e0e0e0;
+}
+
+.MermaidDiv svg:zooming {
+    background-color: #d0d0d0;
+}
