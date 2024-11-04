@@ -1,6 +1,3 @@
-/// <summary>
-/// ControlAddIn "MarkdownViewer_ANJ."
-/// </summary>
 namespace ANJ.Tools.Graph;
 controladdin MarkdownViewer_ANJ
 {
@@ -12,14 +9,11 @@ controladdin MarkdownViewer_ANJ
     StyleSheets = 'src\ControlAddinViewer\Style.css';
     VerticalShrink = true;
 
-    /// <summary>
-    /// Ready.
-    /// </summary>
     event Ready();
 
-    /// <summary>
-    /// Draw.
-    /// </summary>
-    /// <param name="Markdown">Text.</param>
-    procedure Draw(Markdown: Text)
+    procedure Draw(Markdown: Text);
+
+    procedure Navigate(Direction: Text);
+
+    procedure Zoom(Level: Integer);
 }
