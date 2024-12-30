@@ -17,3 +17,37 @@ function Draw(Markdown) {
         console.log(e);
     }
 }
+
+function Navigate(Direction) {
+    try {
+        const container = document.getElementById('controlAddIn');
+        switch (Direction) {
+            case 'up':
+                container.scrollBy(0, -50);
+                break;
+            case 'down':
+                container.scrollBy(0, 50);
+                break;
+            case 'left':
+                container.scrollBy(-50, 0);
+                break;
+            case 'right':
+                container.scrollBy(50, 0);
+                break;
+        }
+    }
+    catch (e) {
+        console.log(e);
+    }
+}
+
+function Zoom(Level) {
+    try {
+        const container = document.getElementById('controlAddIn');
+        const currentZoom = container.style.zoom ? parseFloat(container.style.zoom) : 1;
+        container.style.zoom = currentZoom + Level * 0.1;
+    }
+    catch (e) {
+        console.log(e);
+    }
+}
