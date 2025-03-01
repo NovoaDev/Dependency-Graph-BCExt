@@ -387,11 +387,6 @@
             "justification": "CodeCop - You must use the FieldCaption method instead of the FieldName method and TableCaption method instead of TableName method."
         },
         {
-            "id": "AA0448",
-            "action": "Error",
-            "justification": "CodeCop - You must use the FieldCaption method instead of the FieldName method and TableCaption method instead of TableName method."
-        },
-        {
             "id": "AA0462",
             "action": "Error",
             "justification": "CodeCop - The CalcDate should only be used with DataFormula variables. Alternatively the string should be enclosed using the symbols."
@@ -557,6 +552,16 @@
             "justification": "AppSourceCop - Source symbol for the moved symbol cannot be found in the package with the given AppId."
         },
         {
+            "id": "AS0126",
+            "action": "Error",
+            "justification": "AppSourceCop -InternalsVisibleTo should not specifying a different publisher name than the one of this extension."
+        },
+        { 
+            "id": "AS0127",
+            "action": "Error",
+            "justification": "AppSourceCop - Objects should be placed in a namespace with at least two levels."
+        },
+        {
             "id": "PTE0012",
             "action": "Error",
             "justification": "PerTenantExtensionCop - InternalsVisibleTo should not be used as a security feature."
@@ -590,6 +595,16 @@
             "id": "PTE0020",
             "action": "Error",
             "justification": "PerTenantExtensionCop - Use the application property instead of specifying an explicit dependency on Base Application."
+        },
+        {
+            "id": "PTE0022",
+            "action": "Error",
+            "justification": "PerTenantExtensionCop - The member ID should be within the allowed range."
+        },
+        {
+            "ID": "PTE0023",
+            "action": "Error",
+            "justification": "PerTenantExtensionCop - The enum ordinal value should be within the allowed range."
         },
         {
             "id": "AW0001",
@@ -910,6 +925,176 @@
             "id": "LC0053",
             "action": "Error",
             "justification": "LinterCop - The internal procedure is only used in the object in which it is declared. Consider making the procedure local."
-        }
+        },
+        {
+            "id": "LC0054",
+            "action": "Error",
+            "justification": "LinterCop - Interface name must start with the capital 'I' without any spaces following it."
+        },
+        {
+            "id": "LC0055",
+            "action": "Error",
+            "justification": "LinterCop - The suffix Tok is meant to be used when the value of the label matches the name."
+        },
+        {
+            "id": "LC0056",
+            "action": "Error",
+            "justification": "LinterCop - Empty Enum values should not have a specified Caption property."
+        },
+        {
+            "id": "LC0057",
+            "action": "Error",
+            "justification": "LinterCop - Enum values must have non-empty a Caption to be selectable in the client."
+        },
+        {
+            "id": "LC0058",
+            "action": "Error",
+            "justification": "LinterCop - PageVariable.SetRecord(): You cannot use a temporary record for the Record parameter."
+        },
+        {
+            "id": "LC0059",
+            "action": "Error",
+            "justification": "LinterCop - Single quote escaping issue detected."
+        },
+        {
+            "id": "LC0060",
+            "action": "Error",
+            "justification": "LinterCop - The ApplicationArea property is not applicable to API pages."
+        },
+        {
+            "id": "LC0061",
+            "action": "Error",
+            "justification": "LinterCop - Pages of type API must have the ODataKeyFields property set to the SystemId field."
+        },
+        {
+            "id": "LC0062",
+            "action": "Error",
+            "justification": "LinterCop - Mandatory field is missing on API page."
+        },
+        {
+            "id": "LC0063",
+            "action": "Error",
+            "justification": "LinterCop - Consider naming field with a more descriptive name."
+        },
+        {
+            "id": "LC0064",
+            "action": "Error",
+            "justification": "LinterCop - Missing ToolTip property on table field."
+        },
+        {
+            "id": "LC0065",
+            "action": "Error",
+            "justification": "LinterCop - Event subscriber var keyword mismatch."
+        },
+        {
+            "id": "LC0066",
+            "action": "Error",
+            "justification": "LinterCop - Duplicate ToolTip between page and table field."
+        },
+        {
+            "id": "LC0067",
+            "action": "Error",
+            "justification": "LinterCop - Set NotBlank property to false when 'No. Series' TableRelation exists."
+        },
+        {
+            "id": "LC0068",
+            "action": "Error",
+            "justification": "LinterCop - Informs the user that there are missing permission to access tabledata."
+        },
+        {
+            "id": "LC0069",
+            "action": "Error",
+            "justification": "LinterCop - Empty statements should be avoided or should have a leading or trailing comment explaining their use."
+        },
+        {
+            "id": "LC0070",
+            "action": "Error",
+            "justification": "LinterCop - Zero index access on 1-based List objects."
+        },
+        {
+            "id": "LC0071",
+            "action": "Error",
+            "justification": "LinterCop - Incorrect 'IsHandled' parameter assignment."
+        },
+        {
+            "id": "LC0072",
+            "action": "Error",
+            "justification": "LinterCop - The documentation comment must match the procedure syntax."
+        },
+        {
+            "id": "LC0073",
+            "action": "Error",
+            "justification": "LinterCop - Handled parameters in event signatures should be passed by var."
+        },
+        {
+            "id": "LC0074",
+            "action": "Error",
+            "justification": "LinterCop - Set values for FlowFilter fields using filtering methods."
+        },
+        {
+            "id": "LC0075",
+            "action": "Error",
+            "justification": "LinterCop - Incorrect number or type of arguments in .Get() method on Record object."
+        },
+        {
+            "id": "LC0076",
+            "action": "Error",
+            "justification": "LinterCop - The field with table relation should have at least the same length as the referenced field."
+        },
+        {
+            "id": "LC0077",
+            "action": "Error",
+            "justification": "LinterCop - Methods should always be called with parenthesis."
+        },
+        {
+            "id": "LC0078",
+            "action": "Error",
+            "justification": "LinterCop - Temporary records should not trigger table triggers."
+        },
+        {
+            "id": "LC0079",
+            "action": "Error",
+            "justification": "LinterCop - Event publishers should not be public."
+        },
+        {
+            "id": "LC0080",
+            "action": "Error",
+            "justification": "LinterCop - Replace double quotes in JPath expressions with two single quotes."
+        },
+        {
+            "id": "LC0081",
+            "action": "Error",
+            "justification": "LinterCop - Use Rec.IsEmpty() for checking record existence."
+        },
+        {
+            "id": "LC0082",
+            "action": "Error",
+            "justification": "LinterCop - Use Rec.Find('-') with Rec.Next() for checking exactly one record."
+        },
+        {
+            "id": "LC0083",
+            "action": "Error",
+            "justification": "LinterCop - Use new Date/Time/DateTime methods for extracting parts."
+        },
+        {
+            "id": "LC0084",
+            "action": "Error",
+            "justification": "LinterCop - Use return value for better error handling."
+        },
+        {
+            "id": "LC0085",
+            "action": "Error",
+            "justification": "LinterCop - Use the (CR)LFSeparator from the 'Type Helper' codeunit."
+        },
+        {
+            "id": "LC0086",
+            "action": "Error",
+            "justification": "LinterCop - Use the new PageStyle datatype instead string literals."
+        },
+        {
+            "id": "LC0087",
+            "action": "Error",
+            "justification": "LinterCop - Use IsNullGuid() to check for empty GUID values."
+        } 
     ]
 }
