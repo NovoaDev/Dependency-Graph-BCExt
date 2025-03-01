@@ -5,6 +5,7 @@ namespace ANJ.Tools.Graph;
 codeunit 80805 GenerateExtensionTable_ANJ
 {
     Access = Public;
+    Permissions = tabledata Extensions_ANJ = RIM;
 
     /// <summary>
     /// Generate.
@@ -25,7 +26,7 @@ codeunit 80805 GenerateExtensionTable_ANJ
     /// <param name="IsHandled">Boolean.</param>
     local procedure DoGenerateExtensionTable(IsHandled: Boolean)
     var
-        FillingProcessingTables: Interface FillingProcessingTables_ANJ;
+        FillingProcessingTables: Interface IFillingProcessingTables_ANJ;
         ResponseText: Text;
     begin
         if IsHandled then
@@ -76,9 +77,9 @@ codeunit 80805 GenerateExtensionTable_ANJ
         Extensions.Validate(AppID, JSONMethods.GetJsonValue(IdTok, AuxiliaryText));
         Extensions.Insert(true);
         Name := JSONMethods.GetJsonValue(DisplayNameTok, AuxiliaryText);
-        Extensions.Validate(Name, Name);
-        Extensions.Validate(DisplayName, Name);
-        Extensions.Validate(Publisher, JSONMethods.GetJsonValue(PublisherTok, AuxiliaryText));
+        Extensions.Validate(Name, CopyStr(Name, 1, 2048));
+        Extensions.Validate(DisplayName, CopyStr(Name, 1, 2048));
+        Extensions.Validate(Publisher, CopyStr(JSONMethods.GetJsonValue(PublisherTok, AuxiliaryText), 1, 2048));
 
         case JSONMethods.GetJsonValue(PublishedAsTok, AuxiliaryText) of
             Format(Enum::ExtensionScope_ANJ::PTE):
@@ -90,7 +91,7 @@ codeunit 80805 GenerateExtensionTable_ANJ
         end;
 
         Extensions.Validate(ShowInGraph, true);
-        Extensions.Validate(Identity, DependencyGraphFacade.GetNextNumberSequence());
+        Extensions.Validate(Identity, CopyStr(DependencyGraphFacade.GetNextNumberSequence(), 1, 2048));
         Extensions.Modify(true);
     end;
 

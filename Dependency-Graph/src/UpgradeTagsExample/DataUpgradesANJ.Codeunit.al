@@ -5,6 +5,7 @@ namespace ANJ.Tools.Graph;
 codeunit 80816 DataUpgrades_ANJ
 {
     Access = Internal;
+    Permissions = tabledata DependencyGraphSetup_ANJ = RM, tabledata Extensions_ANJ = RMD, tabledata Relations_ANJ = RD;
 
     /// <summary>
     /// OnGetPerCompanyUpgradeTags.

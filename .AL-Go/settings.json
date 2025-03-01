@@ -32,5 +32,6 @@
   "rulesetFile": "Dependency-Graph/.vscode/ruleset.json",
   "ALDoc": {
     "continuousDeployment": false
-  }
+  },
+  "skipUpgrade": true
 }

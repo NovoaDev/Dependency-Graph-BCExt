@@ -21,12 +21,9 @@ page 80803 Relations_ANJ
             {
                 field(SourceAppName; Rec.SourceAppName)
                 {
-                    ToolTip = 'Specifies the value of the Source App Name field.';
                 }
                 field(LinkText; Rec.LinkText)
                 {
-                    ToolTip = 'Specifies the value of the Link Text field.';
-
                     trigger OnValidate()
                     begin
                         CurrPage.Update(true);
@@ -34,12 +31,9 @@ page 80803 Relations_ANJ
                 }
                 field(DestinationAppName; Rec.DestinationAppName)
                 {
-                    ToolTip = 'Specifies the value of the Destination App Name field.';
                 }
                 field(ShowInGraph; Rec.ShowInGraph)
                 {
-                    ToolTip = 'Specifies the value of the Show In Graph field.';
-
                     trigger OnValidate()
                     begin
                         CurrPage.Update(true);

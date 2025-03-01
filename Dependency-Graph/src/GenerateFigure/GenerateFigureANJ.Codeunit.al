@@ -47,7 +47,7 @@ codeunit 80804 GenerateFigure_ANJ
     /// <returns>Return value of type Text.</returns>
     local procedure GenerateFullFigure(ExtensionScope: Enum ExtensionScope_ANJ; Identity: Text; AppName: Text): Text
     var
-        FigureInGraph: Interface FigureInGraph_ANJ;
+        FigureInGraph: Interface IFigureInGraph_ANJ;
     begin
         FigureInGraph := GetGeometricFigure(ExtensionScope);
         RemoveDisallowedCharacters(AppName);

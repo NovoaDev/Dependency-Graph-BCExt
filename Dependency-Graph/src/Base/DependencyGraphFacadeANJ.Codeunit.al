@@ -112,7 +112,7 @@ codeunit 80810 DependencyGraphFacade_ANJ
     /// GetInterfaceFillProcessingTables.
     /// </summary>
     /// <param name="FillingProcessingTables">VAR Interface FillingProcessingTables_ANJ.</param>
-    procedure GetInterfaceFillProcessingTables(var FillingProcessingTables: Interface FillingProcessingTables_ANJ)
+    procedure GetInterfaceFillProcessingTables(var FillingProcessingTables: Interface IFillingProcessingTables_ANJ)
     var
         DependencyGraphSetup: Record DependencyGraphSetup_ANJ;
     begin
@@ -127,7 +127,7 @@ codeunit 80810 DependencyGraphFacade_ANJ
     /// </summary>
     /// <param name="FillingProcessingTables"></param>
     [IntegrationEvent(false, false)]
-    local procedure OnAfterGetFillingProcessingTables(var FillingProcessingTables: Interface FillingProcessingTables_ANJ)
+    local procedure OnAfterGetFillingProcessingTables(var FillingProcessingTables: Interface IFillingProcessingTables_ANJ)
     begin
     end;
 

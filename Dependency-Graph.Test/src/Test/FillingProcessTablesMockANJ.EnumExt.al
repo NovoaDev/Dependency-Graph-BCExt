@@ -7,6 +7,6 @@ enumextension 99990 FillingProcessTablesMock_ANJ extends FillingProcessingTables
     value(99990; Mock_ANJ)
     {
         Caption = 'Mock';
-        Implementation = FillingProcessingTables_ANJ = FillingProTablesMock_ANJ;
+        Implementation = IFillingProcessingTables_ANJ = FillingProTablesMock_ANJ;
     }
 }

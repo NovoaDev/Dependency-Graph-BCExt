@@ -2,7 +2,7 @@
 /// Codeunit "SquareRectangleIMP_ANJ" (ID 80800) implements Interface FigureInGraph_ANJ.
 /// </summary>
 namespace ANJ.Tools.Graph;
-codeunit 80800 SquareRectangleIMP_ANJ implements FigureInGraph_ANJ
+codeunit 80800 SquareRectangleIMP_ANJ implements IFigureInGraph_ANJ
 {
     Access = Internal;
 

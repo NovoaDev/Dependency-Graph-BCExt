@@ -5,6 +5,7 @@ namespace ANJ.Tools.Graph;
 codeunit 80809 MarkdownMgmt_ANJ
 {
     Access = Public;
+    Permissions = tabledata Relations_ANJ = RD, tabledata Extensions_ANJ = RD, tabledata DependencyGraphSetup_ANJ = RM;
 
     /// <summary>
     /// GenerateGraph.

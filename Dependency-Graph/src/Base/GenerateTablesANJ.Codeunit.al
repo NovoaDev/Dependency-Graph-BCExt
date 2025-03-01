@@ -5,6 +5,7 @@ namespace ANJ.Tools.Graph;
 codeunit 80807 GenerateTables_ANJ
 {
     Access = Public;
+    Permissions = tabledata Extensions_ANJ = RD, tabledata Relations_ANJ = RD, tabledata DependencyGraphSetup_ANJ = RM;
 
     /// <summary>
     /// GenerateTables.

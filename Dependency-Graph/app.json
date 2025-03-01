@@ -14,7 +14,7 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "23.0.0.0",
+  "application": "25.0.0.0",
   "idRanges": [
     {
       "from": 80800,
@@ -30,5 +30,5 @@
     "allowDownloadingSource": false,
     "includeSourceInSymbolFile": false
   },
-  "runtime": "13.0"
+  "runtime": "14.0"
 }

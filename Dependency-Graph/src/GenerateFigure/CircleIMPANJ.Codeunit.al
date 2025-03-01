@@ -2,7 +2,7 @@
 /// Codeunit "CircleIMP_ANJ" (ID 80801) implements Interface FigureInGraph_ANJ.
 /// </summary>
 namespace ANJ.Tools.Graph;
-codeunit 80801 CircleIMP_ANJ implements FigureInGraph_ANJ
+codeunit 80801 CircleIMP_ANJ implements IFigureInGraph_ANJ
 {
     Access = Internal;
 

@@ -2,7 +2,7 @@
 /// Codeunit "DefaultFillProcessTabImp_ANJ" (ID 80815) implements Interface FillingProcessingTables_ANJ.
 /// </summary>
 namespace ANJ.Tools.Graph;
-codeunit 80815 DefaultFillProcessTabImp_ANJ implements FillingProcessingTables_ANJ
+codeunit 80815 DefaultFillProcessTabImp_ANJ implements IFillingProcessingTables_ANJ
 {
     Access = Internal;
 

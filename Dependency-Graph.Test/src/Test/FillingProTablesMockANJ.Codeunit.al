@@ -2,7 +2,7 @@
 /// Codeunit "FillingProTablesMock_ANJ" (ID 99993).
 /// </summary>
 namespace ANJ.Tools.Graph;
-codeunit 99993 FillingProTablesMock_ANJ implements FillingProcessingTables_ANJ
+codeunit 99993 FillingProTablesMock_ANJ implements IFillingProcessingTables_ANJ
 {
     Access = Internal;
 

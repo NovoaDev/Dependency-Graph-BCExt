@@ -13,7 +13,7 @@
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true,
-            "tenant": "7be8f1f7-bc67-46c0-9487-d836aad47bea"
+            "tenant": "6de27021-dcdb-4539-b0e1-c5ecb27c4e48"
         },
         {
             "name": "Docker - DependencyGraph",
