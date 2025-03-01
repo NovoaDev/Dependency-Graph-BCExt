@@ -2,7 +2,7 @@
 /// Codeunit "DefaultFigureIMP_ANJ" (ID 80814) implements Interface FigureInGraph_ANJ.
 /// </summary>
 namespace ANJ.Tools.Graph;
-codeunit 80814 DefaultFigureIMP_ANJ implements FigureInGraph_ANJ
+codeunit 80814 DefaultFigureIMP_ANJ implements IFigureInGraph_ANJ
 {
     Access = Internal;
 

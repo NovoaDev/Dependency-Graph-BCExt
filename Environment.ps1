@@ -3,7 +3,7 @@ $ContainerName = 'DependencyGraph'
 $licenseFile = 'C:\License\Dev.bclicense'
 
 # Image
-$artifactUrl = Get-BCArtifactUrl -country "es" -version 23  
+$artifactUrl = Get-BCArtifactUrl -country "es" -version 25  
 
 # User
 $UserName = 'User'
@@ -14,7 +14,6 @@ New-BCContainer -accept_eula `
                 -accept_outdated `
                 -updateHosts `
                 -containername $containername `
-                -licenseFile $licenseFile `
    		        -artifactUrl $artifactUrl `
                 -auth NavUserPassword `
                 -Credential $credential `

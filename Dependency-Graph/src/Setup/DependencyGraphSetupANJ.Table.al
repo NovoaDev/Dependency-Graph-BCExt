@@ -22,37 +22,45 @@ table 80800 DependencyGraphSetup_ANJ
         field(2; ClientID; Text[2048])
         {
             Caption = 'Client ID';
+            ToolTip = 'Specifies the value of the Client ID field.';
         }
         field(3; Secret; Text[2048])
         {
             Caption = 'Secret';
+            ToolTip = 'Specifies the value of the Secret field.';
         }
         field(4; ScopePTEFigure; Enum GeometricFigure_ANJ)
         {
             Caption = 'PTE Scope';
             InitValue = SquareRectangle;
+            ToolTip = 'Specifies the value of the Scope PTE Figure field.';
         }
         field(5; ScopeGlobalFigure; Enum GeometricFigure_ANJ)
         {
             Caption = 'Global Scope';
             InitValue = SquareRectangle;
+            ToolTip = 'Specifies the value of the Scope Global Figure field.';
         }
         field(6; ScopeDevFigure; Enum GeometricFigure_ANJ)
         {
             Caption = 'Dev Scope';
             InitValue = SquareRectangle;
+            ToolTip = 'Specifies the value of the Scope Dev Figure field.';
         }
         field(7; IncludeMicrosoftApps; Boolean)
         {
             Caption = 'Include Microsoft Apps';
+            ToolTip = 'Specifies the value of the Include Microsoft Apps field.';
         }
         field(8; DateLastGeneration; Date)
         {
             Caption = 'Date';
+            ToolTip = 'Specifies the value of the Date Last Generation field.';
         }
         field(9; TimeLastGeneration; Time)
         {
             Caption = 'Time';
+            ToolTip = 'Specifies the value of the Time Last Generation field.';
         }
         field(10; Markdown; Blob)
         {
@@ -65,14 +73,17 @@ table 80800 DependencyGraphSetup_ANJ
         field(12; IncludeLinkText; Boolean)
         {
             Caption = 'Include Link Text';
+            ToolTip = 'Specifies the value of the Include Link text field.';
         }
         field(13; DateLastGenerationMarkdown; Date)
         {
             Caption = 'Date';
+            ToolTip = 'Specifies the value of the Date Last Generation field.';
         }
         field(14; TimeLastGenerationMarkdown; Time)
         {
             Caption = 'Time';
+            ToolTip = 'Specifies the value of the Time Last Generation field.';
         }
         field(15; MarkdownMermaid; Blob)
         {
@@ -82,6 +93,7 @@ table 80800 DependencyGraphSetup_ANJ
         {
             Caption = 'Filling Processing Tables';
             InitValue = WSAndModuleDependencyInfo;
+            ToolTip = 'Specifies the value of the Filling Processing Tables field.';
         }
     }
     keys

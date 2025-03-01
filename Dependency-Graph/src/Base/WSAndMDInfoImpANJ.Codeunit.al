@@ -2,9 +2,10 @@
 /// Codeunit "WSAndMDInfoImp_ANJ" (ID 80812) implements Interface FillingProcessingTables_ANJ.
 /// </summary>
 namespace ANJ.Tools.Graph;
-codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
+codeunit 80812 WSAndMDInfoImp_ANJ implements IFillingProcessingTables_ANJ
 {
     Access = Internal;
+    Permissions = tabledata Extensions_ANJ = RD, tabledata Relations_ANJ = RD;
 
     /// <summary>
     /// GetExtensions.
@@ -142,7 +143,8 @@ codeunit 80812 WSAndMDInfoImp_ANJ implements FillingProcessingTables_ANJ
         Company: Record System.Environment.Company;
     begin
         Company.SetLoadFields(Id);
-        Company.Get(CompanyName());
+        if not Company.Get(CompanyName()) then
+            exit;
 
         exit(Format(Company.Id, 0, 4).ToLower());
     end;

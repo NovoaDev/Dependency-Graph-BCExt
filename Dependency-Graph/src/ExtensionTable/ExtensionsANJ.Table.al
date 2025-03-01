@@ -21,10 +21,12 @@ table 80801 Extensions_ANJ
         field(2; Name; Text[2048])
         {
             Caption = 'Name';
+            ToolTip = 'Specifies the value of the Name field.';
         }
         field(3; DisplayName; Text[2048])
         {
             Caption = 'Display Name';
+            ToolTip = 'Specifies the value of the Display Name field.';
 
             trigger OnValidate()
             begin
@@ -34,11 +36,13 @@ table 80801 Extensions_ANJ
         field(4; Publisher; Text[2048])
         {
             Caption = 'Publisher';
+            ToolTip = 'Specifies the value of the Publisher field.';
         }
         field(5; PublishedAs; Enum ExtensionScope_ANJ)
         {
             Caption = 'Published As';
             InitValue = PTE;
+            ToolTip = 'Specifies the value of the Published As field.';
         }
         field(6; Identity; Text[2048])
         {
@@ -53,6 +57,7 @@ table 80801 Extensions_ANJ
         field(7; ShowInGraph; Boolean)
         {
             Caption = 'Show In Graph';
+            ToolTip = 'Specifies the value of the ShowInGraph field.';
         }
         field(8; Figure; Text[2048])
         {
@@ -98,7 +103,7 @@ table 80801 Extensions_ANJ
     /// </summary>
     local procedure UpdateFigure()
     begin
-        Validate(Figure, DependencyGraphFacade.GenerateFigures(PublishedAs, Identity, DisplayName));
+        Validate(Figure, CopyStr(DependencyGraphFacade.GenerateFigures(PublishedAs, Identity, DisplayName), 1, 2048));
     end;
 
     /// <summary>

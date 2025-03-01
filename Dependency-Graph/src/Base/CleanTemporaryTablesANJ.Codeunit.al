@@ -5,6 +5,7 @@ namespace ANJ.Tools.Graph;
 codeunit 80811 CleanTemporaryTables_ANJ
 {
     Access = Public;
+    Permissions = tabledata Extensions_ANJ = RD, tabledata Relations_ANJ = RD;
 
     /// <summary>
     /// Clean.

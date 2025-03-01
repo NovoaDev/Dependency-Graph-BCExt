@@ -2,7 +2,7 @@
 /// Interface "FigureInGraph_ANJ."
 /// </summary>
 namespace ANJ.Tools.Graph;
-interface FigureInGraph_ANJ
+interface IFigureInGraph_ANJ
 {
     Access = Public;
 

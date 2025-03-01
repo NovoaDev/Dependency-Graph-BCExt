@@ -5,7 +5,7 @@ namespace ANJ.Tools.Graph;
 codeunit 80808 GenerateRelationsTable_ANJ
 {
     Access = Public;
-
+    Permissions = tabledata Relations_ANJ = RIM;
     /// <summary>
     /// Generate.
     /// </summary>
@@ -25,7 +25,7 @@ codeunit 80808 GenerateRelationsTable_ANJ
     /// <param name="IsHandled">Boolean.</param>
     local procedure DoGenerateRelationsTable(IsHandled: Boolean)
     var
-        FillingProcessingTables: Interface FillingProcessingTables_ANJ;
+        FillingProcessingTables: Interface IFillingProcessingTables_ANJ;
         ResponseText: Text;
     begin
         if IsHandled then

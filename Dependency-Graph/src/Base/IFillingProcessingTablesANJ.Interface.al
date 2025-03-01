@@ -1,8 +1,8 @@
 /// <summary>
-/// Interface FillingProcessingTables_ANJ.
+/// Interface "FillingProcessingTables_ANJ."
 /// </summary>
 namespace ANJ.Tools.Graph;
-interface FillingProcessingTables_ANJ
+interface IFillingProcessingTables_ANJ
 {
     Access = Public;
 

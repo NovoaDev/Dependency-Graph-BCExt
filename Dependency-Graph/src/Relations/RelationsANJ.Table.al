@@ -29,6 +29,7 @@ table 80802 Relations_ANJ
             Caption = 'Source App Name';
             Editable = false;
             FieldClass = FlowField;
+            ToolTip = 'Specifies the value of the Source App Name field.';
         }
         field(4; DestinationAppID; Guid)
         {
@@ -41,14 +42,17 @@ table 80802 Relations_ANJ
             Caption = 'Destination App Name';
             Editable = false;
             FieldClass = FlowField;
+            ToolTip = 'Specifies the value of the Destination App Name field.';
         }
         field(6; LinkText; Text[2048])
         {
             Caption = 'Link Text';
+            ToolTip = 'Specifies the value of the Link Text field.';
         }
         field(7; ShowInGraph; Boolean)
         {
             Caption = 'Show In Graph';
+            ToolTip = 'Specifies the value of the Show In Graph field.';
         }
     }
     keys

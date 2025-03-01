@@ -22,12 +22,9 @@ page 80801 Extensions_ANJ
                 field(Name; Rec.Name)
                 {
                     Editable = false;
-                    ToolTip = 'Specifies the value of the Name field.';
                 }
                 field(DisplayName; Rec.DisplayName)
                 {
-                    ToolTip = 'Specifies the value of the Display Name field.';
-
                     trigger OnValidate()
                     begin
                         DoGenerateRelationsTable();
@@ -36,16 +33,13 @@ page 80801 Extensions_ANJ
                 field(Publisher; Rec.Publisher)
                 {
                     Editable = false;
-                    ToolTip = 'Specifies the value of the Publisher field.';
                 }
                 field(PublishedAs; Rec.PublishedAs)
                 {
                     Editable = false;
-                    ToolTip = 'Specifies the value of the Published As field.';
                 }
                 field(ShowInGraph; Rec.ShowInGraph)
                 {
-                    ToolTip = 'Specifies the value of the ShowInGraph field.';
 
                     trigger OnValidate()
                     begin
