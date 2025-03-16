@@ -602,7 +602,7 @@
             "justification": "PerTenantExtensionCop - The member ID should be within the allowed range."
         },
         {
-            "ID": "PTE0023",
+            "id": "PTE0023",
             "action": "Error",
             "justification": "PerTenantExtensionCop - The enum ordinal value should be within the allowed range."
         },
