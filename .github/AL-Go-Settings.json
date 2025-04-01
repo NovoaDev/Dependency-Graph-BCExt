@@ -4,5 +4,5 @@
   "nextMinorSchedule": "0 0 15 * *",
   "UpdateGitHubGoSystemFilesSchedule": "0 0 1,15 * *",
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
-  "templateSha": "ba4fc723e4c024674baa6a53ef1777402cfbaab0"
+  "templateSha": "6472dd494728483cee9b04dc7356fd6f2cc737b4"
 }
